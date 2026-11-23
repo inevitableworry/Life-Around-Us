@@ -53,7 +53,8 @@ The full locally hosted web installation can use additional owner-supplied licen
 | PlayStation 5 | `PPSA99485` / v0.0001 preview | **Runs on tested console** | Native globe, city overlays, menu navigation, preview assets. Fine-text rendering is under active refinement |
 | PlayStation 4 | Work-in-progress | **Source / host preview** | UI and graphics experiments; native console execution is not verified |
 | PlayStation 3 | Work-in-progress | **Source / host preview** | UI scaffolding; native console execution is not verified |
-| Android | v0.3.x development | **Native APK preview** | Web-derived experience; supported modern touch devices, with gamepad and overlay settings |
+| Android full client | v0.3.2 owner-local | **Locally built** | Includes separately provisioned resources; not redistributed until rights are cleared |
+| Android web companion | v0.1.0 thin preview | **APK built / tablet launch observed** | Small browser-runtime package, no original media, fullscreen site, no URL bar; full rendering unverified |
 | Samsung Tizen TV | v0.1.0 | **Signed WGT preview** | Small fullscreen launcher connected to the site; directional, Select, Back, and colored remote-key mapping; TV installation must be verified |
 
 **A compiled build is not a verified hardware release.** The full acceptance matrix, specific gaps, and version-by-version work are in **[ROADMAP.md](ROADMAP.md)**.
@@ -80,7 +81,8 @@ platforms/
   ps5/                     Native PS5 preview source and build scripts
   ps4/                     Experimental PS4 interface source
   ps3/                     Experimental PS3 interface source
-  android/                 Native Android app project (assets provisioned locally)
+  android/                 Android client source (owner-local assets provisioned separately)
+  android-web-companion/   Small public Android package with live website only
   samsung-tizen/           Lightweight Tizen TV launcher
 scripts/                   Local deployment and verification helpers
 docs/media/                Actual site screenshots, animated demo, video and PS5 screenshot

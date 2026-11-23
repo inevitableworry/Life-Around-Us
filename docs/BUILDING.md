@@ -18,6 +18,10 @@ Experimental source only. Host preview builds do not prove functioning native co
 
 The Android Gradle source lives at `platforms/android`. The full local Android build packages a private asset tree under `app/src/main/assets/www` which is deliberately not committed here. Build from Android Studio/Gradle after provisioning only resources you have permission to use. Do not infer a working standalone APK solely from a successful compilation.
 
+### Android Web Companion (public preview)
+
+Build the separate `platforms/android-web-companion` project. It uses Android SDK 36, AGP 8.13.1, and Java 17+, with no proprietary bundled game media. The small `.apk` is an online-only Android WebView of the hosted website; its package name differs from the full asset-rich Android client. It is debug-signed and needs hardware QA before a stable release.
+
 ### Samsung Tizen
 
 The `platforms/samsung-tizen` directory contains a lightweight HTML entrypoint and Tizen widget manifest. Package using a configured Tizen Studio signing profile:

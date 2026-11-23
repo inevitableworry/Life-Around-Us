@@ -12,7 +12,8 @@ A build is considered *running* only after console/device evidence. Progress is 
 | PS5 | Verified | Verified | Real console screenshot | Controller startup; full navigation incomplete | Local cache preview | Pixel-correct text, menu fonts, live data, audio, full parity |
 | PS4 | Prototype | Host preview only | PS4 hardware unverified | Unverified | Unverified | Native package, emulator/hardware validation |
 | PS3 | Prototype | Host preview only | RPCS3/PS3 unverified | Unverified | Unverified | Native build, graphics and sound pipeline |
-| Android | Native project | Existing APK preview | Browser-host design; native QA incomplete | Android input bridge | Host/network dependent | New APK QA, touch/foldable performance, release signing |
+| Android full client | Native project | v0.3.2 debug APK compiled locally | Tablet launch unverified | Android input bridge | Host/network dependent | Asset redistribution review, device QA, release signing |
+| Android web companion | Java source | v0.1.0 APK compiled (17 KB) | Installed/launched on Samsung tablet, display black during capture | WebView controls | Uses website | Signed release, runtime screenshot and long-session QA |
 | Samsung Tizen | Verified | Signed WGT generated | TV unverified | Remote mapping implemented | Connects to website | SDB authorization, signed install and actual remote testing |
 
 ## Near-term tasks
@@ -51,7 +52,9 @@ A build is considered *running* only after console/device evidence. Progress is 
 ### Android
 - [x] Maintain a separate Android application and shared visual resources.
 - [x] Hide touchscreen overlay by default; retain user-activated preference.
-- [ ] Verify package content and license permission for redistribution of embedded media.
+- [x] Build v0.3.2 owner-local full Android APK with overlay disabled by default.
+- [x] Add minimal 17 KB Android WebView companion without bundled proprietary media or URL bars.
+- [ ] Verify package content and license permission for redistribution of the full media-rich Android APK.
 - [ ] Build, sign and test new Android release on phones, tablets and foldables.
 - [ ] Verify touchscreen, keyboard, gamepad, performance and orientation changes.
 - [ ] Implement in-app update experience without inaccessible external URLs.
