@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <script>
+    // Keep the original PC renderer but choose a sensible mobile framebuffer.
+    // Visitors can override either value with explicit ?rs= or ?fps= options.
+    (() => {
+      const mobile = navigator.maxTouchPoints > 0 ||
+        matchMedia("(any-pointer:coarse)").matches ||
+        /Android|iPhone|iPad|Mobile/i.test(navigator.userAgent);
+      if (!mobile) return;
+      const params = new URLSearchParams(location.search);
+      if (!params.has("rs")) params.set("rs", Math.min(innerWidth, innerHeight) >= 760 ? "1080" : "720");
+      if (!params.has("fps")) params.set("fps", "60");
+      const desired = location.pathname + "?" + params.toString() + location.hash;
+      if (desired !== location.pathname + location.search + location.hash)
+        history.replaceState(history.state, "", desired);
+    })();
+  </script>
+  <title>Life Around Us</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="intro-on">
+  <canvas id="globe"></canvas>
+
+  <header class="clinic" id="clinic">
+    <div class="clinic-mark" id="clinicMark"></div>
+    <div>
+      <div class="clinic-name" id="clinicName"></div>
+      <div class="clinic-welcome" id="clinicWelcome"></div>
+    </div>
+  </header>
+
+  <section class="city-card" id="cityCard" aria-live="polite">
+    <div class="card-band"></div>
+    <div class="card-body">
+      <div class="country" id="cityCountry"></div>
+      <h1 class="city" id="cityName"></h1>
+      <div class="time-row">
+        <span class="time" id="cityTime"></span>
+        <span class="ampm" id="cityAmPm"></span>
+      </div>
+      <div class="date" id="cityDate"></div>
+      <div class="divider"></div>
+      <div class="weather" id="cityWeather">
+        <span class="wx-icon" id="wxIcon"></span>
+        <span class="wx-temp" id="wxTemp"></span>
+        <span class="wx-text" id="wxText"></span>
+      </div>
+    </div>
+  </section>
+
+  <aside class="next" id="nextStop"></aside>
+  <!-- Bottom strip: city photo / live camera on the left, headlines on the right -->
+  <section class="news-strip" id="newsStrip" aria-live="polite">
+    <div class="strip-photo" id="cardPhoto">
+      <img id="cardPhotoImg" alt="">
+    </div>
+    <ul class="strip-news" id="newsList"></ul>
+    <!-- Rotating credits (our own badges; plain-text attributions) -->
+    <div class="strip-credits" id="stripCredits">
+      <div class="credit-badge on"><span class="live-dot"></span><b>Live</b></div>
+      <div class="credit-badge"><small>Weather data by</small><b>Open-Meteo</b></div>
+      <div class="credit-badge"><small>Headlines from</small><b>Google News</b></div>
+    </div>
+  </section>
+  <button class="gear" id="gear" aria-label="Options" title="Options (O)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.4 13a7.6 7.6 0 0 0 0-2l2.1-1.6-2-3.5-2.5 1a7.4 7.4 0 0 0-1.7-1l-.4-2.6h-4l-.4 2.6a7.4 7.4 0 0 0-1.7 1l-2.5-1-2 3.5L4.6 11a7.6 7.6 0 0 0 0 2l-2.1 1.6 2 3.5 2.5-1a7.4 7.4 0 0 0 1.7 1l.4 2.6h4l.4-2.6a7.4 7.4 0 0 0 1.7-1l2.5 1 2-3.5zM12 15.5A3.5 3.5 0 1 1 12 8.5a3.5 3.5 0 0 1 0 7z"/></svg></button>
+  <div class="brand" aria-label="Life Around Us">
+    <img src="assets/brand/my-logo.png" alt="Life Around Us">
+  </div>
+  <footer class="credits" id="credits">Earth imagery: NASA Earth Observatory (Blue Marble, Black Marble) · Weather: Open-Meteo</footer>
+  <div class="status" id="status"></div>
+
+  <div class="title-card" id="titleCard" aria-hidden="true"></div>
+  <div class="globe-logo" id="globeLogo" aria-hidden="true">
+    <img src="assets/brand/life-around-us.png" alt="Life Around Us">
+  </div>
+
+  <script src="web-shell-bridge.js"></script>
+<link rel="stylesheet" href="android-font.css">
+
+  <nav class="lau-touch-controls" id="lau-touch-controls" aria-label="Touch navigation">
+    <button class="lau-touch-toggle" id="lau-controls-toggle" type="button" aria-expanded="true">Hide controls</button>
+    <div class="lau-grid" aria-label="Globe and menu controls">
+      <button type="button" data-key="KeyQ" title="Previous city" aria-label="Previous city">◁</button>
+      <button type="button" data-key="ArrowUp" title="North or menu up" aria-label="Up">▲</button>
+      <button type="button" data-key="KeyE" title="Next city" aria-label="Next city">▷</button>
+      <button class="lau-corner" type="button" data-key="KeyO" title="Options" aria-label="Options menu">☰</button>
+      <button type="button" data-key="ArrowLeft" title="Left" aria-label="Left">◀</button>
+      <button class="lau-primary" type="button" data-key="Enter" title="Select" aria-label="Select">✕</button>
+      <button type="button" data-key="ArrowRight" title="Right" aria-label="Right">▶</button>
+      <button class="lau-corner" type="button" data-key="Escape" title="Back" aria-label="Back">↶</button>
+      <button type="button" data-key="Minus" title="Zoom out" aria-label="Zoom out">−</button>
+      <button type="button" data-key="ArrowDown" title="South or menu down" aria-label="Down">▼</button>
+      <button type="button" data-key="Equal" title="Zoom in" aria-label="Zoom in">+</button>
+      <button class="lau-corner" type="button" data-key="KeyV" title="Home view" aria-label="Home view">⌂</button>
+    </div>
+  </nav>
+  <script defer src="adaptive-input.js"></script>
+  <script defer src="tizen-input.js"></script>
+  <script type="module" src="main.js"></script>
+</body>
+</html>

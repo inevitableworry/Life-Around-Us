@@ -1,0 +1,704 @@
+{
+  "project": "Life Around Us shared console reference",
+  "canonical_web_icon_sha256": "1b79a9e32c25808b8520df9eec937e5967c163b328599afe24550e52c6d6ba07",
+  "canonical_web_icon_source": "H:\\PS3 Live\\Web\\public\\favicon.png",
+  "reference_source": "H:\\PS3 Live\\PS5-native\\assets",
+  "city_count": 133,
+  "photo_count": 130,
+  "target_logical_resolution": [
+    1280,
+    720
+  ],
+  "platforms": [
+    "PS3",
+    "PS4",
+    "PS5"
+  ],
+  "files": {
+    "assets/cities-v15.tsv": {
+      "bytes": 7078,
+      "sha256": "451f17b10663fcd7a1778953e376f28172cec06c5637f8e134d9ea3187023773"
+    },
+    "assets/earth-clouds-alpha.bin": {
+      "bytes": 2097152,
+      "sha256": "2b5a3017e16043a6bcb1510028164eadce41b37e8f68e9c302c6a6bd7cb0dd66"
+    },
+    "assets/earth-day.bmp": {
+      "bytes": 6291510,
+      "sha256": "a40d76d5a68b99361e0f9decc5ac4206f949e50a7a4f9228563f7404c742963b"
+    },
+    "assets/earth-night.bmp": {
+      "bytes": 6291510,
+      "sha256": "a20feb8a1170d2041110130d33649874f6609b13408b8b74d8423427234a3a4a"
+    },
+    "assets/font-atlas-40.rgba": {
+      "bytes": 1572864,
+      "sha256": "7feb66e7130fe248a4cda732671d74ea763644f14f0f6135cd4db114ba5a5167"
+    },
+    "assets/font-size-12.alpha": {
+      "bytes": 393216,
+      "sha256": "fa03fb30a14113e2b0d5ae9241a93bcf57eb3a7ced70579c93c311b460517e97"
+    },
+    "assets/font-size-13.alpha": {
+      "bytes": 393216,
+      "sha256": "756ddec242eae2e5195290464d0e9a63ee5d2fedae9470b3b37c200d126f7033"
+    },
+    "assets/font-size-14.alpha": {
+      "bytes": 393216,
+      "sha256": "1de236fe5034208147608dd0b77071f0901acfcf7f4234dcb739f63545f9ba01"
+    },
+    "assets/font-size-15.alpha": {
+      "bytes": 393216,
+      "sha256": "0b5321272648f9bbd774d7b59c2b557d1333d1608e4efe03f8291b0fefd84787"
+    },
+    "assets/font-size-16.alpha": {
+      "bytes": 393216,
+      "sha256": "f55de75245726b7fe70f905e6944acc3bb5396a74e105ec8ba6f289692ee6978"
+    },
+    "assets/font-size-17.alpha": {
+      "bytes": 393216,
+      "sha256": "5feb6ca7a3b4c54ded89a6f06320c935bb5dfc73aa92c9347e6962cb7399138b"
+    },
+    "assets/font-size-18.alpha": {
+      "bytes": 393216,
+      "sha256": "86d7f852ecebfad5feddf72287613c430d4d192e11e16796cfc7ef85fbc979bc"
+    },
+    "assets/font-size-19.alpha": {
+      "bytes": 393216,
+      "sha256": "4ebb6dd5d19f61b803a40b11e90bcbc4da65b7f27fbba9760ab12f2e0629a0f8"
+    },
+    "assets/font-size-20.alpha": {
+      "bytes": 393216,
+      "sha256": "ea1a92631f8f64a78e9f73e77b02e4e7df28edc83060406a54628498b0636c56"
+    },
+    "assets/font-size-21.alpha": {
+      "bytes": 393216,
+      "sha256": "447a3725649afe85adabc51d9cdd56063df2473d3023b41d4c981ecd7ea3f36f"
+    },
+    "assets/font-size-22.alpha": {
+      "bytes": 393216,
+      "sha256": "c98941f85fbd2153efca6a5effa00d772f451c0e1838b76f66712857c87fedd3"
+    },
+    "assets/font-size-23.alpha": {
+      "bytes": 393216,
+      "sha256": "4e8874de66cfcf1b884297ecf9895819de3351cdf17f60c0e858cb270d2484d6"
+    },
+    "assets/font-size-24.alpha": {
+      "bytes": 393216,
+      "sha256": "dbf104dedd4ea5a31739710eb01d73cba2fa6e4f93cfe2a31cb45847baed7f76"
+    },
+    "assets/live-channel-logo-90x50.rgba": {
+      "bytes": 18000,
+      "sha256": "9fff4f1c02b299e528ee158d043e3853d3b0707155ca46998040caadc2419f3b"
+    },
+    "assets/menu-font-atlas-40.rgba": {
+      "bytes": 1572864,
+      "sha256": "55e6e73401d8b6a0e54917ce5b21b0e701e8d378ea0ad572cb1e5428eef52c0c"
+    },
+    "assets/menu_font-size-12.alpha": {
+      "bytes": 393216,
+      "sha256": "0cb9285245d0bbf866a7dde3f6f432830bb3c7f011aad59f8de71ee0c102cd4f"
+    },
+    "assets/menu_font-size-13.alpha": {
+      "bytes": 393216,
+      "sha256": "f567a03ebfea753a9807a9b7e21e56a067d07cf596feb22d457d002bec7dd6f0"
+    },
+    "assets/menu_font-size-14.alpha": {
+      "bytes": 393216,
+      "sha256": "f7629258a6a3ed56378926f6435fcc42b92ea1a020639529e3753aef4033a2c1"
+    },
+    "assets/menu_font-size-15.alpha": {
+      "bytes": 393216,
+      "sha256": "0c4dd34bdf9da8e8033ac5c5f5469e64ab8e68bb9ec833f7aa3641fbe45c8748"
+    },
+    "assets/menu_font-size-16.alpha": {
+      "bytes": 393216,
+      "sha256": "d62860c91643e03faf7782ed40a93e61a59ad4bcb7ff214ae88c287c22b4aeec"
+    },
+    "assets/menu_font-size-17.alpha": {
+      "bytes": 393216,
+      "sha256": "42d297e7536a37ae6c5af4c699c03930b0b5455a99d2830da5a28dfa9eb5e5d4"
+    },
+    "assets/menu_font-size-18.alpha": {
+      "bytes": 393216,
+      "sha256": "952afe676efaeaf4069aaac2503ed74a17da84b4d8659cecade927abad622e72"
+    },
+    "assets/menu_font-size-19.alpha": {
+      "bytes": 393216,
+      "sha256": "b173e4a71d3754b266367421912812afdd07c0828a2734097eae03987b0e4a1a"
+    },
+    "assets/menu_font-size-20.alpha": {
+      "bytes": 393216,
+      "sha256": "d2448bfba4beafdb0961b6444b572a17da89f0a2490827afe476c528d484b598"
+    },
+    "assets/menu_font-size-21.alpha": {
+      "bytes": 393216,
+      "sha256": "d9860e586ce2ae7b8f06db11ec1816d752d761873a7816bd78e783c556546f56"
+    },
+    "assets/menu_font-size-22.alpha": {
+      "bytes": 393216,
+      "sha256": "d905a1f7776467e6ca8f075ad95e33b0b4c7c729569db3b102667ee240adb380"
+    },
+    "assets/menu_font-size-23.alpha": {
+      "bytes": 393216,
+      "sha256": "485edc7e1aeb98734475a52acf532f21c64b3ea66970ff2d6e78b2a57bd1fc7b"
+    },
+    "assets/menu_font-size-24.alpha": {
+      "bytes": 393216,
+      "sha256": "f739b1c893cf6194f158a6355ffe3fb122c3cf30e7ea21f38d18e7250c650c62"
+    },
+    "assets/space-milkyway.bmp": {
+      "bytes": 2764854,
+      "sha256": "8f8eabb914144dfbd24383db568c337cebc58d4c93b931de7971f32ae0dd4fcd"
+    },
+    "assets/startup-splash.bmp": {
+      "bytes": 2764854,
+      "sha256": "67db856c0c237ce7e524ce9a3bda77e1ecb200d6f2ab790ffa286cb95d2cfdfd"
+    },
+    "assets/photos/abidjan.bmp": {
+      "bytes": 103734,
+      "sha256": "51702ca03878b379e913ddcd0a45d7d2e18c1d69bde5ebeb6628db5576a38c80"
+    },
+    "assets/photos/accra.bmp": {
+      "bytes": 103734,
+      "sha256": "cac2783e83d3408d6fcc17b9696d6a60887d8b50e601186d1425f16211fb8212"
+    },
+    "assets/photos/addis_ababa.bmp": {
+      "bytes": 103734,
+      "sha256": "dd391e48103bf5c8a336eaee710020215caaf47a007f450396b4d09e570657d4"
+    },
+    "assets/photos/aleppo.bmp": {
+      "bytes": 103734,
+      "sha256": "2044de091df70400cc985225985e5c885f0a42f4dbd09e76f5d52de994c857b8"
+    },
+    "assets/photos/algiers.bmp": {
+      "bytes": 103734,
+      "sha256": "e1c643526996db97189b642f1c7d4639b95b9a24ea91663e090adbae20b3c1be"
+    },
+    "assets/photos/antananarivo.bmp": {
+      "bytes": 103734,
+      "sha256": "3a9258cafae73265fabb73e8275844d7e9815ca41dc559f3d200e2cd01821ced"
+    },
+    "assets/photos/athens.bmp": {
+      "bytes": 103734,
+      "sha256": "8e0e609c4279e96fe0bb4879fa5f75c230737955bf9202ff1016ac94cd845f42"
+    },
+    "assets/photos/atlanta.bmp": {
+      "bytes": 103734,
+      "sha256": "28ef406ed4e4b8782cf600e4e9a57bf276f331c782b77e4600adf9489341931b"
+    },
+    "assets/photos/baghdad.bmp": {
+      "bytes": 103734,
+      "sha256": "1a608eecf52e7d5bb38d26d951cb4bc958cdef892b29dc2f8a866c7bbb5d3d29"
+    },
+    "assets/photos/bamako.bmp": {
+      "bytes": 103734,
+      "sha256": "eee4cf16e4790f13b10c6e9b6677226c4ee2770bd1c9929e4c365e65f129d1c5"
+    },
+    "assets/photos/bangkok.bmp": {
+      "bytes": 103734,
+      "sha256": "b45ae59c0821a3192269a3abe1e68e9c87b0991cf027463eac5cb7da4118b291"
+    },
+    "assets/photos/bangui.bmp": {
+      "bytes": 103734,
+      "sha256": "5b7d3137bd32e543f733a8728c4537cd0de5bc7bb4dc26d6d2336d34c3f6c4d3"
+    },
+    "assets/photos/barcelona.bmp": {
+      "bytes": 103734,
+      "sha256": "7d0c37cc583fb5ceb023223f3080e65a44670991737d00ff0f4c244d07b25c46"
+    },
+    "assets/photos/beijing.bmp": {
+      "bytes": 103734,
+      "sha256": "d0834fed310dfd497eefc6fd9a93963a31fa398c7e79093436f751d31acf3a6a"
+    },
+    "assets/photos/berlin.bmp": {
+      "bytes": 103734,
+      "sha256": "abffe57531134a7903c502f1e494f09b248c4f1c016efbd4b51181d8349886cb"
+    },
+    "assets/photos/bismarck.bmp": {
+      "bytes": 103734,
+      "sha256": "a923abf2504cda8ede7ffcc6dbb979d3d189d524e164fe76c93e1f3bcd140b22"
+    },
+    "assets/photos/bogota.bmp": {
+      "bytes": 103734,
+      "sha256": "b0f959d36c84485367be9a72d88893aa4684647c9ebfedba3eba323acdeaa31a"
+    },
+    "assets/photos/boise.bmp": {
+      "bytes": 103734,
+      "sha256": "611c9b3e99d12efc8e21a9802f4f005021664647ae2d566d4aa21db52b78d867"
+    },
+    "assets/photos/bosaso.bmp": {
+      "bytes": 103734,
+      "sha256": "35755415211dec67bfe41a89af8f9292557cb8fd1b3e705ab1043b127e458144"
+    },
+    "assets/photos/bucharest.bmp": {
+      "bytes": 103734,
+      "sha256": "a7f8c1838de82182e6d093f8f4159c3878aff0bbb37cbf624fd213f35152e7bb"
+    },
+    "assets/photos/budapest.bmp": {
+      "bytes": 103734,
+      "sha256": "f2f6e847deb77bd1aeffa84802c4f65ed05037c02532aea19072a1a1615754a1"
+    },
+    "assets/photos/buenos_aires.bmp": {
+      "bytes": 103734,
+      "sha256": "535f56b4a13cb6171c89ea7f616ed8f1a309a6456783e76e8b67b733237e5cef"
+    },
+    "assets/photos/cairo.bmp": {
+      "bytes": 103734,
+      "sha256": "eab359ef3f3308929a92094e92b5e53c383b2c8a20ab58f26b2e703a118d2172"
+    },
+    "assets/photos/caracas.bmp": {
+      "bytes": 103734,
+      "sha256": "b831f724460e8eeb475ae777b5da8fff9adef1762bdc52b72f7b86d9db6551c5"
+    },
+    "assets/photos/chicago.bmp": {
+      "bytes": 103734,
+      "sha256": "5235c1b5cade6f87d460ba0ffc3548a3398ae2b37c948b1dcd55505fc02be19c"
+    },
+    "assets/photos/colombo.bmp": {
+      "bytes": 103734,
+      "sha256": "f4c953cef1cf5b66bb58fe62ef773b11b9e61fd573bb4543b1b00e19f081e74c"
+    },
+    "assets/photos/copenhagen.bmp": {
+      "bytes": 103734,
+      "sha256": "af843040ce162bd1e3baaa0139f3336c1a48df11dccd21755f07baf12cf8c39c"
+    },
+    "assets/photos/dakar.bmp": {
+      "bytes": 103734,
+      "sha256": "0ba10bc77f46402c06eac82e6d9fe99a08adfa0e7e5b5189da3d1ce574165d58"
+    },
+    "assets/photos/damascus.bmp": {
+      "bytes": 103734,
+      "sha256": "67c9a68da1516452450a2ddf8ff24e2c8a893e042787ebde82a68e3f1ed48125"
+    },
+    "assets/photos/dar_es_salaam.bmp": {
+      "bytes": 103734,
+      "sha256": "abf3933962b3e7520d9c29c1530ce9034adb4cc6245313a2c4f10adf81a0a651"
+    },
+    "assets/photos/delhi.bmp": {
+      "bytes": 103734,
+      "sha256": "0d9bcc0712c5e1573820b7800d94745f955e7890d61f629b02c940f1d9d6fda6"
+    },
+    "assets/photos/dhaka.bmp": {
+      "bytes": 103734,
+      "sha256": "fab5d69aa36748f114beec51b75fc9374dd3e29cede8a988c63c2acc655e7a28"
+    },
+    "assets/photos/dubai.bmp": {
+      "bytes": 103734,
+      "sha256": "7f5d15446bf32cd29114a09fda3498039d9bd29027caf8e058c6e9b38692ebd3"
+    },
+    "assets/photos/edmonton.bmp": {
+      "bytes": 103734,
+      "sha256": "f7b44cfa2a33249082ad14665f0d7b73819050808c65f394598bd3064cc67eed"
+    },
+    "assets/photos/gaza.bmp": {
+      "bytes": 103734,
+      "sha256": "c6ff55e8b18a6e9749f6814fafbf27902d2e6639ce656533696355d62927c1e9"
+    },
+    "assets/photos/halifax.bmp": {
+      "bytes": 103734,
+      "sha256": "d746d8d2a0f4edcee3398dd8d9691f9d0b94097b33311e43a48d135a71fb6850"
+    },
+    "assets/photos/hanoi.bmp": {
+      "bytes": 103734,
+      "sha256": "c3bbc6436c4640f6337cacb0ef270c09886458af0825e75c5698c18ca011b12d"
+    },
+    "assets/photos/hargeisa.bmp": {
+      "bytes": 103734,
+      "sha256": "b3ebbf17455e7fed8dcd5a55dcbb5fed6558d9d1d4eb267fa1c31c63fc9dee69"
+    },
+    "assets/photos/helena.bmp": {
+      "bytes": 103734,
+      "sha256": "20b3fd3eeed1f874463b4a9cc5367d003a9e0a9c0b455163c1d187bfec1f8765"
+    },
+    "assets/photos/helsinki.bmp": {
+      "bytes": 103734,
+      "sha256": "f1fa54177c08d5b3ab663ee99de06b3edd252410273d94352432b211bf515108"
+    },
+    "assets/photos/hong_kong.bmp": {
+      "bytes": 103734,
+      "sha256": "831c1b3cc20827f6649f1ec827761c773f687b064de902d3610cff8bbb625441"
+    },
+    "assets/photos/honolulu.bmp": {
+      "bytes": 103734,
+      "sha256": "086706c9701ab0b77d95a4f8d94e4cd9b25d7bfb7aaebbeb4e61de01779e78dd"
+    },
+    "assets/photos/houston.bmp": {
+      "bytes": 103734,
+      "sha256": "b9e22825a25af401cd4c67d03526ce2e630c8bb32747b738e8953bf628c3e81b"
+    },
+    "assets/photos/ho_chi_minh_city.bmp": {
+      "bytes": 103734,
+      "sha256": "099fb695cdc35a08edf787a893055deb9e72a0e2831cae2193ac17a9b99bc9b3"
+    },
+    "assets/photos/iqaluit.bmp": {
+      "bytes": 103734,
+      "sha256": "227e3104591f0f41de7bebac3192c04708256070493c6c42a3dedb2db0adb1f5"
+    },
+    "assets/photos/islamabad.bmp": {
+      "bytes": 103734,
+      "sha256": "8f3314e9bb4624f2b7b26bdd0010e9ae5fc006484fa917cb437a3acd3679e5f3"
+    },
+    "assets/photos/istanbul.bmp": {
+      "bytes": 103734,
+      "sha256": "08232baa4089dc17f256c20db5888d1deeb69107f4bb0aa583cd946b7393628a"
+    },
+    "assets/photos/jakarta.bmp": {
+      "bytes": 103734,
+      "sha256": "57da8cb7d71a16881f03fd02d8e1edaae617580d06635527f4700650dd0d2dd8"
+    },
+    "assets/photos/johannesburg.bmp": {
+      "bytes": 103734,
+      "sha256": "2800e02b6a04ce86e02537131ad8ed9b9442ab942601d353760f31b884537f27"
+    },
+    "assets/photos/kabul.bmp": {
+      "bytes": 103734,
+      "sha256": "80ee9229e961ef993e1fdb86e1271ea6d6065e14dc36742b7351e26c5097ee6b"
+    },
+    "assets/photos/kandahar.bmp": {
+      "bytes": 103734,
+      "sha256": "021b93703739b4d3ff80b7cf07dc00124e358281c62c35394d278837c81cd8dd"
+    },
+    "assets/photos/karachi.bmp": {
+      "bytes": 103734,
+      "sha256": "722d43bb20da0323a9455060f30c25e210235cbbb0d368c3eefc3f12b161706d"
+    },
+    "assets/photos/kathmandu.bmp": {
+      "bytes": 103734,
+      "sha256": "4c57ce2078617deaeac83eac461a9e5eef9e7d7525ce12b48382cfd0a0dc5a59"
+    },
+    "assets/photos/khartoum.bmp": {
+      "bytes": 103734,
+      "sha256": "fcbb0fa0fd1d2933cf223521eefabfbdc352ee3078645b098a3b2a911d43f682"
+    },
+    "assets/photos/kingston.bmp": {
+      "bytes": 103734,
+      "sha256": "6d730776375b0d91d9bbef1c1577375d0d58890e79e7b01125e3c8790d6ca9e5"
+    },
+    "assets/photos/kinshasa.bmp": {
+      "bytes": 103734,
+      "sha256": "a919270f7a72f2e17353c16c07f0ad6c105dade31bf14daeb78fc3d761eb3535"
+    },
+    "assets/photos/kyiv.bmp": {
+      "bytes": 103734,
+      "sha256": "240593e455b84156e868912a36199174beb19de3b97b7ca50490e085fb965dfa"
+    },
+    "assets/photos/lagos.bmp": {
+      "bytes": 103734,
+      "sha256": "381b7e65997e7ceb69f18f30e59d87442326b5819945d205f69889ada108b071"
+    },
+    "assets/photos/las_vegas.bmp": {
+      "bytes": 103734,
+      "sha256": "f60ff88863f0bad6df93eb62c6de04053c8374a8042b1695f1bebefb163682d5"
+    },
+    "assets/photos/la_paz.bmp": {
+      "bytes": 103734,
+      "sha256": "b667e9c69cc725fbd3cc76caf7686d002c1d4e7b6a50f0cdf33e391c26821d33"
+    },
+    "assets/photos/lima.bmp": {
+      "bytes": 103734,
+      "sha256": "7177219617acbe9ba826021a004c8ca778fb2105589a91820ef122a0f978f348"
+    },
+    "assets/photos/lincoln.bmp": {
+      "bytes": 103734,
+      "sha256": "0430c53ce61d20c6c0b7cd41eb7d68b606eb2c88bef0e534717de7f9430f306b"
+    },
+    "assets/photos/lisbon.bmp": {
+      "bytes": 103734,
+      "sha256": "25ff5515428b56298e9a381bf9116f83a9f049e7942c58bf982fb90ce238a1aa"
+    },
+    "assets/photos/london.bmp": {
+      "bytes": 103734,
+      "sha256": "9544a4c40beb3150821396e92c05a70afa5fe843be8af22392850c94d5704ed2"
+    },
+    "assets/photos/los_angeles.bmp": {
+      "bytes": 103734,
+      "sha256": "4bdffd4618810baac6e8369acf1c7cd6406d0d50559684c73b27d3a828c2ee5c"
+    },
+    "assets/photos/manila.bmp": {
+      "bytes": 103734,
+      "sha256": "77fa8128a0f373ed6887b295a6dc7e6afe86378cd69ef677eb8959ba51705207"
+    },
+    "assets/photos/maputo.bmp": {
+      "bytes": 103734,
+      "sha256": "78da7385dd85496bfa3e7c21c22df144ffd26bdb35d492b57c1dbdf5d732cbda"
+    },
+    "assets/photos/mecca.bmp": {
+      "bytes": 103734,
+      "sha256": "9860403e925305f1f6554104482915dbf14350ec881342da265263adfe171e29"
+    },
+    "assets/photos/medina.bmp": {
+      "bytes": 103734,
+      "sha256": "e9941fc63741231068d06885f43d1ef699a626deb64167957ea0985cb3ccfe72"
+    },
+    "assets/photos/mexico_city.bmp": {
+      "bytes": 103734,
+      "sha256": "51781113d6431f59d780eb64cff8c77e2f9d47bd76b82db80142a17dcb1d3925"
+    },
+    "assets/photos/miami.bmp": {
+      "bytes": 103734,
+      "sha256": "e6866aee14048deeca5dbbaa79935ccf65fb5aae0b1078af0525d75e56999c26"
+    },
+    "assets/photos/minneapolis.bmp": {
+      "bytes": 103734,
+      "sha256": "0d4a59017f864f3cb8d118df27cfe6e434108ca6751f0d8ef682219e0d74fca8"
+    },
+    "assets/photos/minsk.bmp": {
+      "bytes": 103734,
+      "sha256": "11f916b7478f0dfada095d3ec6a7c8fc00f3af51508e0443884b9a651ddedfc1"
+    },
+    "assets/photos/mogadishu.bmp": {
+      "bytes": 103734,
+      "sha256": "c18de4ef70e0036e179f54fc91b94692c2e6a2df3248522b8890708a38c12610"
+    },
+    "assets/photos/monaco.bmp": {
+      "bytes": 103734,
+      "sha256": "4aa6cef1826baaa62fe527407c9947ae3b939430fdf38a6de5903a2deadb2469"
+    },
+    "assets/photos/monrovia.bmp": {
+      "bytes": 103734,
+      "sha256": "5c4625e4166bf48d0ea47acc6fb6c92fab94d7b2b3b07c1e1c095ab89aa3b3ff"
+    },
+    "assets/photos/moscow.bmp": {
+      "bytes": 103734,
+      "sha256": "00349b30c2c46b8785e3d41c52a1e2665252d6daa2778a12bc5e72b6b257399d"
+    },
+    "assets/photos/mumbai.bmp": {
+      "bytes": 103734,
+      "sha256": "98b07c1166fa6c394d9171242fba21365d97f69d64ccea773c411f28cca5373a"
+    },
+    "assets/photos/muscat.bmp": {
+      "bytes": 103734,
+      "sha256": "dfff90f7765d38ccbb7ae0f22cfdd4fcdeba901cc0ae3ccee6242b1ec4f95b52"
+    },
+    "assets/photos/nairobi.bmp": {
+      "bytes": 103734,
+      "sha256": "b6b525408e82d4fa765f581d5abfef3489cc8f882be94f71129f34f99879953f"
+    },
+    "assets/photos/new_york.bmp": {
+      "bytes": 103734,
+      "sha256": "fdc114302f002f834355c3b85238cfcf27259ebae848318f7835bf916dbac758"
+    },
+    "assets/photos/n_djamena.bmp": {
+      "bytes": 103734,
+      "sha256": "2f776457738759960916a407267ca7a5b10657740648803a8657c585fa66df32"
+    },
+    "assets/photos/oslo.bmp": {
+      "bytes": 103734,
+      "sha256": "9031f237bbbe1fa1bd9fb04bc4bd584fde89c8715294d0a4a9eca177719512a1"
+    },
+    "assets/photos/ottawa.bmp": {
+      "bytes": 103734,
+      "sha256": "f5fd1c0bfb911ac2d6f7760c937145c9dfcc196dc8f41da0d31e1c667fd779b8"
+    },
+    "assets/photos/paris.bmp": {
+      "bytes": 103734,
+      "sha256": "4e6a9080d7c808e6fe235b974f1726b296e4e2637e03550b662ba37c300c4fb8"
+    },
+    "assets/photos/perth.bmp": {
+      "bytes": 103734,
+      "sha256": "d636cf7e7e22b04e1fa1248a49b1501563efc0ebe6889c0c58f550af8aa7bcf7"
+    },
+    "assets/photos/phnom_penh.bmp": {
+      "bytes": 103734,
+      "sha256": "71e6ffcbf214ba38ed25871a3dc5af14b3514311071d49b331335edc4bbda59b"
+    },
+    "assets/photos/phoenix.bmp": {
+      "bytes": 103734,
+      "sha256": "a5c4de83e10334c981649271d9af29aa2a110f5db362022c7d5c9ad54847ef82"
+    },
+    "assets/photos/pierre.bmp": {
+      "bytes": 103734,
+      "sha256": "e4175d80cd6ddf8ccb2dad2e934ab80d8f1e795c6cdf9ba09545f9e8a5a3a009"
+    },
+    "assets/photos/port_moresby.bmp": {
+      "bytes": 103734,
+      "sha256": "c30a94efe772bf31da6ec19d18ccec69326917722095c94eb27a7d259a512bc2"
+    },
+    "assets/photos/pyongyang.bmp": {
+      "bytes": 103734,
+      "sha256": "4122aa93bb71b0610d38a9fd8e6dc1443511c752a84c750905b72d28e59a3bae"
+    },
+    "assets/photos/quito.bmp": {
+      "bytes": 103734,
+      "sha256": "21a6bf0bcdb33d2925fda2e6363ba454f3a29a3385ff9c8b43de7ee95a346a06"
+    },
+    "assets/photos/rabat.bmp": {
+      "bytes": 103734,
+      "sha256": "b9565bb3baea069345d51f2ad8dbe8215044c53f91c6b5e6614d48319cf53e88"
+    },
+    "assets/photos/regina.bmp": {
+      "bytes": 103734,
+      "sha256": "0bc010abccb918781010f573de8e1bd584358b4b25648581fcba9d1772cd6c1d"
+    },
+    "assets/photos/rio_de_janeiro.bmp": {
+      "bytes": 103734,
+      "sha256": "72cd6f5fd39ff7bdca12a70cc5b3ba4d545c993c72d5f8b9099baf6032b5b130"
+    },
+    "assets/photos/riyadh.bmp": {
+      "bytes": 103734,
+      "sha256": "f3cc949eb289a8a40b9ee74a27ab0537f87a3ea8f3ecb3c105c146ffc051537c"
+    },
+    "assets/photos/rome.bmp": {
+      "bytes": 103734,
+      "sha256": "56bb5f0601cf7ac7c82f7a4c24723e40b79e905e89b0b472b891dd42cabb2a97"
+    },
+    "assets/photos/salem.bmp": {
+      "bytes": 103734,
+      "sha256": "3d1ecc3483cb0725f4a4d7bd6cb6bd78f1fe3e43193c5f3a2adcb7636a2dfbb0"
+    },
+    "assets/photos/salt_lake_city.bmp": {
+      "bytes": 103734,
+      "sha256": "19b4b964df0e859b238ebabf19e2e43695b8d4cca6cf03e0d60be88f2715f85e"
+    },
+    "assets/photos/sanaa.bmp": {
+      "bytes": 103734,
+      "sha256": "c54b0ea6428731c1bffeb4620a6d2584a14155dbe49303204f26b0788233c57e"
+    },
+    "assets/photos/santa_fe.bmp": {
+      "bytes": 103734,
+      "sha256": "90d2ef6ff1422000aa705fb817c0f7bfbb2905d5bbcbd6181e87fa2885c2d7ba"
+    },
+    "assets/photos/santiago.bmp": {
+      "bytes": 103734,
+      "sha256": "e75a0463718f93978a3ac661164aee357dd5e2bf201ac10bbfd6c615b7559718"
+    },
+    "assets/photos/santo_domingo.bmp": {
+      "bytes": 103734,
+      "sha256": "6c196b2c899b87f6c85a0bcb817bd6b6e0c70e677a1b5af9b94950fa3e64c6c3"
+    },
+    "assets/photos/san_francisco.bmp": {
+      "bytes": 103734,
+      "sha256": "3b09c3de63a2c66394e729c42619a6fe0d6d8540fef32fb6cac96afc59ba98c4"
+    },
+    "assets/photos/san_jose.bmp": {
+      "bytes": 103734,
+      "sha256": "83ba18f08082ba824bfd0f626381fdee6710f6272ced7646a2780b959ba3978c"
+    },
+    "assets/photos/seattle.bmp": {
+      "bytes": 103734,
+      "sha256": "d0cf1997618d57e3da8bc1a267ac406a969ad9a377cd1728045d898dbcc4b47e"
+    },
+    "assets/photos/seoul.bmp": {
+      "bytes": 103734,
+      "sha256": "be21a046535f55000dbbe6a1c97d426742ddd92406f68195bd03d480db8441fd"
+    },
+    "assets/photos/singapore.bmp": {
+      "bytes": 103734,
+      "sha256": "851c3bd034fb5bac4fb14b357ac0ab867b00089f37cc1fa058e62527c0333891"
+    },
+    "assets/photos/sofia.bmp": {
+      "bytes": 103734,
+      "sha256": "d40236811c4bc5057774f3eb55f8d906edeeeb684caee49aceda1ed92e13d885"
+    },
+    "assets/photos/stockholm.bmp": {
+      "bytes": 103734,
+      "sha256": "b036f9a996a1ab69dd9123aebdbf12aa3ef5efee716b6d71a46fdfb852ad8012"
+    },
+    "assets/photos/st_john_s.bmp": {
+      "bytes": 103734,
+      "sha256": "b9a4b71e6c5433db31e8448c59b05462c98fc2d5c4713dde5b2b95366ebcbd6a"
+    },
+    "assets/photos/sydney.bmp": {
+      "bytes": 103734,
+      "sha256": "d557fe36a52e7f490bfe2cec637cd32ff925fdb66a2c531be4c9c3b93af272f5"
+    },
+    "assets/photos/taipei.bmp": {
+      "bytes": 103734,
+      "sha256": "502c9b4f70615f3297508b1baea22a627d07c56c9e3ab6dc6bfc503bce90df7d"
+    },
+    "assets/photos/tashkent.bmp": {
+      "bytes": 103734,
+      "sha256": "f4b6aea0a954e55842430322c5e202e1518b1811a088171001102b322f2ea6be"
+    },
+    "assets/photos/tbilisi.bmp": {
+      "bytes": 103734,
+      "sha256": "f8fcc8d1fcf23153995354156182c133150d12a10eb628b598fadf3c6a9379dd"
+    },
+    "assets/photos/tehran.bmp": {
+      "bytes": 103734,
+      "sha256": "bf1999a3730c46198b76ece6ea229fa2b3ca9f5b86a23c5bb81c8fe6a81e39b3"
+    },
+    "assets/photos/tokyo.bmp": {
+      "bytes": 103734,
+      "sha256": "0260cff9b1922a71d2ced7c79154893483115a9a020e7bdc4e43da86093fe5da"
+    },
+    "assets/photos/toronto.bmp": {
+      "bytes": 103734,
+      "sha256": "722241b2cf86404fc38e59d4f2e2701f2b6cc27c84e18ed72bb31b2aa0de0e8c"
+    },
+    "assets/photos/tripoli.bmp": {
+      "bytes": 103734,
+      "sha256": "e8341af382872ed546af2a3a08a6f4aa6be08e58f95885cde49c6ec8877653af"
+    },
+    "assets/photos/tunis.bmp": {
+      "bytes": 103734,
+      "sha256": "64e8289d3d03d46d127214f2cbcb68b120fd6e0ec617cbce6c4b848a4507d74c"
+    },
+    "assets/photos/ulaanbaatar.bmp": {
+      "bytes": 103734,
+      "sha256": "9797cfb1a049eecc1652eab4014c189a65b5d0e2cf439713ff54952b2d9e15dc"
+    },
+    "assets/photos/vancouver.bmp": {
+      "bytes": 103734,
+      "sha256": "38a8379722a61c6cd61d2c0b1a265dab665ca502028f14d9c0bd0eeb02d971b1"
+    },
+    "assets/photos/vienna.bmp": {
+      "bytes": 103734,
+      "sha256": "85ac9038f53f3d12997ae883e92804514b75bfa24c238efbc927023f69f47423"
+    },
+    "assets/photos/warsaw.bmp": {
+      "bytes": 103734,
+      "sha256": "cf745ba1862626beb135333ace95cdfd306c28e0a68f4d1024b9a673a9c9618d"
+    },
+    "assets/photos/washington.bmp": {
+      "bytes": 103734,
+      "sha256": "5558ba313fbfa6d61b17e9ac67097c334c568aa26fbb8e2a37557daab7310e72"
+    },
+    "assets/photos/wellington.bmp": {
+      "bytes": 103734,
+      "sha256": "26326665ec3378ecbb38a7d5a5e22d04eab05664302d4c9912986bb171041056"
+    },
+    "assets/photos/whitehorse.bmp": {
+      "bytes": 103734,
+      "sha256": "5e6ad92bcc70f9a7f12b4d594bbadd7b8e62223c1a43691419f0e8c8998d9271"
+    },
+    "assets/photos/winnipeg.bmp": {
+      "bytes": 103734,
+      "sha256": "561ffbe6d4f45b5bc10292fb53ea4ef9c387bc2da2499aeb25f78b240be09936"
+    },
+    "assets/photos/yaounde.bmp": {
+      "bytes": 103734,
+      "sha256": "26fda68653cbe89ebfd5d78b24ec3062c52a63b9f5ec222fa66fd7ab2bb5e769"
+    },
+    "assets/photos/yellowknife.bmp": {
+      "bytes": 103734,
+      "sha256": "cbe3deb333f1351a1b5da756deb59e445a7e33f9b03704048ede0ec1475a8cf4"
+    },
+    "assets/original-globe-512.png": {
+      "bytes": 131715,
+      "sha256": "1b79a9e32c25808b8520df9eec937e5967c163b328599afe24550e52c6d6ba07"
+    },
+    "include/cities_v15.inc": {
+      "bytes": 8814,
+      "sha256": "beee2cef3c98504bc21998de6fec6fc002b1e3669a97d7a4319dfe55c0665b02"
+    },
+    "include/font_glyph_metrics_v2.inc": {
+      "bytes": 3069,
+      "sha256": "69e4ac74b284c0593e2d4945d5688324eeb298479aec77c1b40ecc8c544dadff"
+    },
+    "include/menu_font_glyph_metrics_v2.inc": {
+      "bytes": 3070,
+      "sha256": "98a27fe1ff66500a7ffcde04328ba8c56ba7997e9161f3e7085d24efd38d3f38"
+    },
+    "include/font_raster_sizes_v4.inc": {
+      "bytes": 17458,
+      "sha256": "b19f6909de84440c5f48d34a9cdba1b77134186d0b4f5ad0546704907a00e306"
+    },
+    "include/menu_font_raster_sizes_v4.inc": {
+      "bytes": 16529,
+      "sha256": "2884713c7e69fba200db2a512ac4d69d561797cb42be1f66794e4d89f9ad22bb"
+    }
+  },
+  "limitations": "Visual asset parity only; no cross-platform runtime claims"
+}

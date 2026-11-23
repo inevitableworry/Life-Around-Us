@@ -1,0 +1,29 @@
+﻿{
+  "title": "Life Around Us — PS4 standalone native homebrew source",
+  "version": "0.0001",
+  "title_id": "BREW99486",
+  "content_id": "IV0000-BREW99486_00-LIFEAROUNDUS0001",
+  "sdk": "OpenOrbis-PS4-Toolchain",
+  "graphics": "SDL2 streaming RGB888 software-composited CPU globe",
+  "input": "libScePad DualShock 4 + SDL host keyboard",
+  "original_ps3_title": "NPIA00002",
+  "parity_reference": "../console-parity-shared/ASSET_PARITY_MANIFEST.json",
+  "icon": "sce_sys/icon0.png",
+  "source_of_truth_icon": "../Web/public/favicon.png",
+  "assets": [
+    "assets/cities-v15.tsv",
+    "assets/live-feed.txt",
+    "assets/earth-day.bmp",
+    "assets/earth-night.bmp",
+    "assets/earth-clouds-alpha.bin",
+    "assets/space-milkyway.bmp",
+    "assets/live-channel-logo-90x50.rgba",
+    "assets/font-atlas-40.rgba",
+    "assets/menu-font-atlas-40.rgba",
+    "assets/startup-splash.bmp",
+    "assets/photos/*.bmp"
+  ],
+  "native_artifact": "eboot.bin",
+  "package_artifact": "IV0000-BREW99486_00-LIFEAROUNDUS0001.pkg",
+  "stage": "source project; SDK and hardware build status must be checked"
+}

@@ -1,0 +1,644 @@
+@font-face { font-family: "ArtDeco"; src: url("assets/fonts/artdeco/ArtDeco-CondensedBold.ttf") format("truetype"); font-weight: normal; font-display: block; }
+/* Text uses Segoe UI, the Windows font the PC port (LWP-PC) draws all text with. */
+:root {
+  --space-top: #03070b;
+  --space-bottom: #000102;
+  --card: rgba(251, 248, 243, 0.92);
+  --ink: #22343c;
+  --ink-soft: #5b6f76;
+  --teal: #3a9188;
+  --teal-soft: #cfe6e1;
+  --sand: #e9dcc9;
+  --coral: #e8957a;
+  --font: "Segoe UI", system-ui, sans-serif;
+  --ts: 1;                 /* Options > Units & Display > Text Size */
+}
+
+* { box-sizing: border-box; }
+html, body {
+  margin: 0; height: 100%; overflow: hidden;
+  background: radial-gradient(ellipse at 60% 40%, var(--space-top), var(--space-bottom) 70%);
+  font-family: var(--font); color: var(--ink);
+  user-select: none;
+}
+body.idle { cursor: none; }
+#globe { position: fixed; inset: 0; width: 100%; height: 100%; display: block; }
+
+/* Clinic header, top-left ("Smoked fade", the owner's pick): a dark tint
+   that fades out to the right over the globe, an outlined circle with the
+   initial, white text with a soft shadow. */
+.clinic {
+  position: fixed; top: 3.2vh; left: 3vw;
+  display: flex; align-items: center; gap: 1vw;
+  padding: 1.1vh 4vw 1.1vh 1.1vh;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.25) 70%, rgba(0, 0, 0, 0));
+  border-radius: 999px 0 0 999px;
+}
+.clinic-mark {
+  width: 5.6vh; height: 5.6vh; border-radius: 50%; box-sizing: border-box;
+  border: 0.25vh solid rgba(255, 255, 255, 0.85); color: #fff;
+  display: grid; place-items: center;
+  font-size: 2.6vh; font-weight: 600; overflow: hidden;
+}
+.clinic-mark img { width: 100%; height: 100%; object-fit: contain; }
+.clinic-name { font-size: calc(2.4vh * var(--ts)); font-weight: 600; color: #fff; text-shadow: 0 0.15vh 0.5vh rgba(0, 0, 0, 0.8); }
+.clinic-welcome { font-size: calc(1.8vh * var(--ts)); color: rgba(255, 255, 255, 0.7); margin-top: 0.2vh; text-shadow: 0 0.15vh 0.5vh rgba(0, 0, 0, 0.8); }
+
+/* The name screen (after the splash, before the opening, on the first run;
+   Options > Settings > Your Name opens it again): the header's smoked style,
+   centred -- a dark tint fading out on every side. */
+.name-screen {
+  position: fixed; inset: 0; z-index: 40; display: grid; place-items: center;
+  background: transparent; opacity: 0; transition: opacity 0.4s ease; pointer-events: none;   /* over the starfield */
+}
+.name-screen.on { opacity: 1; pointer-events: auto; }
+body.naming #globe { visibility: hidden; }
+.name-screen.over-globe { background: rgba(0, 0, 0, 0.35); }
+.name-card {
+  display: flex; flex-direction: column; align-items: center; gap: 2vh;
+  padding: 5vh 10vw;
+  background: radial-gradient(closest-side, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3) 65%, rgba(0, 0, 0, 0));
+  color: #fff; text-shadow: 0 0.15vh 0.5vh rgba(0, 0, 0, 0.8); text-align: center;
+}
+.name-card .clinic-mark { width: 9vh; height: 9vh; font-size: 4.2vh; border-width: 0.3vh; }
+.name-card h2 { margin: 0; font-size: 3.6vh; font-weight: 600; }
+.name-card p { margin: 0; font-size: 2vh; color: rgba(255, 255, 255, 0.7); }
+.name-card input {
+  width: 46vh; font: 600 3.2vh "Segoe UI", system-ui, sans-serif; color: #fff; text-align: center;
+  background: transparent; border: none; border-bottom: 0.25vh solid rgba(255, 255, 255, 0.55);
+  padding: 0.6vh 0; outline: none; caret-color: #e0533d; user-select: text;
+}
+.name-card input:focus { border-bottom-color: rgba(255, 255, 255, 0.9); }
+.name-card input::placeholder { color: rgba(255, 255, 255, 0.3); font-weight: 400; }
+.name-card small { font-size: 1.6vh; color: rgba(255, 255, 255, 0.5); }
+
+/* City card: large postcard at the bottom-left */
+.city-card {
+  position: fixed; left: 3vw; bottom: 6vh;
+  width: min(34vw, 62vh);
+  background: var(--card); border-radius: 3.2vh;
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.35);
+  overflow: hidden;
+  opacity: 0; transform: translateY(2.5vh);
+  transition: opacity 0.5s ease, transform 0.5s ease;     /* overlay cross-fade */
+}
+.city-card.shown { opacity: 1; transform: none; }
+.city-card .card-body { transition: opacity 0.25s ease; }  /* city-to-city cross-fade */
+.city-card.swapping .card-body { opacity: 0; }
+.city-card.pulse { animation: cardPulse 0.5s ease; }
+@keyframes cardPulse { 50% { transform: scale(1.015); } }
+.card-band { height: 1.1vh; background: linear-gradient(90deg, var(--teal), var(--teal-soft) 60%, var(--sand)); }
+.card-body { padding: 3vh 3.2vh 3.2vh; }
+.country {
+  font-size: 1.9vh; letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--teal); font-weight: 600;
+}
+.city { margin: 0.6vh 0 1.2vh; font-size: 6.4vh; line-height: 1.05; font-weight: 600; }
+.time-row { display: flex; align-items: baseline; gap: 1vh; }
+.time { font-size: 8.4vh; font-weight: 300; line-height: 1; font-variant-numeric: tabular-nums; }
+.ampm { font-size: 3vh; color: var(--ink-soft); }
+.date { font-size: 2.2vh; color: var(--ink-soft); margin-top: 1vh; }
+.divider { height: 1px; background: rgba(34, 52, 60, 0.12); margin: 2.4vh 0 2vh; }
+.weather { display: flex; align-items: center; gap: 1.6vh; min-height: 8vh; }
+.wx-icon svg { width: 8vh; height: 8vh; display: block; }
+.wx-temp { font-size: 5.4vh; font-weight: 400; font-variant-numeric: tabular-nums; }
+.wx-text { font-size: 2.3vh; color: var(--ink-soft); }
+.weather.unavailable .wx-temp { font-size: 2.3vh; color: var(--ink-soft); }
+
+/* Icon palette */
+.sun circle { fill: #f4c56a; }
+.sun .rays line { stroke: #f4c56a; stroke-width: 3; stroke-linecap: round; }
+.moon { fill: #c9d3e6; }
+.cloud { fill: #eef3f6; stroke: #a9bcc6; stroke-width: 2; }
+.cloud.back { fill: #dbe4ea; }
+.drops line { stroke: #6fa8cf; stroke-width: 3; stroke-linecap: round; }
+.flakes circle { fill: #9ec3db; }
+.bolt { fill: #f1b25b; }
+.fog line { stroke: #a9bcc6; stroke-width: 4; stroke-linecap: round; }
+
+/* Product wordmark, top-right: quiet, never competes with the clinic */
+.brand {
+  position: fixed; top: 3.6vh; right: 3vw;
+  display: flex; align-items: center; gap: 0.9vh;
+  opacity: 0.85;
+}
+.brand img { height: 4.6vh; width: auto; filter: drop-shadow(0 0.2vh 0.6vh rgba(0, 0, 0, 0.6)); }   /* your logo, kept in proportion */
+.wordmark {
+  font-size: 2.3vh; font-weight: 600; color: #f3efe8; letter-spacing: 0.01em;
+}
+.wordmark em { font-style: normal; font-weight: 300; color: #cfe6e1; }
+
+/* UI chrome fades in after the intro */
+.clinic, .brand, .credits, .status { transition: opacity 0.25s ease; }
+/* Theatre Mode (Options > Settings): Semi hides the name card, Full the logo too. */
+body.theatre-semi .clinic, body.theatre-full .brand { opacity: 0 !important; visibility: hidden; transition: opacity 0.25s ease, visibility 0s 0.25s; }
+body.intro-on .clinic, body.intro-on .brand, body.intro-on .credits,
+body.intro-on .status, body.intro-on .city-card, body.intro-on .next { opacity: 0; }
+
+/* ---------------- Title card (shown while loading) ---------------- */
+/* The old port's start-up splash (rsx_d3d12_backend.c, LWP_SPLASH): the image
+   scaled to fill the window, shown from the start for at least 3 s and until
+   the app is ready, then cut away at once (no fade) to the logo. */
+.title-card { position: fixed; inset: 0; z-index: 20; }
+.title-card.gone { opacity: 0; pointer-events: none; }
+.title-card.gone.fast { }
+.title-art { position: absolute; inset: 0; width: 100%; height: 100%; }
+.title-sun { animation: sunRise 6s ease-out both; }
+@keyframes sunRise { from { transform: translateY(60px); } to { transform: none; } }
+.title-stars circle { opacity: 0.7; }
+.title-center {
+  position: absolute; left: 50%; top: 42%; transform: translate(-50%, -50%);
+  display: flex; flex-direction: column; align-items: center; gap: 1.4vh;
+}
+.intro-mark { width: 24vh; height: 24vh; overflow: visible; filter: drop-shadow(0 0.6vh 2.4vh rgba(0, 0, 0, 0.45)); }
+.intro-mark .orbit { fill: none; stroke: #e9dcc9; stroke-width: 2.6; stroke-linecap: round;
+  stroke-dasharray: 100; stroke-dashoffset: 100; }
+.intro-mark .orbit.back { opacity: 0.45; }
+.intro-mark .dot { fill: #e8957a; opacity: 0; }
+.intro-mark .planet { transform-box: fill-box; transform-origin: center; transform: scale(0.55); opacity: 0; }
+.title-word {
+  font-size: 6.6vh; font-weight: 600; color: #f7f2ea; letter-spacing: 0.08em;
+  text-shadow: 0 0.4vh 2vh rgba(0, 0, 0, 0.35); opacity: 0;
+}
+.title-word em, .globe-logo em { font-style: normal; font-weight: 300; color: #d6ece7; }
+.title-tagline { font-size: 2.2vh; color: #e9f1f2; opacity: 0; letter-spacing: 0.04em; }
+.title-progress {
+  margin-top: 2.4vh; width: 22vh; height: 3px; border-radius: 3px;
+  background: rgba(247, 242, 234, 0.2); overflow: hidden;
+}
+.title-progress span { display: block; height: 100%; background: #f7f2ea; transform-origin: left; transform: scaleX(0); }
+
+/* Logo over the globe just after the cut (mirrors .title-center exactly) */
+.globe-logo {
+  position: fixed; left: 50%; top: 42%; z-index: 15;
+  transform: translate(-50%, -50%);
+  display: flex; flex-direction: column; align-items: center; gap: 1.4vh;
+  opacity: 0; pointer-events: none;
+}
+.globe-logo img {
+  width: 21.33vh; height: 21.33vh; padding: 1.33vh; box-sizing: content-box;
+  filter: drop-shadow(0 0.6vh 2.4vh rgba(0, 0, 0, 0.55));
+}
+.globe-logo .title-word { opacity: 1; letter-spacing: 0.01em; text-shadow: 0 0.4vh 2vh rgba(0, 0, 0, 0.7); }
+.globe-logo .spacer { visibility: hidden; }
+
+/* Neighbouring city names & markers on the globe */
+.city-labels { position: fixed; inset: 0; pointer-events: none; opacity: 0; transition: opacity 0.25s ease; }
+.city-labels.on { opacity: 1; }
+body.intro-on .city-labels { opacity: 0; }
+/* City markers and names as Life with PlayStation drew them, measured from
+   the LWP-PC port at 1080p and data/world/layout.xml (720p values / 720):
+   - the label's origin is the city's point on screen;
+   - dot: Location_Light_Live.png, 3.25vh (its alpha is 50 % at 0.37 of the
+     size, giving the port's 13 px-at-1080p glow), not dimmed when the city
+     is unselected; the selected city's dot is scaled by point_scale_max 1.8;
+   - weather icon (data/world/weather/720/NN.png, 86 px, drawn at that size
+     at 1080p: 7.963vh), 21 px right of the point and centred on it; the text
+     starts point_gap (2 px) after the icon, 109 px (10.093vh) right of the
+     point (measured, compare/labels_old_port.png);
+   - text sizes fitted to the port's output at 1080p (its GDI glyphs come out
+     smaller than layout.xml's point_title_size 26 / point_subtitle_size 22
+     in a browser; superseded, see "Text look" below): name 25 px, "21°C  05: 38 AM" 23 px,
+     ink widths within 1 px of compare/labels_old_port.png;
+     the name's baseline is point_title_y2 10 px above the point, or
+     point_title_y 4 px above it for the selected city, and the subtitle's
+     baseline point_subtitle_y 24 px below it (2.222vh);
+     Segoe UI regular (host/lwp_hle.cpp, FW_NORMAL), white;
+   - only the selected city's name glows (link_glow_r/g/b 255, alpha 1.0);
+     nothing else has a glow or shadow.
+   Segoe UI's ascent / descent are 1.079 / 0.251 em (line-height 1.33).
+   Text look (2026-11-16): the old port rasterised its text with GDI at the
+   720p sizes in layout.xml and scaled the frame up, which gives thinner,
+   slightly grey, narrower glyphs than a browser's crisp 1080p text. Matched
+   on compare/labels_news_1080_old_vs_new.png with the same strings: the
+   layout.xml sizes (point_title_size 18, point_subtitle_size 16,
+   link_size 16 at 720p = 2.5vh / 2.222vh / 2.222vh), Segoe UI Semilight
+   (350), rgb(205,205,205) and -0.03em tracking come within 1-3 % of the old
+   port's line widths, heights, peak brightness and stroke weight. */
+.city-label span, .city-label small, .strip-news li {
+  font-weight: 350; color: rgb(205, 205, 205); letter-spacing: -0.03em;
+}
+.city-label {
+  position: absolute; left: 0; top: 0; width: 0; height: 0; white-space: nowrap;
+  will-change: transform, opacity;
+  font-family: "Segoe UI", "Segoe UI Variable Text", "Selawik", system-ui, sans-serif;
+}
+.city-label i {
+  position: absolute; left: -1.625vh; top: -1.625vh; width: 3.25vh; height: 3.25vh;
+  background: url("data/plugins/live/Location_Light_Live.png") center / contain no-repeat;
+}
+.city-label.sd i { background-image: url("data/plugins/live/Location_Light_Live_SD.png"); }
+.city-label.fah i { background-image: url("data/plugins/fah/Location_Light_F@h.png"); }
+.city-label .panel { position: absolute; left: 0; top: 0; }
+.city-label em { position: absolute; display: block; left: 1.944vh; top: calc(-3.981vh * var(--ts)); width: calc(7.963vh * var(--ts)); height: calc(7.963vh * var(--ts)); }
+.city-label em:empty { display: none; }
+.city-label em svg, .city-label em img { width: 100%; height: 100%; display: block; object-fit: contain; }
+.city-label .panel > div { position: absolute; left: calc(1.944vh + 8.149vh * var(--ts)); top: 0; }
+/* No weather icon yet (offline): the text takes the icon's place. */
+.city-label em:empty + div { left: 1.944vh; }
+.city-label span, .city-label small {
+  position: absolute; left: 0; display: block; line-height: 1.33;
+}
+.city-label span { font-size: calc(2.5vh * var(--ts)); bottom: calc(0.926vh - 0.251em); }
+.city-label.current span { bottom: calc(0.370vh - 0.251em); }
+.city-label small {
+  font-size: calc(2.222vh * var(--ts)); top: calc(2.222vh * var(--ts) - 1.079em);
+  font-variant-numeric: tabular-nums; white-space: pre;
+}
+/* The selected city glows in and out, as in the old port (recorded at
+   1080p, 15 fps, compare/glow_pulse_old_vs_new.gif): one cycle every 0.81 s
+   (24 frames in, 24 out at 60 fps), sine-shaped. The dot's halo swells and
+   shrinks (its core stays as bright) and the name's white glow comes and
+   goes; the name's glow runs 0.16 s behind the dot. Only the selected city
+   pulses; the temperature/time line and the headlines stay steady. */
+.city-label.current { --dot-min: 1; --dot-max: 1.8; }   /* measured 0.98-1.81 x an unselected dot: point_scale_max 1.8 */
+.city-label.current i { animation: lwpDotPulse 0.81s ease-in-out var(--pulse-delay, 0s) infinite; }
+@keyframes lwpDotPulse {
+  0%, 100% { transform: scale(var(--dot-min)); }
+  50%      { transform: scale(var(--dot-max)); }
+}
+.city-label.current span { animation: lwpNameGlow 0.81s ease-in-out calc(var(--pulse-delay, 0s) + 0.16s) infinite; }
+@keyframes lwpNameGlow {
+  0%, 100% { text-shadow: 0 0 0.35vh rgba(255, 255, 255, 0), 0 0 0.8vh rgba(255, 255, 255, 0); }
+  50%      { text-shadow: 0 0 0.35vh rgba(255, 255, 255, 1), 0 0 0.8vh rgba(255, 255, 255, 0.85); }
+}
+/* Earthquakes and storms use their own icon in place of the weather icon. */
+.city-label.event em img { filter: drop-shadow(0 0 0.6vh rgba(255, 120, 90, 0.6)); }
+.city-label.storm em img { filter: drop-shadow(0 0 0.6vh rgba(120, 200, 255, 0.6)); }
+/* Earthquakes of M6.0 and up (the owner's design): no separate point; the
+   quake icon is the marker -- its rings (quake_rings.png) with a red glow in
+   the centre. Everything moves as ONE heartbeat every 1.6 s: the centre
+   flashes bright, the icon's red halo flares, and one ring ripples out from
+   the centre, all starting on the same frame and fading together. */
+.city-label.quake.pulse i { display: none; }
+.city-label.quake.pulse em img { content: url("data/plugins/live/quake/720/quake_rings.png"); animation: quakeHalo 1.6s cubic-bezier(0.25, 0.6, 0.35, 1) infinite; }
+.city-label.quake.pulse em::after {
+  content: ""; position: absolute; left: 50%; top: 50%; width: 52%; height: 52%;
+  border-radius: 50%; pointer-events: none;
+  background: radial-gradient(circle, #fff 0 10%, #ff4a36 20%, rgba(255, 40, 30, 0.6) 38%, rgba(255, 30, 20, 0) 68%);
+  animation: quakeCore 1.6s cubic-bezier(0.25, 0.6, 0.35, 1) infinite;
+}
+/* The ripple: born at the very centre of the dot and spreading outward,
+   drawn over the icon (the label's ::after paints after the icon) so it can
+   be seen leaving the middle and crossing the icon's own rings. One fixed
+   ring (12vh across) scaled from a point; its line thickens a little as it
+   spreads and it fades as it goes. Centred on the icon: 1.944vh + 7.963vh / 2
+   right of the point, level with it. */
+.city-label.quake.pulse::before { content: none; }
+.city-label.quake.pulse::after {
+  content: ""; position: absolute; left: calc(5.926vh - 6vh); top: -6vh; width: 12vh; height: 12vh;
+  box-sizing: border-box;   /* pseudo-elements don't get the page's * { border-box }: without this the
+                               border made the ring 0.9vh bigger than set and pushed its centre down-right */
+  border-radius: 50%; border: 0.45vh solid rgba(255, 45, 35, 0.95);
+  box-shadow: 0 0 0.9vh rgba(255, 40, 30, 0.75), inset 0 0 0.7vh rgba(255, 40, 30, 0.55);
+  transform-origin: 50% 50%; transform: scale(0.02); opacity: 0;
+  animation: quakeRipple 1.6s cubic-bezier(0.2, 0.45, 0.45, 1) infinite; pointer-events: none;
+}
+@keyframes quakeCore {
+  0%   { opacity: 1;    transform: translate(-50%, -50%) scale(1.25); }
+  100% { opacity: 0.35; transform: translate(-50%, -50%) scale(0.85); }
+}
+@keyframes quakeRipple {
+  0%   { opacity: 1;    transform: scale(0.02); }
+  55%  { opacity: 0.75; }
+  100% { opacity: 0;    transform: scale(1); }
+}
+@keyframes quakeHalo {
+  0%   { filter: drop-shadow(0 0 1.6vh rgba(255, 30, 20, 1)) drop-shadow(0 0 0.6vh rgba(255, 60, 40, 1)); }
+  100% { filter: drop-shadow(0 0 0.4vh rgba(255, 30, 20, 0.45)); }
+}
+/* Next stop chip, bottom-right */
+.next {
+  position: fixed; right: 3vw; bottom: 6vh;
+  padding: 1.3vh 2vh; border-radius: 999px;
+  background: rgba(251, 248, 243, 0.16); color: #e9f1f2;
+  font-size: 1.9vh; backdrop-filter: blur(6px);
+  opacity: 0; transition: opacity 1.2s ease;
+}
+.next.shown { opacity: 1; }
+.credits {
+  position: fixed; right: 3vw; bottom: 2vh;
+  font-size: 1.25vh; color: rgba(233, 241, 242, 0.45);
+}
+.status {
+  position: fixed; left: 3vw; bottom: 2vh;
+  font-size: 1.25vh; color: rgba(233, 241, 242, 0.45);
+}
+
+/* ---------------- Bottom strip: photo + headlines (from globe-app) ---------------- */
+.news-strip {
+  position: fixed; left: 0; right: 0; bottom: 0; height: 30vh;
+  display: flex; align-items: center; gap: 3vh; padding: 9vh 3vw 3.5vh;
+  /* No edges: a darkening that fades up into the globe and out at the sides. */
+  background:
+    radial-gradient(120% 140% at 30% 100%, rgba(0, 0, 0, 0.78) 0%, rgba(0, 0, 0, 0.55) 45%, rgba(0, 0, 0, 0) 75%),
+    linear-gradient(to top, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.3) 45%, rgba(0, 0, 0, 0) 100%);
+  border: none; pointer-events: none;
+  opacity: 0; transition: opacity 0.25s ease-out;   /* link_fade_duration 0.25 s; no transform: fixed to the screen */
+}
+.news-strip.shown { opacity: var(--height-fade, 1); }   /* fades with height (main.js) */
+body.intro-on .news-strip { opacity: 0; }
+/* Photo and headlines where the old port drew them (data/world/layout.xml,
+   1080p values, measured in compare/labels_old_port.png):
+   - photo: thumb_w x thumb_h 240 x 180 px (22.222vh x 16.667vh), its left
+     edge 100 px in (5.208vw), its bottom thumb_y 429 px below the centre
+     line (89.722vh from the top);
+   - headlines: link_x -560 (left edge 400 px in: 20.833vw), first baseline
+     link_y 275 px below the centre line (75.463vh), link_spacing 36 px
+     (3.333vh) apart, 24 px (2.222vh, link_size 16 at 720p; see "Text look"; was 22 px,
+     fitted to the old screenshot's line widths) Segoe UI regular, white, the
+     source in the same colour; the bullet (Headline_dot.png) centred
+     link_bullet_x 24 px left of the text and link_bullet_y 9 px above the
+     baseline. */
+.strip-photo {
+  position: fixed; left: 5.208vw; top: calc(89.722vh - 16.667vh); height: 16.667vh; width: 22.222vh;
+  border-radius: 0; overflow: hidden;
+  background: rgba(255, 255, 255, 0.06); display: none;
+}
+.strip-photo.on { display: block; }
+.strip-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+/* No caption or badge over the picture: a live camera's LIVE badge is drawn
+   into the picture itself (live.js camThumb), as the old project did. */
+/* Line box 3.333vh; Segoe UI ascent 1.079em / descent 0.251em, so the
+   baseline is (3.333 - 1.33 x 2.222) / 2 + 1.079 x 2.222 = 2.587vh below
+   the line's top. */
+.strip-news {
+  list-style: none; margin: 0; padding: 0; position: fixed;
+  left: calc(20.833vw - 1.25vw - 0.65vh); top: calc(75.463vh - 2.587vh);
+  max-width: calc(56.25vw + 1.25vw + 0.65vh);
+}
+.strip-news li {
+  position: relative; padding-left: calc(1.25vw + 0.65vh); font-size: calc(2.222vh * var(--ts)); line-height: calc(3.333vh * var(--ts));
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.strip-news li::before {
+  content: ""; position: absolute; left: 0; top: calc(2.587vh - 0.833vh - 0.65vh);
+  width: 1.3vh; height: 1.3vh;
+  border-radius: 0; background: url("data/world/Headline_dot.png") center / contain no-repeat;
+}
+.strip-news li span { color: inherit; }
+/* A city's new headlines and photo fade in: link_fade_duration 0.25 s,
+   thumb_reflection_fade_duration 15 frames (layout.xml). */
+/* (the fade itself: main.js fadeIn, Web Animations) */
+@keyframes lwpFadeIn { from { opacity: 0; } to { opacity: 1; } }
+/* Cross puts the focus on the headlines (the old port's link focus):
+   the focused one is drawn at link_size_max 25 (vs 24) with the white
+   link_glow; the bullets dim to link_focus_min 0.4 except the focused one
+   (link_focus_max 1.0); link_size_decay 0.5 eases between them. */
+.strip-news li, .strip-news li::before { transition: font-size 0.1s ease-out, opacity 0.1s ease-out, text-shadow 0.1s ease-out; }
+.strip-news.focus-mode li::before { opacity: 0.4; }
+.strip-news.focus-mode li.focus { font-size: calc(2.361vh * var(--ts)); color: #fff; text-shadow: 0 0 0.35vh rgba(255, 255, 255, 1), 0 0 0.8vh rgba(255, 255, 255, 0.85); }
+.strip-news.focus-mode li.focus::before { opacity: 1; transform: scale(1.4); }
+.strip-credits { position: relative; flex: none; margin-left: auto; width: calc(22vh * var(--ts)); height: calc(7vh * var(--ts)); align-self: center; }
+.credit-badge {
+  position: absolute; inset: 0; display: flex; flex-direction: column; align-items: flex-end; justify-content: center;
+  opacity: 0; transition: opacity 0.8s ease; color: #eef1f2; text-shadow: 0 0.15vh 0.5vh rgba(0, 0, 0, 0.8);
+}
+.credit-badge.on { opacity: 1; }
+.credit-badge small { font-size: calc(1.5vh * var(--ts)); color: rgba(238, 241, 242, 0.75); }
+.credit-badge b { font-size: calc(2.1vh * var(--ts)); font-weight: 600; letter-spacing: 0.02em; }
+.credit-badge:first-child { flex-direction: row; align-items: center; gap: 1vh; }   /* the dot level with LIVE, left of the L */
+.credit-badge:first-child b { line-height: 1; }
+.credit-badge:first-child b { font-size: calc(2.6vh * var(--ts)); letter-spacing: 0.14em; text-transform: uppercase; }
+/* "Your City" (the old project's card), at the size of the Open-Meteo badge:
+   the weather icon as tall as its two lines, then "Your City · date" (small)
+   over "City  temp  time" (bold), right-aligned like the other badges. */
+.credit-badge.my-city { flex-direction: row; align-items: center; justify-content: flex-end; gap: 0.8vh; }
+.my-city .mc-icon { width: 4.6vh; height: 4.6vh; flex: none; }
+.my-city .mc-icon:empty { display: none; }
+.my-city .mc-icon svg, .my-city .mc-icon img { width: 100%; height: 100%; display: block; object-fit: contain; }
+.my-city .mc-text { display: flex; flex-direction: column; align-items: flex-end; white-space: nowrap; }
+.my-city .mc-line { white-space: pre; font-variant-numeric: tabular-nums; }
+.live-dot {
+  width: 1.4vh; height: 1.4vh; border-radius: 50%; background: #e0533d;
+  box-shadow: 0 0 1vh rgba(224, 83, 61, 0.8); animation: liveBlink 1.6s ease-in-out infinite;
+}
+@keyframes liveBlink { 50% { opacity: 0.35; } }
+/* Card and footer make room for the strip */
+.city-card { bottom: 24vh; }
+.credits, .status { bottom: 0.8vh; }
+
+#titleCard { background: black url("assets/brand/splash.png") center / 100% 100% no-repeat; }   /* scaled to the window, as WIC did */
+#globeLogo { top: 50%; }
+#globeLogo img { width: min(42vw, 52vh); height: auto; padding: 0; }
+
+/* ---------------------------------------------------------------- options menu */
+/* Life with PlayStation's options screen (LWP-PC screenshots at 1080p and
+   data/ui/layout.xml, layouts "menu" and "osd", 720p px / 7.2 = vh,
+   / 12.8 = vw). Segoe UI, the font the port drew all text with. */
+.lwp-options {
+  position: fixed; inset: 0; z-index: 50; pointer-events: none; opacity: 0;
+  /* the owner's font (ArtDeco Condensed Bold), as on the radio screen */
+  font-family: "ArtDeco", "Segoe UI", system-ui, sans-serif; color: #fff; font-synthesis: none;
+  -webkit-text-stroke: 0.25em #000; paint-order: stroke fill;   /* the black outline, as on the radio */
+  /* blur_brightness 0.8 over the blurred globe; measured darker overall */
+  backdrop-filter: blur(0.9vh) brightness(0.35);
+  background: rgba(0, 0, 0, 0.45);
+  transform: scale(1.5);                    /* zoom_max 1.5 -> zoom_min 1.0 */
+  transition: opacity 0.133s linear, transform 0.133s ease-out;   /* fade_duration 8 frames */
+  will-change: opacity, transform;          /* its layer is ready before it opens: no hitch on the first frame */
+}
+.lwp-options.on { opacity: 1; pointer-events: auto; transform: scale(1); }
+/* The large outlined title across the middle (measured: 105 px caps at 1080p). */
+.lwp-opt-title {
+  position: absolute; left: 0; right: 0; top: 50%; transform: translateY(-52%);
+  text-align: center; font-size: 13.5vh; font-weight: 300; letter-spacing: 0.025em; line-height: 1;   /* spacing fitted to the old port: 560 px wide at 1080p */
+  color: transparent; -webkit-text-stroke: 0.1vh rgba(255, 255, 255, 0.06);   /* fainter, as the port draws it */
+}
+/* The list: the focused entry on the centre line (menu_y), others above and
+   below; plain levels centred, radio lists left-aligned at left_align_x -55. */
+.lwp-opt-list { position: absolute; left: 0; right: 0; top: 50%; height: 0; }
+.lwp-opt-list.in { animation: lwp-opt-level 0.25s ease-out; }       /* level_duration */
+@keyframes lwp-opt-level { from { opacity: 0; } to { opacity: 1; } }
+/* Menu text in the same look as the city names (see "Text look" above):
+   Segoe UI Semilight, -0.03em tracking, the old port's 720p sizes (items 16,
+   focused item 26, crumbs crumb_size 13, button captions label_size 15). */
+.lwp-opt-item span, .lwp-opt-crumb, .lwp-opt-btn { font-weight: 350; letter-spacing: 0.02em; }
+.lwp-opt-item {
+  position: absolute; left: 0; right: 0; top: 0; height: 0; text-align: center; cursor: pointer;
+  transition: transform 0s;
+}
+.lwp-opt-item span {
+  position: relative; display: inline-block; transform: translateY(-50%);
+  /* Sizes and brightness fitted to the old port's menu at 1080p (LWP-PC,
+     captured 2026-11-15, compare/menu_*_1080.png): 22 px, about 42 % white. */
+  font-size: 2.222vh; line-height: 1.33; white-space: nowrap;
+  color: rgba(205, 205, 205, 0.5);
+  transition: font-size 0.1s ease-out, color 0.1s;
+}
+/* Option lists are centred like every other level (the original left-aligned
+   them just right of centre, which looked off to the side); the current
+   choice keeps its arrow just left of its text. */
+.lwp-opt-list.opt-radio .lwp-opt-item { text-align: center; }
+.lwp-opt-item.focus span {
+  font-size: 3.611vh; color: rgb(220, 220, 220);               /* light grey, as the city names */
+  animation: lwp-opt-pulse 0.8s ease-in-out infinite alternate; /* pulse_duration 24 frames */
+}
+@keyframes lwp-opt-pulse {
+  from { text-shadow: 0 0 0.5vh rgba(255, 255, 255, 0.3); }
+  to { text-shadow: 0 0 0.6vh rgba(255, 255, 255, 0.55), 0 0 1.4vh rgba(255, 255, 255, 0.35); }  /* a soft halo, not a bold edge */
+}
+/* An entry that cannot be chosen (Select by Mood): greyed out. */
+.lwp-opt-item.disabled span { color: rgba(255, 255, 255, 0.2); }
+.lwp-opt-item.disabled.focus span { color: rgba(255, 255, 255, 0.35); animation: none; text-shadow: none; }
+/* Its reflection: the label upside down underneath, fading out. */
+.lwp-opt-item.focus span::after {
+  content: attr(data-text); position: absolute; left: 0; top: 78%;
+  transform: scaleY(-1); color: rgba(255, 255, 255, 0.35); text-shadow: none;
+  -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent 60%);
+  mask-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent 60%);
+  pointer-events: none;
+}
+/* The current choice in a radio list: current_status_arrow.png, radio_x -12. */
+.lwp-opt-item.current span::before {
+  content: ""; position: absolute; left: -2.5vh; top: 50%; width: 1.48vh; height: 1.48vh;
+  transform: translateY(-50%); background: url("data/ui/option/current_status_arrow.png") center / contain no-repeat;
+}
+/* Path so far, bottom-left: crumb_x 67, below the option band (option_h 333)
+   by crumb_y 17; crumb_size 13. */
+.lwp-opt-crumb {
+  position: absolute; left: 5.23vw; top: calc(50% + 23.13vh + 2.36vh); transform: translateY(-50%);
+  display: flex; align-items: center; gap: 0.7vh; font-size: 1.806vh; color: rgba(205, 205, 205, 0.9);
+}
+.lwp-opt-crumb img { height: 4.63vh; width: auto; margin-right: 0.4vh; }
+/* The blinking LIVE badge (as .credit-badge:first-child in the news bar). */
+.lwp-opt-live { display: flex; align-items: center; gap: 1vh; margin-right: 0.6vh; color: #eef1f2;
+  text-shadow: 0 0.15vh 0.5vh rgba(0, 0, 0, 0.8); letter-spacing: 0; }
+.lwp-opt-live b { font-size: 2.6vh; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; line-height: 1; }
+.lwp-opt-crumb span::before { content: "\203A"; margin: 0 0.8vh 0 0.2vh; font-size: 2.3vh; vertical-align: -0.1vh; }
+/* Buttons: caption_x1 499 / caption_x2 775 (of 1280), caption_y 64 above
+   the bottom, label_size 15, label_x 17; the images carry their reflection. */
+.lwp-opt-btn {
+  /* the 40x90 images have the button centred and its reflection below it */
+  position: absolute; bottom: calc(8.89vh - 4.167vh); display: flex; align-items: center; gap: 0.4vh;
+  font-size: 2.083vh; color: rgb(205, 205, 205); cursor: pointer;
+}
+.lwp-opt-btn img { height: 8.33vh; width: auto; }
+.lwp-opt-btn span { line-height: 1; }
+/* The two captions sit symmetrically about the centre line, 8.2vw either side
+   (the old port's spacing: 315 px apart at 1920 px wide). */
+.lwp-opt-select { right: calc(50vw + 8.2vw); }
+.lwp-opt-back { left: calc(50vw + 8.2vw); }
+
+/* The old look's text (config.js oldLook): the old app drew city names and the
+   headlines at 720p and stretched them up, so they were slightly soft (not
+   dimmer: side by side, its text is as bright). Half a pixel of blur at
+   1080p (0.04vh). */
+body.old-look .city-label .panel,
+body.old-look .strip-news { filter: blur(0.04vh); }
+
+/* Down in a city's close-up (main.js updateCuCard): the city's name, country,
+   temperature and local time, small and soft at the top centre, in the city
+   labels' type, on a faint dark glow so it reads over bright imagery. */
+.cu-card {
+  position: fixed; top: 3.4vh; left: 50%; transform: translateX(-50%); z-index: 5;
+  display: flex; flex-direction: column; align-items: center; gap: 0.2vh;
+  padding: 2.2vh 10vh 2.4vh; opacity: 0; pointer-events: none; white-space: nowrap;
+  background: radial-gradient(closest-side, rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.16) 60%, rgba(0, 0, 0, 0));
+  font-family: "Segoe UI", "Segoe UI Variable Text", "Selawik", system-ui, sans-serif;
+  font-weight: 350; letter-spacing: -0.03em; color: rgb(225, 225, 225);
+  text-shadow: 0 0 0.6vh rgba(0, 0, 0, 0.55);
+}
+.cu-card b { font-weight: 350; font-size: calc(3.6vh * var(--ts)); line-height: 1.15; }
+.cu-card span { font-size: calc(1.9vh * var(--ts)); color: rgb(190, 190, 190); text-transform: uppercase; letter-spacing: 0.12em; }
+.cu-card small { font-size: calc(2.2vh * var(--ts)); color: rgb(205, 205, 205); font-variant-numeric: tabular-nums; margin-top: 0.3vh; }
+body.old-look .cu-card { filter: blur(0.04vh); }
+/* The "now playing" note: Square (M) shows it, as do track and volume
+   changes and each new track; it fades after 4 s. Top right, under the gear. */
+.np-note {
+  position: fixed; top: 9.5vh; right: 2.2vw; z-index: 6; display: flex; align-items: center; gap: 1.2vh;
+  padding: 1.1vh 1.6vh 1.2vh 1.3vh; border-radius: 0.9vh; pointer-events: none;
+  background: rgba(0, 0, 0, 0.42); backdrop-filter: blur(6px);
+  border: 0.1vh solid rgba(255, 255, 255, 0.12);
+  font-family: "Segoe UI", system-ui, sans-serif; font-weight: 350; letter-spacing: -0.02em; color: rgb(225, 225, 225);
+  text-shadow: 0 0 0.6vh rgba(0, 0, 0, 0.55);
+  opacity: 0; transform: translateY(-0.8vh); transition: opacity 0.35s ease, transform 0.35s ease;
+}
+.np-note.on { opacity: 1; transform: none; }
+.np-icon { font-style: normal; font-size: calc(3.4vh * var(--ts)); line-height: 1; color: rgb(205, 205, 205); }
+.np-text { display: flex; flex-direction: column; min-width: 18vh; max-width: 40vh; }
+.np-text small { font-size: calc(1.5vh * var(--ts)); color: rgb(170, 170, 170); text-transform: uppercase; letter-spacing: 0.12em; }
+.np-text b { font-weight: 400; font-size: calc(2.2vh * var(--ts)); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.np-vol { position: relative; display: block; height: 0.35vh; margin-top: 2.4vh; background: rgba(255, 255, 255, 0.18); border-radius: 0.2vh; }
+.np-vol i { position: absolute; left: 0; top: 0; bottom: 0; background: rgb(220, 220, 220); border-radius: 0.2vh; transition: width 0.2s ease; }
+.np-vol::before { content: attr(data-v); position: absolute; left: 0; bottom: 0.7vh; font-size: calc(1.4vh * var(--ts)); color: rgb(170, 170, 170); }
+body.intro-on .np-note, body.naming .np-note { display: none; }
+body.old-look .np-note .np-text { filter: blur(0.04vh); }
+
+/* The gear (top right, beside the logo): opens the Options menu (O / Triangle).
+   Faint until pointed at; hidden with the cursor when the mouse is idle. */
+.gear {
+  position: fixed; top: 3.9vh; right: 0.9vw; z-index: 6; width: 3.6vh; height: 3.6vh; padding: 0.5vh;
+  border: 0; border-radius: 50%; background: transparent; cursor: pointer; opacity: 0.35;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+.gear svg { width: 100%; height: 100%; display: block; fill: rgb(225, 225, 225); filter: drop-shadow(0 0.2vh 0.5vh rgba(0, 0, 0, 0.6)); }
+.gear:hover { opacity: 0.95; transform: rotate(30deg); }
+body.idle .gear, body.intro-on .gear, body.naming .gear { opacity: 0; pointer-events: none; }
+
+/* ---------------------------------------------------------------- radio
+   The owner's design (radio.js): measured off the 3840 x 2160 mock-up in vh
+   from the screen's centre line. White text in ArtDeco Condensed Bold with a thin black
+   outline. */
+.radio { position: fixed; inset: 0; z-index: 60; pointer-events: none; opacity: 0; transition: opacity 0.2s ease;
+  -webkit-backdrop-filter: blur(1.4vh) brightness(0.8); backdrop-filter: blur(1.4vh) brightness(0.8); background: rgba(12, 8, 16, 0.12); }
+.radio.shown { opacity: 1; }
+.radio .rd-text { font-family: "ArtDeco", "Segoe UI", sans-serif; color: #fff; white-space: nowrap; letter-spacing: 0.02em;
+  -webkit-text-stroke: 0.62vh #000; paint-order: stroke fill; text-shadow: 0 0.1vh 0.4vh rgba(0, 0, 0, 0.6); }
+.rd-tile { position: absolute; top: 3.33vh; left: calc(50vw + var(--k) * 11.48vh - 5vh); width: 10vh; height: 10vh; }
+.rd-tile.rd-sel { box-shadow: 0 0 0 0.37vh #fff; }
+.rd-logo { width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center;
+  font-family: "ArtDeco", sans-serif; text-align: center; overflow: hidden; line-height: 0.92; }
+.rd-logo .rd-l1 { font-size: 2.1vh; letter-spacing: 0.04em; }
+.rd-logo .rd-l2 { font-size: 3.3vh; }
+/* the Radio Off tile: a power symbol on dark grey */
+.rd-offtile { background: #2b2b2b; }
+.rd-offtile svg { width: 46%; height: 46%; }
+/* a station's own logo, over the made one (which shows if the logo fails) */
+.rd-pic { position: absolute; inset: 0; background: #fff; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+.rd-pic img { max-width: 88%; max-height: 88%; object-fit: contain; display: block; }
+.rd-pic.rd-full img { width: 100%; height: 100%; max-width: none; max-height: none; object-fit: cover; }
+.rd-arrow { position: absolute; top: calc(8.33vh - 0.75vh); width: 0.94vh; height: 1.5vh; }
+.rd-arrow svg { width: 100%; height: 100%; display: block; filter: drop-shadow(0 0 0.12vh rgba(0, 0, 0, 0.8)); }
+.rd-left { left: calc(50vw - 29.4vh - 0.47vh); }
+.rd-right { left: calc(50vw + 29.5vh - 0.47vh); }
+.rd-prompt { position: absolute; left: calc(50vw + 32.6vh - 1.47vh); display: flex; align-items: center; gap: 0.86vh; }
+.rd-p1 { top: calc(6.3vh - 1.47vh); }
+.rd-p2 { top: calc(10.3vh - 1.47vh); }
+.rd-icon { width: 2.94vh; height: 2.94vh; flex: none; }
+.rd-icon svg { width: 100%; height: 100%; display: block; }
+.rd-prompt .rd-text { font-size: 2.45vh; letter-spacing: 0.05em; line-height: 1; padding-top: 0.12vh; }
+.rd-badge { position: absolute; top: calc(16.67vh - 1.155vh); width: 2.78vh; height: 2.31vh; }
+.rd-badge svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+.rd-badge b { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; padding-bottom: 0.16vh;
+  font-family: "ArtDeco", sans-serif; font-weight: normal; font-size: 1.65vh; color: #000; -webkit-text-stroke: 0.06vh #000; }
+.rd-lb { left: calc(50vw - 12.27vh - 1.39vh); }
+.rd-rb { left: calc(50vw + 12.36vh - 1.39vh); }
+.rd-bar { position: absolute; left: calc(50vw - 9.3vh); width: 18.6vh; top: calc(16.67vh - 0.28vh); height: 0.55vh;
+  background: #3a3a3a; box-shadow: 0 0 0 0.08vh rgba(0, 0, 0, 0.55); }
+.rd-thumb { position: absolute; top: -0.1vh; width: 1.1vh; height: 0.75vh; transform: translateX(-50%); background: #fff;
+  box-shadow: 0 0 0 0.08vh #000; transition: left 0.15s ease; }
+.rd-name, .rd-now, .rd-song { position: absolute; left: 0; right: 0; text-align: center; line-height: 1; }
+.rd-name { font-size: 3.0vh; letter-spacing: 0; top: calc(20.25vh - 1.4vh); }
+.rd-now { font-size: 2.42vh; letter-spacing: 0.012em; top: calc(23.66vh - 1.12vh); }
+/* the song on now, under the genre (same spacing as name -> genre) */
+.rd-song { font-size: 2.42vh; letter-spacing: 0.012em; top: calc(27.07vh - 1.12vh); }
+/* Radio / On Demand on the left (the owner's second reference): labels
+   right-aligned left of a column of dots joined by a thin line, the
+   right-stick icon on the chosen one. */
+.rd-modes { position: absolute; left: calc(50vw - 33.2vh); top: 8.33vh; width: 0; height: 0; }
+.rd-mode { position: absolute; right: 3.1vh; top: calc(var(--i) * 3.9vh); transform: translateY(-50%); font-size: 2.1vh; line-height: 1; opacity: 0.72; transition: opacity 0.15s ease; }
+.rd-mode.rd-on { opacity: 1; }
+.rd-dot { position: absolute; left: -0.55vh; top: calc(var(--i) * 3.9vh - 0.55vh); width: 1.1vh; height: 1.1vh; border-radius: 50%; background: #fff; box-shadow: 0 0 0 0.12vh #000; }
+.rd-line { position: absolute; left: -0.12vh; top: 0; width: 0.24vh; height: 3.9vh; background: rgba(255, 255, 255, 0.55); box-shadow: 0 0 0 0.08vh rgba(0, 0, 0, 0.5); }
+.rd-stick { position: absolute; left: -1.4vh; top: calc(var(--i) * 3.9vh - 1.4vh); width: 2.8vh; height: 2.8vh; transition: top 0.15s ease; }
+.rd-stick svg { width: 100%; height: 100%; display: block; }
+/* an On Demand track's number on its tile */
+.rd-tile .rd-num { position: absolute; left: 0.55vh; bottom: 0.35vh; font-size: 2.6vh; line-height: 1; }
+
+/* Satellite Mode (main.js satelliteMode): the globe's city names, headlines
+   and cards stand aside; a short fade through black going in and out. */
+body.satellite .city-labels, body.satellite #newsStrip, body.satellite #cityCard,
+body.satellite #nextStop, body.satellite #stripCredits { opacity: 0 !important; visibility: hidden; transition: opacity 0.3s ease, visibility 0s 0.3s; }
+#satFade { position: fixed; inset: 0; background: #000; opacity: 0; pointer-events: none; z-index: 40; transition: opacity 0.45s ease; }
+#satFade.on { opacity: 1; }

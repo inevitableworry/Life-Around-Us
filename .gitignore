@@ -1,0 +1,34 @@
+# Local build output and dependencies
+**/build/
+**/dist/
+**/.gradle/
+**/.cache/
+**/node_modules/
+*.log
+*.tmp
+*.p12
+*.pfx
+*.pem
+*.key
+*.env
+.env.*
+!*.env.example
+**/*-credentials*.json
+**/*-secret*.json
+# Proprietary media and console binaries are provisioned by the owner locally
+web/public/assets/
+web/public/music/
+web/public/sfx/
+web/public/data/
+platforms/android/app/src/main/assets/
+*.pkg
+*.self
+*.prx
+*.nsp
+*.iso
+*.wgt
+*.apk
+*.elf
+*.bin
+*.dmp
+*.core

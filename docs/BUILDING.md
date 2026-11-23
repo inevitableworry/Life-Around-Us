@@ -1,0 +1,29 @@
+# Building the platform previews
+
+**Prerequisite:** platform SDKs and legally obtained resource bundles are supplied separately. The GitHub source repository intentionally does not bundle proprietary original game archives, recovered console firmware or user-specific signing secrets.
+
+### Web
+
+Run Node.js 22+ using `node web/server.mjs --port 18951` after provisioning the expected static resources under `web/public/assets/` and other referenced asset folders. The restricted `/api` feed proxy is required for certain external live feeds; `python -m http.server` or GitHub Pages alone are not feature-equivalent. Do not bind the service publicly to a raw interface. Use a trusted reverse proxy/tunnel for HTTPS.
+
+### PS5
+
+Requires PS5 Payload SDK, a compatible SDL2 backend, and owner-supplied approved textures/resources. Native conversion and staging scripts live under `platforms/ps5/tools/`. See the PS5 README. Published packages are development previews; real-world console status is documented separately and uses PPSA99485.
+
+### PS3 and PS4
+
+Experimental source only. Host preview builds do not prove functioning native console packages. Follow platform-specific READMEs and add native source/SDK integration before release claims.
+
+### Android
+
+The Android Gradle source lives at `platforms/android`. The full local Android build packages a private asset tree under `app/src/main/assets/www` which is deliberately not committed here. Build from Android Studio/Gradle after provisioning only resources you have permission to use. Do not infer a working standalone APK solely from a successful compilation.
+
+### Samsung Tizen
+
+The `platforms/samsung-tizen` directory contains a lightweight HTML entrypoint and Tizen widget manifest. Package using a configured Tizen Studio signing profile:
+
+```powershell
+tizen package -t wgt -s YOUR_PROFILE -- platforms/samsung-tizen
+```
+
+The resulting WGT navigates to the live site fullscreen inside Tizen's runtime. The site maps the remote keys and hides mobile touchscreen overlays on compatible Tizen browsers. Install and test using the TV's developer connection and Tizen Studio tools. **Do not commit `.p12` credentials or signature files.**

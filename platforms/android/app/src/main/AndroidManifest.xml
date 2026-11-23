@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <uses-permission android:name="android.permission.VIBRATE"/>
+  <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+  <uses-feature android:name="android.software.leanback" android:required="false"/>
+  <supports-screens android:smallScreens="true" android:normalScreens="true"
+    android:largeScreens="true" android:xlargeScreens="true" android:anyDensity="true"/>
+  <application android:label="Life Around Us" android:theme="@android:style/Theme.Material.Light.NoActionBar"
+    android:icon="@mipmap/ic_launcher" android:roundIcon="@mipmap/ic_launcher"
+    android:banner="@drawable/tv_banner" android:allowBackup="false"
+    android:hardwareAccelerated="true" android:usesCleartextTraffic="false">
+    <activity android:name=".MainActivity" android:exported="true"
+      android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|density|uiMode"
+      android:screenOrientation="unspecified" android:resizeableActivity="true"
+      android:banner="@drawable/tv_banner">
+      <intent-filter><action android:name="android.intent.action.MAIN"/>
+      <category android:name="android.intent.category.LAUNCHER"/></intent-filter>
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LEANBACK_LAUNCHER"/>
+      </intent-filter>
+    </activity>
+  </application>
+</manifest>

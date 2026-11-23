@@ -1,0 +1,133 @@
+Bangkok|32|City information is available
+Beijing|1|City information is available
+Berlin|4|City updates available after news sync
+Buenos Aires|26|City information is available
+Cairo|24|City updates available after news sync
+Chicago|0|City information is available
+Dhaka|25|City information is available
+Helsinki|2|City information is available
+Hong Kong|24|City updates available after news sync
+Johannesburg|23|City updates available after news sync
+Lima|26|City information is available
+London|7|City updates available after news sync
+Los Angeles|11|City information is available
+Mexico City|13|City information is available
+Moscow|0|City information is available
+New York|15|City updates available after news sync
+Paris|7|City updates available after news sync
+San Francisco|7|City information is available
+Seoul|7|City information is available
+Singapore|26|City information is available
+Sydney|23|City updates available after news sync
+Tehran|20|City information is available
+Tokyo|10|City updates available after news sync
+Washington|13|City information is available
+Bucharest|10|City information is available
+Santiago|18|City information is available
+San Jose|5|City information is available
+Algiers|21|City information is available
+Riyadh|29|City information is available
+Atlanta|14|City information is available
+Houston|14|City information is available
+Edmonton|-5|City information is available
+Mogadishu|29|City information is available
+Barcelona|18|City information is available
+Rio de Janeiro|31|City updates available after news sync
+Pyongyang|1|City information is available
+Vancouver|5|City information is available
+Toronto|5|City updates available after news sync
+Ottawa|6|City information is available
+Iqaluit|-16|City information is available
+Bogota|16|City information is available
+Quito|14|City information is available
+Rome|17|City information is available
+Lagos|30|City information is available
+Accra|32|City information is available
+Rabat|22|City information is available
+Kyiv|2|City information is available
+Warsaw|2|City information is available
+Tbilisi|12|City information is available
+Damascus|20|City information is available
+Gaza|22|City information is available
+Mecca|32|City information is available
+Medina|6|City information is available
+Dakar|32|City information is available
+Bamako|34|City information is available
+Abidjan|29|City information is available
+Monrovia|29|City information is available
+Kinshasa|30|City information is available
+Bangui|33|City information is available
+N'Djamena|37|City information is available
+Yaounde|29|City information is available
+Tripoli|23|City information is available
+Tunis|22|City information is available
+Sanaa|21|City information is available
+Dubai|30|City information is available
+Muscat|27|City information is available
+Khartoum|36|City information is available
+Addis Ababa|22|City information is available
+Dar es Salaam|30|City information is available
+Nairobi|24|City information is available
+Maputo|28|City information is available
+Antananarivo|25|City information is available
+Wellington|15|City information is available
+Manila|29|City information is available
+Port Moresby|26|City information is available
+Winnipeg|-10|City information is available
+Regina|-8|City information is available
+Halifax|15|City information is available
+St. John's|9|City information is available
+Whitehorse|-9|City information is available
+Yellowknife|-7|City information is available
+Seattle|5|City updates available after news sync
+Salem|4|City information is available
+Boise|2|City information is available
+Las Vegas|5|City information is available
+Salt Lake City|0|City information is available
+Santa Fe|-2|City information is available
+Phoenix|10|City information is available
+Helena|-4|City information is available
+Bismarck|-8|City information is available
+Pierre|-2|City information is available
+Lincoln|-4|City information is available
+Minneapolis|-4|City information is available
+Caracas|26|City information is available
+La Paz|16|City information is available
+Lisbon|16|City information is available
+Istanbul|19|City information is available
+Athens|22|City information is available
+Budapest|5|City information is available
+Vienna|4|City information is available
+Monaco|18|City information is available
+Copenhagen|3|City information is available
+Stockholm|2|City information is available
+Oslo|1|City information is available
+Sofia|5|City information is available
+Minsk|1|City information is available
+Delhi|20|City updates available after news sync
+Mumbai|30|City updates available after news sync
+Kabul|10|City information is available
+Kandahar|18|City information is available
+Islamabad|15|City information is available
+Karachi|27|City information is available
+Colombo|27|City information is available
+Phnom Penh|28|City information is available
+Ho Chi Minh City|28|City information is available
+Hanoi|23|City information is available
+Ulaanbaatar|-19|City information is available
+Taipei|19|City information is available
+Aleppo|19|City information is available
+Baghdad|27|City information is available
+Kathmandu|14|City information is available
+Tashkent|17|City information is available
+Bosaso|28|City information is available
+Hargeisa|24|City information is available
+Reykjavík|8|City information is available
+Honolulu|21|City updates available after news sync
+Brasília|25|City information is available
+Jakarta|27|City information is available
+Malé|30|City information is available
+Perth|17|City information is available
+Miami|20|City information is available
+Kingston|26|City information is available
+Santo Domingo|26|City information is available

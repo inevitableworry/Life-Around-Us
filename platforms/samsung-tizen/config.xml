@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="https://life.orosapp.us/tizen" version="0.1.0" viewmodes="maximized">
+  <tizen:application id="LIFEOROS01.LifeEarth" package="LIFEOROS01" required_version="6.0" />
+  <name>Life Around Us</name>
+  <description>Life Around Us large-screen web runtime companion for Samsung televisions.</description>
+  <icon src="icon.png" />
+  <content src="index.html" />
+  <access origin="https://life.orosapp.us" subdomains="false" />
+  <tizen:allow-navigation>https://life.orosapp.us/*</tizen:allow-navigation>
+  <feature name="http://tizen.org/feature/screen.size.all" />
+  <tizen:privilege name="http://tizen.org/privilege/tv.inputdevice" />
+  <tizen:profile name="tv-samsung" />
+  <tizen:setting screen-orientation="landscape" context-menu="disable" background-support="disable" encryption="disable" install-location="auto" />
+</widget>

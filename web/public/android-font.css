@@ -1,0 +1,136 @@
+/* Life Around Us: screen-size responsive touch/controller UI.
+   Content remains the source PC/PS3 client; overlays are intentionally small. */
+@font-face {
+  font-family: "LifeRodin";
+  src: url("assets/fonts/mplus1p/MPLUS1p-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+:root { --touch-control-size: clamp(46px, 5.2vw, 60px); }
+html,body { font-family:"LifeRodin",system-ui,sans-serif !important; }
+html { -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+body { text-rendering:geometricPrecision; }
+button,select,textarea,input { font-family:"LifeRodin",system-ui,sans-serif; }
+#globe { touch-action:none; }
+.lau-touch-controls {
+  position:fixed;
+  z-index:900;
+  right:max(12px,env(safe-area-inset-right));
+  bottom:max(12px,env(safe-area-inset-bottom));
+  display:flex;
+  flex-direction:column;
+  align-items:flex-end;
+  gap:7px;
+  pointer-events:none;
+  font-family:"LifeRodin",sans-serif;
+}
+.lau-touch-controls[hidden],html[data-tv="1"] .lau-touch-controls,html[data-touch="0"] .lau-touch-controls,body.naming .lau-touch-controls {
+  display:none!important;
+}
+.lau-touch-controls button {
+  pointer-events:auto;
+  appearance:none;
+  cursor:pointer;
+  color:#f1f7ff;
+  background:rgba(7,17,32,0.62);
+  border:1px solid rgba(199,224,242,0.45);
+  border-radius:13px;
+  backdrop-filter:blur(5px);
+  min-height:44px;
+  touch-action:none;
+  -webkit-tap-highlight-color:transparent;
+  -webkit-user-select:none;
+  user-select:none;
+  box-shadow:0 2px 10px rgba(0,0,0,0.20);
+  font-size:clamp(16px,1.7vh,23px);
+}
+.lau-touch-controls .lau-touch-toggle {
+  font-size:clamp(11px,1.7vh,16px);
+  padding:6px 12px;
+  border-radius:999px;
+  background:rgba(5,15,31,0.60);
+}
+.lau-touch-controls .lau-grid {
+  display:grid;
+  pointer-events:auto;
+  grid-template-columns:repeat(4,var(--touch-control-size));
+  gap:6px;
+  background:rgba(2,9,20,.26);
+  border:1px solid rgba(225,238,255,.12);
+  padding:5px;
+  border-radius:15px;
+}
+.lau-touch-controls .lau-grid button {
+  min-width:var(--touch-control-size);
+  min-height:var(--touch-control-size);
+}
+.lau-touch-controls .lau-grid button.pressed {
+  background:rgba(61,136,196,.78);
+  border-color:#e4f3ff;
+  transform:scale(.95);
+}
+.lau-touch-controls.lau-collapsed .lau-grid {display:none;}
+.lau-touch-controls .lau-grid .lau-primary {background:rgba(17,62,91,.74);}
+.lau-touch-controls .lau-grid .lau-corner {background:rgba(6,29,46,.58);}
+.lau-touch-controls .lau-grid button:focus-visible {
+  outline:3px solid #fff;
+  outline-offset:1px;
+}
+/* Folded phones and portrait tablets: clamp the original 16:9 overlays. */
+@media (orientation:portrait) {
+  :root { --touch-control-size:clamp(43px,10vw,56px); }
+  .clinic {top:2vh;left:4vw;max-width:72vw;padding-right:2vw;}
+  .clinic-name {font-size:clamp(15px,2vh,24px);}
+  .clinic-welcome {font-size:clamp(11px,1.35vh,18px);}
+  .brand {top:2vh;right:3vw;}
+  .brand img {height:clamp(23px,3.2vh,42px);}
+  .gear {min-width:44px;min-height:44px;}
+  .city-card {left:3vw;width:min(76vw,440px);bottom:27vh;}
+  .news-strip {height:30vh;bottom:0;padding:3vw;}
+  .strip-photo {left:3vw;top:auto;bottom:8vh;height:clamp(66px,10vh,130px);width:clamp(90px,14vh,178px);}
+  .strip-news {left:max(33vw,100px);top:auto;bottom:8vh;max-width:64vw;}
+  .strip-news li {font-size:clamp(11px,1.55vh,18px);line-height:clamp(19px,2.6vh,30px);}
+  .lau-touch-controls {bottom:max(30vh,env(safe-area-inset-bottom));}
+  .credits {font-size:clamp(9px,1.1vh,14px);}
+}
+@media (max-width:680px) and (orientation:landscape) {
+  :root { --touch-control-size:42px; }
+  .lau-touch-controls .lau-grid {gap:4px;padding:3px;}
+  .strip-news li {font-size:clamp(11px,2vh,17px);}
+  .clinic-welcome{display:none;}
+}
+/* Tablets/large foldables use smaller controls to preserve the Earth. */
+@media (min-width:950px) {
+  :root {--touch-control-size:clamp(46px,3.6vw,55px);}
+  .lau-touch-controls {opacity:.85;}
+}
+/* TV focus stays visible with a remote, while touch buttons disappear. */
+html[data-tv="1"] .gear:focus-visible,
+html[data-tv="1"] .lwp-options button:focus-visible {
+  outline:3px solid #fff!important;
+  outline-offset:3px;
+}
+
+
+/* Web-only mobile tuning: safe areas and narrower touch layouts. */
+:root { color-scheme: dark; }
+.lau-touch-controls { right:max(10px, env(safe-area-inset-right)); }
+.lau-touch-controls[hidden],
+html[data-touch-overlay="off"] .lau-touch-controls { display:none!important; }
+@media (max-width: 540px) {
+  .lau-touch-controls .lau-touch-toggle { min-height:44px; }
+  .lau-touch-controls .lau-grid { gap:4px; padding:4px; }
+  .strip-credits { display:none; }
+  .gear { top:max(15px,env(safe-area-inset-top)); }
+}
+@media (orientation:portrait) and (max-width:540px) {
+  .lau-touch-controls { bottom:max(20vh, env(safe-area-inset-bottom)); }
+  .lau-touch-controls .lau-grid { grid-template-columns:repeat(4,min(12vw,50px)); }
+  .lau-touch-controls .lau-grid button { min-width:44px; min-height:44px; }
+  .news-strip { padding-bottom:calc(12px + env(safe-area-inset-bottom)); }
+  .brand { right:max(12px,env(safe-area-inset-right)); }
+}
+@media (hover:hover) and (pointer:fine) and (any-pointer:fine) {
+  .lau-touch-controls button:hover { border-color:rgba(232,247,255,.9); }
+}
