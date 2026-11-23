@@ -5,3 +5,5 @@ Small web-runtime launcher targeting Samsung TVs running Tizen 6.0 or newer (inc
 Requires an internet connection and a live site. The app is not an offline movie player or a native rendering port. Tizen Studio signing profile is needed to install the .wgt on a physical TV. Do not distribute private signing certificates in source control.
 
 Build with `tizen package -t wgt -s <your-profile> -- <this directory>`. After build, inspect widget package, signature and device acceptance before claiming an install.
+
+Installation status: Connected to the owner TV over Vetro SDB port 26201 and transferred the signed WGT; Tizen installer rejected installation. See `../../docs/TV_INSTALL_REPORT.md`.

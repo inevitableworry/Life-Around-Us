@@ -61,8 +61,8 @@ A build is considered *running* only after console/device evidence. Progress is 
 - [x] Bind Samsung directional keys, OK, Return and remote color keys to website controls.
 - [x] Hide the mobile touch controls and avoid a browser address bar inside Tizen runtime.
 - [x] Package using a local Tizen Studio development certificate.
-- [ ] Connect SDB to TV `<SAMSUNG_TV_LAN_IP>` with device authorization.
-- [ ] Install the WGT, launch it from the TV home screen and inspect logs.
+- [ ] Connect to Vetro LAN SDB on port 26201. **Completed:** connected to the QN75Q60AAFXZA Tizen 6.0 TV; port 26101 was not available for developer sessions.
+- [ ] Install the WGT, launch it from the TV home screen and inspect logs. **Blocked:** Tizen Studio transferred the signed WGT but returned "Failed to install Tizen application" (twice, including the v0.1.1 simplified manifest). Developer Mode Host PC IP set to the TV loopback for Vetro may prevent external PC installation; check with owner before changing TV settings.
 - [ ] Confirm compatibility with the owner's Samsung Q60A generation and Vetro-rooted environment; do not assume root bypasses certificate requirements.
 - [ ] Validate focus behavior, long-press Back, panel animations, and TV remote buttons.
 - [ ] Avoid leaking the website URL into UI overlays or navigation chrome.
