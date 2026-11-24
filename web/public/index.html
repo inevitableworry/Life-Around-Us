@@ -81,6 +81,7 @@
 
   <script src="web-shell-bridge.js"></script>
 <link rel="stylesheet" href="android-font.css">
+<link rel="stylesheet" href="tizen-font-fix.css">
 
   <nav class="lau-touch-controls" id="lau-touch-controls" aria-label="Touch navigation">
     <button class="lau-touch-toggle" id="lau-controls-toggle" type="button" aria-expanded="true">Hide controls</button>
@@ -101,6 +102,9 @@
   </nav>
   <script defer src="adaptive-input.js"></script>
   <script defer src="tizen-input.js"></script>
-  <script type="module" src="main.js"></script>
+  <script type="module">
+  const tv = new URLSearchParams(location.search).get('platform') === 'tizen' || /Tizen|SMART-TV/i.test(navigator.userAgent);
+  import(tv ? './main-tizen.js' : './main.js');
+</script>
 </body>
 </html>
