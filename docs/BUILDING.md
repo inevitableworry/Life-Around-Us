@@ -4,7 +4,7 @@
 
 ### Web
 
-Run Node.js 22+ using `node web/server.mjs --port 18951` after provisioning the expected static resources under `web/public/assets/` and other referenced asset folders. The restricted `/api` feed proxy is required for certain external live feeds; `python -m http.server` or GitHub Pages alone are not feature-equivalent. Do not bind the service publicly to a raw interface. Use a trusted reverse proxy/tunnel for HTTPS.
+The production frontend and backend deploy from GitHub through Cloudflare Workers Builds using `wrangler.jsonc` and `cloudflare/worker.mjs`. Static site assets and approved media are committed under `web/public`. For optional local development, run `node web/server.mjs --port 18951`; that historical origin is not production and must not be exposed publicly. GitHub Pages alone cannot run the feed proxy.
 
 ### PS5
 

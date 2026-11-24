@@ -1,11 +1,11 @@
-# Life Around Us Web — mobile touch deployment
+# Life Around Us Web ? cloud deployment
 
-Public URL: https://life.orosapp.us
-Host: BEN-PC, Windows
-Project: H:\PS3 Live\Web
-Origin: http://127.0.0.1:18951
+**Production:** [life.orosapp.us](https://life.orosapp.us/)
+**Host:** Cloudflare Worker `life-around-us-web`, built from GitHub `main`; no BEN-PC origin
+**Local development copy:** `H:\PS3 Live\Web` (not served publicly after the November 23 migration)
+**Deployment instructions:** [Cloudflare runbook](../docs/DEPLOYMENT.md)
 
-The existing Windows logon task named Cloudflare Tunnels runs the shared Cloudflare tunnel startup script and starts the Life Around Us Node server. The existing main tunnel now routes life.orosapp.us to the local origin on TCP 18951. All other hostnames remain in the ingress configuration.
+The `web/public` resource tree and `cloudflare/worker.mjs` are deployed from GitHub to Cloudflare. The former Windows task that started the Node local site and the old Cloudflare Tunnel ingress have been disabled/removed for Life. Other tunnel hostnames were preserved.
 
 ## Web build
 
@@ -22,7 +22,7 @@ The CSS handles small portrait phones, foldable viewports, landscape phones and 
 ## Validation on November 23, 2026
 
 - Cloudflare/public HTML, options.js and adaptive-input.js content verified through HTTPS.
-- Local server /healthz returns HTTP 200, and Cloudflare successfully served the main site and assets.
+- Cloudflare Worker `/healthz` returns HTTP 200 with `deployment:cloud`; the public site worked after the local Node server was stopped.
 - Original Settings menu allows switching the touch-control preference to Off; localStorage persists the Off choice after reload.
 - A browser-hosted mobile frame at 387x697 loaded the actual styles and touch JS: all 12 controls fit without horizontal scrolling, measured minimum button size was about 46x44px.
 - Touch-pointer down/up on a virtual button emitted KeyQ down/up, which the main client supports for previous city.

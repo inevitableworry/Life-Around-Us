@@ -1,27 +1,30 @@
-# GitHub source delivery and Cloudflare deployment
+# GitHub-backed Cloudflare deployment
 
-**Code authority:** `github.com/inevitableworry/Life-Around-Us` (`main` branch)
-**Public hostname:** `life.orosapp.us`
-**Live origin:** the existing owner-operated Node service bound to `127.0.0.1:18951` on BEN-PC
-**Cloudflare:** existing tunnel route; this deployment does not create or modify other zone records or tunnels.
+**Canonical source:** [inevitableworry/Life-Around-Us](https://github.com/inevitableworry/Life-Around-Us), `main` branch
+**Public website:** [life.orosapp.us](https://life.orosapp.us/)
+**Cloudflare Worker:** `life-around-us-web`
+**Standalone test address:** `https://life-around-us-web.japansmostwanted.workers.dev/`
+**Status:** Active on Cloudflare, no BEN-PC site process required. Migration verified November 23, 2026.
 
-## Why this uses a hybrid deployment
+## Architecture
 
-The web frontend can be versioned in GitHub. However, the feed bridge is a restricted Node service and some required site media is stored outside public Git because redistribution rights and disk sizes vary. GitHub Pages cannot run Node; uploading source files to a repo does not magically run the full website. The existing Cloudflare Tunnel continues to provide TLS and route the domain to BEN-PC. Reviewed GitHub source changes are copied to that existing local runtime without deleting its local media.
+Cloudflare Workers Builds checks out GitHub `main` and runs `npx wrangler deploy` using `wrangler.jsonc`. The Worker, in `cloudflare/worker.mjs`, serves the application and a restricted HTTPS live-feed proxy. Static assets, music, Earth textures, and page code come from Cloudflare Static Assets populated from `web/public/` in the repository. The 32 MiB `night8k.r8` texture is split into two static assets and reconstructed as a streaming response at its original URL. Worker status route `/healthz` responds with `deployment:cloud` and `backend:edge`.
 
-## Syncing code from GitHub
+The `life.orosapp.us` custom domain and a hostname-specific Worker route are configured in Cloudflare; an old Tunnel CNAME was removed. The other domain/tunnel configurations are independent and remain intact. The Cloudflare account's `life-around-us-web` Worker project is connected to **only** the `inevitableworry/Life-Around-Us` repository. This is not GitHub Pages hosting: GitHub provides source and automatic builds, Cloudflare provides the website and backend.
 
-1. Make a local clone of the `main` branch in `H:\PS3 Live\Life-GitHub-Publish` (or update an existing clean checkout).
-2. Run `scripts/sync-life-web.ps1` from the main working tree. It uses `git pull --ff-only`, checks the current frontend files, backs up changed live files, then updates only an allowlisted set of `.js`, `.css` and `.html` files. It never copies, overwrites or deletes local media, files under `assets/`, server secrets, tunnel credentials, original game packages or signing certificates.
-3. Confirm `http://127.0.0.1:18951/healthz`, then test site UI and images through HTTPS. If a browser resource fails, restore from the timestamped backup.
-4. Optional Windows scheduled task may run this reviewable script at a chosen cadence. Use a pinned commit/release for a stable production environment and do not run arbitrary scripts from untrusted PRs.
+## Cutover evidence
 
-For changes to `server.mjs`, review and deploy manually as a separate audited backend update; the synchronization script intentionally does not restart or replace the running backend.
+- The Cloudflare Workers build deployed 277 static assets (11 already present) and Worker version `90ea1bf3-9d40-441e-96e6-49d39356f644`.
+- Workers.dev hostname and public custom domain returned HTTP 200 for `/`, `/main.js`, Earth imagery, music and the reconstructed night texture.
+- Cloud health response is independent of the old local Node server; it continued returning HTTP 200 after the Life-only listener on port 18951 was stopped.
+- The approved Open-Meteo `/api/fetch` request succeeded from the Worker, and a private `127.0.0.1` request was rejected.
+- Headless Chromium loaded the cloud site (DOM, canvas, CSS and initial splash), with zero JavaScript exceptions or failed network requests in the observed test window; a longer WebGL interaction and mobile TV QA remain ongoing.
+- On BEN-PC, `Life Around Us GitHub Sync` was disabled, the Life-only Node server stopped, its startup block removed from `run_tunnels.ps1` and `life.orosapp.us` ingress removed from the shared tunnel config. Backups with `.life-cloud-backup-YYYYMMDD-HHMMSS` suffix were saved beside the originals.
 
-## Cloudflare
+## Updates and rollback
 
-The current `life.orosapp.us` record already targets an active tunnel. This deployment deliberately reuses the existing ingress and does not create a duplicate `cloudflared` instance. The TV web-runtime launcher loads the same hostname; no raw LAN address is exposed inside user-facing TV UI.
+Push reviewed code and media changes to GitHub `main`. Cloudflare's GitHub integration automatically deploys them to the Worker when its build succeeds. Monitor **Workers & Pages ? life-around-us-web ? Deployments** and `/healthz`. A broken release can be rolled back via Cloudflare's deployment history. Do not restart the BEN-PC origin or old frontend sync job as part of normal production operations. The local source and original assets remain on BEN-PC as a development/rollback copy only.
 
-## Release requirements
+## Operational cautions
 
-Publish packages as *previews* until each platform passes installation, foreground launch, screenshots, remote/controller input and stability checks. Release notes must distinguish real hardware evidence from host compilation. Keep platform packages separate and publish SHA-256 checksums. Public Git commit history reflects the authenticated account performing publication; third-party authors remain credited where appropriate.
+Cloudflare Workers limits, requests, bandwidth, and build quotas depend on the account plan. Third-party feed providers can rate-limit edge requests, media can have independent copyright/licensing terms, and this migration is not a guarantee of perpetual availability. Audit publicly committed media for redistribution permission. Keep Cloudflare credentials and private keys outside Git. The `web/server.mjs` file remains in the repository as a historical development fallback, **not** the production origin.

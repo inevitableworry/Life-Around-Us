@@ -41,15 +41,15 @@
 
 ### What this project is
 
-This repository organizes the independent Life Around Us **web experience and platform ports**. The website uses Three.js and a local feed bridge, retaining weather, astronomy, and geographic visuals. Other targets have their own implementation and validation stages. The original Sony *Life with PlayStation* and the separate **Life Around Us** Windows revival are credited in [Project provenance](docs/PROVENANCE.md); this project is neither an official Sony release nor endorsed by Sony.
+This repository organizes the independent Life Around Us **web experience and platform ports**. The website uses Three.js with a GitHub-backed Cloudflare Worker feed bridge, retaining weather, astronomy, and geographic visuals. Other targets have their own implementation and validation stages. The original Sony *Life with PlayStation* and the separate **Life Around Us** Windows revival are credited in [Project provenance](docs/PROVENANCE.md); this project is neither an official Sony release nor endorsed by Sony.
 
-The full locally hosted web installation can use additional owner-supplied licensed resources that **are not distributed in this Git repository**. The public source tree contains the authored application code and build instructions. The local deployment preserves protected resources on disk rather than uploading them as source.
+The cloud website deploys its web resource tree from GitHub to Cloudflare Static Assets. Some console firmware, private source dumps, external close-up tiles and development-only resources are excluded. Media and font files may carry third-party licensing obligations; publishing the repository does not grant redistribution rights.
 
 ### Build matrix
 
 | Target | Release/preview | State | Current capability |
 |---|---|---|---|
-| Web | Current live build | **Live** | Globe, interaction, local feed bridge, opt-in touch controls |
+| Web | Current GitHub build | **Live on Cloudflare Worker** | Globe, interaction, edge live-feed proxy, opt-in touch controls; BEN-PC not required |
 | PlayStation 5 | `PPSA99485` / v0.0001 preview | **Runs on tested console** | Native globe, city overlays, menu navigation, preview assets. Fine-text rendering is under active refinement |
 | PlayStation 4 | Work-in-progress | **Source / host preview** | UI and graphics experiments; native console execution is not verified |
 | PlayStation 3 | Work-in-progress | **Source / host preview** | UI scaffolding; native console execution is not verified |
@@ -76,7 +76,8 @@ On Samsung TV the touch overlay stays hidden and the app opens fullscreen withou
 ### Repository contents
 
 ```text
-web/                       Browser client, responsive styles, restricted Node feed server
+web/                       Browser client, public cloud media and historical local Node backend
+cloudflare/                Cloudflare Worker runtime, approved external feed proxy
 platforms/
   ps5/                     Native PS5 preview source and build scripts
   ps4/                     Experimental PS4 interface source
@@ -91,7 +92,7 @@ ROADMAP.md                 Build states, missing work, and release criteria
 
 ### Building and hosting
 
-See **[Development and build notes](docs/BUILDING.md)** for toolchains and required local assets. To host the live application, see **[Cloudflare and GitHub deployment](docs/DEPLOYMENT.md)**. The site uses a restricted Node feed bridge for selected external data sources; GitHub Pages alone cannot replace that backend. The GitHub repository is the source code authority, while Cloudflare routes the public hostname to the running origin.
+See **[Development and build notes](docs/BUILDING.md)** for toolchains and required local assets. To host the live application, see **[Cloudflare and GitHub deployment](docs/DEPLOYMENT.md)**. The site now uses a Cloudflare Worker for its allowlisted live-feed bridge. GitHub is the source of truth and triggers Cloudflare builds; Cloudflare serves the application, assets, and public hostname. BEN-PC is no longer a website production dependency.
 
 ### Credits and legal notices
 
