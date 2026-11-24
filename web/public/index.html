@@ -5,6 +5,17 @@
   <link rel="icon" type="image/png" href="favicon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <script>
+    // Hide touch controls before first paint on TV, even if localStorage has
+    // previously enabled them. The desktop/mobile preference is unchanged.
+    (function () {
+      var params = new URLSearchParams(location.search);
+      if (params.get('platform') === 'tizen' || /Tizen|SMART-TV|SamsungBrowser\/TV/i.test(navigator.userAgent)) {
+        document.documentElement.setAttribute('data-tv', '1');
+        document.documentElement.setAttribute('data-touch-overlay', 'off');
+      }
+    })();
+  </script>
+  <script>
     // Keep the original PC renderer but choose a sensible mobile framebuffer.
     // Visitors can override either value with explicit ?rs= or ?fps= options.
     (() => {
@@ -83,7 +94,7 @@
 <link rel="stylesheet" href="android-font.css">
 <link rel="stylesheet" href="tizen-font-fix.css">
 
-  <nav class="lau-touch-controls" id="lau-touch-controls" aria-label="Touch navigation">
+  <nav class="lau-touch-controls" id="lau-touch-controls" aria-label="Touch navigation" hidden>
     <button class="lau-touch-toggle" id="lau-controls-toggle" type="button" aria-expanded="true">Hide controls</button>
     <div class="lau-grid" aria-label="Globe and menu controls">
       <button type="button" data-key="KeyQ" title="Previous city" aria-label="Previous city">◁</button>
@@ -100,11 +111,11 @@
       <button class="lau-corner" type="button" data-key="KeyV" title="Home view" aria-label="Home view">⌂</button>
     </div>
   </nav>
-  <script defer src="adaptive-input.js"></script>
-  <script defer src="tizen-input.js"></script>
+  <script defer src="adaptive-input-compat.js?v=013"></script>
+  <script defer src="tizen-input-compat.js?v=013"></script>
   <script type="module">
   const tv = new URLSearchParams(location.search).get('platform') === 'tizen' || /Tizen|SMART-TV/i.test(navigator.userAgent);
-  import(tv ? './main-tizen.js' : './main.js');
+  import(tv ? './main-tizen.js?v=013' : './main.js');
 </script>
 </body>
 </html>

@@ -17,7 +17,10 @@ export function startMusic(opts = {}) {
   // "My Music": every track (config + the music folder, in order.txt order).
   // "Original Soundtrack": only CONFIG.music.soundtrack (the original's theme
   // songs, in the old port's playlist.txt order), when those files are present.
-  let all = tracks.map(abs);
+  // The built-in soundtrack belongs in the playable list even when a
+  // desktop MusicLibrary bridge is absent (as on Samsung Tizen / the web).
+  const soundtrack = opts.soundtrack || [];
+  let all = [...new Set([...soundtrack, ...tracks].map(abs))];
   let mine = [], mineNames = [];               // Desktop\Music (the shell's MusicLibrary)
   const pick = () => {
     if (opts.source === "mine" && mine.length) return mine;
@@ -41,17 +44,39 @@ export function startMusic(opts = {}) {
     };
     anim = requestAnimationFrame(step);
   };
-  const play = () => {
-    if (!list.length || failures >= list.length) { playing = false; return; }   // nothing playable (yet)
+  const startCurrent = () => {
     playing = true;
+    let started;
+    try { started = audio.play(); }
+    catch (e) { playing = false; console.warn("Music blocked:", e); return; }
+    const ready = () => {
+      failures = 0;
+      fadeTo(vol());
+      window.dispatchEvent(new CustomEvent("lau-track", { detail: { url: audio.src } }));
+    };
+    if (started && typeof started.then === "function") {
+      started.then(ready).catch((e) => {
+        playing = false;
+        if (e?.name !== "AbortError") console.warn("Music blocked:", e);
+      });
+    } else ready();
+  };
+  const play = () => {
+    if (!list.length || failures >= list.length) { playing = false; return; }
     i = ((i % list.length) + list.length) % list.length;
     audio.src = list[i];
     cancelAnimationFrame(anim);
     audio.volume = 0;
-    audio.play().then(() => {
-      failures = 0; fadeTo(vol());
-      window.dispatchEvent(new CustomEvent("lau-track", { detail: { url: audio.src } }));   // the "now playing" note
-    }).catch((e) => { if (e?.name !== "AbortError") console.warn("Music blocked:", e); });
+    startCurrent();
+  };
+  // Called synchronously from a real Samsung remote key event if the TV
+  // blocked autoplay during the globe's asynchronous startup.
+  const resume = () => {
+    if (opts.enabled === false || !list.length) return false;
+    if (!audio.paused) return true;
+    if (audio.src === list[i]) startCurrent();
+    else play();
+    return true;
   };
   audio.addEventListener("ended", () => { i++; play(); });
   audio.addEventListener("error", () => {
@@ -66,7 +91,7 @@ export function startMusic(opts = {}) {
     host.addEventListener("message", (e) => {
       if (e.data?.type !== "music") return;
       const current = playing ? audio.src : null;
-      all = [...new Set([...tracks, ...e.data.tracks].map(abs))];
+      all = [...new Set([...soundtrack, ...tracks, ...(e.data.tracks || [])].map(abs))];
       mine = (e.data.mine || []).map(abs); mineNames = e.data.mineNames || [];
       list = pick();
       failures = 0;
@@ -112,7 +137,7 @@ export function startMusic(opts = {}) {
     i = (k >= 0 ? k : i) + d; failures = 0; play();
     return true;
   };
-  window.__music = { audio, get list() { return list; }, playIndex, currentIndex, playUrl, current, playMine,
+  window.__music = { audio, get list() { return list; }, resume, playIndex, currentIndex, playUrl, current, playMine,
     next: () => skip(1), prev: () => skip(-1), get playing() { return playing && opts.enabled !== false; },
     get mineNames() { return mineNames; }, get mine() { return mine; } };
   return audio;
