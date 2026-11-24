@@ -1,0 +1,7 @@
+# Keep large Earth imagery/media binary, never normalize line endings.
+web/public/assets/** binary
+web/public/music/** binary
+web/public/sfx/** binary
+web/public/data/**/*.png binary
+web/public/data/**/*.jpg binary
+web/public/vendor/** binary

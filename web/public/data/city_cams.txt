@@ -1,0 +1,69 @@
+# Live camera images of each city's skyline: "City Name = image URL", optionally
+# followed by:
+#   | crop=0.36-0.60   keep that horizontal slice of a wide panorama
+#   | maxage=6         hours; an older image counts as offline
+#   | dated=1          refuse a picture with no date (offline placeholders)
+#   | referer=url      sent with the request
+#   | youtube=<id>     a 24/7 YouTube live stream: its preview picture is used
+#                      only while the stream is live right now
+# Every camera is fetched at start-up and again with each 3-hour refresh, in
+# the background. When a camera is down, stale, or its picture has not
+# changed since the last refresh, the city shows its skyline photo instead
+# (app/data/city_photos, credits in CITY_PHOTO_CREDITS.md).
+# Only cameras that show the city's skyline or a wide view over the city are
+# listed. The YouTube streams were checked on 2026-11-16 (live, and their
+# picture updating); a stream that ends simply falls back to the photo.
+
+# Official and fixed cameras
+# Hong Kong Observatory: Victoria Peak, looking over the harbour and skyline
+Hong Kong = https://www.hko.gov.hk/wxinfo/aws/hko_mica/vpa/latest_VPA.jpg
+# NOAA Great Lakes lab, Harrison-Dever Crib: the Chicago skyline from the lake
+Chicago = https://www.glerl.noaa.gov/metdata/chi/chi01.jpg | maxage=3
+# UBIMET (foto-webcam.eu): Vienna over the Danube
+Vienna = https://www.foto-webcam.eu/webcam/wien/current/1200.jpg
+# Space Needle Roundshot camera: the downtown part of its 360-degree panorama
+Seattle = https://backend.roundshot.com/cams/241/default | crop=0.36-0.60
+
+# YouTube 24/7 live streams (skyline or wide city views)
+# Eiffel Tower from the Palais d'Iena
+Paris = https://i.ytimg.com/vi/YkKGantlWH0/hqdefault_live.jpg | youtube=YkKGantlWH0
+# Shiodome, Tokyo (Kyodo News 4K camera over the towers)
+Tokyo = https://i.ytimg.com/vi/VM18f-IIUTw/hqdefault_live.jpg | youtube=VM18f-IIUTw
+# Sydney Harbour: the city skyline and the Harbour Bridge
+Sydney = https://i.ytimg.com/vi/5uZa3-RMFos/hqdefault_live.jpg | youtube=5uZa3-RMFos
+# Buenos Aires from above
+Buenos Aires = https://i.ytimg.com/vi/xoyKM6BQceM/hqdefault_live.jpg | youtube=xoyKM6BQceM
+# Port of Helsinki, South Harbour
+Helsinki = https://i.ytimg.com/vi/CvOB-Is_yYU/hqdefault_live.jpg | youtube=CvOB-Is_yYU
+# Santiago, Chile: view over the city
+Santiago = https://i.ytimg.com/vi/_Nrt155MExU/hqdefault_live.jpg | youtube=_Nrt155MExU
+# San Jose, Costa Rica: view over the city
+San Jose = https://i.ytimg.com/vi/irZN3wtk2tY/hqdefault_live.jpg | youtube=irZN3wtk2tY
+# Downtown Houston skyline
+Houston = https://i.ytimg.com/vi/wUQc3RoLAPs/hqdefault_live.jpg | youtube=wUQc3RoLAPs
+# Edmonton skyline
+Edmonton = https://i.ytimg.com/vi/fU0HUxPe0xI/hqdefault_live.jpg | youtube=fU0HUxPe0xI
+# Barcelona from above
+Barcelona = https://i.ytimg.com/vi/nefnkjc1yVs/hqdefault_live.jpg | youtube=nefnkjc1yVs
+# Downtown Vancouver
+Vancouver = https://i.ytimg.com/vi/rxyNjFKwzJA/hqdefault_live.jpg | youtube=rxyNjFKwzJA
+# Toronto skyline and the CN Tower
+Toronto = https://i.ytimg.com/vi/0r5sNl5MTj8/hqdefault_live.jpg | youtube=0r5sNl5MTj8
+# Ottawa over the river
+Ottawa = https://i.ytimg.com/vi/ygedW8Q-pOc/hqdefault_live.jpg | youtube=ygedW8Q-pOc
+# Warsaw skyline from Lucky Park
+Warsaw = https://i.ytimg.com/vi/2U0bgRB7ThI/hqdefault_live.jpg | youtube=2U0bgRB7ThI
+# Makkah: the Grand Mosque
+Mecca = https://i.ytimg.com/vi/set2h7QcqPg/hqdefault_live.jpg | youtube=set2h7QcqPg
+# Wellington waterfront and harbour
+Wellington = https://i.ytimg.com/vi/9iGBbcnKE54/hqdefault_live.jpg | youtube=9iGBbcnKE54
+# The Las Vegas Strip
+Las Vegas = https://i.ytimg.com/vi/C1hrfERKzbg/hqdefault_live.jpg | youtube=C1hrfERKzbg
+# Stockholm from the DN skyscraper
+Stockholm = https://i.ytimg.com/vi/agY6ZaM1G_o/hqdefault_live.jpg | youtube=agY6ZaM1G_o
+# Kathmandu: Dharahara and the city
+Kathmandu = https://i.ytimg.com/vi/-kaySNYZDog/hqdefault_live.jpg | youtube=-kaySNYZDog
+# Reykjavik from Perlan
+Reykjavík = https://i.ytimg.com/vi/WuBmLBuvKYA/hqdefault_live.jpg | youtube=WuBmLBuvKYA
+# San Francisco: the Golden Gate and the city
+San Francisco = https://i.ytimg.com/vi/MQEu33EtfbI/hqdefault_live.jpg | youtube=MQEu33EtfbI

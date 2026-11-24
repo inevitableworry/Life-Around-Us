@@ -16,10 +16,6 @@
 **/*-credentials*.json
 **/*-secret*.json
 # Proprietary media and console binaries are provisioned by the owner locally
-web/public/assets/
-web/public/music/
-web/public/sfx/
-web/public/data/
 platforms/android/app/src/main/assets/
 *.pkg
 *.self

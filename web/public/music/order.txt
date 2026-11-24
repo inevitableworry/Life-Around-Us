@@ -1,0 +1,10 @@
+# Soundtrack play order: one song per line. These play first, in this order,
+# then any other songs in this folder (by name), then it starts again from the top.
+# The extension is optional; case and leading zeros don't matter (Music03 = music3.mp3).
+Music6.mp3
+Music03.mp3
+Music07.mp3
+Music01.mp3
+Music02.mp3
+Music04.mp3
+Music05.mp3

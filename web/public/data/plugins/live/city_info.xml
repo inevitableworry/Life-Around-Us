@@ -1,0 +1,928 @@
+<response version="1.0" method="all">
+  <cities>
+    <city name="Mumbai" latitude="18.96" longitude="72.82">
+      <weather current="86" low="77" high="96" icon="fog"/>
+      <news title="Mumbai civic chief visits SRK&amp;#39;s home - Times of India" href="http%3A%2F%2Ftimesofindia.indiatimes.com%2FMumbai_civic_chief_visits_SRKs_home%2Farticleshow%2F2475126.cms" pub_date="Fri Oct 19 16:09:16 -0700 2007"/>
+      <news title="C&amp;#39;mon Mumbai, this isn&amp;#39;t us - Hindustan Times" href="http%3A%2F%2Fwww.hindustantimes.com%2FRedir.aspx%3FID%3Dce23d961-0286-4530-b78b-2f48ca7e5051" pub_date="Thu Oct 18 21:32:08 -0700 2007"/>
+      <news title="Govt approves induction of co-developers in Navi Mumbai SEZ - Economic Times" href="http%3A%2F%2Feconomictimes.indiatimes.com%2FNews_by_Industry%2FGovt_approves_induction_of_co-developers_in_Navi_Mumbai_SEZ%2Farticleshow%2F2473907.cms" pub_date="Fri Oct 19 09:51:41 -0700 2007"/>
+      <news title="Travel Postcard: 48 hours in Mumbai - Reuters India" href="http%3A%2F%2Fin.reuters.com%2Farticle%2FtopNews%2FidINIndia-30068820071019" pub_date="Fri Oct 19 11:39:01 -0700 2007"/>
+      <news title="India, Australia Clash In Twenty20 International In Mumbai On Saturday - Cricket World Cup Latest" href="http%3A%2F%2Fwww.cricketworldcuplatest.com%2Fnews%2Findia-australia-clash-in-twenty20-international-in-116528.html" pub_date="Fri Oct 19 10:36:52 -0700 2007"/>
+    </city>
+    <city name="Karachi" latitude="24.86" longitude="67.01">
+      <weather current="82" low="69" high="96" icon="sunny"/>
+      <news title="Pak gov&amp;#39;t forms special team to probe into Karachi blasts - Xinhua" href="http%3A%2F%2Fnews.xinhuanet.com%2Fenglish%2F2007-10%2F19%2Fcontent_6910151.htm" pub_date="Fri Oct 19 13:05:48 -0700 2007"/>
+      <news title="Karachi terror act shows need to unite int&amp;#39;l effort to repel ... - Interfax Russia" href="http%3A%2F%2Fwww.interfax.ru%2Fe%2FB%2Fpolitics%2F28.html%3Fid_issue%3D11890086" pub_date="Fri Oct 19 11:12:10 -0700 2007"/>
+      <news title="Bhutto blames al-Qaeda, Taliban for twin bombings in Karachi - USA Today" href="http%3A%2F%2Fblogs.usatoday.com%2Fondeadline%2F2007%2F10%2Fbhutto-blames-a.html" pub_date="Fri Oct 19 14:11:32 -0700 2007"/>
+      <news title="Fallout From Karachi Bombing Felt In Afghanistan - RadioFreeEurope/RadioLiberty" href="http%3A%2F%2Fwww.rferl.org%2Ffeaturesarticle%2F2007%2F10%2F94217096-32bd-4467-9458-675d1d5dfaa4.html" pub_date="Fri Oct 19 15:27:51 -0700 2007"/>
+      <news title="UPDATE 1-Cricket-South Africa continue tour after Karachi blasts - Reuters UK" href="http%3A%2F%2Fuk.reuters.com%2Farticle%2FUK_CRICKET%2FidUKL1930436120071019" pub_date="Fri Oct 19 13:50:49 -0700 2007"/>
+    </city>
+    <city name="Delhi" latitude="28.61" longitude="77.23">
+      <weather current="79" low="62" high="91" icon="fog"/>
+      <news title="Posco executive board to meet in New Delhi - Business Standard" href="http%3A%2F%2Fwww.business-standard.com%2Fcommon%2Fstorypage_c_online.php%3Fleftnm%3D11%26bKeyFlag%3DIN%26autono%3D28988" pub_date="Thu Oct 18 13:41:09 -0700 2007"/>
+      <news title="Accused Delhi cops look Westward - Hindu" href="http%3A%2F%2Fwww.hindu.com%2F2007%2F10%2F19%2Fstories%2F2007101961040300.htm" pub_date="Thu Oct 18 22:55:04 -0700 2007"/>
+      <news title="Durga Puja pandal in south Delhi burnt down - Hindustan Times" href="http%3A%2F%2Fwww.hindustantimes.com%2FRedir.aspx%3FID%3D72e2953d-da24-4485-a48d-516561c2f586" pub_date="Fri Oct 19 06:13:31 -0700 2007"/>
+      <news title="&amp;#39;Black Spider&amp;#39; in Delhi Police web - Times of India" href="http%3A%2F%2Ftimesofindia.indiatimes.com%2FDelhi%2FBlack_Spider_in_Delhi_Police_web%2Farticleshow%2F2472278.cms" pub_date="Fri Oct 19 00:32:53 -0700 2007"/>
+      <news title="Tshwane (Pretoria)/ New Delhi, October 17, 2007 - Hindustan Times" href="http%3A%2F%2Fwww.hindustantimes.com%2Fredir.aspx%3FID%3D9550ff3b-0276-4283-a55c-545c816ea120" pub_date="Thu Oct 18 05:18:59 -0700 2007"/>
+    </city>
+    <city name="Sao Paulo" latitude="-23.78333" longitude="-46.96667">
+      <weather current="64" low="62" high="69" icon="cloudy"/>
+      <news title="F-1 Spurs Sao Paulo Residents to Rent Homes (Update1) - Bloomberg" href="http%3A%2F%2Fwww.bloomberg.com%2Fapps%2Fnews%3Fpid%3D20601086%26sid%3DayOPKaxuXFKg%26refer%3Dlatin_america" pub_date="Fri Oct 19 09:38:35 -0700 2007"/>
+      <news title="PSDB leaders meet in São Paulo to discuss CPMF - Em Tempo Real" href="http%3A%2F%2Fwww.emtemporeal.com.br%2Findex.asp%3Farea%3D2%26dia%3D19%26mes%3D10%26ano%3D2007%26idnoticia%3D39103" pub_date="Fri Oct 19 13:47:27 -0700 2007"/>
+      <news title="Cisco runs ads to defend company in Brazil tax evasion probe - International Herald Tribune" href="http%3A%2F%2Fwww.iht.com%2Farticles%2Fap%2F2007%2F10%2F19%2Fbusiness%2FLA-FIN-Brazil-Cisco.php" pub_date="Fri Oct 19 13:21:30 -0700 2007"/>
+      <news title="Brazil real, stocks track Wall St. lower - Reuters" href="http%3A%2F%2Fwww.reuters.com%2Farticle%2FcompanyNewsAndPR%2FidUSN1927745720071019" pub_date="Fri Oct 19 15:11:25 -0700 2007"/>
+      <news title="Telefonica to raise Speedy coverage in Sao Paulo state - Telecom Paper (subscription)" href="http%3A%2F%2Fwww.telecom.paper.nl%2Fsite%2Fnews_ta.asp%3Ftype%3Dabstract%26id%3D188897" pub_date="Fri Oct 19 13:51:36 -0700 2007"/>
+    </city>
+    <city name="Moscow" latitude="55.75222" longitude="37.63222">
+      <weather current="45" low="42" high="51" icon="cloudy"/>
+      <news title="Cong: Pranab not frisked at Moscow airport - Times of India" href="http%3A%2F%2Ftimesofindia.indiatimes.com%2FIndia%2FCong_Pranab_not_frisked_at_Moscow_airport%2Farticleshow%2F2471968.cms" pub_date="Thu Oct 18 18:42:58 -0700 2007"/>
+      <news title="Chelsea dealt Terry and Cole blows - CNN International" href="http%3A%2F%2Fedition.cnn.com%2F2007%2FSPORT%2Ffootball%2F10%2F19%2Fchelsea.terry%2F" pub_date="Fri Oct 19 14:31:52 -0700 2007"/>
+      <news title="McClaren&amp;#39;s England failures happened well before defeat in Moscow - International Herald Tribune" href="http%3A%2F%2Fwww.iht.com%2Farticles%2Fap%2F2007%2F10%2F18%2Fsports%2FEU-SPT-SOC-Extra-Time.php" pub_date="Thu Oct 18 14:41:39 -0700 2007"/>
+      <news title="Moscow shares higher mid-afternoon as energy sector gains - Forbes" href="http%3A%2F%2Fwww.forbes.com%2Fmarkets%2Ffeeds%2Fafx%2F2007%2F10%2F19%2Fafx4238952.html" pub_date="Fri Oct 19 12:48:04 -0700 2007"/>
+      <news title="Putin pans &amp;#39;pointless&amp;#39; Iraq war in TV address - Globe and Mail" href="http%3A%2F%2Fwww.theglobeandmail.com%2Fservlet%2Fstory%2FRTGAM.20071019.wputin19%2FBNStory%2FInternational%2Fhome" pub_date="Fri Oct 19 09:46:42 -0700 2007"/>
+      <livecam base_url="http%3A%2F%2F43.160.109.253%2Facfs%2Fcities%2F" small="ru_moscow_s.jpg" big="ru_moscow.jpg" href="%2A"/>
+    </city>
+    <city name="Seoul" latitude="37.541" longitude="126.986">
+      <news title="Amusement Park&amp;#39;s Nuclear Legacy - Wired News" href="http%3A%2F%2Fblog.wired.com%2Fdefense%2F2007%2F10%2Famusement-parks.html" pub_date="Thu Oct 18 18:12:39 -0700 2007"/>
+      <news title="infoSync World goes to Samsung&amp;#39;s HQ in Seoul, Day 4 - infoSync World" href="http%3A%2F%2Fwww.infosyncworld.com%2Fnews%2Fn%2F8463.html" pub_date="Thu Oct 18 18:33:55 -0700 2007"/>
+      <news title="Georgia Governor in Seoul to Drum Up Investment - Chosun Ilbo" href="http%3A%2F%2Fenglish.chosun.com%2Fw21data%2Fhtml%2Fnews%2F200710%2F200710190010.html" pub_date="Thu Oct 18 22:09:40 -0700 2007"/>
+      <news title="R&amp;amp;B Diva Ciara to Perform in Seoul - Korea Times" href="http%3A%2F%2Fwww.koreatimes.co.kr%2Fwww%2Fnews%2Fart%2F2007%2F10%2F135_12199.html" pub_date="Fri Oct 19 08:55:39 -0700 2007"/>
+      <news title="Korea-EU Trade Talks Stumble on Auto Tariffs - Korea Times" href="http%3A%2F%2Fwww.koreatimes.co.kr%2Fwww%2Fnews%2Fnation%2F2007%2F10%2F123_12217.html" pub_date="Fri Oct 19 09:46:39 -0700 2007"/>
+    </city>
+    <city name="Istanbul" latitude="41.01" longitude="28.98">
+      <news title="17th Akbank jazz festival kicks off in Istanbul - New Anatolian" href="http%3A%2F%2Fwww.thenewanatolian.com%2Ftna-29348.html" pub_date="Thu Oct 18 10:51:27 -0700 2007"/>
+      <news title="Greece hold their nerve in Istanbul - CNN" href="http%3A%2F%2Fwww.cnn.com%2F2007%2FSPORT%2Ffootball%2F10%2F18%2Fteam.greece%2F" pub_date="Thu Oct 18 11:09:26 -0700 2007"/>
+      <news title="Istanbul LGBT group trial to resume in January - PinkNews.co.uk" href="http%3A%2F%2Fwww.pinknews.co.uk%2Fnews%2Farticles%2F2005-5807.html" pub_date="Fri Oct 19 15:52:59 -0700 2007"/>
+      <news title="İstanbul’s population nears 12 million - Today's Zaman" href="http%3A%2F%2Fwww.todayszaman.com%2Ftz-web%2Fdetaylar.do%3Fload%3Ddetay%26link%3D125019" pub_date="Thu Oct 18 23:09:21 -0700 2007"/>
+      <news title="American tourists love Istanbul - Turkish Daily News (subscription)" href="http%3A%2F%2Fwww.turkishdailynews.com.tr%2Farticle.php%3Fenewsid%3D85870" pub_date="Fri Oct 19 07:46:06 -0700 2007"/>
+    </city>
+    <city name="Shanghai" latitude="31.16667" longitude="121.46667">
+      <weather current="55" low="57" high="71" icon="sunny"/>
+      <news title="International Arts Festival opens in Shanghai - Xinhua" href="http%3A%2F%2Fnews.xinhuanet.com%2Fenglish%2F2007-10%2F19%2Fcontent_6906771.htm" pub_date="Fri Oct 19 02:37:53 -0700 2007"/>
+      <news title="Basketball: China tour toughens up Magic, Cavs - AFP" href="http%3A%2F%2Fafp.google.com%2Farticle%2FALeqM5hFjna6-8s0RPHMa0MqIIRqKrLw2g" pub_date="Fri Oct 19 08:02:48 -0700 2007"/>
+      <news title="Roddick qualifies as fifth Shanghai entrant - Bangkok Post" href="http%3A%2F%2Fwww.bangkokpost.com%2Fsportsplus%2Fsportsplus.php%3Fid%3D122787" pub_date="Fri Oct 19 12:13:24 -0700 2007"/>
+      <news title="Investors Expect Beijing To Mind Stock-Price Gap - Wall Street Journal" href="http%3A%2F%2Fonline.wsj.com%2Farticle%2FSB119273042718263685.html%3Fmod%3Dgooglenews_wsj" pub_date="Fri Oct 19 06:49:15 -0700 2007"/>
+      <news title="China Pacific plans $2.66 bln Shanghai IPO -report - Reuters" href="http%3A%2F%2Fwww.reuters.com%2Farticle%2FnewIssuesNews%2FidUSPEK17641120071019" pub_date="Fri Oct 19 04:20:33 -0700 2007"/>
+      <livecam base_url="http%3A%2F%2F43.160.109.253%2Facfs%2Fcities%2F" small="ch_shanghai_s.jpg" big="ch_shanghai.jpg" href="http%3A%2F%2Fwww.ds-shanghai.org.cn%2Fwebcam%2Fwebcam.html"/>
+    </city>
+    <city name="Lagos" latitude="6.4524" longitude="3.4136">
+      <news title="Can Lagos airport accommodate Airbus A380 giant sky bird? - Business Day" href="http%3A%2F%2Fbusinessdayonline.com%2Fnews%2F666.html" pub_date="Fri Oct 19 05:00:53 -0700 2007"/>
+      <news title="Nigeria: Lagos &amp;#39;Olympics&amp;#39; Targets 1000 Youngsters - AllAfrica.com" href="http%3A%2F%2Fallafrica.com%2Fstories%2F200710180644.html" pub_date="Thu Oct 18 13:42:11 -0700 2007"/>
+      <news title="Nigeria: Lagos Assures On Lagos-Ikorodu Bridge - AllAfrica.com" href="http%3A%2F%2Fallafrica.com%2Fstories%2F200710180157.html" pub_date="Thu Oct 18 08:24:40 -0700 2007"/>
+      <news title="Nigerian &amp;quot;Principals&amp;#39; Cup&amp;quot; finals to be held in Lagos - People's Daily Online" href="http%3A%2F%2Fenglish.people.com.cn%2F90001%2F90779%2F6286898.html" pub_date="Fri Oct 19 09:20:51 -0700 2007"/>
+      <news title="Nigeria: Eaglets Arrive Lagos Saturday - AllAfrica.com" href="http%3A%2F%2Fallafrica.com%2Fstories%2F200710181012.html" pub_date="Thu Oct 18 17:24:14 -0700 2007"/>
+    </city>
+    <city name="Mexico City" latitude="19.4095" longitude="-99.1307">
+      <weather current="63" low="51" high="75" icon="haze"/>
+      <news title="UPDATE 3-Mexico&amp;#39;s Maxcom grabs $200 mln in IPO - Reuters" href="http%3A%2F%2Ftoday.reuters.com%2Finvesting%2FfinanceArticle.aspx%3Ftype%3DmarketsNews%26storyID%3D2007-10-19T155041Z_01_N19421898_RTRIDST_0_MEXICO-MAXCOM-UPDATE-3.XML" pub_date="Fri Oct 19 15:54:11 -0700 2007"/>
+      <news title="Mexico stocks sink over 2 pct;America Movil weighs - Reuters" href="http%3A%2F%2Fwww.reuters.com%2Farticle%2FcompanyNewsAndPR%2FidUSN1931313020071019" pub_date="Fri Oct 19 16:16:37 -0700 2007"/>
+      <news title="Tropical Storm Off Mexico to Become Hurricane - FOX News" href="http%3A%2F%2Fwww.foxnews.com%2Fstory%2F0%2C2933%2C303526%2C00.html" pub_date="Fri Oct 19 14:47:42 -0700 2007"/>
+      <news title="Belinda Wins MTV Latin America Top Video - The Associated Press" href="http%3A%2F%2Fap.google.com%2Farticle%2FALeqM5hJM1LvG3K0c6lfgKWwrFLjmk8qUgD8SC3JCO0" pub_date="Fri Oct 19 05:01:11 -0700 2007"/>
+      <news title="Mexico&amp;#39;s newest cardinal champions the poor, preaches humility - Houston Chronicle" href="http%3A%2F%2Fwww.chron.com%2Fdisp%2Fstory.mpl%2Fworld%2F5226807.html" pub_date="Fri Oct 19 00:11:32 -0700 2007"/>
+    </city>
+    <city name="Jakarta" latitude="-6.1333" longitude="106.75">
+      <weather current="79" low="78" high="91" icon="cloudy"/>
+      <news title="Fears slow Indonesian attempt to replace kerosene - International Herald Tribune" href="http%3A%2F%2Fwww.iht.com%2Farticles%2F2007%2F10%2F18%2Fbloomberg%2Fsxgas.php" pub_date="Fri Oct 19 05:00:56 -0700 2007"/>
+      <news title="Robert leads NMI team to Jakarta - Saipan Tribune" href="http%3A%2F%2Fwww.saipantribune.com%2Fnewsstory.aspx%3Fcat%3D2%26newsID%3D73456" pub_date="Fri Oct 19 14:02:20 -0700 2007"/>
+      <news title="Fewer people, less crime in Jakarta - Jakarta Post" href="http%3A%2F%2Fwww.thejakartapost.com%2Fdetailheadlines.asp%3Ffileid%3D20071018.B03%26irec%3D5" pub_date="Thu Oct 18 04:05:54 -0700 2007"/>
+      <news title="At least 31 dead as Indonesian ferry sinks - AFP" href="http%3A%2F%2Fafp.google.com%2Farticle%2FALeqM5g3HATV9G2a6ITulhrTMU-GLRrmGw" pub_date="Fri Oct 19 11:32:03 -0700 2007"/>
+      <news title="15 Killed in Indonesian Boat Accident - The Associated Press" href="http%3A%2F%2Fap.google.com%2Farticle%2FALeqM5gxAqVO_loAS7u5f86az_9IeaIxbQD8SC1OKO0" pub_date="Fri Oct 19 03:00:41 -0700 2007"/>
+    </city>
+    <city name="Tokyo" latitude="35.68333" longitude="139.76667">
+      <weather current="57" low="61" high="70" icon="mostly_cloudy"/>
+      <news title="Tokyo&amp;#39;s 20 bln yen bonds due 2027 rated &amp;#39;Aa1&amp;#39; with stable outlook ... - Forbes" href="http%3A%2F%2Fwww.forbes.com%2Fmarkets%2Ffeeds%2Fafx%2F2007%2F10%2F19%2Fafx4238071.html" pub_date="Fri Oct 19 06:28:22 -0700 2007"/>
+      <news title="Japanese authorities investigating alleged rape of woman by 4 US ... - The Canadian Press" href="http%3A%2F%2Fcanadianpress.google.com%2Farticle%2FALeqM5j_myeB7qdAJwIeCYaAdzDfdp7kKw" pub_date="Fri Oct 19 09:35:34 -0700 2007"/>
+      <news title="CORRECTION: Tokyo shares close down sharply on firmer yen, higher ... - CNNMoney.com" href="http%3A%2F%2Fmoney.cnn.com%2Fnews%2Fnewsfeeds%2Farticles%2Fnewstex%2FAFX-0013-20346909.htm" pub_date="Fri Oct 19 07:32:27 -0700 2007"/>
+      <news title="Tokyo taxi fares to rise for first time in decade - AFP" href="http%3A%2F%2Fafp.google.com%2Farticle%2FALeqM5ic3NF-a-iaFEMHZdr0M02bHZoPpw" pub_date="Fri Oct 19 14:02:16 -0700 2007"/>
+      <news title="Tokyo stocks open under 17000 - Bangkok Post" href="http%3A%2F%2Fwww.bangkokpost.com%2Fbreaking_news%2Fbreakingnews.php%3Fid%3D122773" pub_date="Fri Oct 19 03:32:47 -0700 2007"/>
+      <livecam base_url="http%3A%2F%2F43.160.109.253%2Facfs%2Fcities%2F" small="jp_tokyo_s.jpg" big="jp_tokyo.jpg" href="http%3A%2F%2Fwww.fnn-news.com%2Fen%2Findex.html"/>
+    </city>
+    <city name="New York City" latitude="40.71" longitude="-74.0">
+      <weather current="72" low="62" high="74" icon="cloudy"/>
+      <news title="World Trade Center Rescue Workers Get Offer from New York City to ... - Newsinferno.com" href="http%3A%2F%2Fwww.newsinferno.com%2Farchives%2F1927" pub_date="Thu Oct 18 20:17:12 -0700 2007"/>
+      <news title="All Bets May Be Off for New York OTB - The Associated Press" href="http%3A%2F%2Fap.google.com%2Farticle%2FALeqM5j9dFE_uKfAiV9QcqwdnxxXQUV34gD8SC3L680" pub_date="Fri Oct 19 05:10:49 -0700 2007"/>
+      <news title="STATEMENT BY MAYOR MICHAEL R. BLOOMBERG ON NEW YORK CITY&amp;#39;S ... - Media Newswire (press release)" href="http%3A%2F%2Fmedia-newswire.com%2Frelease_1056283.html" pub_date="Fri Oct 19 16:20:13 -0700 2007"/>
+      <news title="CBTC enables MTA New York City Transit to increase service on two ... - Progressive Rail Roading" href="http%3A%2F%2Fwww.progressiverailroading.com%2Ffreightnews%2Farticle.asp%3Fid%3D11573" pub_date="Fri Oct 19 14:29:34 -0700 2007"/>
+      <news title="Conflicting Findings in Death of 9/11 Detective - New York Times" href="http%3A%2F%2Fcityroom.blogs.nytimes.com%2F2007%2F10%2F19%2Fconflicting-findings-in-death-of-911-detective%2F" pub_date="Fri Oct 19 13:06:48 -0700 2007"/>
+    </city>
+    <city name="Cairo" latitude="30.058" longitude="31.229">
+      <weather current="79" low="62" high="86" icon="sunny"/>
+      <news title="galileo hosts training workshops in cairo - Al-Bawaba" href="http%3A%2F%2Fwww.albawaba.com%2Fen%2Fcountries%2FUAE%2F217723" pub_date="Thu Oct 18 11:07:20 -0700 2007"/>
+      <news title="Worth County vs. Cairo High: Against all odds - Albany Herald On-line" href="http%3A%2F%2Fwww.albanyherald.com%2Farchives%2FSports%2F2007%2Fsports101907i.html" pub_date="Fri Oct 19 11:55:40 -0700 2007"/>
+      <news title="Cairo&amp;#39;s Litigious Cleric - Wall Street Journal" href="http%3A%2F%2Fonline.wsj.com%2Farticle%2FSB119275540781964312.html%3Fmod%3Dgooglenews_wsj" pub_date="Fri Oct 19 04:00:36 -0700 2007"/>
+      <news title="Published in Cairo by AL-AHRAM established in 1875 - Al-Ahram Weekly" href="http%3A%2F%2Fweekly.ahram.org.eg%2F2007%2F867%2Fop4.htm" pub_date="Fri Oct 19 05:38:58 -0700 2007"/>
+      <news title="Published in Cairo by AL-AHRAM established in 1875 - Al-Ahram Weekly" href="http%3A%2F%2Fweekly.ahram.org.eg%2F2007%2F867%2Fhe01.htm" pub_date="Fri Oct 19 05:38:37 -0700 2007"/>
+      <livecam base_url="http%3A%2F%2F43.160.109.253%2Facfs%2Fcities%2F" small="eg_cairo_s.jpg" big="eg_cairo.jpg" href="http%3A%2F%2Fwww.pyramidcam.com%2F"/>
+    </city>
+    <city name="Tehran" latitude="35.6962" longitude="51.423">
+      <weather current="70" low="62" high="75" icon="mostly_cloudy"/>
+      <news title="Olmert in &amp;#39;urgent&amp;#39; talks with Putin - MSNBC" href="http%3A%2F%2Fwww.msnbc.msn.com%2Fid%2F21370013%2F" pub_date="Fri Oct 19 01:43:17 -0700 2007"/>
+      <news title="Tehran backs German&amp;#39;s refusal to play in Israel - AFP" href="http%3A%2F%2Fafp.google.com%2Farticle%2FALeqM5gdfNn8bd7Yqk7B1aa4qmZRy5VeJA" pub_date="Fri Oct 19 14:02:01 -0700 2007"/>
+      <news title="Bush warns of global war if Tehran gets nuclear arsenal - Sydney Morning Herald" href="http%3A%2F%2Fwww.smh.com.au%2Fnews%2Fworld%2Fbush-warns-of-global-war-if-tehran-gets-nuclear-arsenal%2F2007%2F10%2F18%2F1192300951763.html" pub_date="Thu Oct 18 14:26:58 -0700 2007"/>
+      <news title="The Battle for Azerbaijan - Washington Post" href="http%3A%2F%2Fnewsweek.washingtonpost.com%2Fpostglobal%2Fneedtoknow%2F2007%2F10%2Fthe_battle_for_azerbaijan.html" pub_date="Fri Oct 19 14:34:32 -0700 2007"/>
+      <news title="Majority of Caspian Issues Resolved in Tehran Summit - Fars News Agency" href="http%3A%2F%2Fenglish.farsnews.com%2Fnewstext.php%3Fnn%3D8607270342" pub_date="Fri Oct 19 14:58:04 -0700 2007"/>
+    </city>
+    <city name="London" latitude="51.5" longitude="-0.11667">
+      <weather current="54" low="44" high="57" icon="mostly_cloudy"/>
+      <news title="London shares mixed midday; oils rise as banks fall; US seen ... - Forbes" href="http%3A%2F%2Fwww.forbes.com%2Fmarkets%2Ffeeds%2Fafx%2F2007%2F10%2F19%2Fafx4238770.html" pub_date="Fri Oct 19 11:42:08 -0700 2007"/>
+      <news title="Tiffany sells flagship London store for £73m - Telegraph.co.uk" href="http%3A%2F%2Fwww.telegraph.co.uk%2Fmoney%2Fmain.jhtml%3Fxml%3D%2Fmoney%2F2007%2F10%2F19%2Fbcntiff119.xml" pub_date="Fri Oct 19 15:38:16 -0700 2007"/>
+      <news title="&amp;#39;Race row&amp;#39; Nobel winner suspended - CNN International" href="http%3A%2F%2Fedition.cnn.com%2F2007%2FTECH%2Fscience%2F10%2F19%2Fuk.race%2F" pub_date="Fri Oct 19 15:15:40 -0700 2007"/>
+      <news title="Unions hold off BBC strike ballot - AFP" href="http%3A%2F%2Fafp.google.com%2Farticle%2FALeqM5iaXGINFaP0Jai52CSKXb9ZMQe9_w" pub_date="Fri Oct 19 16:32:26 -0700 2007"/>
+      <news title="UK police commander denies giving order to shoot Brazilian man ... - International Herald Tribune" href="http%3A%2F%2Fwww.iht.com%2Farticles%2Fap%2F2007%2F10%2F19%2Feurope%2FEU-GEN-Britain-Brazilian-Shot.php" pub_date="Fri Oct 19 12:01:19 -0700 2007"/>
+      <livecam base_url="http%3A%2F%2F43.160.109.253%2Facfs%2Fcities%2F" small="en_london_s.jpg" big="en_london.jpg" href="http%3A%2F%2Fwww.aberdeencity.gov.uk%2FACCI%2Fweb%2Fsite%2Fhome%2Fhome.asp"/>
+    </city>
+    <city name="Beijing" latitude="39.90556" longitude="116.39139">
+      <weather current="45" low="44" high="64" icon="sunny"/>
+      <news title="Nokia&amp;#39;s headquarters in Beijing to be in use at year-end - Xinhua" href="http%3A%2F%2Fnews.xinhuanet.com%2Fenglish%2F2007-10%2F19%2Fcontent_6909610.htm" pub_date="Fri Oct 19 11:13:52 -0700 2007"/>
+      <news title="Utah Jazz: Boozer looks to Beijing trip - Salt Lake Tribune" href="http%3A%2F%2Fwww.sltrib.com%2Fsports%2Fci_7221985" pub_date="Fri Oct 19 08:26:53 -0700 2007"/>
+      <news title="Hu emerges as cautious reformer - CNN International" href="http%3A%2F%2Fedition.cnn.com%2F2007%2FWORLD%2Fasiapcf%2F10%2F19%2Fchina.politics%2F" pub_date="Fri Oct 19 16:11:52 -0700 2007"/>
+      <news title="Bush calls for religious freedom in China, Beijing summons US ... - AsiaNews.it" href="http%3A%2F%2Fwww.asianews.it%2Findex.php%3Fl%3Den%26art%3D10595%26size%3DA" pub_date="Fri Oct 19 13:54:46 -0700 2007"/>
+      <news title="Personnel won&amp;#39;t affect Beijing Olympic preparations - China Daily" href="http%3A%2F%2Fwww.chinadaily.com.cn%2Folympics%2F2007-10%2F19%2Fcontent_6191793.htm" pub_date="Fri Oct 19 08:57:43 -0700 2007"/>
+    </city>
+    <city name="Bogota" latitude="4.6117" longitude="-74.076">
+      <weather current="63" low="50" high="64" icon="mostly_cloudy"/>
+      <news title="Lessons from Bogotá: Reclaiming Public Space for Public Health - StreetsBlog" href="http%3A%2F%2Fwww.streetsblog.org%2F2007%2F10%2F14%2Flessons-from-bogota-reclaiming-public-space-for-public-health%2F" pub_date="Wed Oct 17 04:10:24 -0700 2007"/>
+      <news title="Jo&amp;#39;burg is set to introduce a new public bus transport system - Financial Mail (subscription)" href="http%3A%2F%2Ffree.financialmail.co.za%2F07%2F1019%2Ffeatures%2Fafeat.htm" pub_date="Fri Oct 19 11:56:11 -0700 2007"/>
+      <news title="Empresa de Energia de Bogota assigned &amp;#39;BB+&amp;#39; corporate credit ... - CNNMoney.com" href="http%3A%2F%2Fmoney.cnn.com%2Fnews%2Fnewsfeeds%2Farticles%2Fnewstex%2FAFX-0013-20290907.htm" pub_date="Wed Oct 17 10:16:26 -0700 2007"/>
+      <news title="Colombia&amp;#39;s Uribe gets closer to leftist Chavez - Reuters" href="http%3A%2F%2Fwww.reuters.com%2Farticle%2FlatestCrisis%2FidUSN18207417" pub_date="Thu Oct 18 23:09:14 -0700 2007"/>
+      <news title="Kelly: Bogota mayor must feel jinxed - NorthJersey.com" href="http%3A%2F%2Fwww.northjersey.com%2Fpage.php%3Fqstr%3DeXJpcnk3ZjczN2Y3dnFlZUVFeXkyNjMmZmdiZWw3Zjd2cWVlRUV5eTcyMDk0MDAmeXJpcnk3ZjcxN2Y3dnFlZUVFeXkz" pub_date="Thu Oct 18 10:09:16 -0700 2007"/>
+    </city>
+    <city name="Lima" latitude="-12.04333" longitude="-77.02833">
+      <weather current="64" low="59" high="64" icon="mostly_cloudy"/>
+      <news title="&amp;quot;Padday Na Lima&amp;quot; trade fair opens in Alabang - Philippine Information Agency" href="http%3A%2F%2Fwww.pia.gov.ph%2Fdefault.asp%3Fm%3D12%26fi%3Dp071019.htm%26no%3D06" pub_date="Thu Oct 18 15:57:34 -0700 2007"/>
+      <news title="Volunteer armies of women served military, with a smile - USA Today" href="http%3A%2F%2Fwww.usatoday.com%2Fnews%2Fnation%2F2007-10-18-Troopcanteens_N.htm" pub_date="Fri Oct 19 04:04:14 -0700 2007"/>
+      <news title="Threat closes 2 Lima colleges - Toledo Blade" href="http%3A%2F%2Ftoledoblade.com%2Fapps%2Fpbcs.dll%2Farticle%3FAID%3D%2F20071018%2FNEWS03%2F710180367" pub_date="Thu Oct 18 10:35:42 -0700 2007"/>
+      <news title="Lima canteen historical designation notes where GIs got smiles and ... - Toledo Blade" href="http%3A%2F%2Ftoledoblade.com%2Fapps%2Fpbcs.dll%2Farticle%3FAID%3D%2F20071019%2FNEWS17%2F710190367" pub_date="Fri Oct 19 10:24:27 -0700 2007"/>
+      <news title="Husky Energy Third-Quarter Profit Rises on Refinery (Update2) - Bloomberg" href="http%3A%2F%2Fwww.bloomberg.com%2Fapps%2Fnews%3Fpid%3D20601082%26sid%3DaKYPRj6G9CtE%26refer%3Dcanada" pub_date="Wed Oct 17 22:38:58 -0700 2007"/>
+    </city>
+    <city name="Hong Kong" latitude="22.18333" longitude="114.13333">
+      <weather current="77" low="71" high="82" icon="sunny"/>
+      <news title="Hong Kong flat sold for 14.1 million dollars - AFP" href="http%3A%2F%2Fafp.google.com%2Farticle%2FALeqM5giyLqYZ4aZSJML3xE12SxNOsFAPQ" pub_date="Fri Oct 19 07:02:16 -0700 2007"/>
+      <news title="Late Hong Kong pop singer&amp;#39;s collection on display - Xinhua" href="http%3A%2F%2Fnews.xinhuanet.com%2Fenglish%2F2007-10%2F19%2Fcontent_6909490.htm" pub_date="Fri Oct 19 10:35:19 -0700 2007"/>
+      <news title="Hong Kong&amp;#39;s Lady in Waiting - TIME" href="http%3A%2F%2Fwww.time.com%2Ftime%2Fmagazine%2Farticle%2F0%2C9171%2C1672797%2C00.html" pub_date="Fri Oct 19 00:09:35 -0700 2007"/>
+      <news title="Morgan Stanley Bearish On Hong Kong Equities - Forbes" href="http%3A%2F%2Fwww.forbes.com%2Fmarkets%2F2007%2F10%2F18%2Fmorgan-stanley-hongkong-markets-equity-cx_vk_1018markets05.html" pub_date="Thu Oct 18 14:56:34 -0700 2007"/>
+      <news title="US Sex Fugitive Returned From Hong Kong - The Associated Press" href="http%3A%2F%2Fap.google.com%2Farticle%2FALeqM5h0J_E7UFscOhlE8B6SzqoloGKugQD8SCAJT80" pub_date="Fri Oct 19 13:00:49 -0700 2007"/>
+    </city>
+    <city name="Dhaka" latitude="23.702" longitude="90.37">
+      <weather current="81" low="75" high="84" icon="mostly_cloudy"/>
+      <news title="Police: Road accident in northern Bangladesh kills at least 11 ... - International Herald Tribune" href="http%3A%2F%2Fwww.iht.com%2Farticles%2Fap%2F2007%2F10%2F19%2Fasia%2FAS-GEN-Bangladesh-Road-Accident.php" pub_date="Fri Oct 19 11:00:45 -0700 2007"/>
+      <news title="10 killed in accident in Bangladesh - Hindustan Times" href="http%3A%2F%2Fwww.hindustantimes.com%2FRedir.aspx%3FID%3D787838df-8253-4eae-8b94-2a073042262b" pub_date="Fri Oct 19 12:02:55 -0700 2007"/>
+      <news title="BANGLADESH: Flood migrants pour into Dhaka - IRINnews.org" href="http%3A%2F%2Fwww.irinnews.org%2FReport.aspx%3FReportId%3D74846" pub_date="Thu Oct 18 12:32:04 -0700 2007"/>
+      <news title="Dhaka to ask Delhi to turn in criminals in hiding - The Daily Star" href="http%3A%2F%2Fwww.thedailystar.net%2Fstory.php%3Fnid%3D7980" pub_date="Thu Oct 18 18:10:37 -0700 2007"/>
+      <news title="200 BD politicians, others jailed on corruption charges - Pakistan Dawn" href="http%3A%2F%2Fwww.dawn.com%2F2007%2F10%2F19%2Ftop8.htm" pub_date="Fri Oct 19 03:40:09 -0700 2007"/>
+    </city>
+    <city name="Bangkok" latitude="13.75" longitude="100.51667">
+      <weather current="84" low="78" high="95" icon="mostly_cloudy"/>
+      <news title="Singapore, Bangkok luxury hotels live up to their hype - Dallas Morning News" href="http%3A%2F%2Fwww.dallasnews.com%2Fsharedcontent%2Fdws%2Ffea%2Ftravel%2Fthisweek%2Fstories%2FDN-asianhotels_1021tra.ART.State.Edition1.1ecf961.html" pub_date="Thu Oct 18 21:44:05 -0700 2007"/>
+      <news title="Bangkok Bank to negotiate to China&amp;#39;s ICBC - Bangkok Post" href="http%3A%2F%2Fwww.bangkokpost.com%2FBusiness%2F19Oct2007_biz43.php" pub_date="Thu Oct 18 18:56:22 -0700 2007"/>
+      <news title="Suspected paedophile arrested in Bangkok - RTE.ie" href="http%3A%2F%2Fwww.rte.ie%2Fnews%2F2007%2F1019%2Fneilc.html" pub_date="Fri Oct 19 06:24:45 -0700 2007"/>
+      <news title="Rome or Bangkok? Sydney&amp;#39;s reputation depends on the answer - Sydney Morning Herald" href="http%3A%2F%2Fwww.smh.com.au%2Fnews%2Fopinion%2Frome-or-bangkok-sydneys-reputation-depends-on-the-answer%2F2007%2F10%2F19%2F1192301044262.html" pub_date="Fri Oct 19 14:06:26 -0700 2007"/>
+      <news title="Readers&amp;#39; Guide: Bangkok - Sydney Morning Herald" href="http%3A%2F%2Fblogs.smh.com.au%2Ftravel%2Farchives%2F2007%2F10%2Freaders_guide_bangkok.html" pub_date="Fri Oct 19 14:09:34 -0700 2007"/>
+    </city>
+    <city name="Lahore" latitude="31.58333" longitude="74.33333">
+      <weather current="68" low="66" high="89" icon="fog"/>
+      <news title="PPP diehards by birth - Daily Times" href="http%3A%2F%2Fwww.dailytimes.com.pk%2Fdefault.asp%3Fpage%3D2007%255C10%255C19%255Cstory_19-10-2007_pg12_5" pub_date="Thu Oct 18 23:22:35 -0700 2007"/>
+      <news title="Pakistan wait on Asif&amp;#39;s fitness - CricInfo.com" href="http%3A%2F%2Fusa.cricinfo.com%2Faustralia%2Fcontent%2Fcurrent%2Fstory%2F315910.html" pub_date="Wed Oct 17 18:50:46 -0700 2007"/>
+      <news title="South Africa continue Pakistan tour despite bombings - AFP" href="http%3A%2F%2Fafp.google.com%2Farticle%2FALeqM5hAfQnk-bmESqBOkbNN9-ObvTYTRw" pub_date="Fri Oct 19 16:03:45 -0700 2007"/>
+      <news title="Muslims apologise for attack on Lahore Church - AsiaNews.it" href="http%3A%2F%2Fwww.asianews.it%2Findex.php%3Fl%3Den%26art%3D10584%26size%3DA" pub_date="Thu Oct 18 10:30:35 -0700 2007"/>
+      <news title="SA TeamTrio star in Lahore - Supersport" href="http%3A%2F%2Fwww.supercricket.co.za%2Farticle.aspx%3Fheadline%3DTrio%2520star%2520in%2520Lahore%26id%3D232750" pub_date="Thu Oct 18 14:15:46 -0700 2007"/>
+    </city>
+    <city name="Rio de Janeiro" latitude="-22.90833" longitude="-43.24361">
+      <weather current="72" low="68" high="73" icon="cloudy"/>
+      <news title="FLAMENGO TAKE RIO DERBY HONOURS - Sportinglife.com" href="http%3A%2F%2Fwww.sportinglife.com%2Ffootball%2Foverseas%2Fother%2Fstory_get.dor%3FSTORY_NAME%3Dinternational_feed%2F07%2F10%2F19%2FSOCCER_Bra-Brazil_Review.html%26TEAMHD%3Dforeign" pub_date="Fri Oct 19 08:07:05 -0700 2007"/>
+      <news title="Brazilians celebrate 5-0 win over Ecuador, but coach lauds defense - International Herald Tribune" href="http%3A%2F%2Fwww.iht.com%2Farticles%2Fap%2F2007%2F10%2F18%2Fsports%2FLA-SPT-SOC-Brazil-Ecuador-Reax.php" pub_date="Thu Oct 18 18:13:18 -0700 2007"/>
+      <news title="Cisco runs ads to defend company in Brazil tax evasion probe - International Herald Tribune" href="http%3A%2F%2Fwww.iht.com%2Farticles%2Fap%2F2007%2F10%2F19%2Fbusiness%2FLA-FIN-Brazil-Cisco.php" pub_date="Fri Oct 19 13:21:30 -0700 2007"/>
+      <news title="Over 55000 dengue cases registered in Rio de Janeiro - People's Daily Online" href="http%3A%2F%2Fenglish.people.com.cn%2F90001%2F90782%2F90880%2F6286805.html" pub_date="Fri Oct 19 08:24:14 -0700 2007"/>
+      <news title="Child among dead in Rio drug raid - BBC News" href="http%3A%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F7050254.stm" pub_date="Thu Oct 18 09:41:43 -0700 2007"/>
+    </city>
+    <city name="Kinshasa" latitude="-4.26667" longitude="15.28333">
+      <weather current="75" low="71" high="87" icon="mostly_cloudy"/>
+      <news title="Congo-Kinshasa: UN Mission Hails Transfer of Suspect to ... - AllAfrica.com" href="http%3A%2F%2Fallafrica.com%2Fstories%2F200710190400.html" pub_date="Fri Oct 19 12:42:12 -0700 2007"/>
+      <news title="Congo-Kinshasa: North Kivu - Humanitarians Facing Huge Challenges - AllAfrica.com" href="http%3A%2F%2Fallafrica.com%2Fstories%2F200710190960.html" pub_date="Fri Oct 19 16:26:13 -0700 2007"/>
+      <news title="Congo-Kinshasa: The Long Road to Delivering Food Aid - AllAfrica.com" href="http%3A%2F%2Fallafrica.com%2Fstories%2F200710190416.html" pub_date="Fri Oct 19 12:53:03 -0700 2007"/>
+      <news title="Congo-Kinshasa: DRC&amp;#39;s Kabila Unveils Plan to Disarm FDLR - AllAfrica.com" href="http%3A%2F%2Fallafrica.com%2Fstories%2F200710190315.html" pub_date="Fri Oct 19 11:55:26 -0700 2007"/>
+      <news title="Congo-Kinshasa/Rwanda: Kinshasa Tales - AllAfrica.com" href="http%3A%2F%2Fallafrica.com%2Fstories%2F200710190351.html" pub_date="Fri Oct 19 12:15:38 -0700 2007"/>
+    </city>
+    <city name="Baghdad" latitude="33.325" longitude="44.422">
+      <news title="Security Contractors Shoot at Taxi, Wounding 3 Iraqis - New York Times" href="http%3A%2F%2Fwww.nytimes.com%2F2007%2F10%2F19%2Fworld%2Fmiddleeast%2F19iraq.html%3Fref%3Dworld" pub_date="Fri Oct 19 01:49:35 -0700 2007"/>
+      <news title="US launches probe into latest convoy shooting in Iraq - AFP" href="http%3A%2F%2Fafp.google.com%2Farticle%2FALeqM5gY8qPZkv6i_VHjAiVWc88i9tQ_zA" pub_date="Fri Oct 19 15:03:31 -0700 2007"/>
+      <news title="Gates takes swipe at security contractors in Iraq - Reuters" href="http%3A%2F%2Fwww.reuters.com%2Farticle%2FworldNews%2FidUSN1842593420071019" pub_date="Fri Oct 19 05:48:21 -0700 2007"/>
+      <news title="US officer did not &amp;#39;aid enemy&amp;#39;, Iraq trial finds - AFP" href="http%3A%2F%2Fafp.google.com%2Farticle%2FALeqM5icvDmP2XIoWQHC-thjGgJMYHYP6Q" pub_date="Fri Oct 19 14:31:28 -0700 2007"/>
+      <news title="Bomb explodes under pulpit of anti-al-Qaida Sunni preacher during ... - International Herald Tribune" href="http%3A%2F%2Fwww.iht.com%2Farticles%2Fap%2F2007%2F10%2F19%2Fafrica%2FME-GEN-Iraq-Violence.php" pub_date="Fri Oct 19 14:11:53 -0700 2007"/>
+    </city>
+    <city name="Bangalore" latitude="12.97021" longitude="77.56029">
+      <weather current="73" low="68" high="80" icon="rain"/>
+      <news title="Air Arabia to launch daily service for Bangalore from Oct 28 - Deccan Herald" href="http%3A%2F%2Fwww.deccanherald.com%2FContent%2FOct192007%2Fscroll2007101931501.asp%3Fsection%3Dscrollingnews" pub_date="Fri Oct 19 12:04:46 -0700 2007"/>
+      <news title="UAE property developer to launch projects in Bangalore - Economic Times" href="http%3A%2F%2Feconomictimes.indiatimes.com%2FNews%2FNews_By_Industry%2FServices%2FUAE_property_developer_to_launch_projects_in_Bangalore%2Farticleshow%2F2469514.cms" pub_date="Thu Oct 18 05:46:04 -0700 2007"/>
+      <news title="Air Arabia mulls daily flight to Bangalore - The Statesman" href="http%3A%2F%2Fwww.thestatesman.net%2Fpage.news.php%3Fclid%3D12%26theme%3D%26usrsess%3D1%26id%3D173746" pub_date="Thu Oct 18 20:56:45 -0700 2007"/>
+      <news title="Bangalore today - Hindu" href="http%3A%2F%2Fwww.hindu.com%2F2007%2F10%2F19%2Fstories%2F2007101960700300.htm" pub_date="Thu Oct 18 22:55:53 -0700 2007"/>
+      <news title="Bangalore cops nab 8 murder accused - Times of India" href="http%3A%2F%2Ftimesofindia.indiatimes.com%2FBangalore_cops_nab_8_murder_accused%2Farticleshow%2F2475153.cms" pub_date="Fri Oct 19 16:23:46 -0700 2007"/>
+    </city>
+    <city name="Tianjin" latitude="39.125" longitude="117.195">
+      <weather current="45" low="44" high="59" icon="sunny"/>
+      <news title="Rookie Honors Dad With &amp;#39;Foligno Leap&amp;#39; - AOL SPORTS" href="http%3A%2F%2Ffeeds.aol.com%2F_t%2Frss_2.0%2Fnews%2Fsports%2Fsports%2Fhttp%3A%2F%2Fsports.aol.com%2Fnhl%2Fstory%2F_a%2Frookie-honors-dad-with-foligno-leap%2F20071019024009990001" pub_date="Fri Oct 19 08:44:16 -0700 2007"/>
+      <news title="Sinopec to sell HK$21.63 bln stake in Tianjin project to SABIC - plastemart.com" href="http%3A%2F%2Fwww.plastemart.com%2Fplasticnews_desc.asp%3Fnews_id%3D11071%26P%3DP" pub_date="Fri Oct 19 06:53:00 -0700 2007"/>
+      <news title="Bank of China says &amp;#39;no progress&amp;#39; on direct HK retail investment ... - Trading Markets (press release)" href="http%3A%2F%2Fwww.tradingmarkets.com%2F.site%2Fnews%2FStock%2520News%2F708669%2F" pub_date="Wed Oct 17 00:53:38 -0700 2007"/>
+      <news title="CNPC picks Tianjin for Russia refinery, oil storage - Reuters UK" href="http%3A%2F%2Fuk.reuters.com%2Farticle%2FoilRpt%2FidUKPEK35343620071018" pub_date="Thu Oct 18 10:07:21 -0700 2007"/>
+      <news title="Universal Travel Group Signs Agreement to Acquire 90% of Tianjin ... - CNNMoney.com" href="http%3A%2F%2Fmoney.cnn.com%2Fnews%2Fnewsfeeds%2Farticles%2Fprnewswire%2FNEW14017102007-1.htm" pub_date="Wed Oct 17 21:07:39 -0700 2007"/>
+    </city>
+    <city name="Yangon" latitude="16.7982" longitude="96.1647">
+      <weather current="81" low="78" high="87" icon="mostly_cloudy"/>
+      <news title="Envoy Stresses Incentives to Sway Myanmar - New York Times" href="http%3A%2F%2Fwww.nytimes.com%2F2007%2F10%2F19%2Fworld%2Fasia%2F19myanmar.html%3Fref%3Dasia" pub_date="Fri Oct 19 04:15:18 -0700 2007"/>
+      <news title="Malaysia to play hosts - Malaysia Star" href="http%3A%2F%2Fthestar.com.my%2Fsports%2Fstory.asp%3Ffile%3D%2F2007%2F10%2F19%2Fsports%2F20071019073106%26sec%3Dsports" pub_date="Thu Oct 18 23:38:45 -0700 2007"/>
+      <news title="Myanmar releases 91 more people for demonstrations - Xinhua" href="http%3A%2F%2Fnews.xinhuanet.com%2Fenglish%2F2007-10%2F19%2Fcontent_6906949.htm" pub_date="Fri Oct 19 02:51:53 -0700 2007"/>
+      <news title="Myanmar vows to go ahead with &amp;#39;road map&amp;#39; to democracy - AFP" href="http%3A%2F%2Fafp.google.com%2Farticle%2FALeqM5ia4bzUTt2OxMaK7IYuWjBn7zlJLA" pub_date="Fri Oct 19 15:31:27 -0700 2007"/>
+      <news title="Road to nowhere - Myanmar&amp;#39;s junta holds steady - Jane's" href="http%3A%2F%2Fwww.janes.com%2Fnews%2Fsecurity%2Fcountryrisk%2Fjir%2Fjir071019_1_n.shtml" pub_date="Fri Oct 19 10:06:04 -0700 2007"/>
+    </city>
+    <city name="Santiago" latitude="-33.43783" longitude="-70.65033">
+      <news title="Extra Money, Unlikely Problem for Chile - The Associated Press" href="http%3A%2F%2Fap.google.com%2Farticle%2FALeqM5gUP7KqjuRC38oMKPAcbo7JuPjVAA" pub_date="Thu Oct 18 05:44:35 -0700 2007"/>
+      <news title="Semicon exports reach $20.5B, investments at $1B - Inquirer.net" href="http%3A%2F%2Ftechnology.inquirer.net%2Finfotech%2Finfotech%2Fview_article.php%3Farticle_id%3D95511" pub_date="Fri Oct 19 11:10:19 -0700 2007"/>
+      <news title="Bribery raps no longer an issue for SC--spokesman - Inquirer.net" href="http%3A%2F%2Fservices.inquirer.net%2Fexpress%2F07%2F10%2F19%2Fhtml_output%2Fxmlhtml%2F20071018-95263-xml.html" pub_date="Fri Oct 19 08:30:21 -0700 2007"/>
+      <news title="Santiago City launches anti-measles campaign - Philippine Information Agency" href="http%3A%2F%2Fwww.pia.gov.ph%2Fdefault.asp%3Fm%3D12%26fi%3Dp071019.htm%26no%3D18" pub_date="Fri Oct 19 08:14:05 -0700 2007"/>
+      <news title="Santiago Island identified as property hotspot - AboutProperty.co.uk" href="http%3A%2F%2Fwww.aboutproperty.co.uk%2Fnews%2Foverseas-property%2Fproperty-in-cape-verde%2Fsantiago-island-identified-as-property-hotspot-%24480213.htm" pub_date="Fri Oct 19 08:06:35 -0700 2007"/>
+    </city>
+    <city name="Kolkata" latitude="22.5697" longitude="88.3697">
+      <weather current="77" low="75" high="89" icon="mostly_cloudy"/>
+      <news title="National HRD meet in Kolkata - Economic Times" href="http%3A%2F%2Feconomictimes.indiatimes.com%2FCorporate_Trends%2FNational_HRD_meet_in_Kolkata%2Farticleshow%2F2468732.cms" pub_date="Thu Oct 18 00:46:56 -0700 2007"/>
+      <news title="Durand to start without Kolkata teams - Hindu" href="http%3A%2F%2Fwww.hindu.com%2F2007%2F10%2F18%2Fstories%2F2007101857442200.htm" pub_date="Wed Oct 17 20:52:17 -0700 2007"/>
+      <news title="Chakraborty named new Kolkata police chief - Sify" href="http%3A%2F%2Fsify.com%2Fnews%2Ffullstory.php%3Fid%3D14544766%26vsv%3DSHGTslot1" pub_date="Thu Oct 18 03:29:39 -0700 2007"/>
+      <news title="Kolkata celebrates Mahastami - Times of India" href="http%3A%2F%2Ftimesofindia.indiatimes.com%2FKolkata_celebrates_Mahastami%2Farticleshow%2F2475135.cms" pub_date="Fri Oct 19 16:16:59 -0700 2007"/>
+      <news title="Belated action against police officers affected CPI(M): Basu - Hindu" href="http%3A%2F%2Fwww.hindu.com%2Fthehindu%2Fholnus%2F002200710191652.htm" pub_date="Fri Oct 19 12:05:37 -0700 2007"/>
+    </city>
+    <city name="Wuhan" latitude="30.5725" longitude="114.27917">
+      <weather current="57" low="59" high="73" icon="sunny"/>
+      <news title="CGS Announces Wuhan as Official Team City in China - TeamXbox" href="http%3A%2F%2Fnews.teamxbox.com%2Fxbox%2F14812%2FCGS-Announces-Wuhan-as-Official-Team-City-in-China%2F" pub_date="Tue Oct 16 12:24:34 -0700 2007"/>
+      <news title="Ministry Of Health Upgrades Supervision On F&amp;amp;B Industry - China CSR" href="http%3A%2F%2Fwww.chinacsr.com%2F2007%2F10%2F19%2F1776-ministry-of-health-upgrades-supervision-on-fb-industry%2F" pub_date="Thu Oct 18 23:05:12 -0700 2007"/>
+      <news title="Chinese divided on health reforms - BBC News" href="http%3A%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fasia-pacific%2F7048378.stm" pub_date="Fri Oct 19 15:52:15 -0700 2007"/>
+      <news title="SMIC and Magma Announce Availability of Enhanced Reference Flow ... - CNNMoney.com" href="http%3A%2F%2Fmoney.cnn.com%2Fnews%2Fnewsfeeds%2Farticles%2Fprnewswire%2FCNTH01318102007-1.htm" pub_date="Thu Oct 18 08:08:28 -0700 2007"/>
+      <news title="Peugeot-Citroen To Make New C5 Sedan In China - CNNMoney.com" href="http%3A%2F%2Fmoney.cnn.com%2Fnews%2Fnewsfeeds%2Farticles%2Fdjf500%2F200710180717DOWJONESDJONLINE000576_FORTUNE5.htm" pub_date="Thu Oct 18 11:22:32 -0700 2007"/>
+    </city>
+    <city name="Chennai" latitude="13.09" longitude="80.27">
+      <weather current="82" low="77" high="87" icon="mostly_cloudy"/>
+      <news title="Tata Consultancy Services to double staff strength in Chennai - Times of India" href="http%3A%2F%2Ftimesofindia.indiatimes.com%2FBusiness%2FIndia_Business%2FTata_Consultancy_Services_to_double_staff_strength_in_Chennai%2Farticleshow%2F2466963.cms" pub_date="Wed Oct 17 10:30:55 -0700 2007"/>
+      <news title="The Homecoming – Anand arrives in Chennai - Chessbase News" href="http%3A%2F%2Fwww.chessbase.com%2Fnewsdetail.asp%3Fnewsid%3D4190" pub_date="Thu Oct 18 10:49:36 -0700 2007"/>
+      <news title="CII Chennai zone launched - Hindu" href="http%3A%2F%2Fwww.hindu.com%2F2007%2F10%2F19%2Fstories%2F2007101962171400.htm" pub_date="Thu Oct 18 22:55:08 -0700 2007"/>
+      <news title="DaimlerChrysler may zero in on Chennai or Pune for commercial ... - Hindu Business Line" href="http%3A%2F%2Fwww.thehindubusinessline.com%2F2007%2F10%2F18%2Fstories%2F2007101852870100.htm" pub_date="Wed Oct 17 18:49:52 -0700 2007"/>
+      <news title="CRISIL excellence awards municipalities of Chennai, Vishakapatnam ... - domain-B" href="http%3A%2F%2Fwww.domain-b.com%2Feconomy%2Fgeneral%2F2007%2F20071019_municipalities.htm" pub_date="Fri Oct 19 12:10:45 -0700 2007"/>
+    </city>
+    <city name="Singapore" latitude="1.36667" longitude="103.8">
+      <weather current="79" low="77" high="84" icon="mostly_cloudy"/>
+      <news title="Hunt for growth takes Singapore Telecom to Africa - Reuters South Africa" href="http%3A%2F%2Fafrica.reuters.com%2Fbusiness%2Fnews%2FusnBAN950445.html" pub_date="Fri Oct 19 14:03:20 -0700 2007"/>
+      <news title="Singapore-Kunming Rail Link project making good progress - Channel News Asia" href="http%3A%2F%2Fwww.channelnewsasia.com%2Fstories%2Fsingaporelocalnews%2Fview%2F306661%2F1%2F.html" pub_date="Fri Oct 19 15:51:33 -0700 2007"/>
+      <news title="Major survey ranks Singapore&amp;#39;s education among the world&amp;#39;s best ... - Channel News Asia" href="http%3A%2F%2Fwww.channelnewsasia.com%2Fstories%2Fsingaporelocalnews%2Fview%2F306662%2F1%2F.html" pub_date="Fri Oct 19 15:50:37 -0700 2007"/>
+      <news title="Singapore shares close sharply lower on oil price, credit concerns ... - Forbes" href="http%3A%2F%2Fwww.forbes.com%2Fmarkets%2Ffeeds%2Fafx%2F2007%2F10%2F19%2Fafx4238515.html" pub_date="Fri Oct 19 10:08:00 -0700 2007"/>
+      <news title="Chinese utility Huaneng reportedly considers bid for Singapore&amp;#39;s ... - MarketWatch" href="http%3A%2F%2Fwww.marketwatch.com%2Fnews%2Fstory%2Fchinese-utility-huaneng-reportedly-considers%2Fstory.aspx%3Fguid%3D%257B1457A39E-81D2-45AB-B8A9-303679B557FA%257D" pub_date="Fri Oct 19 13:24:28 -0700 2007"/>
+      <livecam base_url="http%3A%2F%2F43.160.109.253%2Facfs%2Fcities%2F" small="si_singapore_s.jpg" big="si_singapore.jpg" href="http%3A%2F%2Fwww.singaporeflyer.com.sg%2F"/>
+    </city>
+    <city name="Riyadh" latitude="24.6464" longitude="46.742">
+      <news title="Ration Cards for Low-Income Citizens - Arab News" href="http%3A%2F%2Fwww.arabnews.com%2F%3Fpage%3D1%26section%3D0%26article%3D102598%26d%3D19%26m%3D10%26y%3D2007%26pix%3Dkingdom.jpg%26category%3DKingdom" pub_date="Thu Oct 18 23:04:18 -0700 2007"/>
+      <news title="OPEC in Riyadh can&amp;#39;t do much to cool prices - Reuters" href="http%3A%2F%2Fwww.reuters.com%2Farticle%2FreutersEdge%2FidUSHO85826920071018" pub_date="Thu Oct 18 16:18:56 -0700 2007"/>
+      <news title="Expat Left for Dead Near Riyadh Hospital - Arab News" href="http%3A%2F%2Fwww.arabnews.com%2F%3Fpage%3D1%26section%3D0%26article%3D102554%26d%3D18%26m%3D10%26y%3D2007%26pix%3Dkingdom.jpg%26category%3DKingdom" pub_date="Wed Oct 17 23:08:27 -0700 2007"/>
+      <news title="FACTBOX-Security developments in Iraq, Oct 19 - Reuters" href="http%3A%2F%2Fwww.reuters.com%2Farticle%2FlatestCrisis%2FidUSL19270273" pub_date="Fri Oct 19 13:01:29 -0700 2007"/>
+      <news title="UPDATE 1-OPEC intervention not ruled out in Riyadh -Nigeria - Reuters UK" href="http%3A%2F%2Fuk.reuters.com%2Farticle%2FoilRpt%2FidUKL1776377420071017" pub_date="Wed Oct 17 17:40:33 -0700 2007"/>
+    </city>
+    <city name="Guangzhou" latitude="23.10889" longitude="113.26472">
+      <weather current="70" low="68" high="84" icon="sunny"/>
+      <news title="Safety concerns unlikely to hit fair - China Daily" href="http%3A%2F%2Fwww.chinadaily.com.cn%2Fbizchina%2F2007-10%2F19%2Fcontent_6190408.htm" pub_date="Fri Oct 19 01:54:20 -0700 2007"/>
+      <news title="Autoliv Buys 41% Stake In Chinese JV For $14 Million - CNNMoney.com" href="http%3A%2F%2Fmoney.cnn.com%2Fnews%2Fnewsfeeds%2Farticles%2Fdjf500%2F200710180829DOWJONESDJONLINE000642_FORTUNE5.htm" pub_date="Thu Oct 18 12:38:04 -0700 2007"/>
+      <news title="Hu? Many Chinese Ignore Party Congress - The Associated Press" href="http%3A%2F%2Fap.google.com%2Farticle%2FALeqM5hURygSzXPX9y_tcb6rPyVOZQFRig" pub_date="Thu Oct 18 17:42:57 -0700 2007"/>
+      <news title="Aegon China insurance JV wins approval to set up Guangzhou unit - CNNMoney.com" href="http%3A%2F%2Fmoney.cnn.com%2Fnews%2Fnewsfeeds%2Farticles%2Fnewstex%2FAFX-0013-20253846.htm" pub_date="Tue Oct 16 02:12:14 -0700 2007"/>
+      <news title="Guangzhou Quality Control Department Confiscates Fake Mobiles - ChinaTechNews.com" href="http%3A%2F%2Fwww.chinatechnews.com%2F2007%2F10%2F18%2F5976-guangzhou-quality-control-department-confiscates-fake-mobiles%2F" pub_date="Wed Oct 17 22:44:43 -0700 2007"/>
+    </city>
+    <city name="Saint Petersburg" latitude="59.93333" longitude="30.33333">
+      <weather current="43" low="37" high="46" icon="rain"/>
+      <news title="2 Chinese naval vessels return home from European tour - China Internet Information Center|" href="http%3A%2F%2Fwww.china.org.cn%2Fenglish%2FChina%2F228736.htm" pub_date="Thu Oct 18 08:55:03 -0700 2007"/>
+      <news title="Permanent Commission of CSTO PA to hold sitting in St. Petersburg - Kazinform" href="http%3A%2F%2Fwww.inform.kz%2Fshowarticle.php%3Flang%3Deng%26id%3D156319" pub_date="Fri Oct 19 10:28:23 -0700 2007"/>
+      <news title="Saint Petersburg to Train Nanobiologists - Russia-InfoCenter" href="http%3A%2F%2Fwww.russia-ic.com%2Fnews%2Fshow%2F4956%2F" pub_date="Tue Oct 16 09:36:51 -0700 2007"/>
+      <news title="Zvezda and CRM Motori to Establish Joint Venture - SeaNews - Freight industry news from Russia, CIS and Baltics" href="http%3A%2F%2Fseanews.info%2Fnews%2Fnews.asp%3FnewsID%3D54072" pub_date="Thu Oct 18 13:31:51 -0700 2007"/>
+      <news title="Maddalone Wins On Disqualification - SecondsOut" href="http%3A%2F%2Fwww.secondsout.com%2FUSA%2Fnews.cfm%3Fccs%3D229%26cs%3D23010" pub_date="Fri Oct 19 09:23:27 -0700 2007"/>
+    </city>
+    <city name="Chongqing" latitude="29.55" longitude="106.50694">
+      <weather current="61" low="55" high="68" icon="mostly_cloudy"/>
+      <news title="Chongqing raises volume by pouring in billions of dollars - Cargonews Asia" href="http%3A%2F%2Fwww.cargonewsasia.com%2Farticle.aspx%3Fid%3D17%26article%3D14318" pub_date="Mon Oct 15 08:15:38 -0700 2007"/>
+      <news title="Chongqing Yadeh Software receives $6.6 million investment ... - Interfax.cn (subscription)" href="http%3A%2F%2Fwww.interfax.cn%2Fdisplayarticle.asp%3Faid%3D28735%26slug%3DCHONGQING-YADEH-IPO" pub_date="Thu Oct 18 02:49:53 -0700 2007"/>
+      <news title="Sofitel Forebase Chongqing Opens - China Hospitality News" href="http%3A%2F%2Fwww.chinahospitalitynews.com%2F2007%2F10%2F18%2F4846-sofitel-forebase-chongqing-opens%2F" pub_date="Wed Oct 17 21:33:40 -0700 2007"/>
+      <news title="China&amp;#39;s Chongqing plans 10 mln t/year CNPC refinery - Reuters UK" href="http%3A%2F%2Fuk.reuters.com%2Farticle%2FoilRpt%2FidUKPEK22055820071015" pub_date="Mon Oct 15 12:36:39 -0700 2007"/>
+      <news title="CNPC plans to build a refinery in Chongqing with US$3 bln - China Knowledge Online" href="http%3A%2F%2Fwww.chinaknowledge.com%2Fnews%2Fnews-detail.aspx%3Fid%3D10900" pub_date="Tue Oct 16 03:17:44 -0700 2007"/>
+    </city>
+    <city name="Shenyang" latitude="41.79556" longitude="123.44806">
+      <weather current="33" low="26" high="46" icon=""/>
+      <news title="Shenyang to unveil software base - China Internet Information Center|" href="http%3A%2F%2Fwww.china.org.cn%2Fenglish%2Fbusiness%2F227765.htm" pub_date="Fri Oct 12 01:58:26 -0700 2007"/>
+      <news title="China aviation regulator to grant license to Sichuan Airlines&amp;#39; new ... - Forbes" href="http%3A%2F%2Fwww.forbes.com%2Fmarkets%2Ffeeds%2Fafx%2F2007%2F10%2F19%2Fafx4238587.html" pub_date="Fri Oct 19 10:42:53 -0700 2007"/>
+      <news title="ENVIRONMENT-CHINA: Liao River in Deep Trouble - Inter Press Service (subscription)" href="http%3A%2F%2Fwww.ipsnews.net%2Fnews.asp%3Fidnews%3D39720" pub_date="Fri Oct 19 08:26:56 -0700 2007"/>
+      <news title="Japanese man held in China over organ sales - The Daily Yomiuri" href="http%3A%2F%2Fwww.yomiuri.co.jp%2Fdy%2Fworld%2F20071017TDY01307.htm" pub_date="Tue Oct 16 18:33:52 -0700 2007"/>
+      <news title="UNESCO awards Shenyang for heritage exhibition - CCTV" href="http%3A%2F%2Fwww.cctv.com%2Fprogram%2Fcultureexpress%2F20071012%2F105001.shtml" pub_date="Fri Oct 12 10:46:45 -0700 2007"/>
+    </city>
+    <city name="Chittagong" latitude="22.36667" longitude="91.8">
+      <news title="Eid-ul-Fitr celebrated with high enthusiasm in Rajshahi, Ctg - The New Nation" href="http%3A%2F%2Fnation.ittefaq.com%2Fissues%2F2007%2F10%2F19%2Fnews0759.htm" pub_date="Thu Oct 18 18:44:48 -0700 2007"/>
+      <news title="Biman winter schedule released - Gulf Times" href="http%3A%2F%2Fwww.gulf-times.com%2Fsite%2Ftopics%2Farticle.asp%3Fcu_no%3D2%26item_no%3D179425%26version%3D1%26template_id%3D36%26parent_id%3D16" pub_date="Fri Oct 19 01:41:55 -0700 2007"/>
+      <news title="Rain threatens NCL start - The Daily Star" href="http%3A%2F%2Fwww.thedailystar.net%2Fstory.php%3Fnid%3D7996" pub_date="Thu Oct 18 18:10:39 -0700 2007"/>
+      <news title="Marine fisheries management: Possible options - The Daily Star" href="http%3A%2F%2Fwww.thedailystar.net%2Fstory.php%3Fnid%3D7949" pub_date="Thu Oct 18 18:10:52 -0700 2007"/>
+      <news title="The Chittagong Hill Tracts Of Bangladesh - CounterCurrents.org" href="http%3A%2F%2Fwww.countercurrents.org%2Fzaman161007.htm" pub_date="Tue Oct 16 11:03:02 -0700 2007"/>
+    </city>
+    <city name="Alexandria" latitude="31.198" longitude="29.9192">
+      <weather current="74" low="58" high="76" icon="rain"/>
+      <news title="New restaurant breaks ground in Alexandria - Alexandria Echo Press" href="http%3A%2F%2Fwww.echopress.com%2Farticles%2Findex.cfm%3Fid%3D51079%26section%3DBusiness" pub_date="Fri Oct 19 05:15:23 -0700 2007"/>
+      <news title="Water woes in Alexandria - Standard Freeholder" href="http%3A%2F%2Fwww.standard-freeholder.com%2FArticleDisplay.aspx%3Fe%3D740567%26auth%3DTerri%2BSaunders" pub_date="Fri Oct 19 12:01:34 -0700 2007"/>
+      <news title="Alexandria Extrusion gets award from employment service - Alexandria Echo Press" href="http%3A%2F%2Fwww.echopress.com%2Farticles%2Findex.cfm%3Fid%3D51076%26section%3DBusiness" pub_date="Fri Oct 19 05:16:05 -0700 2007"/>
+      <news title="No. 4 Alexandria ousted at Wapahani - Anderson Herald Bulletin" href="http%3A%2F%2Fwww.theheraldbulletin.com%2Fsports%2Flocal_story_291234526.html%3Fkeyword%3Dsecondarystory" pub_date="Fri Oct 19 03:51:00 -0700 2007"/>
+      <news title="PrimeWest to lead health care meeting in Alexandria - Alexandria Echo Press" href="http%3A%2F%2Fwww.echopress.com%2Farticles%2Findex.cfm%3Fid%3D51059%26section%3Dnews" pub_date="Fri Oct 19 05:23:46 -0700 2007"/>
+    </city>
+    <city name="Los Angeles" latitude="34.054" longitude="-118.245">
+      <weather current="72" low="59" high="79" icon="sunny"/>
+      <news title="NHL: Calgary 4, Los Angeles 3 - United Press International" href="http%3A%2F%2Fwww.upi.com%2FNewsTrack%2FSports%2F2007%2F10%2F19%2Fnhl_calgary_4_los_angeles_3%2F8445%2F" pub_date="Fri Oct 19 04:27:14 -0700 2007"/>
+      <news title="Disgruntled Bryant leads Lakers over Sonics in exhibition ... - AFP" href="http%3A%2F%2Fafp.google.com%2Farticle%2FALeqM5hB3jOMY38hCqnIfovLmyaDa5IGRA" pub_date="Fri Oct 19 07:02:01 -0700 2007"/>
+      <news title="Beckham returns from injury to help Los Angeles earn draw - AFP" href="http%3A%2F%2Fafp.google.com%2Farticle%2FALeqM5gYlTxkcSDfzTVexZ3dL8II_nFTnw" pub_date="Fri Oct 19 09:02:35 -0700 2007"/>
+      <news title="Court suspends Britney&amp;#39;s visitation rights with kids - Belfast Telegraph" href="http%3A%2F%2Fwww.belfasttelegraph.co.uk%2Fbreaking-news%2Fworld%2Fnorth-america%2Farticle3076584.ece" pub_date="Fri Oct 19 08:45:37 -0700 2007"/>
+      <news title="The Los Angeles Kings have picked up right where they left off ... - USA Today" href="http%3A%2F%2Fwww.usatoday.com%2Fsports%2Fscores107%2F107292%2FNHL773447.htm" pub_date="Fri Oct 19 13:29:01 -0700 2007"/>
+    </city>
+    <city name="Ahmedabad" latitude="23.03" longitude="72.58">
+      <weather current="77" low="64" high="95" icon="fog"/>
+      <news title="Item girls sizzle at garba venues - Times of India" href="http%3A%2F%2Ftimesofindia.indiatimes.com%2FItem_girls_sizzle_at_garba_venues%2Farticleshow%2F2472102.cms" pub_date="Thu Oct 18 20:30:52 -0700 2007"/>
+      <news title="Woman hangs self at hostel in Paldi - Times of India" href="http%3A%2F%2Ftimesofindia.indiatimes.com%2FAhmedabad%2FWoman_hangs_self_at_hostel_in_Paldi%2Farticleshow%2F2472112.cms" pub_date="Thu Oct 18 20:34:54 -0700 2007"/>
+      <news title="Gujarat gets new top cop - Times of India" href="http%3A%2F%2Ftimesofindia.indiatimes.com%2FIndia%2FGujarat_gets_new_top_cop%2Farticleshow%2F2471882.cms" pub_date="Thu Oct 18 20:34:58 -0700 2007"/>
+      <news title="IIM Ahmedabad to Hold its Flagship Business Event &amp;#39;Confluence 2007&amp;#39; - Cool Avenues" href="http%3A%2F%2Fwww.coolavenues.com%2Fbschools%2F071001%2Fiima-confluence-1.php" pub_date="Thu Oct 18 04:49:44 -0700 2007"/>
+      <news title="MICANVAS 2007 Ready to Rock Ahmedabad - Cool Avenues" href="http%3A%2F%2Fwww.coolavenues.com%2Fbschools%2F071001%2Fmica-micanvas-1.php" pub_date="Fri Oct 19 04:08:47 -0700 2007"/>
+    </city>
+    <city name="Hyderabad" latitude="17.366" longitude="78.476">
+      <weather current="77" low="71" high="87" icon="haze"/>
+      <news title="Dona Ganguli performs in Hyderabad - Times of India" href="http%3A%2F%2Ftimesofindia.indiatimes.com%2FHyderabad%2FDona_Ganguli_performs_in_Hyderabad%2Farticleshow%2F2471136.cms" pub_date="Thu Oct 18 16:38:54 -0700 2007"/>
+      <news title="See revenue from Hyderabad airport from - Moneycontrol.com" href="http%3A%2F%2Fnews.moneycontrol.com%2Findia%2Fnews%2Fresults-boardroom%2Fsee-revenue-hyderabad-airport-q2fy09gmr-infra%2F13%2F30%2F308834" pub_date="Fri Oct 19 08:03:02 -0700 2007"/>
+      <news title="IT giant CA opens its largest campus in Hyderabad - Sify" href="http%3A%2F%2Fsify.com%2Ffinance%2Ffullstory.php%3Fid%3D14544684" pub_date="Wed Oct 17 13:39:53 -0700 2007"/>
+      <news title="SAP To Acquire Hyderabad Based Yasu Tech - TopNews" href="http%3A%2F%2Fwww.topnews.in%2Fsap-acquire-hyderabad-based-yasu-tech-24015" pub_date="Fri Oct 19 10:30:33 -0700 2007"/>
+      <news title="Quantum sets up R&amp;amp;D centre in Hyderabad - Business Standard" href="http%3A%2F%2Fwww.business-standard.com%2Ficeworld%2Fstorypage.php%3Fleftnm%3D8%26subLeft%3D2%26chklogin%3DN%26autono%3D301674%26tab%3Dr" pub_date="Thu Oct 18 19:21:45 -0700 2007"/>
+    </city>
+    <city name="Busan" latitude="35.1" longitude="129.03333">
+      <weather current="48" low="44" high="66" icon="sunny"/>
+      <news title="Ex-Presidential Secretary Held in Busan Scandal - Chosun Ilbo" href="http%3A%2F%2Fenglish.chosun.com%2Fw21data%2Fhtml%2Fnews%2F200710%2F200710190026.html" pub_date="Fri Oct 19 01:29:44 -0700 2007"/>
+      <news title="N. Korean officials in Busan - Yonhap News" href="http%3A%2F%2Fapp.yonhapnews.co.kr%2FYNA%2FBasic%2FArticleEnglish%2FArticlePhoto%2FYIBW_showArticlePhotoCkPopup.aspx%3Fcontents_id%3DPYH20071017013200341" pub_date="Wed Oct 17 02:34:17 -0700 2007"/>
+      <news title="Conductor enchants with music, stories - Golden Gate [X]Press" href="http%3A%2F%2Fxpress.sfsu.edu%2Farchives%2Farts%2F009341.html" pub_date="Fri Oct 19 05:40:23 -0700 2007"/>
+      <news title="3rd Busan Multimedia Fireworks Festival to be braodcast live - Korea.net" href="http%3A%2F%2Fwww.kois.go.kr%2Fnews%2Fnews%2FnewsView.asp%3Fserial_no%3D20071018020%26part%3D106%26SearchDay%3D" pub_date="Thu Oct 18 07:59:59 -0700 2007"/>
+      <news title="US embassy in Seoul to reopen consulate in Busan - Korea.net" href="http%3A%2F%2Fwww.kois.go.kr%2Fnews%2Fnews%2FnewsView.asp%3Fserial_no%3D20071019003" pub_date="Fri Oct 19 02:07:57 -0700 2007"/>
+    </city>
+    <city name="Yokohama" latitude="35.47" longitude="139.62">
+      <weather current="57" low="59" high="70" icon="mostly_cloudy"/>
+      <news title="Japan&amp;#39;s Yokohama City University Selects Cray Supercomputer for ... - CNNMoney.com" href="http%3A%2F%2Fmoney.cnn.com%2Fnews%2Fnewsfeeds%2Farticles%2Fmarketwire%2F0313804.htm" pub_date="Wed Oct 10 18:51:33 -0700 2007"/>
+      <news title="Rare cats to be shown in Tokyo, Yokohama - The Daily Yomiuri" href="http%3A%2F%2Fwww.yomiuri.co.jp%2Fdy%2Ffeatures%2Fscience%2F20071013TDY18005.htm" pub_date="Fri Oct 12 18:34:14 -0700 2007"/>
+      <news title="Chinese film festival to be staged in Yokohama - Xinhua" href="http%3A%2F%2Fnews.xinhuanet.com%2Fenglish%2F2007-10%2F19%2Fcontent_6909715.htm" pub_date="Fri Oct 19 12:20:47 -0700 2007"/>
+      <news title="Phenotype to sell in China - Knoxville News Sentinel" href="http%3A%2F%2Fwww.knoxnews.com%2Fnews%2F2007%2Foct%2F19%2Fphenotype-to-sell-in-china%2F" pub_date="Fri Oct 19 04:09:20 -0700 2007"/>
+      <news title="AU Optronics delivers anorexic mobile display - Slippery Brick" href="http%3A%2F%2Fwww.slipperybrick.com%2F2007%2F10%2Fau-optronics-thin-display%2F" pub_date="Fri Oct 19 12:28:30 -0700 2007"/>
+    </city>
+    <city name="Ankara" latitude="39.86667" longitude="32.86667">
+      <weather current="59" low="37" high="71" icon="sunny"/>
+      <news title="Our fraying alliance with Turkey - Los Angeles Times" href="http%3A%2F%2Fwww.latimes.com%2Fnews%2Fprintedition%2Fopinion%2Fla-oe-fuller19oct19%2C1%2C7212763.story%3Fcoll%3Dla-news-comment" pub_date="Fri Oct 19 07:01:10 -0700 2007"/>
+      <news title="Moscow urge Ankara, Baghdad for political solution - Interfax Russia" href="http%3A%2F%2Fwww.interfax.ru%2Fe%2FB%2Fpolitics%2F28.html%3Fid_issue%3D11889889" pub_date="Fri Oct 19 11:12:29 -0700 2007"/>
+      <news title="Ankara may alter relationship with IMF - MSNBC" href="http%3A%2F%2Fwww.msnbc.msn.com%2Fid%2F21364606%2F" pub_date="Thu Oct 18 19:12:50 -0700 2007"/>
+      <news title="Damascus signals strong support for Ankara moves against PKK in ... - Hürriyet" href="http%3A%2F%2Fwww.hurriyet.com.tr%2Fenglish%2F7509319.asp%3Fgid%3D74%26sz%3D11116" pub_date="Thu Oct 18 07:44:36 -0700 2007"/>
+      <news title="Turkey, US to discuss Ankara&amp;#39;s threat to attack Kurdish rebels in Iraq - AFP" href="http%3A%2F%2Fafp.google.com%2Farticle%2FALeqM5iug66BRu7f8uHtILyv92fn3Sf_uw" pub_date="Thu Oct 18 16:08:27 -0700 2007"/>
+    </city>
+    <city name="Abidjan" latitude="5.3364" longitude="-4.0266">
+      <weather current="84" low="71" high="82" icon="mostly_cloudy"/>
+      <news title="Paris police detain Ivorian over missing reporter - Reuters South Africa" href="http%3A%2F%2Fafrica.reuters.com%2Fwire%2Fnews%2FusnL17623696.html" pub_date="Wed Oct 17 18:23:47 -0700 2007"/>
+      <news title="Ivory Coast&amp;#39;s reggae wars recede - BBC News" href="http%3A%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fafrica%2F7041652.stm" pub_date="Mon Oct 15 08:33:04 -0700 2007"/>
+      <news title="Cote d’Ivoire to expand Port of Abidjan - Dredging News Online" href="http%3A%2F%2Fwww.sandandgravel.com%2Fnews%2Farticle.asp%3Fv1%3D10423" pub_date="Wed Oct 10 22:13:15 -0700 2007"/>
+      <news title="Copnall says bye bye to Gbagbo - BBC News" href="http%3A%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fafrica%2F7050324.stm" pub_date="Thu Oct 18 09:17:41 -0700 2007"/>
+      <news title="Business in Ivory Coast - The Daily Star" href="http%3A%2F%2Fwww.thedailystar.net%2Fstory.php%3Fnid%3D7695" pub_date="Tue Oct 16 17:01:24 -0700 2007"/>
+    </city>
+    <city name="Ho Chi Minh City" latitude="10.7696" longitude="106.6855">
+      <news title="248 Cong Quynh St . , Distr. 1, Ho Chi Minh City, Vietnam. - Thanh Nien Daily" href="http%3A%2F%2Fwww.thanhniennews.com%2Fbusiness%2F%3Fcatid%3D2%26newsid%3D32573" pub_date="Wed Oct 17 04:55:32 -0700 2007"/>
+      <news title="Vietnam: Renesas inaugurates new R&amp;amp;D facility - Automotive World (subscription)" href="http%3A%2F%2Fwww.automotiveworld.com%2FACM%2Fcontent.asp%3Fcontentid%3D64300" pub_date="Fri Oct 19 13:49:08 -0700 2007"/>
+      <news title="HCM City rehabilitates 38000 former drug addicts - Mathaba.Net" href="http%3A%2F%2Fmathaba.net%2Fnews%2F%3Fx%3D567761" pub_date="Fri Oct 19 15:57:15 -0700 2007"/>
+      <news title="Front blames city leaders’ narrow vision for traffic woes - Thanh Nien Daily" href="http%3A%2F%2Fwww.thanhniennews.com%2Fsociety%2F%3Fcatid%3D3%26newsid%3D32628" pub_date="Fri Oct 19 10:40:30 -0700 2007"/>
+      <news title="Japanese firms boost sports shoe production in Viet Nam - Vietnam Economic Times" href="http%3A%2F%2Fwww.vneconomy.com.vn%2Feng%2F%3Fparam%3Darticle%26catid%3D06%26id%3Db04baefbd80ee0" pub_date="Fri Oct 19 02:49:31 -0700 2007"/>
+    </city>
+    <city name="Berlin" latitude="52.51667" longitude="13.41667">
+      <weather current="45" low="41" high="50" icon="mostly_cloudy"/>
+      <news title="Sony shifts Euro prod&amp;#39;n HQ to Berlin - Variety" href="http%3A%2F%2Fwww.variety.com%2Farticle%2FVR1117974336.html%3Fcategoryid%3D13" pub_date="Fri Oct 19 14:22:31 -0700 2007"/>
+      <news title="Berlin will house network centre for digital radio network - Telecom Paper (subscription)" href="http%3A%2F%2Fwww.telecom.paper.nl%2Fsite%2Fnews_ta.asp%3Ftype%3Dabstract%26id%3D188605" pub_date="Thu Oct 18 07:18:30 -0700 2007"/>
+      <news title="Mark Wallinger&amp;#39;s bear is favourite for Turner Prize - Telegraph.co.uk" href="http%3A%2F%2Fwww.telegraph.co.uk%2Farts%2Fmain.jhtml%3Fxml%3D%2Farts%2F2007%2F10%2F19%2Fbaturner119.xml" pub_date="Fri Oct 19 11:08:40 -0700 2007"/>
+      <news title="Berlin condemns Karachi bombings &amp;quot;in the strongest terms&amp;quot; - Islamic Republic News Agency" href="http%3A%2F%2Fwww2.irna.ir%2Fen%2Fnews%2Fview%2Fmenu-234%2F0710190030181158.htm" pub_date="Fri Oct 19 14:59:00 -0700 2007"/>
+      <news title="Jews to play Wagner at Berlin&amp;#39;s Nazi arena - Telegraph.co.uk" href="http%3A%2F%2Fwww.telegraph.co.uk%2Fnews%2Fmain.jhtml%3Fxml%3D%2Fnews%2F2007%2F10%2F18%2Fwagner118.xml" pub_date="Thu Oct 18 00:37:27 -0700 2007"/>
+    </city>
+    <city name="Chicago" latitude="41.8675" longitude="-87.6243">
+      <weather current="57" low="49" high="59" icon="cloudy"/>
+      <news title="The PrivateBank-Chicago CEO Ralph Mandell Receives Operation HOPE ... - CNNMoney.com" href="http%3A%2F%2Fmoney.cnn.com%2Fnews%2Fnewsfeeds%2Farticles%2Fprnewswire%2FLAF01119102007-1.htm" pub_date="Fri Oct 19 15:36:41 -0700 2007"/>
+      <news title="Wheat Jumps, Corn and Soybeans Fall - The Associated Press" href="http%3A%2F%2Fap.google.com%2Farticle%2FALeqM5isImyAFDNrGEffyhsS2NOBHTT7rwD8SCCGRG0" pub_date="Fri Oct 19 15:11:05 -0700 2007"/>
+      <news title="The Two Sides to the &amp;quot;Kobe to Chicago Bulls&amp;quot; (potential) Trade - FOXSports.com" href="http%3A%2F%2Fmsn.foxsports.com%2Fnba%2Fstory%2F7352336" pub_date="Fri Oct 19 14:12:11 -0700 2007"/>
+      <news title="BP&amp;#39;s Chicago workers face layoffs, moves - Chicago Tribune" href="http%3A%2F%2Fwww.chicagotribune.com%2Fbusiness%2Fchi-fri_bp19oct19%2C0%2C3225048.story" pub_date="Fri Oct 19 07:05:37 -0700 2007"/>
+      <news title="NFL Preview - Chicago (2-4) at Philadelphia (2-3) - Kansas City Star" href="http%3A%2F%2Fwww.kansascity.com%2F491%2Fstory%2F323044.html" pub_date="Thu Oct 18 21:49:30 -0700 2007"/>
+    </city>
+    <city name="Houston" latitude="29.75" longitude="-95.35">
+      <weather current="81" low="59" high="87" icon="mostly_cloudy"/>
+      <news title="YOUNG HOPING TO MAKE HOUSTON RETURN - Sportinglife.com" href="http%3A%2F%2Fwww.sportinglife.com%2Fnfl%2Fnews%2Fstory_get.cgi%3FSTORY_NAME%3Dinternational_feed%2F07%2F10%2F18%2FGRIDIRON_USA-Houston_Preview.html" pub_date="Thu Oct 18 13:59:29 -0700 2007"/>
+      <news title="BP to move some jobs to Houston - Houston Chronicle" href="http%3A%2F%2Fwww.chron.com%2Fdisp%2Fstory.mpl%2Fbusiness%2F5227194.html" pub_date="Fri Oct 19 05:35:34 -0700 2007"/>
+      <news title="Promotion of archbishop amplifies a moral voice in Houston while ... - Houston Chronicle" href="http%3A%2F%2Fwww.chron.com%2Fdisp%2Fstory.mpl%2Feditorial%2F5226686.html" pub_date="Fri Oct 19 05:35:34 -0700 2007"/>
+      <news title="Stars mostly watch Houston&amp;#39;s 104-90 exhibition victory over Mavericks - The Canadian Press" href="http%3A%2F%2Fcanadianpress.google.com%2Farticle%2FALeqM5jISj85XeeI4Fm5q0xzEyPLk8x01g" pub_date="Fri Oct 19 04:15:39 -0700 2007"/>
+      <news title="NFL Preview - Tennessee (3-2) at Houston (3-3) - Kansas City Star" href="http%3A%2F%2Fwww.kansascity.com%2F491%2Fstory%2F323036.html" pub_date="Fri Oct 19 00:06:44 -0700 2007"/>
+    </city>
+    <city name="Phoenix" latitude="33.528" longitude="-112.076">
+      <weather current="71" low="60" high="91" icon="cloudy"/>
+      <news title="U. of Phoenix prof on leave - Arizona Republic" href="http%3A%2F%2Fwww.azcentral.com%2Farizonarepublic%2Flocal%2Farticles%2F1019uop1019.html" pub_date="Fri Oct 19 05:54:54 -0700 2007"/>
+      <news title="Assistant Phoenix police chief joins El Mirage department - Arizona Republic" href="http%3A%2F%2Fwww.azcentral.com%2Fcommunity%2Fwestvalley%2Farticles%2F1019gl-nwvlouis1019.html" pub_date="Fri Oct 19 15:52:58 -0700 2007"/>
+      <news title="Torres, Edmonton top Phoenix to halt four-game streak - Sports Network" href="http%3A%2F%2Fwww.sportsnetwork.com%2Fdefault.asp%3Fc%3Dsportsnetwork%26page%3D%2Fnhl%2Fnews%2FADN4108335.htm" pub_date="Fri Oct 19 05:02:48 -0700 2007"/>
+      <news title="Media Executives Arrested in Phoenix - New York Times" href="http%3A%2F%2Fwww.nytimes.com%2F2007%2F10%2F19%2Fbusiness%2Fmedia%2F19cnd-arrest.html%3Fref%3Dus" pub_date="Fri Oct 19 09:43:59 -0700 2007"/>
+      <news title="University of Phoenix takes a slice of 1 Front St. - Bizjournals.com" href="http%3A%2F%2Fwww.bizjournals.com%2Fsanfrancisco%2Fstories%2F2007%2F10%2F22%2Fnewscolumn1.html" pub_date="Fri Oct 19 15:40:47 -0700 2007"/>
+    </city>
+    <city name="Philadelphia" latitude="39.998" longitude="-75.145">
+      <weather current="77" low="59" high="75" icon="cloudy"/>
+      <news title="NHL: Philadelphia 4, New Jersey 0 - Earthtimes" href="http%3A%2F%2Fwww.earthtimes.org%2Farticles%2Fshow%2F126854.html" pub_date="Fri Oct 19 02:55:28 -0700 2007"/>
+      <news title="NFL Preview - Chicago (2-4) at Philadelphia (2-3) - Kansas City Star" href="http%3A%2F%2Fwww.kansascity.com%2F491%2Fstory%2F323044.html" pub_date="Thu Oct 18 21:49:30 -0700 2007"/>
+      <news title="Kenexa Honored by Philadelphia&amp;#39;s Forum of Executive Women - CNNMoney.com" href="http%3A%2F%2Fmoney.cnn.com%2Fnews%2Fnewsfeeds%2Farticles%2Fprnewswire%2FNEF03019102007-1.htm" pub_date="Fri Oct 19 13:46:43 -0700 2007"/>
+      <news title="Oct. 18 (Bloomberg) -- The pace of manufacturing in the ... - Bloomberg" href="http%3A%2F%2Fwww.bloomberg.com%2Fapps%2Fnews%3Fpid%3D20601087%26sid%3DahCdurYvWGHA%26refer%3Dhome" pub_date="Thu Oct 18 16:48:56 -0700 2007"/>
+      <news title="Boy Scouts&amp;#39; Rent Skyrockets in Philadelphia to $200K Over Gay Ban - FOX News" href="http%3A%2F%2Fwww.foxnews.com%2Fstory%2F0%2C2933%2C303420%2C00.html" pub_date="Thu Oct 18 23:19:09 -0700 2007"/>
+    </city>
+    <city name="San Antonio" latitude="29.451" longitude="-98.513">
+      <weather current="78" low="59" high="88" icon="sunny"/>
+      <news title="ZAP Electric Car Arrives in San Antonio, Texas at Locally Owned ... - CNNMoney.com" href="http%3A%2F%2Fmoney.cnn.com%2Fnews%2Fnewsfeeds%2Farticles%2Fmarketwire%2F0317045.htm" pub_date="Thu Oct 18 11:07:27 -0700 2007"/>
+      <news title="Effects of the Staph &amp;#39;Superbug&amp;#39; in San Antonio - Associated Content" href="http%3A%2F%2Fwww.associatedcontent.com%2Farticle%2F419710%2Feffects_of_the_staph_superbug_in_san.html" pub_date="Fri Oct 19 16:10:47 -0700 2007"/>
+      <news title="Motor Sports Notebook: San Antonio Raceway team captures IHRA title - San Antonio Express" href="http%3A%2F%2Fwww.mysanantonio.com%2Fsports%2Fstories%2FMYSA101807.MotorSportsNotebook.en.18310db91.html" pub_date="Fri Oct 19 13:45:21 -0700 2007"/>
+      <news title="Nigeria: San Antonio Spurs Signs Ime Udoka - AllAfrica.com" href="http%3A%2F%2Fallafrica.com%2Fstories%2F200710180646.html" pub_date="Thu Oct 18 13:59:41 -0700 2007"/>
+      <news title="All Parts of TPC San Antonio Finally In Motion - Texas Golf" href="http%3A%2F%2Ftexasgolf.blogspot.com%2F2007%2F10%2Fall-parts-of-tpc-san-antonio-finally-in.html" pub_date="Fri Oct 19 13:08:12 -0700 2007"/>
+    </city>
+    <city name="San Diego" latitude="32.78" longitude="-117.15">
+      <weather current="65" low="59" high="71" icon="mostly_cloudy"/>
+      <news title="Highly Anticipated San Diego Toll Road to Open November 19 - Business Wire (press release)" href="http%3A%2F%2Fhome.businesswire.com%2Fportal%2Fsite%2Fgoogle%2Findex.jsp%3FndmViewId%3Dnews_view%26newsId%3D20071019005157%26newsLang%3Den" pub_date="Fri Oct 19 12:03:42 -0700 2007"/>
+      <news title="Vampires take a bite out of San Diego&amp;#39;s culture - San Diego Union Tribune" href="http%3A%2F%2Fwww.signonsandiego.com%2Fnews%2Ffeatures%2F20071019-9999-lz1c19sdvamps.html" pub_date="Fri Oct 19 11:03:57 -0700 2007"/>
+      <news title="Man shot in San Diego alley - San Diego Union Tribune" href="http%3A%2F%2Fwww.signonsandiego.com%2Fnews%2Fbreaking%2F2007%2F10%2Fman_shot_in_san_diego_alley.html" pub_date="Fri Oct 19 13:42:27 -0700 2007"/>
+      <news title="San Diego’s Downtown Has a Sunnier Disposition - New York Times" href="http%3A%2F%2Fwww.nytimes.com%2F2007%2F10%2F19%2Ftravel%2Fescapes%2F19sandiego.html" pub_date="Thu Oct 18 23:15:58 -0700 2007"/>
+      <news title="San Diego labor leader to depart - San Diego Union Tribune" href="http%3A%2F%2Fwww.signonsandiego.com%2Fnews%2Fbreaking%2F2007%2F10%2Fsan_diego_labor_leader_to_depa.html" pub_date="Thu Oct 18 23:09:15 -0700 2007"/>
+    </city>
+    <city name="Dallas" latitude="32.78" longitude="-96.8">
+      <weather current="68" low="59" high="82" icon="sunny"/>
+      <news title="Man shot to death inside a Dallas apartment 6:36 AM CT - Dallas Morning News" href="http%3A%2F%2Fwww.dallasnews.com%2Fsharedcontent%2Fdws%2Fdn%2Flatestnews%2Fstories%2F101907dnmetshooting.185e71f3d.html" pub_date="Fri Oct 19 11:36:35 -0700 2007"/>
+      <news title="JOHNSON ALLOWED TO PRACTISE - London Free Press" href="http%3A%2F%2Flfpress.ca%2Fnewsstand%2FSports%2FOtherSports%2F2007%2F10%2F19%2F4588267-sun.html" pub_date="Fri Oct 19 07:38:57 -0700 2007"/>
+      <news title="NFL Preview - Minnesota (2-3) at Dallas (5-1) - Kansas City Star" href="http%3A%2F%2Fwww.kansascity.com%2F491%2Fstory%2F322842.html" pub_date="Thu Oct 18 19:02:51 -0700 2007"/>
+      <news title="Jokinen&amp;#39;s shootout goal propels Dallas over Columbus - Sports Network" href="http%3A%2F%2Fwww.sportsnetwork.com%2Fdefault.asp%3Fc%3Dsportsnetwork%26page%3D%2Fnhl%2Fnews%2FADN4108169.htm" pub_date="Thu Oct 18 03:13:19 -0700 2007"/>
+      <news title="Slow-starting Cowboys pile up points after first quarter - USA Today" href="http%3A%2F%2Fwww.usatoday.com%2Fsports%2Ffootball%2F2007-10-19-864938731_x.htm" pub_date="Fri Oct 19 08:39:50 -0700 2007"/>
+    </city>
+    <city name="San Jose" latitude="37.304" longitude="-121.873">
+      <weather current="61" low="52" high="70" icon="cloudy"/>
+      <news title="Detroit heads to the Shark Tank to battle San Jose - Sports Network" href="http%3A%2F%2Fwww.sportsnetwork.com%2Fdefault.asp%3Fc%3Dsportsnetwork%26page%3D%2Fnhl%2Fnews%2FADN4108220.htm" pub_date="Thu Oct 18 14:47:22 -0700 2007"/>
+      <news title="Beckman Coulter alleges HemoSense infringed patent Silicon Valley ... - Bizjournals.com" href="http%3A%2F%2Fwww.bizjournals.com%2Fsanjose%2Fstories%2F2007%2F10%2F15%2Fdaily90.html" pub_date="Fri Oct 19 15:01:04 -0700 2007"/>
+      <news title="San Jose residents take shot at having say in future of city - San Jose Mercury News" href="http%3A%2F%2Fwww.mercurynews.com%2Fvalley%2Fci_7225178" pub_date="Fri Oct 19 16:31:19 -0700 2007"/>
+      <news title="Christian group pushing to filter porn from San Jose libraries - San Jose Mercury News" href="http%3A%2F%2Fwww.mercurynews.com%2Fbreakingnews%2Fci_7225171" pub_date="Fri Oct 19 16:24:13 -0700 2007"/>
+      <news title="Adobe wins national design award Silicon Valley / San Jose ... - Bizjournals.com" href="http%3A%2F%2Fwww.bizjournals.com%2Fsanjose%2Fstories%2F2007%2F10%2F15%2Fdaily89.html" pub_date="Fri Oct 19 13:19:02 -0700 2007"/>
+    </city>
+    <city name="Detroit" latitude="42.3316" longitude="-83.0475">
+      <weather current="67" low="52" high="69" icon="mostly_cloudy"/>
+      <news title="Detroit mayor to address conference today - Indianapolis Star" href="http%3A%2F%2Fwww.indystar.com%2Fapps%2Fpbcs.dll%2Farticle%3FAID%3D%2F20071019%2FLOCAL%2F710190495%2F1006%2FLOCAL" pub_date="Fri Oct 19 06:52:16 -0700 2007"/>
+      <news title="Sharks watch Detroit skate past, 4-2 - San Jose Mercury News" href="http%3A%2F%2Fwww.mercurynews.com%2Fbreakingnews%2Fci_7219784" pub_date="Fri Oct 19 05:36:37 -0700 2007"/>
+      <news title="4 Shot to Death in Detroit House - The Associated Press" href="http%3A%2F%2Fap.google.com%2Farticle%2FALeqM5inmAz7ZTyw3dXFf_u6qt3htg-qTgD8SBT2VG0" pub_date="Thu Oct 18 21:40:48 -0700 2007"/>
+      <news title="Tampa Bay and Detroit led by gritty, well-traveled QBs Jeff Garcia ... - USA Today" href="http%3A%2F%2Fwww.usatoday.com%2Fsports%2Ffootball%2F2007-10-18-3146338906_x.htm" pub_date="Thu Oct 18 21:27:38 -0700 2007"/>
+      <news title="Detroit Street Named After Motown Legend - The Associated Press" href="http%3A%2F%2Fap.google.com%2Farticle%2FALeqM5j3D476GFyqwT9JZ-VOJ8KmC2dQfg" pub_date="Thu Oct 18 15:07:28 -0700 2007"/>
+    </city>
+    <city name="Jacksonville" latitude="30.31941" longitude="-81.66">
+      <weather current="85" low="66" high="88" icon="mostly_cloudy"/>
+      <news title="Time right for Texans to stem tide - Houston Chronicle" href="http%3A%2F%2Fwww.chron.com%2Fdisp%2Fstory.mpl%2Fsports%2Fcampbell%2F5227288.html" pub_date="Fri Oct 19 05:36:55 -0700 2007"/>
+      <news title="CSI: Jacksonville - Indianapolis Star" href="http%3A%2F%2Fwww.indystar.com%2Fapps%2Fpbcs.dll%2Farticle%3FAID%3D%2F20071019%2FSPORTS03%2F710190434%2F1058%2FSPORTS03" pub_date="Fri Oct 19 06:54:12 -0700 2007"/>
+      <news title="Enterprise Florida adds international trade rep for Jacksonville - Bizjournals.com" href="http%3A%2F%2Fwww.bizjournals.com%2Fjacksonville%2Fstories%2F2007%2F10%2F15%2Fdaily28.html" pub_date="Fri Oct 19 14:58:03 -0700 2007"/>
+      <news title="ON PRO FOOTBALL Unbeaten Colts an afterthought thanks to Pats - Houston Chronicle" href="http%3A%2F%2Fwww.chron.com%2Fdisp%2Fstory.mpl%2Fsports%2Fmcclain%2F5227163.html" pub_date="Fri Oct 19 05:36:55 -0700 2007"/>
+      <news title="ACLU opens Jacksonville office - Bizjournals.com" href="http%3A%2F%2Fwww.bizjournals.com%2Fjacksonville%2Fstories%2F2007%2F10%2F15%2Fdaily29.html" pub_date="Fri Oct 19 14:58:02 -0700 2007"/>
+    </city>
+    <city name="Indianapolis" latitude="39.79094" longitude="-86.14769">
+      <weather current="58" low="48" high="63" icon="cloudy"/>
+      <news title="Manatron Announces a $1.8 Million Reassessment Contract with ... - CNNMoney.com" href="http%3A%2F%2Fmoney.cnn.com%2Fnews%2Fnewsfeeds%2Farticles%2Fprnewswire%2FLATH01118102007-1.htm" pub_date="Thu Oct 18 12:42:02 -0700 2007"/>
+      <news title="Federal Home Loan Bank of Indianapolis Announces 2007 Third ... - Primenewswire (press release)" href="http%3A%2F%2Fwww.primenewswire.com%2Fnewsroom%2Fnews.html%3Fd%3D129164" pub_date="Fri Oct 19 13:57:30 -0700 2007"/>
+      <news title="Jaguars won&amp;#39;t run wild against Colts this time - MSNBC" href="http%3A%2F%2Fwww.msnbc.msn.com%2Fid%2F21376435%2F" pub_date="Fri Oct 19 16:12:55 -0700 2007"/>
+      <news title="ON PRO FOOTBALL Unbeaten Colts an afterthought thanks to Pats - Houston Chronicle" href="http%3A%2F%2Fwww.chron.com%2Fdisp%2Fstory.mpl%2Fsports%2Fmcclain%2F5227163.html" pub_date="Fri Oct 19 05:36:55 -0700 2007"/>
+      <news title="US Indianapolis Downs sells $425 mln in 2-parts - Reuters" href="http%3A%2F%2Ftoday.reuters.com%2Finvesting%2FFinanceArticle.aspx%3Ftype%3DbondsNews%26storyID%3D2007-10-18T202058Z_01_N18387914_RTRIDST_0_INDIANAPOLISDOWNS-DEBT-NOTES-TABLE.XML" pub_date="Thu Oct 18 20:29:21 -0700 2007"/>
+    </city>
+    <city name="San Francisco" latitude="37.76667" longitude="-122.43333">
+      <weather current="63" low="53" high="65" icon="mostly_cloudy"/>
+      <news title="Nation in brief: San Francisco to open drug-injection room - Kansas City Star" href="http%3A%2F%2Fwww.kansascity.com%2Fnews%2Fnation%2Fstory%2F323752.html" pub_date="Fri Oct 19 03:20:17 -0700 2007"/>
+      <news title="San Francisco Considers Injection Room - The Associated Press" href="http%3A%2F%2Fap.google.com%2Farticle%2FALeqM5igtJIQAb0WxjrFAutPMAA1Y_PEVAD8SC1H400" pub_date="Fri Oct 19 02:40:40 -0700 2007"/>
+      <news title="San Francisco director is leaving the SEC this month - San Francisco Chronicle" href="http%3A%2F%2Fwww.sfgate.com%2Fcgi-bin%2Farticle.cgi%3Ffile%3D%2Fc%2Fa%2F2007%2F10%2F19%2FBU5SSSAFT.DTL%26type%3Dbusiness" pub_date="Fri Oct 19 11:24:22 -0700 2007"/>
+      <news title="San Francisco Spooked by a Gunshot-Marred Halloween (Update1) - Bloomberg" href="http%3A%2F%2Fwww.bloomberg.com%2Fapps%2Fnews%3Fpid%3D20601109%26sid%3DaQxAsdhtMr6Q%26refer%3Dhome" pub_date="Fri Oct 19 07:40:56 -0700 2007"/>
+      <news title="NFL Preview - San Francisco (2-3) at NY Giants (4-2) - Kansas City Star" href="http%3A%2F%2Fwww.kansascity.com%2F491%2Fstory%2F322980.html" pub_date="Thu Oct 18 21:21:14 -0700 2007"/>
+    </city>
+    <city name="Columbus" latitude="39.96225" longitude="-83.00065">
+      <weather current="69" low="48" high="71" icon="mostly_cloudy"/>
+      <news title="Second-half surge leads Columbus past Gables - Coral Gables Gazette" href="http%3A%2F%2Fcggazette.com%2Fabsolutenm%2Ftemplates%2F%3Fa%3D3320%26z%3D1" pub_date="Fri Oct 19 14:50:10 -0700 2007"/>
+      <news title="Columbus hatch closed for last time - European Space Agency" href="http%3A%2F%2Fwww.esa.int%2FesaCP%2FSEMBR8JJX7F_Life_0.html" pub_date="Fri Oct 19 13:01:36 -0700 2007"/>
+      <news title="Surging Sabres welcome Blue Jackets - Sports Network" href="http%3A%2F%2Fwww.sportsnetwork.com%2Fdefault.asp%3Fc%3Dsportsnetwork%26page%3D%2Fnhl%2Fnews%2FADN4108366.htm" pub_date="Fri Oct 19 14:48:55 -0700 2007"/>
+      <news title="Heartland 3Q profit down 10% Business First of Columbus - Bizjournals.com" href="http%3A%2F%2Fwww.bizjournals.com%2Fcolumbus%2Fstories%2F2007%2F10%2F15%2Fdaily30.html" pub_date="Fri Oct 19 16:43:21 -0700 2007"/>
+      <news title="United States Choose Your Own Interview: Columbus&amp;#39; Eddie Gaven - Goal.com" href="http%3A%2F%2Fwww.goal.com%2Fen%2FArticolo.aspx%3FContenutoId%3D451820" pub_date="Fri Oct 19 14:44:44 -0700 2007"/>
+    </city>
+    <city name="Austin" latitude="30.26667" longitude="-97.75">
+      <weather current="76" low="54" high="90" icon="sunny"/>
+      <news title="CFL fines Austin, Tillman - Canada.com" href="http%3A%2F%2Fwww.canada.com%2Freginaleaderpost%2Fstory.html%3Fid%3D38cad55c-fe4f-4cee-adb4-621dcff6f00b%26k%3D83003" pub_date="Thu Oct 18 14:14:37 -0700 2007"/>
+      <news title="City of Austin approves incentives for HelioVolt plant - Bizjournals.com" href="http%3A%2F%2Fwww.bizjournals.com%2Faustin%2Fstories%2F2007%2F10%2F15%2Fdaily21.html" pub_date="Thu Oct 18 16:55:58 -0700 2007"/>
+      <news title="Austin office market is one to watch, report says - Bizjournals.com" href="http%3A%2F%2Fwww.bizjournals.com%2Faustin%2Fstories%2F2007%2F10%2F15%2Fdaily22.html" pub_date="Thu Oct 18 17:17:33 -0700 2007"/>
+      <news title="Austin club with dance floor over fish tank drawing scrutiny - Houston Chronicle" href="http%3A%2F%2Fwww.chron.com%2Fdisp%2Fstory.mpl%2Fap%2Ftx%2F5226814.html" pub_date="Fri Oct 19 00:08:23 -0700 2007"/>
+      <news title="Construction sector growth helps fuels Austin employment - Bizjournals.com" href="http%3A%2F%2Fwww.bizjournals.com%2Faustin%2Fstories%2F2007%2F10%2F15%2Fdaily33.html" pub_date="Fri Oct 19 16:43:21 -0700 2007"/>
+    </city>
+    <city name="Memphis" latitude="35.11737" longitude="-89.97107">
+      <weather current="69" low="53" high="77" icon="sunny"/>
+      <news title="First Horizon posts third quarter loss - Bizjournals.com" href="http%3A%2F%2Fwww.bizjournals.com%2Fnashville%2Fstories%2F2007%2F10%2F15%2Fdaily31.html" pub_date="Fri Oct 19 14:07:08 -0700 2007"/>
+      <news title="Katz: Cal stayed to make it back to the top - ESPN" href="http%3A%2F%2Fsports.espn.go.com%2Fncb%2Fcolumns%2Fstory%3Fcolumnist%3Dkatz_andy%26id%3D3066270" pub_date="Fri Oct 19 15:58:50 -0700 2007"/>
+      <news title="Pacers&amp;#39; defense playing catch-up - Indianapolis Star" href="http%3A%2F%2Fwww.indystar.com%2Fapps%2Fpbcs.dll%2Farticle%3FAID%3D%2F20071019%2FSPORTS04%2F710190473%2F-1%2FLOCAL17" pub_date="Fri Oct 19 06:49:54 -0700 2007"/>
+      <news title="Indie Memphis Daily Picks: Friday - Memphis Flyer" href="http%3A%2F%2Fwww.memphisflyer.com%2Fmemphis%2FContent%3Foid%3Doid%253A35214" pub_date="Fri Oct 19 11:46:47 -0700 2007"/>
+      <news title="Memphis Editor Admits Fed Ex Sponsorship Idea a Mistake - Editor &amp; Publisher" href="http%3A%2F%2Fwww.editorandpublisher.com%2Feandp%2Fnews%2Farticle_display.jsp%3Fvnu_content_id%3D1003660204" pub_date="Thu Oct 18 17:04:19 -0700 2007"/>
+    </city>
+    <city name="Baltimore" latitude="39.29" longitude="-76.62">
+      <weather current="79" low="61" high="77" icon=""/>
+      <news title="Tanker Truck Hijaked in Baltimore - The Associated Press" href="http%3A%2F%2Fap.google.com%2Farticle%2FALeqM5gbsv-1KJAnLYmJe0TbaNEwJq585gD8SCDRF80" pub_date="Fri Oct 19 16:40:34 -0700 2007"/>
+      <news title="Baltimore County Datebook - Baltimore Sun" href="http%3A%2F%2Fwww.baltimoresun.com%2Fnews%2Flocal%2Fbaltimore_county%2Fbal-md.co.datebook19oct19%2C0%2C954679.story" pub_date="Fri Oct 19 08:54:23 -0700 2007"/>
+      <news title="Hospital ship Comfort docks in Baltimore - Baltimore Sun" href="http%3A%2F%2Fwww.baltimoresun.com%2Fnews%2Flocal%2Fbaltimore_city%2Fbal-comfort1019%2C0%2C1599679.story" pub_date="Fri Oct 19 14:34:57 -0700 2007"/>
+      <news title="Baltimore Police Probe Tanker Hijacking - The Associated Press" href="http%3A%2F%2Fap.google.com%2Farticle%2FALeqM5gbsv-1KJAnLYmJe0TbaNEwJq585gD8SCDE380" pub_date="Fri Oct 19 16:10:18 -0700 2007"/>
+      <news title="NFL Preview - Baltimore (4-2) at Buffalo (1-4) - Kansas City Star" href="http%3A%2F%2Fwww.kansascity.com%2F491%2Fstory%2F322831.html" pub_date="Thu Oct 18 18:54:05 -0700 2007"/>
+    </city>
+    <city name="Charlotte" latitude="35.20719" longitude="-80.82922">
+      <weather current="74" low="54" high="76" icon="cloudy"/>
+      <news title="NBA Game Summary - Atlanta at Charlotte - SLAM! Sports" href="http%3A%2F%2Fscoreboards.canoe.ca%2Fmerge%2Ftsnform.aspx%3Fc%3Dcanoe%26page%3Dnba%2Fscores%2Ffinal%2FW9972.htm" pub_date="Thu Oct 18 17:40:58 -0700 2007"/>
+      <news title="Charlotte unemployment approaching 6 percent while Sarasota sees ... - Sarasota Herald-Tribune" href="http%3A%2F%2Fwww.heraldtribune.com%2Farticle%2F20071019%2FBREAKING06%2F71019028" pub_date="Fri Oct 19 16:11:14 -0700 2007"/>
+      <news title="Wachovia Net Drops 10% on Mortgage, Loan Writedowns (Update5) - Bloomberg" href="http%3A%2F%2Fwww.bloomberg.com%2Fapps%2Fnews%3Fpid%3D20601103%26sid%3Da34S24kdhy_U%26refer%3Dnews" pub_date="Fri Oct 19 15:31:12 -0700 2007"/>
+      <news title="Bank of America 3Q Profit Falls 32 Pct. - The Associated Press" href="http%3A%2F%2Fap.google.com%2Farticle%2FALeqM5jPZnbvyc8J9NppS44zqru5oEhAJQD8SBU87O0" pub_date="Thu Oct 18 23:01:13 -0700 2007"/>
+      <news title="CHARLOTTE, NC — Brad Coleman is making a move to a full-time ride ... - Houston Chronicle" href="http%3A%2F%2Fwww.chron.com%2Fdisp%2Fstory.mpl%2Fsports%2F5227265.html" pub_date="Fri Oct 19 05:35:32 -0700 2007"/>
+    </city>
+    <city name="El Paso" latitude="31.7902" longitude="-106.4232">
+      <weather current="64" low="48" high="81" icon="sunny"/>
+      <news title="El Paso Electric Third Quarter Earnings Release Date and ... - CNNMoney.com" href="http%3A%2F%2Fmoney.cnn.com%2Fnews%2Fnewsfeeds%2Farticles%2Fprnewswire%2FLATH02018102007-1.htm" pub_date="Thu Oct 18 11:08:16 -0700 2007"/>
+      <news title="El Paso high school student collapses, dies after taking PSAT exam - Team 4 News" href="http%3A%2F%2Fwww.team4news.com%2FGlobal%2Fstory.asp%3FS%3D7232175%26nav%3Dmenu90_3" pub_date="Thu Oct 18 16:26:37 -0700 2007"/>
+      <news title="El Paso Police receive security award - El Paso Times" href="http%3A%2F%2Fwww.elpasotimes.com%2Fnewupdated%2Fci_7225161" pub_date="Fri Oct 19 16:23:31 -0700 2007"/>
+      <news title="El Paso customs officers rescue kitty from under car hood - Houston Chronicle" href="http%3A%2F%2Fwww.chron.com%2Fdisp%2Fstory.mpl%2Fap%2Ftx%2F5225053.html" pub_date="Thu Oct 18 16:24:56 -0700 2007"/>
+      <news title="El Paso Partners prices IPO - Bizjournals.com" href="http%3A%2F%2Fwww.bizjournals.com%2Fhouston%2Fstories%2F2007%2F10%2F15%2Fdaily42.html%3Fjst%3Db_ln_hl" pub_date="Thu Oct 18 16:41:28 -0700 2007"/>
+    </city>
+    <city name="Boston" latitude="42.35826" longitude="-71.06018">
+      <weather current="72" low="61" high="70" icon="cloudy"/>
+      <news title="Young GM Theo Epstein has made lasting mark on Boston Red Sox - The Canadian Press" href="http%3A%2F%2Fcanadianpress.google.com%2Farticle%2FALeqM5h-tkNTosJl-6sXu0fTMOZRre8Z2A" pub_date="Fri Oct 19 04:40:53 -0700 2007"/>
+      <news title="Human Frailty and Pain on Boston’s Mean Streets - New York Times" href="http%3A%2F%2Fmovies.nytimes.com%2F2007%2F10%2F19%2Fmovies%2F19gone.html%3F8dpc" pub_date="Thu Oct 18 23:03:33 -0700 2007"/>
+      <news title="Beckett sends series back to Boston - San Jose Mercury News" href="http%3A%2F%2Fwww.mercurynews.com%2Fathletics%2Fci_7222096" pub_date="Fri Oct 19 08:38:22 -0700 2007"/>
+      <news title="Sends Series Back to Boston - Wall Street Journal" href="http%3A%2F%2Fonline.wsj.com%2Farticle%2FSB119280115998664841.html%3Fmod%3Dgooglenews_wsj" pub_date="Fri Oct 19 15:18:48 -0700 2007"/>
+      <news title="Boston Scientific Sees 4Q Coated Stent Sales $430 Million-$480 Million - CNNMoney.com" href="http%3A%2F%2Fmoney.cnn.com%2Fnews%2Fnewsfeeds%2Farticles%2Fdjf500%2F200710190930DOWJONESDJONLINE000572_FORTUNE5.htm" pub_date="Fri Oct 19 13:48:43 -0700 2007"/>
+    </city>
+    <city name="Seattle" latitude="47.61" longitude="-122.33">
+      <weather current="52" low="45" high="54" icon="mostly_cloudy"/>
+      <news title="Border police take tunes, but Walla&amp;#39;s playing on - Seattle Times" href="http%3A%2F%2Fseattletimes.nwsource.com%2Fhtml%2Fmusicnightlife%2F2003961113_niteshorts19.html" pub_date="Fri Oct 19 07:23:33 -0700 2007"/>
+      <news title="Seattle makes news - Seattle Post Intelligencer" href="http%3A%2F%2Fblog.seattlepi.nwsource.com%2Frealestatenews%2Farchives%2F123990.asp" pub_date="Thu Oct 18 21:01:29 -0700 2007"/>
+      <news title="Illusionist Copperfield investigated in federal case out of Seattle - Seattle Post Intelligencer" href="http%3A%2F%2Fblog.seattlepi.nwsource.com%2Fthebigblog%2Farchives%2F124028.asp%3Ffrom%3Dblog_last3" pub_date="Fri Oct 19 06:03:08 -0700 2007"/>
+      <news title="Wind advisory is still on for Seattle area - Seattle Post Intelligencer" href="http%3A%2F%2Fseattlepi.nwsource.com%2Flocal%2F335991_wind19.html" pub_date="Fri Oct 19 03:38:53 -0700 2007"/>
+      <news title="No train service today between Seattle and Portland - Seattle Times" href="http%3A%2F%2Fseattletimes.nwsource.com%2Fhtml%2Ftravel%2F2003961991_webamtrak19.html" pub_date="Fri Oct 19 15:01:26 -0700 2007"/>
+    </city>
+    <city name="Washington" latitude="38.89" longitude="-77.03">
+      <weather current="74" low="59" high="77" icon="rain"/>
+      <news title="Washington Group International Announces Settlement of Stockholder ... - CNNMoney.com" href="http%3A%2F%2Fmoney.cnn.com%2Fnews%2Fnewsfeeds%2Farticles%2Fprnewswire%2FLAF025A19102007-1.htm" pub_date="Fri Oct 19 11:56:44 -0700 2007"/>
+      <news title="NFL Preview - Arizona (3-3) at Washington (3-2) - Kansas City Star" href="http%3A%2F%2Fwww.kansascity.com%2F491%2Fstory%2F323094.html" pub_date="Thu Oct 18 23:15:17 -0700 2007"/>
+      <news title="New Issue-Washington Mutual sells $1 bln in hybrid perp secs - Reuters" href="http%3A%2F%2Ftoday.reuters.com%2Finvesting%2FFinanceArticle.aspx%3Ftype%3DbondsNews%26storyID%3D2007-10-18T202209Z_01_N1887029_RTRIDST_0_WASHINGTONMUTUAL-DEBT-BONDS-TABLE.XML" pub_date="Thu Oct 18 20:29:21 -0700 2007"/>
+      <news title="Utilities restoring storm outages in Western Washington - Seattle Post Intelligencer" href="http%3A%2F%2Fseattlepi.nwsource.com%2Flocal%2F6420AP_WA_Storm_Power.html" pub_date="Fri Oct 19 14:35:19 -0700 2007"/>
+      <news title="Rape suspect extradited to Washington - Seattle Times" href="http%3A%2F%2Fseattletimes.nwsource.com%2Fhtml%2Flocalnews%2F2003960962_webfreeman18m.html" pub_date="Fri Oct 19 00:00:18 -0700 2007"/>
+    </city>
+    <city name="Milwaukee" latitude="43.05" longitude="-87.95">
+      <weather current="55" low="46" high="57" icon="rain"/>
+      <news title="September unemployment at 4.6 percent The Business Journal of ... - Bizjournals.com" href="http%3A%2F%2Fwww.bizjournals.com%2Fmilwaukee%2Fstories%2F2007%2F10%2F15%2Fdaily41.html" pub_date="Thu Oct 18 19:26:33 -0700 2007"/>
+      <news title="Harley-Davidson 3Q Profit Down 15.3 Pct - The Associated Press" href="http%3A%2F%2Fap.google.com%2Farticle%2FALeqM5jNmxY1CSZIEZM7rplYFjLTCWRPagD8SCBKKO0" pub_date="Fri Oct 19 14:10:49 -0700 2007"/>
+      <news title="Associated reports profit decline The Business Journal of Milwaukee - Bizjournals.com" href="http%3A%2F%2Fwww.bizjournals.com%2Fmilwaukee%2Fstories%2F2007%2F10%2F15%2Fdaily40.html" pub_date="Thu Oct 18 19:26:33 -0700 2007"/>
+      <news title="Giuliani at Milwaukee fundraiser, Wis. Dems endorse Edwards - Daily Cardinal" href="http%3A%2F%2Fwww.dailycardinal.com%2Farticle%2F808" pub_date="Fri Oct 19 07:22:54 -0700 2007"/>
+      <news title="Strattec 1Q profit triples The Business Journal of Milwaukee - Bizjournals.com" href="http%3A%2F%2Fwww.bizjournals.com%2Fmilwaukee%2Fstories%2F2007%2F10%2F15%2Fdaily45.html" pub_date="Fri Oct 19 15:07:56 -0700 2007"/>
+    </city>
+    <city name="Salt Lake City" latitude="40.75" longitude="-111.89">
+      <weather current="58" low="46" high="68" icon="mostly_cloudy"/>
+      <news title="Utah Marquee: Visual arts - Salt Lake Tribune" href="http%3A%2F%2Fwww.sltrib.com%2Fentertainment%2Fci_7216345" pub_date="Fri Oct 19 06:09:38 -0700 2007"/>
+      <news title="Salt Lake City&amp;#39;s 911 Dispatch Center Goes Down - KUTV" href="http%3A%2F%2Fwww.kutv.com%2Fcontent%2Fnews%2Ftopnews%2Fstory.aspx%3Fcontent_id%3Dda6027fa-cea9-47c8-a38b-96b68e8f9718" pub_date="Thu Oct 18 23:32:12 -0700 2007"/>
+      <news title="Artifacts linked to Hitler recovered in US storage unit - International Herald Tribune" href="http%3A%2F%2Fwww.iht.com%2Farticles%2Fap%2F2007%2F10%2F19%2Famerica%2FNA-GEN-US-Hitler-Artifacts.php" pub_date="Fri Oct 19 00:41:13 -0700 2007"/>
+      <news title="Out &amp;amp; About - Salt Lake Tribune" href="http%3A%2F%2Fwww.sltrib.com%2Fentertainment%2Fci_7216347" pub_date="Fri Oct 19 06:09:37 -0700 2007"/>
+      <news title="Former Salt Lake City Chief Named FEMA Advisor - KUTV" href="http%3A%2F%2Fwww.kutv.com%2Fnews%2Flocal%2Fstory.aspx%3Fcontent_id%3D9f584ced-c6f8-4e50-956f-b6533a943044" pub_date="Fri Oct 19 14:12:20 -0700 2007"/>
+    </city>
+    <city name="Portland" latitude="45.52" longitude="-122.64">
+      <weather current="54" low="46" high="57" icon="mostly_cloudy"/>
+      <news title="HB Stubbs expands Portland Business Journal - Bizjournals.com" href="http%3A%2F%2Fwww.bizjournals.com%2Fportland%2Fstories%2F2007%2F10%2F15%2Fdaily45.html" pub_date="Thu Oct 18 17:38:14 -0700 2007"/>
+      <news title="Kimono exhibit at the Portland Japanese Garden - Los Angeles Times" href="http%3A%2F%2Fwww.latimes.com%2Ftravel%2Fla-trw-portland21oct21%2C1%2C815219.story%3Fcoll%3Dla-travel-headlines" pub_date="Thu Oct 18 22:40:42 -0700 2007"/>
+      <news title="No train service today between Seattle and Portland - Seattle Times" href="http%3A%2F%2Fseattletimes.nwsource.com%2Fhtml%2Ftravel%2F2003961991_webamtrak19.html" pub_date="Fri Oct 19 15:01:26 -0700 2007"/>
+      <news title="Portland Trail Blazers Season Preview - ESPN" href="http%3A%2F%2Fmyespn.go.com%2Fblogs%2Ftruehoop%2F0-28-197%2FPortland-Trail-Blazers-Season-Preview.html" pub_date="Thu Oct 18 21:08:43 -0700 2007"/>
+      <news title="Birth Control Pills for 11-Year-Old Girls... - FOX News" href="http%3A%2F%2Fwww.foxnews.com%2Fstory%2F0%2C2933%2C303521%2C00.html" pub_date="Fri Oct 19 13:53:54 -0700 2007"/>
+    </city>
+    <city name="Denver" latitude="39.44" longitude="-104.59">
+      <weather current="57" low="43" high="72" icon="mostly_cloudy"/>
+      <news title="Janus Fund manager resigns The Denver Business Journal - Bizjournals.com" href="http%3A%2F%2Fwww.bizjournals.com%2Fdenver%2Fstories%2F2007%2F10%2F15%2Fdaily58.html" pub_date="Fri Oct 19 15:49:01 -0700 2007"/>
+      <news title="Mile-High Momentum - TIME" href="http%3A%2F%2Fwww.time.com%2Ftime%2Fmagazine%2Farticle%2F0%2C9171%2C1673264%2C00.html" pub_date="Thu Oct 18 21:17:41 -0700 2007"/>
+      <news title="Nordstrom opens doors Friday The Denver Business Journal - Bizjournals.com" href="http%3A%2F%2Fwww.bizjournals.com%2Fdenver%2Fstories%2F2007%2F10%2F15%2Fdaily50.html" pub_date="Thu Oct 18 19:47:26 -0700 2007"/>
+      <news title="Denver&amp;#39;s Walker sidelined by knee operation - Reuters Canada" href="http%3A%2F%2Fca.today.reuters.com%2Fnews%2FnewsArticle.aspx%3Ftype%3DsportsNews%26storyID%3D2007-10-18T235543Z_01_B333786_RTRIDST_0_SPORTS-NFL-DENVER-WALKER-COL.XML" pub_date="Thu Oct 18 23:57:13 -0700 2007"/>
+      <news title="NFL Preview - Pittsburgh (4-1) at Denver (2-3) - Kansas City Star" href="http%3A%2F%2Fwww.kansascity.com%2F491%2Fstory%2F323050.html" pub_date="Thu Oct 18 21:57:27 -0700 2007"/>
+    </city>
+    <city name="Hawaii" latitude="21.0" longitude="-157.0">
+      <weather current="69" low="59" high="73" icon="sunny"/>
+      <news title="USS Oklahoma markers on their way to Hawaii - Tulsa World" href="http%3A%2F%2Fwww.tulsaworld.com%2Fnews%2Farticle.aspx%3FarticleID%3D071019_1_A15_spanc62046" pub_date="Fri Oct 19 08:17:47 -0700 2007"/>
+      <news title="Soldier Denies Taking Part in Killing - The Associated Press" href="http%3A%2F%2Fap.google.com%2Farticle%2FALeqM5jzuwkhrcOZ-H5K2HgCBMz-ICJ0nwD8SCC9L01" pub_date="Fri Oct 19 15:00:58 -0700 2007"/>
+      <news title="Activists oppose Hawaii Superferry reprieve - Honolulu Advertiser" href="http%3A%2F%2Fwww.honoluluadvertiser.com%2Fapps%2Fpbcs.dll%2Farticle%3FAID%3D%2F20071019%2FNEWS01%2F710190371%2F1001%2FNEWS01" pub_date="Fri Oct 19 11:06:07 -0700 2007"/>
+      <news title="Visitors give Hawaii high marks - Bizjournals.com" href="http%3A%2F%2Fwww.bizjournals.com%2Fpacific%2Fstories%2F2007%2F10%2F15%2Fdaily33.html" pub_date="Thu Oct 18 21:10:25 -0700 2007"/>
+      <news title="Mars Volcanoes May Re-Erupt, Hawaii Comparison Shows - National Geographic" href="http%3A%2F%2Fnews.nationalgeographic.com%2Fnews%2F2007%2F10%2F071018-mars-volcanoes.html" pub_date="Thu Oct 18 22:38:31 -0700 2007"/>
+    </city>
+    <city name="Calgary" latitude="51.02" longitude="-114.03">
+      <weather current="30" low="30" high="46" icon="mostly_cloudy"/>
+      <news title="CFL Previews - Week Seventeen (October 19-21) - Sports Network" href="http%3A%2F%2Fwww.sportsnetwork.com%2Fdefault.asp%3Fc%3Dsportsnetwork%26page%3Dcfl%2Fnews%2Fajn4108359.htm" pub_date="Fri Oct 19 14:42:44 -0700 2007"/>
+      <news title="Probe into slaying goes to Calgary - Edmonton Sun" href="http%3A%2F%2Fwww.edmontonsun.com%2FNews%2FAlberta%2F2007%2F10%2F19%2F4588463-sun.html" pub_date="Fri Oct 19 08:21:44 -0700 2007"/>
+      <news title="Kings fall to Calgary - Los Angeles Times" href="http%3A%2F%2Fwww.latimes.com%2Fsports%2Fprintedition%2Fla-sp-kings19oct19%2C1%2C4086563.story%3Fcoll%3Dla-headlines-pe-sports" pub_date="Fri Oct 19 07:04:20 -0700 2007"/>
+      <news title="Avs battle Blackhawks aiming to extend win streak - Sports Network" href="http%3A%2F%2Fwww.sportsnetwork.com%2Fdefault.asp%3Fc%3Dsportsnetwork%26page%3D%2Fnhl%2Fnews%2FADN4108371.htm" pub_date="Fri Oct 19 14:51:43 -0700 2007"/>
+      <news title="One child killed, others hurt in Calgary bus crash - National Post" href="http%3A%2F%2Fwww.canada.com%2Fnationalpost%2Fstory.html%3Fid%3D7555f2b0-f3f2-4f90-872c-ab3e1b18f949" pub_date="Fri Oct 19 10:45:50 -0700 2007"/>
+    </city>
+    <city name="Montreal" latitude="45.3" longitude="-73.33">
+      <weather current="75" low="57" high="73" icon="mostly_cloudy"/>
+      <news title="Hospital had to send man to Montreal for surgery - Canada.com" href="http%3A%2F%2Fwww.canada.com%2Fottawacitizen%2Fstory.html%3Fid%3Dbd7f6fd5-f4d1-4573-b298-305828f961b6%26k%3D15068" pub_date="Fri Oct 19 11:14:43 -0700 2007"/>
+      <news title="Montreal Anglicans to tackle same-sex unions - Canada.com" href="http%3A%2F%2Fwww.canada.com%2Ftopics%2Fnews%2Fstory.html%3Fid%3D477c02e1-387e-4f1d-bada-4f1bc7100c43%26k%3D18871" pub_date="Fri Oct 19 11:39:55 -0700 2007"/>
+      <news title="Garneau to run for Liberals in Montreal riding - Globe and Mail" href="http%3A%2F%2Fwww.theglobeandmail.com%2Fservlet%2Fstory%2FLAC.20071019.GARNEAU19%2FTPStory%2FNational" pub_date="Fri Oct 19 09:06:29 -0700 2007"/>
+      <news title="Amnesty calls for moratorium on stun guns after Montreal man dies - The Canadian Press" href="http%3A%2F%2Fcanadianpress.google.com%2Farticle%2FALeqM5jjvx5kmSMVBBnxKUmjniZ6n4fHfg" pub_date="Thu Oct 18 20:05:40 -0700 2007"/>
+      <news title="Spezza provides winning edge - Globe and Mail" href="http%3A%2F%2Fwww.theglobeandmail.com%2Fservlet%2Fstory%2FLAC.20071019.SENATORSFINAL19%2FTPStory%2FSports" pub_date="Fri Oct 19 08:58:30 -0700 2007"/>
+    </city>
+    <city name="Paris" latitude="48.86" longitude="2.33">
+      <weather current="54" low="39" high="53" icon="cloudy"/>
+      <news title="Rugby: Noon to cheer on England in Paris - New Zealand Herald" href="http%3A%2F%2Fwww.nzherald.co.nz%2Fsection%2F4%2Fstory.cfm%3Fc_id%3D4%26objectid%3D10470925" pub_date="Fri Oct 19 04:47:09 -0700 2007"/>
+      <news title="England rugby fans head to Paris - BBC News" href="http%3A%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fuk_news%2F7052323.stm" pub_date="Fri Oct 19 10:45:36 -0700 2007"/>
+      <news title="England Rugby Final Tickets Soar to $8000 in Paris (Update2) - Bloomberg" href="http%3A%2F%2Fwww.bloomberg.com%2Fapps%2Fnews%3Fpid%3D20601109%26sid%3DaZsFOLoXPK00%26refer%3Dhome" pub_date="Fri Oct 19 12:21:31 -0700 2007"/>
+      <news title="French president kisses wife goodbye as strike hits Paris - National Post" href="http%3A%2F%2Fwww.canada.com%2Fnationalpost%2Fnews%2Fstory.html%3Fid%3D9e1fa7ca-66df-4e23-ad09-5f87d55ac863%26k%3D94497" pub_date="Thu Oct 18 20:29:28 -0700 2007"/>
+      <news title="Rugby fans face Paris scrum as transport strikes continue - Guardian Unlimited" href="http%3A%2F%2Fwww.guardian.co.uk%2Ffrance%2Fstory%2F0%2C%2C2194999%2C00.html" pub_date="Fri Oct 19 10:16:38 -0700 2007"/>
+      <livecam base_url="http%3A%2F%2F43.160.109.253%2Facfs%2Fcities%2F" small="fr_paris_s.jpg" big="fr_paris.jpg" href="http%3A%2F%2Fcamonline.dyndns.tv%2Fview%2Findex.shtml"/>
+    </city>
+    <city name="Cape Town" latitude="-33.92" longitude="18.42">
+      <weather current="77" low="69" high="86" icon="sunny"/>
+      <news title="Cape Town Business Leaders and Mayor Helen Zille agree to ... - My Pressportal (press release)" href="http%3A%2F%2Fwww.pressportal.co.za%2Fbusiness_economy_finances_banking_and_insurance%2Fza_20071018_847.html" pub_date="Fri Oct 19 07:34:27 -0700 2007"/>
+      <news title="Cape Town must become a base for cruise liners - Cape Business News" href="http%3A%2F%2Fwww.cbn.co.za%2Fdailynews%2F2457.html" pub_date="Fri Oct 19 04:46:42 -0700 2007"/>
+      <news title="South Africa: Cape Town Plans to Be Ideal Cruise Destination - AllAfrica.com" href="http%3A%2F%2Fallafrica.com%2Fstories%2F200710180816.html" pub_date="Thu Oct 18 15:22:50 -0700 2007"/>
+      <news title="Taxi owner shot and killed in Cape Town - Independent Online" href="http%3A%2F%2Fwww.iol.co.za%2Findex.php%3Fset_id%3D1%26click_id%3D15%26art_id%3Dnw20071018154557618C383677" pub_date="Thu Oct 18 15:08:41 -0700 2007"/>
+      <news title="South Africa: Cape Town is Country&amp;#39;s Most Productive City -- Index - AllAfrica.com" href="http%3A%2F%2Fallafrica.com%2Fstories%2F200710180422.html" pub_date="Thu Oct 18 11:18:21 -0700 2007"/>
+    </city>
+    <city name="Port Louis" latitude="-20.1" longitude="57.3">
+      <weather current="72" low="64" high="77" icon="mostly_cloudy"/>
+      <news title="A Need For Thinkers - Mauritius Times" href="http%3A%2F%2Fwww.mauritiustimes.com%2F191007chand.htm" pub_date="Fri Oct 19 11:32:45 -0700 2007"/>
+      <news title="Angola: Lack of Visa Stops Country From Competing in Reunion Island - AllAfrica.com" href="http%3A%2F%2Fallafrica.com%2Fstories%2F200710190198.html" pub_date="Fri Oct 19 11:06:09 -0700 2007"/>
+      <news title="Mauritius: Less traditional university offers courses &amp;quot;for all&amp;quot; - AllAfrica.com" href="http%3A%2F%2Fallafrica.com%2Fstories%2F200710161073.html" pub_date="Tue Oct 16 17:05:31 -0700 2007"/>
+      <news title="Mauritius: Manda Boolell, president of macoss-&amp;quot;More than a teacher ... - AllAfrica.com" href="http%3A%2F%2Fallafrica.com%2Fstories%2F200710161036.html" pub_date="Tue Oct 16 16:26:56 -0700 2007"/>
+      <news title="Mauritians urged to remain vigilant on HIV/AIDS - Afrique en ligne" href="http%3A%2F%2Fwww.afriquenligne.fr%2Fnews%2Fdaily-news%2Fmauritians-urged-to-remain-vigilant-on-hiv%2510aids-2007101910810%2F" pub_date="Fri Oct 19 07:20:43 -0700 2007"/>
+    </city>
+    <city name="Sydney" latitude="-33.52" longitude="151.12">
+      <weather current="63" low="57" high="77" icon="mostly_cloudy"/>
+      <news title="Parasites found: Sydney water supply closed - ABC Online" href="http%3A%2F%2Fabc.net.au%2Fnews%2Fstories%2F2007%2F10%2F19%2F2064551.htm%3Fsection%3Djustin" pub_date="Fri Oct 19 05:37:02 -0700 2007"/>
+      <news title="Chak de! India chosen Best Film in Sydney - Hindustan Times" href="http%3A%2F%2Fwww.hindustantimes.com%2FRedir.aspx%3FID%3D7e0d2904-7261-49d2-8efa-662d8ec2c6ed" pub_date="Thu Oct 18 13:29:45 -0700 2007"/>
+      <news title="Body of child found in suitcase in Sydney - RTE.ie" href="http%3A%2F%2Fwww.rte.ie%2Fnews%2F2007%2F1018%2Faustralia.html" pub_date="Thu Oct 18 12:29:38 -0700 2007"/>
+      <news title="Rome or Bangkok? Sydney&amp;#39;s reputation depends on the answer - Sydney Morning Herald" href="http%3A%2F%2Fwww.smh.com.au%2Fnews%2Fopinion%2Frome-or-bangkok-sydneys-reputation-depends-on-the-answer%2F2007%2F10%2F19%2F1192301044262.html" pub_date="Fri Oct 19 14:06:26 -0700 2007"/>
+      <news title="Vidmar eyes Sydney hoodoo - ABC Online" href="http%3A%2F%2Fwww.abc.net.au%2Fnews%2Fstories%2F2007%2F10%2F19%2F2063664.htm" pub_date="Thu Oct 18 21:24:50 -0700 2007"/>
+    </city>
+    <city name="Perth" latitude="-31.52" longitude="115.52">
+      <weather current="57" low="59" high="78" icon="sunny"/>
+      <news title="Body recovered from plane wreck - Melbourne Herald Sun" href="http%3A%2F%2Fwww.news.com.au%2Fheraldsun%2Fstory%2F0%2C21985%2C22612992-29277%2C00.html" pub_date="Fri Oct 19 01:27:25 -0700 2007"/>
+      <news title="Melbourne Victory hero returns for Perth Glory - Melbourne Herald Sun" href="http%3A%2F%2Fwww.news.com.au%2Fheraldsun%2Fstory%2F0%2C21985%2C22616530-2883%2C00.html" pub_date="Fri Oct 19 15:06:41 -0700 2007"/>
+      <news title="Drug bus debuts in Perth - ABC Online" href="http%3A%2F%2Fabc.net.au%2Fnews%2Fstories%2F2007%2F10%2F19%2F2064778.htm" pub_date="Fri Oct 19 08:17:47 -0700 2007"/>
+      <news title="Cousins a loser in game of chance - Sydney Morning Herald" href="http%3A%2F%2Fwww.smh.com.au%2Fnews%2Fsport%2Fcousins-a-loser-in-game-of-chance%2F2007%2F10%2F19%2F1192301041875.html" pub_date="Fri Oct 19 14:53:14 -0700 2007"/>
+      <news title="Goalkeeper Michael Theoklitos focuses on Perth - Melbourne Herald Sun" href="http%3A%2F%2Fwww.news.com.au%2Fheraldsun%2Fstory%2F0%2C21985%2C22616532-2883%2C00.html" pub_date="Fri Oct 19 15:06:33 -0700 2007"/>
+    </city>
+    <city name="Auckland" latitude="-36.51" longitude="174.47">
+      <weather current="48" low="51" high="59" icon="mostly_cloudy"/>
+      <news title="Can Auckland tame the Lions? - TVNZ" href="http%3A%2F%2Ftvnz.co.nz%2Fview%2Fpage%2F1316907%2F1409486" pub_date="Fri Oct 19 03:46:18 -0700 2007"/>
+      <news title="Tame Iti&amp;#39;s nephew one of 17 arrested - Stuff.co.nz" href="http%3A%2F%2Fwww.stuff.co.nz%2F4244107a11.html" pub_date="Fri Oct 19 16:07:34 -0700 2007"/>
+      <news title="Man arrested over Auckland sex attacks - Stuff.co.nz" href="http%3A%2F%2Fwww.stuff.co.nz%2F4243814a10.html" pub_date="Fri Oct 19 04:03:20 -0700 2007"/>
+      <news title="NZ razzle-dazzle preludes Paris bump and grind - Stuff.co.nz" href="http%3A%2F%2Fwww.stuff.co.nz%2Fstuff%2F4243603a10295.html" pub_date="Thu Oct 18 22:01:15 -0700 2007"/>
+      <news title="Auckland drivers face more pain at petrol pumps - New Zealand Herald" href="http%3A%2F%2Fwww.nzherald.co.nz%2Fsection%2Fstory.cfm%3Fc_id%3D1%26objectid%3D10470838" pub_date="Thu Oct 18 16:17:47 -0700 2007"/>
+    </city>
+    <city name="Manila" latitude="14.59" longitude="120.98">
+      <weather current="81" low="77" high="89" icon="cloudy"/>
+      <news title="2 estate firms to join bidding for Manila power plant (5:14 pm) - Sun.Star" href="http%3A%2F%2Fwww.sunstar.com.ph%2Fstatic%2Fnet%2F2007%2F10%2F19%2F2.estate.firms.to.join.bidding.for.manila.power.plant.%285.14.p.m.%29.html" pub_date="Fri Oct 19 09:29:57 -0700 2007"/>
+      <news title="Manila to offer one-stop business permit processing soon - Inquirer.net" href="http%3A%2F%2Fbusiness.inquirer.net%2Fmoney%2Fbreakingnews%2Fview_article.php%3Farticle_id%3D95292" pub_date="Thu Oct 18 11:28:23 -0700 2007"/>
+      <news title="Suspected terrorist bomb rocks Manila mall - Los Angeles Times" href="http%3A%2F%2Fwww.latimes.com%2Fnews%2Fnationworld%2Fworld%2Fla-fg-manila20oct20%2C0%2C528070.story%3Fcoll%3Dla-home-center" pub_date="Fri Oct 19 15:50:43 -0700 2007"/>
+      <news title="Manila is more than just memories - Manila Standard Today" href="http%3A%2F%2Fwww.manilastandardtoday.com%2F%3Fpage%3DgoodLife5_oct20_2007" pub_date="Fri Oct 19 15:22:49 -0700 2007"/>
+      <news title="Manila Not Sincere in Solving Mindanao Problem: Lawmaker - Arab News" href="http%3A%2F%2Fwww.arabnews.com%2F%3Fpage%3D1%26section%3D0%26article%3D102592%26d%3D19%26m%3D10%26y%3D2007%26pix%3Dkingdom.jpg%26category%3DKingdom" pub_date="Thu Oct 18 23:04:20 -0700 2007"/>
+    </city>
+    <city name="Morzine" latitude="46.17905" longitude="6.70905">
+      <news title="Pereiro finally named 2006 Tour champion - Independent Online" href="http%3A%2F%2Fwww.iol.co.za%2Findex.php%3Fset_id%3D6%26click_id%3D185%26art_id%3Dnw20070921082603490C730958" pub_date="Fri Sep 21 08:11:36 -0700 2007"/>
+      <news title="Pereiro to get Tour de France yellow jersey next week - AFP" href="http%3A%2F%2Fafp.google.com%2Farticle%2FALeqM5giPUjPDrh4Vj04aODFAyQQXMyOcA" pub_date="Tue Oct 09 18:03:18 -0700 2007"/>
+      <news title="Morzine Dining &amp;amp; Going Out &amp;gt; Bars, Cafes &amp;amp; Clubs - Morznet.com" href="http%3A%2F%2Fmorznet.com%2Flistings%2FMorzine%2FBars%2C_Cafes_%26_Clubs%2F106%2FALL%2FALL%2FALL" pub_date="Thu Oct 04 08:44:44 -0700 2007"/>
+      <news title="Two camps in Morzine from More Mountain - Snowboard Club UK" href="http%3A%2F%2Fwww.snowboardclub.co.uk%2Ftb.php%3F1191416610%2C54809%2C" pub_date="Wed Oct 03 13:30:16 -0700 2007"/>
+      <news title="Holidaymakers flock to skiing resorts - Realestate TV" href="http%3A%2F%2Fnews.realestatetv.tv%2FHolidaymakers_flock_to_skiing_resorts_18319859.html" pub_date="Wed Oct 17 09:07:05 -0700 2007"/>
+      <livecam base_url="http%3A%2F%2F43.160.109.253%2Facfs%2Fcities%2F" small="fr_morzine_s.jpg" big="fr_morzine.jpg" href="http%3A%2F%2Fwww.chaletlecoffy.co.uk%2F"/>
+    </city>
+    <city name="Napoli" latitude="40.84" longitude="14.25287">
+      <weather current="59" low="46" high="66" icon="cloudy"/>
+      <news title="Roma Mancini Denies Roma Exit - Goal.com" href="http%3A%2F%2Fwww.goal.com%2Fen%2FArticolo.aspx%3FContenutoId%3D451248" pub_date="Fri Oct 19 06:06:26 -0700 2007"/>
+      <news title="ROMA FORCED TO SHUFFLE MIDFIELD - Sportinglife.com" href="http%3A%2F%2Fwww.sportinglife.com%2Ffootball%2Foverseas%2Fitaly%2Fnews%2Fstory_get.cgi%3FSTORY_NAME%3Dinternational_feed%2F07%2F10%2F19%2FSOCCER_Ita-Roma_Preview.html" pub_date="Fri Oct 19 12:32:09 -0700 2007"/>
+      <news title="Serie A Preview: Roma - Napoli Who: Roma (3rd place, 14 points) v ... - Goal.com" href="http%3A%2F%2Fgoal.com%2Fen-us%2FArticolo.aspx%3FContenutoId%3D451655" pub_date="Fri Oct 19 12:54:28 -0700 2007"/>
+      <news title="BANNERS INTER-NAPOLI: JUDGE ASKES 2/0 RING STADIUM CLOSED - Agenzia Giornalistica Italia" href="http%3A%2F%2Fwww.agi.it%2Fengsport%2Fnews%2F200710161728-spr-ren0075-art.html" pub_date="Tue Oct 16 15:34:09 -0700 2007"/>
+      <news title="Italy Totti Doubtful For Roma-Napoli Clash - Goal.com" href="http%3A%2F%2Fgoal.com%2Fen-us%2FArticolo.aspx%3FContenutoId%3D449724" pub_date="Wed Oct 17 19:51:34 -0700 2007"/>
+      <livecam base_url="http%3A%2F%2F43.160.109.253%2Facfs%2Fcities%2F" small="it_naopri_s.jpg" big="it_naopri.jpg" href="http%3A%2F%2Fwww.hamburger-rathausmarkt.de%2F"/>
+    </city>
+    <city name="Torino" latitude="45.0706" longitude="7.68671">
+      <weather current="55" low="46" high="55" icon="sunny"/>
+      <news title="England Torino Chasing Bianchi? - Goal.com" href="http%3A%2F%2Fwww.goal.com%2Fen-india%2FArticolo.aspx%3FContenutoId%3D450306" pub_date="Thu Oct 18 10:04:48 -0700 2007"/>
+      <news title="Politecnico Di Torino And Pirelli: Research Agreement Signed For ... - PaddockTalk" href="http%3A%2F%2Fwww.paddocktalk.com%2Fnews%2Fhtml%2Fmodules.php%3Fop%3Dmodload%26name%3DNews%26file%3Darticle%26sid%3D69685" pub_date="Fri Oct 19 00:47:26 -0700 2007"/>
+      <news title="Club To Club 2007 Torino/Barcelona - BERLINISTA" href="http%3A%2F%2Fberlinista.com%2Fen%2Farticle%2Fclub-to-club-festival-2007-torino-barcelona%2F3714" pub_date="Wed Oct 17 19:21:40 -0700 2007"/>
+      <news title="Torino set for £7m Bianchi raid - Eatsleepsport.com" href="http%3A%2F%2Fwww.eatsleepsport.com%2Farticles%2F639961.html" pub_date="Thu Oct 18 15:58:26 -0700 2007"/>
+      <news title="Match Preview Serie A Preview: Round 8 - Goal.com" href="http%3A%2F%2Fgoal.com%2Fen%2FArticolo.aspx%3FContenutoId%3D451641" pub_date="Fri Oct 19 12:43:13 -0700 2007"/>
+      <livecam base_url="http%3A%2F%2F43.160.109.253%2Facfs%2Fcities%2F" small="it_torino_s.jpg" big="it_torino.jpg" href="http%3A%2F%2Fdanielemeteo.altervista.org%2F"/>
+    </city>
+    <city name="Venetia" latitude="45.43449" longitude="12.3384">
+      <weather current="59" low="42" high="62" icon="sunny"/>
+      <news title="Eyes Wide Open: First world promises, third world construction - Sify" href="http%3A%2F%2Fsify.com%2Fnews%2Ffullstory.php%3Fid%3D14532568%26vsv%3DSHGTslot4" pub_date="Tue Sep 25 03:37:56 -0700 2007"/>
+      <news title="Venetia Kapernekas Gallery - Manhattan Living Magazine" href="http%3A%2F%2Fmanhattanlivingmag.com%2Fneweventinfo.cfm%3Fid%3D13807" pub_date="Thu Sep 27 04:17:52 -0700 2007"/>
+      <news title="Role of Amusement Parks Emphasized - Arab News" href="http%3A%2F%2Fwww.arabnews.com%2F%3Fpage%3D1%26section%3D0%26article%3D102553%26d%3D18%26m%3D10%26y%3D2007%26pix%3Dkingdom.jpg%26category%3DKingdom" pub_date="Wed Oct 17 23:07:56 -0700 2007"/>
+      <news title="Trident was in India much before it was discovered by VCs - Economic Times" href="http%3A%2F%2Feconomictimes.indiatimes.com%2FInterview%2FTrident_was_in_India_much_before_it_was_discovered_by_VCs%2Farticleshow%2F2465052.cms" pub_date="Tue Oct 16 21:09:02 -0700 2007"/>
+      <news title="Sexiness abounds in &amp;#39;Glorious Ones&amp;#39; - New York Daily News" href="http%3A%2F%2Fwww.nydailynews.com%2Fentertainment%2Fculture%2F2007%2F10%2F19%2F2007-10-19_sexiness_abounds_in_glorious_ones.html" pub_date="Fri Oct 19 08:33:28 -0700 2007"/>
+      <livecam base_url="http%3A%2F%2F43.160.109.253%2Facfs%2Fcities%2F" small="it_venetia_s.jpg" big="it_venetia.jpg" href="http%3A%2F%2Fturismo.regione.veneto.it%2Fwebcam%2F"/>
+    </city>
+    <city name="Florence" latitude="43.76873" longitude="11.2569">
+      <weather current="64" low="44" high="64" icon="sunny"/>
+      <news title="Whiteford&amp;#39;s game flowers in Florence - Scotsman" href="http%3A%2F%2Fsport.scotsman.com%2Fgolf.cfm%3Fid%3D1668732007" pub_date="Thu Oct 18 23:16:39 -0700 2007"/>
+      <news title="Killer who escaped in Florence caught - Arizona Republic" href="http%3A%2F%2Fwww.azcentral.com%2Fcommunity%2Fgilbert%2Farticles%2F1017escapee17-ON.html" pub_date="Wed Oct 17 16:11:31 -0700 2007"/>
+      <news title="Area Football Preview: Salado, Florence in key 25-2A games - Killeen Daily Herald" href="http%3A%2F%2Fwww.kdhnews.com%2Fnews%2Fstory.aspx%3Fid%3D19662" pub_date="Fri Oct 19 06:54:32 -0700 2007"/>
+      <news title="Schmid helps Florence knock off Deer Lodge - The Missoulian" href="http%3A%2F%2Fwww.missoulian.com%2Farticles%2F2007%2F10%2F19%2Fsports%2Fsports05.txt" pub_date="Fri Oct 19 05:15:11 -0700 2007"/>
+      <news title="Roslindale Neighbors: City Council to hold hearing on Florence ... - Jamaica Plain Gazette" href="http%3A%2F%2Fjamaicaplaingazette.com%2Fnode%2F2086" pub_date="Fri Oct 19 16:16:46 -0700 2007"/>
+      <livecam base_url="http%3A%2F%2F43.160.109.253%2Facfs%2Fcities%2F" small="it_florence_s.jpg" big="it_florence.jpg" href="http%3A%2F%2Fwww.krafthotel.it%2F"/>
+    </city>
+    <city name="Hamburg" latitude="53.55341" longitude="9.9922">
+      <weather current="45" low="30" high="51" icon="sunny"/>
+      <news title="Hamburg&amp;#39;s Van der Vaart rebuffs January move - Fil Balad" href="http%3A%2F%2Fsports.filbalad.com%2Fenglish%2FNews.asp%3FNewsID%3D36770" pub_date="Thu Oct 18 18:38:18 -0700 2007"/>
+      <news title="Hamburg port operator HHLA to carry out IPO on Nov 2 - sources - Forbes" href="http%3A%2F%2Fwww.forbes.com%2Fmarkets%2Ffeeds%2Fafx%2F2007%2F10%2F17%2Fafx4229297.html" pub_date="Wed Oct 17 12:47:05 -0700 2007"/>
+      <news title="Hamburg gunning for the House: - The Casper Star Tribune" href="http%3A%2F%2Fwww.casperstartribune.net%2Farticles%2F2007%2F10%2F19%2Fnews%2Fwyoming%2F2fef52f07b6ff793872573790002502d.txt" pub_date="Fri Oct 19 08:13:50 -0700 2007"/>
+      <news title="&amp;#39;Port of dreams&amp;#39; for millions - Canada.com" href="http%3A%2F%2Fwww.canada.com%2Fstory.html%3Fid%3D538ea69e-0ea7-4fd2-a6fd-7c85be8f9236" pub_date="Fri Oct 19 15:50:39 -0700 2007"/>
+      <news title="Germany roundup-Bayern without Demichelis for Bochum game - Guardian Unlimited" href="http%3A%2F%2Ffootball.guardian.co.uk%2Fbreakingnews%2Ffeedstory%2F0%2C%2C-7008760%2C00.html" pub_date="Fri Oct 19 12:24:32 -0700 2007"/>
+      <livecam base_url="http%3A%2F%2F43.160.109.253%2Facfs%2Fcities%2F" small="ga_hamburg_s.jpg" big="ga_hamburg.jpg" href="http%3A%2F%2Fwww.hamburger-rathausmarkt.de%2F"/>
+    </city>
+    <city name="Keren" latitude="50.94111" longitude="6.9572">
+      <news title="Part of something big - Ha'aretz" href="http%3A%2F%2Fwww.haaretz.com%2Fhasen%2Fspages%2F912745.html" pub_date="Mon Oct 15 00:17:38 -0700 2007"/>
+      <news title="Facebook, YouTube and...politics? - Gauntlet" href="http%3A%2F%2Fgauntlet.ucalgary.ca%2Fstory%2F11743" pub_date="Thu Oct 18 19:32:09 -0700 2007"/>
+      <news title="Eritrea: 51 Prisoners Graduate in Adult Education - AllAfrica.com" href="http%3A%2F%2Fallafrica.com%2Fstories%2F200710170095.html" pub_date="Wed Oct 17 07:36:12 -0700 2007"/>
+      <news title="Erin and Jaime add star quality to new fashion collection debut - hellomagazine.com" href="http%3A%2F%2Fwww.hellomagazine.com%2Ffashion%2F2007%2F10%2F17%2Fmarchesa-erin%2F" pub_date="Wed Oct 17 12:36:03 -0700 2007"/>
+      <news title="Victim&amp;#39;s brother: Swap Kuntar with abducted soldiers - Ynetnews" href="http%3A%2F%2Fwww.ynetnews.com%2Farticles%2F0%2C7340%2CL-3460926%2C00.html" pub_date="Wed Oct 17 12:18:13 -0700 2007"/>
+      <livecam base_url="http%3A%2F%2F43.160.109.253%2Facfs%2Fcities%2F" small="ga_keren_s.jpg" big="ga_keren.jpg" href="http%3A%2F%2Fwww.wdr.de%2Fthemen%2Fglobal%2Fwebcams%2F"/>
+    </city>
+    <city name="Lemgo" latitude="52.03331" longitude="8.90175">
+      <news title="High-Temperature Plastics for Airbus - MCADCafe (press release)" href="http%3A%2F%2Fwww10.mcadcafe.com%2Fnbc%2Farticles%2Fview_article.php%3Fsection%3DCorpNews%26articleid%3D447051" pub_date="Wed Oct 17 15:40:36 -0700 2007"/>
+      <livecam base_url="http%3A%2F%2F43.160.109.253%2Facfs%2Fcities%2F" small="ga_lemgo_s.jpg" big="ga_lemgo.jpg" href="http%3A%2F%2Fwww.lemgo.net%2F1261.html"/>
+    </city>
+    <city name="Praha" latitude="50.08781" longitude="14.42046">
+      <weather current="37" low="33" high="44" icon="mostly_cloudy"/>
+      <news title="Bém: Praha zatím nemá vážné problémy s nepokoji menšin a mládeže - ROMEA" href="http%3A%2F%2Fwww.romea.cz%2Findex.php%3Fid%3Ddetail%26detail%3D2007_3180" pub_date="Tue Oct 09 08:50:46 -0700 2007"/>
+      <news title="Zürich U21 starlets sidelined - uefa.com" href="http%3A%2F%2Fwww.uefa.com%2Fcompetitions%2Fuefacup%2Fnews%2Fkind%3D1%2Fnewsid%3D605095.html" pub_date="Thu Oct 18 17:38:18 -0700 2007"/>
+      <news title="Brøndby pleased with progress - uefa.com" href="http%3A%2F%2Fwww.uefa.com%2Fcompetitions%2Fwomencup%2Fnews%2Fkind%3D1%2Fnewsid%3D605075.html" pub_date="Fri Oct 19 08:18:03 -0700 2007"/>
+      <news title="Czechs come good in Munich - UEFA.com" href="http%3A%2F%2Fwww.uefa.com%2Fcompetitions%2Feuro%2Fnews%2Fkind%3D1%2Fnewsid%3D604848.html" pub_date="Thu Oct 18 09:22:49 -0700 2007"/>
+      <news title="Van Persie blow amid Denilson deal - UEFA.com" href="http%3A%2F%2Fwww.uefa.com%2Fcompetitions%2Fucl%2Fnews%2Fkind%3D1%2Fnewsid%3D605146.html" pub_date="Thu Oct 18 19:53:32 -0700 2007"/>
+      <livecam base_url="http%3A%2F%2F43.160.109.253%2Facfs%2Fcities%2F" small="ga_praha_s.jpg" big="ga_praha.jpg" href="http%3A%2F%2Fwww.lavka.cz%2Flavka.php%3Fmenu%3D11"/>
+    </city>
+    <city name="Budapest" latitude="47.4984" longitude="19.04076">
+      <weather current="46" low="30" high="50" icon="sunny"/>
+      <news title="Budapest flats to offer thermal water from the tap - Caboodle.hu" href="http%3A%2F%2Fwww.caboodle.hu%2Fnc%2Fnews%2Fnews_archive%2Fsingle_page%2Farticle%2F11%2Fbudapest_fla%2F%3FcHash%3D67f51751b1" pub_date="Fri Oct 19 07:27:17 -0700 2007"/>
+      <news title="Budapest asks Ft 11 bln for subsidized heating - Budapest Business Journal" href="http%3A%2F%2Fwww.bbj.hu%2Fmain%2Fnews_32406_budapest%2Basks%2Bft%2B11%2Bbln%2Bfor%2Bsubsidized%2Bheating.html" pub_date="Fri Oct 19 06:41:09 -0700 2007"/>
+      <news title="Budapest shares close slightly lower; unease persits ahead of long ... - Forbes" href="http%3A%2F%2Fwww.forbes.com%2Fmarkets%2Ffeeds%2Fafx%2F2007%2F10%2F19%2Fafx4239627.html" pub_date="Fri Oct 19 15:33:42 -0700 2007"/>
+      <news title="Vandals strike Budapest offices of Hungarian Socialist Party - Caboodle.hu" href="http%3A%2F%2Fwww.caboodle.hu%2Fnc%2Fnews%2Fnews_archive%2Fsingle_page%2Farticle%2F11%2Fvandals_stri%2F%3FcHash%3Da70d1b55f4" pub_date="Fri Oct 19 09:45:37 -0700 2007"/>
+      <news title="Wizz Air to fly from Romanian city of Cluj to Budapest, Rome ... - International Herald Tribune" href="http%3A%2F%2Fwww.iht.com%2Farticles%2Fap%2F2007%2F10%2F18%2Fbusiness%2FEU-FIN-COM-Romania-Wizz-Air.php" pub_date="Thu Oct 18 14:52:23 -0700 2007"/>
+      <livecam base_url="http%3A%2F%2F43.160.109.253%2Facfs%2Fcities%2F" small="hg_budapest_s.jpg" big="hg_budapest.jpg" href="http%3A%2F%2Fwww.budapestinfo.hu%2F"/>
+    </city>
+    <city name="Buerchen" latitude="46.27948" longitude="7.81538">
+      <livecam base_url="http%3A%2F%2F43.160.109.253%2Facfs%2Fcities%2F" small="sw_buechen_s.jpg" big="sw_buechen.jpg" href="http%3A%2F%2Fwww.buerchen.ch%2Fwebcam%2F"/>
+    </city>
+    <city name="Troms" latitude="69.34073" longitude="19.25257">
+      <news title="2007 Lower Section National Finals Fourth Section retrospective - 4barsrest.com" href="http%3A%2F%2Fwww.4barsrest.com%2Farticles%2F2007%2Fart740a.asp" pub_date="Thu Oct 04 13:56:33 -0700 2007"/>
+      <news title="Lytix to Take Lead Antimicrobial Compound into Clinic - Business Wire (press release)" href="http%3A%2F%2Fhome.businesswire.com%2Fportal%2Fsite%2Fgoogle%2Findex.jsp%3FndmViewId%3Dnews_view%26newsId%3D20070920005399%26newsLang%3Den" pub_date="Thu Sep 20 09:14:28 -0700 2007"/>
+      <news title="Norway studies seabed ahead of drilling - Barents Observer" href="http%3A%2F%2Fwww.barentsobserver.com%2Findex.php%3Fid%3D544910%26cat%3D16149%26xforceredir%3D1%26noredir%3D1" pub_date="Mon Oct 15 13:45:03 -0700 2007"/>
+      <news title="Shrimp turn around in Norway - TheFishSite.com" href="http%3A%2F%2Fwww.thefishsite.com%2Ffishnews%2F5342%2Fshrimp-turn-around-in-norway" pub_date="Mon Oct 01 09:43:13 -0700 2007"/>
+      <news title="200 dead journalists commemorated - Barents Observer" href="http%3A%2F%2Fwww.barentsobserver.com%2Findex.php%3Fid%3D541018%26cat%3D16149%26xforceredir%3D1%26noredir%3D1" pub_date="Mon Oct 01 12:40:18 -0700 2007"/>
+      <livecam base_url="http%3A%2F%2F43.160.109.253%2Facfs%2Fcities%2F" small="nw_norway_s.jpg" big="nw_norway.jpg" href="http%3A%2F%2Fweather.cs.uit.no%2F"/>
+    </city>
+    <city name="tampere" latitude="61.49802" longitude="23.76487">
+      <weather current="37" low="28" high="41" icon="mostly_cloudy"/>
+      <news title="Late bloomer gets chance - London Free Press" href="http%3A%2F%2Flfpress.ca%2Fnewsstand%2FSports%2FHockey%2F2007%2F10%2F19%2F4588263-sun.html" pub_date="Fri Oct 19 07:38:54 -0700 2007"/>
+      <news title="Tampere United close in on Finnish title - Guardian Unlimited" href="http%3A%2F%2Ffootball.guardian.co.uk%2Fbreakingnews%2Ffeedstory%2F0%2C%2C-6954331%2C00.html" pub_date="Thu Sep 27 20:17:08 -0700 2007"/>
+      <news title="Food producer HK Ruokatalo shuts down Tampere operations - 124 to ... - Helsingin Sanomat" href="http%3A%2F%2Fwww.hs.fi%2Fenglish%2Farticle%2FFood%2Bproducer%2BHK%2BRuokatalo%2Bshuts%2Bdown%2BTampere%2Boperations%2B-%2B124%2Bto%2Blose%2Bjobs%2F1135230562622" pub_date="Tue Sep 25 11:03:25 -0700 2007"/>
+      <news title="Smart label monitors food shelf life - FoodNavigator.com" href="http%3A%2F%2Fwww.foodnavigator.com%2Fnews%2Fng.asp%3Fn%3D80644-upm-smart-label-modified-atmosphere" pub_date="Wed Oct 17 11:18:15 -0700 2007"/>
+      <news title="Police say many well-known hotels used by Russian prostitution ring - Helsingin Sanomat" href="http%3A%2F%2Fwww.hs.fi%2Fenglish%2Farticle%2FPolice%2Bsay%2Bmany%2Bwell-known%2Bhotels%2Bused%2Bby%2BRussian%2Bprostitution%2Bring%2F1135231154631" pub_date="Fri Oct 19 11:02:33 -0700 2007"/>
+      <livecam base_url="http%3A%2F%2F43.160.109.253%2Facfs%2Fcities%2F" small="fn_tampere_s.jpg" big="fn_tampere.jpg" href="http%3A%2F%2Fwww.tampere.fi%2F"/>
+    </city>
+    <city name="Tasmania" latitude="-41.7072" longitude="146.149">
+      <news title="Gunns and Forestry Tasmania agree on logging - The Age" href="http%3A%2F%2Fwww.theage.com.au%2Fnews%2Fnational%2Fgunns-and-forestry-tasmania-agree-on-logging%2F2007%2F10%2F19%2F1192301045759.html" pub_date="Fri Oct 19 14:09:18 -0700 2007"/>
+      <news title="Island In The Stream - Dynamic Business" href="http%3A%2F%2Fwww.dynamicbusiness.com%2Findex.php%3Foption%3Dcom_content%26task%3Dview%26id%3D433%26Itemid%3D10290" pub_date="Fri Oct 19 14:22:06 -0700 2007"/>
+      <news title="Tasmania teachers vote on strike action - The Age" href="http%3A%2F%2Fwww.theage.com.au%2Fnews%2FNational%2FTasmania-teachers-vote-on-strike-action%2F2007%2F10%2F18%2F1192300940701.html" pub_date="Thu Oct 18 07:30:02 -0700 2007"/>
+      <news title="Police pedalling across Tasmania for charity - ABC Regional Online" href="http%3A%2F%2Fwww.abc.net.au%2Fnews%2Fstories%2F2007%2F10%2F19%2F2064341.htm%3Fsite%3Didx-tas" pub_date="Fri Oct 19 04:16:43 -0700 2007"/>
+      <news title="Tasmania requests horse flu vaccine - ABC Online" href="http%3A%2F%2Fwww.abc.net.au%2Frural%2Fnews%2Fcontent%2F2007%2Fs2062961.htm" pub_date="Thu Oct 18 03:07:25 -0700 2007"/>
+      <livecam base_url="http%3A%2F%2F43.160.109.253%2Facfs%2Fcities%2F" small="au_tasmania_s.jpg" big="au_tasmania.jpg" href="http%3A%2F%2Fwww.rosebay.tased.edu.au%2F"/>
+    </city>
+    <city name="Lake Tekapo" latitude="-44.00467" longitude="170.48584">
+      <weather current="40" low="42" high="60" icon=""/>
+      <news title="Great season for ice-rink - The Timaru Herald" href="http%3A%2F%2Fwww.stuff.co.nz%2Fstuff%2Ftimaruherald%2F4213427a6010.html" pub_date="Mon Sep 24 17:09:14 -0700 2007"/>
+      <news title="Dark sky is not anti-commerce - The Timaru Herald" href="http%3A%2F%2Fwww.stuff.co.nz%2Fstuff%2Ftimaruherald%2F4242823a6571.html" pub_date="Thu Oct 18 16:12:56 -0700 2007"/>
+      <news title="Peppers for Tekapo - eTravelBlackboard MICE News" href="http%3A%2F%2Fwww.etbmice.com%2Farticle.asp%3Farticleid%3D640" pub_date="Thu Oct 04 03:00:00 -0700 2007"/>
+      <news title="$50m village revamp boost for town - Stuff.co.nz" href="http%3A%2F%2Fwww.stuff.co.nz%2F4231757a24035.html" pub_date="Tue Oct 09 22:08:38 -0700 2007"/>
+      <news title="South Island Adventure in New Zealand with Contiki - e-Travel Blackboard (press release)" href="http%3A%2F%2Fwww.etravelblackboard.com%2Findex.asp%3Fid%3D70472%26nav%3D9" pub_date="Thu Oct 18 23:22:30 -0700 2007"/>
+      <livecam base_url="http%3A%2F%2F43.160.109.253%2Facfs%2Fcities%2F" small="nw_laketekapo1_s.jpg" big="nw_laketekapo1.jpg" href="http%3A%2F%2Fwww.tekapotourism.com%2F"/>
+    </city>
+    <city name="Hanmer Springs" latitude="-42.52227" longitude="172.82991">
+      <weather current="44" low="46" high="59" icon=""/>
+      <news title="Quake jolts much of NZ - TVNZ" href="http%3A%2F%2Ftvnz.co.nz%2Fview%2Fpage%2F1320238%2F1389157" pub_date="Wed Oct 03 20:06:30 -0700 2007"/>
+      <news title="Quake felt in Wellington, Christchurch - New Zealand Herald" href="http%3A%2F%2Fwww.nzherald.co.nz%2Fsection%2F1%2Fstory.cfm%3Fc_id%3D1%26objectid%3D10467786" pub_date="Wed Oct 03 20:09:31 -0700 2007"/>
+      <news title="Swim Pass Takes A Dip For Hurunui Residents - Scoop.co.nz" href="http%3A%2F%2Fwww.scoop.co.nz%2Fstories%2FBU0710%2FS00256.htm" pub_date="Mon Oct 15 21:29:56 -0700 2007"/>
+      <news title="Mums take up challenge - The Timaru Herald" href="http%3A%2F%2Fwww.stuff.co.nz%2Fstuff%2Ftimaruherald%2F4233152a6434.html" pub_date="Wed Oct 10 16:09:17 -0700 2007"/>
+      <news title="South Island shaken by 5.6 quake - Stuff.co.nz" href="http%3A%2F%2Fwww.stuff.co.nz%2Fstuff%2F4225606a11.html" pub_date="Wed Oct 03 21:08:44 -0700 2007"/>
+      <livecam base_url="http%3A%2F%2F43.160.109.253%2Facfs%2Fcities%2F" small="nw_hanmer_s.jpg" big="nw_hanmer.jpg" href="Http%3A%2F%2Fwww.takeabreak.co.nz%2Fwebcams.asp"/>
+    </city>
+    <city name="MirafloresLocks" latitude="8.42117" longitude="-80.11278">
+      <livecam base_url="http%3A%2F%2F43.160.109.253%2Facfs%2Fcities%2F" small="pa_miraflores_s.jpg" big="pa_miraflores.jpg" href="http%3A%2F%2Fwww.pancanal.com%2Feng%2Fphoto%2Fcamera-java.html"/>
+    </city>
+    <city name="CapeTown" latitude="-33.97905" longitude="18.5102">
+      <news title="City Makes Good Progress with Sale of Municipal Property to ... - Provincial Government of the Western Cape" href="http%3A%2F%2Fwww.capegateway.gov.za%2Feng%2Fyour_gov%2F12107%2Fnews%2F2007%2Foct%2F162274" pub_date="Thu Oct 11 13:55:41 -0700 2007"/>
+      <news title="Enviroment Blogs This Week - Global Voices Online" href="http%3A%2F%2Fwww.globalvoicesonline.org%2F2007%2F10%2F12%2Fenviroment-blogs-this-week%2F" pub_date="Fri Oct 12 04:27:31 -0700 2007"/>
+      <news title="Merkel warns of climate change in South Africa - AFP" href="http%3A%2F%2Fafp.google.com%2Farticle%2FALeqM5jkZgiMUh5PLLkfu0dB-6I1Bqkntw" pub_date="Sat Oct 06 20:32:26 -0700 2007"/>
+      <news title="Phonetime acquires Symphony Telecom - Telecom Paper (subscription)" href="http%3A%2F%2Fwww.telecom.paper.nl%2Fsite%2Fnews_ta.asp%3Ftype%3Dabstract%26id%3D188581" pub_date="Thu Oct 18 08:02:42 -0700 2007"/>
+      <news title="Boldness welcomed - Seattle Times" href="http%3A%2F%2Fseattletimes.nwsource.com%2Fhtml%2Feditorialsopinion%2F2003940559_gatesed11.html" pub_date="Thu Oct 11 07:24:33 -0700 2007"/>
+      <livecam base_url="http%3A%2F%2F43.160.109.253%2Facfs%2Fcities%2F" small="sa_catown_s.jpg" big="sa_catown.jpg" href="http%3A%2F%2Fmidafricam.co.za%2Fmain%2F"/>
+    </city>
+    <city name="Niagara" latitude="43.07926" longitude="-79.07588">
+      <news title="City hears update on Niagara extension update - Montrose Daily Press" href="http%3A%2F%2Fwww.montrosepress.com%2Farticles%2F2007%2F10%2F19%2Fnews%2Fdoc47183120d327e640743182.txt" pub_date="Fri Oct 19 04:51:41 -0700 2007"/>
+      <news title="Bill Clinton&amp;#39;s coming to Niagara Former US President to speak at ... - Niagarathisweek.com" href="http%3A%2F%2Fwww.niagarathisweek.com%2Fnews%2Fcommunities%2FRegional%2Farticle%2F129632" pub_date="Fri Oct 19 05:00:08 -0700 2007"/>
+      <news title="Hockey Drops Season Opener To Niagara - CSTV.com" href="http%3A%2F%2Fwww.cstv.com%2Fsports%2Fm-hockey%2Fstories%2F101807aae.html" pub_date="Fri Oct 19 04:24:32 -0700 2007"/>
+      <news title="First Niagara Financial Group, Inc. Declares Quarterly Dividend - CNNMoney.com" href="http%3A%2F%2Fmoney.cnn.com%2Fnews%2Fnewsfeeds%2Farticles%2Fprnewswire%2FNYTH10218102007-1.htm" pub_date="Thu Oct 18 16:57:18 -0700 2007"/>
+      <news title="Niagara Sports Report - October 19 - Niagarathisweek.com" href="http%3A%2F%2Fwww.niagarathisweek.com%2Fsports%2Farticle%2F129590" pub_date="Fri Oct 19 05:18:53 -0700 2007"/>
+      <livecam base_url="http%3A%2F%2F43.160.109.253%2Facfs%2Fcities%2F" small="us_niagara1_s.jpg" big="us_niagara1.jpg" href="http%3A%2F%2Fwww.fallsview.com%2FNiagaraSheratonFallsviewHotel.html"/>
+    </city>
+    <city name="Grand Canyon" latitude="36.11453" longitude="-113.24001">
+      <news title="Africa and the internet - Economist" href="http%3A%2F%2Fwww.economist.com%2Fworld%2Fafrica%2Fdisplaystory.cfm%3Fstory_id%3D9990626" pub_date="Thu Oct 18 17:06:16 -0700 2007"/>
+      <news title="Tony Hillerman&amp;#39;s novels inspire Four Corners tours - Dallas Morning News" href="http%3A%2F%2Fwww.dallasnews.com%2Fsharedcontent%2Fdws%2Ffea%2Flifetravel%2Fstories%2FDN-hillerman_1021tra.ART.State.Edition1.1b13881.html" pub_date="Wed Oct 17 20:56:20 -0700 2007"/>
+      <news title="Another split for DSC as it faces Grand Canyon - DSC Dixie Sun Online Edition" href="http%3A%2F%2Fsun.dixie.edu%2Findex.php%3Fpg%3Dstory%26storyid%3D2636" pub_date="Wed Oct 17 16:17:28 -0700 2007"/>
+      <news title="Grand Canyon tours by helicopter - Houston Chronicle" href="http%3A%2F%2Fwww.chron.com%2Fdisp%2Fstory.mpl%2Ftravel%2F5206401.html" pub_date="Sat Oct 13 05:33:46 -0700 2007"/>
+      <news title="Couple finds Grand Canyon a scenic wedding alternative - Tonganoxie Mirror" href="http%3A%2F%2Fwww.tonganoxiemirror.com%2Fsection%2Flocal%2Fstory%2F11742" pub_date="Tue Oct 16 23:44:25 -0700 2007"/>
+      <livecam base_url="http%3A%2F%2F43.160.109.253%2Facfs%2Fcities%2F" small="us_gcanyon_s.jpg" big="us_gcanyon.jpg" href="http%3A%2F%2Fwww2.nature.nps.gov%2Fair%2Fwebcams%2F"/>
+    </city>
+    <city name="Washington DC" latitude="38.88951" longitude="-77.032">
+      <weather current="74" low="59" high="77" icon="rain"/>
+      <news title="Smith and Klein Visits Washington,DC - Wave of Long Island (subscription)" href="http%3A%2F%2Fwww.rockawave.com%2Fnews%2F2007%2F1019%2FCommunity%2F034.html" pub_date="Fri Oct 19 00:03:42 -0700 2007"/>
+      <news title="GEI Consultants Launches New Washington， DC Office - 金融界" href="http%3A%2F%2Fusstock.jrj.com.cn%2Fnews%2F2007-10-19%2F000002808377.html" pub_date="Fri Oct 19 10:17:13 -0700 2007"/>
+      <news title="Dr. James Dobson Honored in Washington, DC - CitizenLink" href="http%3A%2F%2Fwww.citizenlink.org%2Fcontent%2FA000005732.cfm" pub_date="Fri Oct 19 13:19:28 -0700 2007"/>
+      <news title="Meters coming to DC taxis - Bizjournals.com" href="http%3A%2F%2Fwww.bizjournals.com%2Fwashington%2Fstories%2F2007%2F10%2F15%2Fdaily21.html" pub_date="Wed Oct 17 15:46:52 -0700 2007"/>
+      <news title="Benazir Bhutto Set to Return to Pakistan - Voice of America" href="http%3A%2F%2Fwww.voanews.com%2Fenglish%2F2007-10-17-voa25.cfm" pub_date="Wed Oct 17 18:55:18 -0700 2007"/>
+      <livecam base_url="http%3A%2F%2F43.160.109.253%2Facfs%2Fcities%2F" small="us_washington1_s.jpg" big="us_washington1.jpg" href="http%3A%2F%2Fwww2.nature.nps.gov%2Fair%2Fwebcams%2F"/>
+    </city>
+    <city name="North Cascades" latitude="48.6855" longitude="-121.13552">
+      <news title="Motorcycle Touring - Pacific North West - Motorcycle Cruiser Magazine" href="http%3A%2F%2Fwww.motorcyclecruiser.com%2Ffeatures%2F0708_crup_motorcycle_touring_pacific_north_west" pub_date="Sat Oct 13 00:48:26 -0700 2007"/>
+      <news title="Seattle hiker rescued after Cascades ordeal - Seattle Times" href="http%3A%2F%2Fseattletimes.nwsource.com%2Fhtml%2Flocalnews%2F2003896425_hiker22m.html" pub_date="Sat Sep 22 07:24:58 -0700 2007"/>
+      <news title="Larches (and snow) signal seasons&amp;#39; shift in Cascades - Seattle Times" href="http%3A%2F%2Fseattletimes.nwsource.com%2Fhtml%2Foutdoors%2F2003954996_nwwlarches18.html" pub_date="Thu Oct 18 07:22:45 -0700 2007"/>
+      <news title="Missing hiker&amp;#39;s car found in North Cascades - Seattle Times" href="http%3A%2F%2Fseattletimes.nwsource.com%2Fhtml%2Flocalnews%2F2003893659_webhiker20m.html" pub_date="Thu Sep 20 16:28:10 -0700 2007"/>
+      <news title="Baker Lake in the off-season is a blissful place to dip your ... - Seattle Post Intelligencer" href="http%3A%2F%2Fseattlepi.nwsource.com%2Fgetaways%2F335637_bakerlake18.html" pub_date="Wed Oct 17 22:07:11 -0700 2007"/>
+      <livecam base_url="http%3A%2F%2F43.160.109.253%2Facfs%2Fcities%2F" small="us_nocascades_s.jpg" big="us_nocascades.jpg" href="http%3A%2F%2Fwww2.nature.nps.gov%2Fair%2Fwebcams%2F"/>
+    </city>
+    <city name="Mt St.Helens" latitude="46.99827" longitude="-122.80908">
+      <news title="Volcano may be to blame - Coquitlam Tri City News" href="http%3A%2F%2Fwww.tricitynews.com%2Fportals-code%2Flist.cgi%3Fpaper%3D74%26cat%3D43%26id%3D1084592%26more%3D0" pub_date="Thu Oct 18 01:17:05 -0700 2007"/>
+      <news title="Mount St. Helens rumbles on - Science Daily (press release)" href="http%3A%2F%2Fwww.sciencedaily.com%2Fupi%2Findex.php%3Ffeed%3DScience%26article%3DUPI-1-20070924-12570300-bc-us-volcano.xml" pub_date="Mon Sep 24 17:53:52 -0700 2007"/>
+      <news title="Mount St. Helens growing for past three years - Seattle Post Intelligencer" href="http%3A%2F%2Fseattlepi.nwsource.com%2Flocal%2F6420AP_WA_Mount_St_Helens_Anniversary.html" pub_date="Fri Sep 28 19:58:33 -0700 2007"/>
+      <news title="Local Artist of the Week - mt. st. helens - Kane County Chronicle" href="http%3A%2F%2Fwww.kcchronicle.com%2Farticles%2F2007%2F10%2F11%2Flifestyle%2Fmusic%2Fdoc470eea6f31c4e958904855.txt" pub_date="Fri Oct 12 04:17:08 -0700 2007"/>
+      <news title="Should Forest Service ease restrictions on recreational use at ... - Seattle Post Intelligencer" href="http%3A%2F%2Fseattlepi.nwsource.com%2Fgetaways%2F333965_access04.html" pub_date="Wed Oct 03 18:31:27 -0700 2007"/>
+      <livecam base_url="http%3A%2F%2F43.160.109.253%2Facfs%2Fcities%2F" small="us_sthelens_s.jpg" big="us_sthelens.jpg" href="http%3A%2F%2Fwww.fs.fed.us%2Fgpnf%2F"/>
+    </city>
+    <city name="SanFrancisco" latitude="37.77916" longitude="-122.42009">
+      <news title="San Francisco Past Midnight: Entertainment After Hours - TravelVideo.tv (press release)" href="http%3A%2F%2Ftravelvideo.tv%2Fnews%2Fmore.php%3Fid%3D12716_0_1_0_M" pub_date="Mon Oct 15 12:27:57 -0700 2007"/>
+      <news title="ActivIdentity changes CEOs San Francisco Business Times - Bizjournals.com" href="http%3A%2F%2Fwww.bizjournals.com%2Fsanfrancisco%2Fstories%2F2007%2F10%2F15%2Fdaily36.html" pub_date="Thu Oct 18 17:17:33 -0700 2007"/>
+      <news title="Cathay Pacific to launch second daily San Francisco Flight - ASIATravelTips.com" href="http%3A%2F%2Fwww.asiatraveltips.com%2Fnews07%2F1610-SanFrancisco.shtml" pub_date="Tue Oct 16 01:26:39 -0700 2007"/>
+      <news title="17th Win for “Everybody’s Favorite City” - dBusinessNews San Francisco (press release)" href="http%3A%2F%2Fsanfrancisco.dbusinessnews.com%2Fshownews.php%3Fnewsid%3D137328%26type_news%3Dlatest" pub_date="Thu Oct 18 08:31:41 -0700 2007"/>
+      <news title="SAN FRANCISCO -- The following releases focus on the topic Family ... - dBusinessNews San Francisco (press release)" href="http%3A%2F%2Fsanfrancisco.dbusinessnews.com%2Fshownews.php%3Fnewsid%3D137095%26type_news%3Dlatest" pub_date="Tue Oct 16 08:08:11 -0700 2007"/>
+      <livecam base_url="http%3A%2F%2F43.160.109.253%2Facfs%2Fcities%2F" small="us_sanfarancisco3_s.jpg" big="us_sanfarancisco3.jpg" href="http%3A%2F%2Fwebmarin.com%2F"/>
+    </city>
+    <city name="Florida" latitude="27.97985" longitude="-82.47986">
+      <weather current="87" low="75" high="84" icon="mostly_cloudy"/>
+      <news title="College football picks of the week: Lookin’ at Florida, Ohio State ... - San Jose Mercury News" href="http%3A%2F%2Fwww.mercextra.com%2Fblogs%2Fcollegesports%2F2007%2F10%2F18%2Fcollege-football-picks-of-the-week-lookin-at-florida-ohio-state-and-rutgers%2F" pub_date="Thu Oct 18 21:39:06 -0700 2007"/>
+      <news title="Police: Florida Man Jailed for Stealing Thousands of Gallons of ... - FOX News" href="http%3A%2F%2Fwww.foxnews.com%2Fstory%2F0%2C2933%2C303418%2C00.html" pub_date="Thu Oct 18 23:11:24 -0700 2007"/>
+      <news title="Rutgers 30, South Florida 27 On National Stage, Rutgers Steals Show - New York Times" href="http%3A%2F%2Fwww.nytimes.com%2F2007%2F10%2F19%2Fsports%2Fncaafootball%2F19rutgers.html%3Fem%26ex%3D1192939200%26en%3Da8030780ee400ba2%26ei%3D5087%250A" pub_date="Fri Oct 19 12:51:44 -0700 2007"/>
+      <news title="For GOP Hopefuls, Florida Could Be The Key - CBS News" href="http%3A%2F%2Fwww.cbsnews.com%2Fstories%2F2007%2F10%2F18%2Fpolitics%2Fmain3381972.shtml" pub_date="Fri Oct 19 12:24:06 -0700 2007"/>
+      <news title="Talent-filled 1987 Miami-Florida State game now distant past - SportingNews.com" href="http%3A%2F%2Fwww.sportingnews.com%2Fyourturn%2Fviewtopic.php%3Ft%3D291801" pub_date="Fri Oct 19 14:41:36 -0700 2007"/>
+      <livecam base_url="http%3A%2F%2F43.160.109.253%2Facfs%2Fcities%2F" small="us_florida_s.jpg" big="us_florida.jpg" href="http%3A%2F%2Fwww.firstcoastnews.com%2Fweather%2F"/>
+    </city>
+    <city name="NewYork" latitude="40.71449" longitude="-74.00713">
+      <news title="Former Suffolk DA who prosecuted serial killer and mobster, dies - Newsday" href="http%3A%2F%2Fwww.newsday.com%2Fnews%2Flocal%2Fwire%2Fnewyork%2Fny-bc-ny--obit-catterson1018oct18%2C0%2C108260.story" pub_date="Fri Oct 19 01:38:16 -0700 2007"/>
+      <news title="Thompson swipes at Giuliani on former mayor&amp;#39;s New York turf - Newsday" href="http%3A%2F%2Fwww.newsday.com%2Fnews%2Flocal%2Fwire%2Fnewyork%2Fny-bc-ny--thompson-giuliani1015oct15%2C0%2C6750385.story" pub_date="Mon Oct 15 16:39:04 -0700 2007"/>
+      <news title="New York Health officials release staph data following CDC study - Newsday" href="http%3A%2F%2Fwww.newsday.com%2Fnews%2Flocal%2Fwire%2Fnewyork%2Fny-bc-ny--newyork-staphinfe1018oct18%2C0%2C580812.story" pub_date="Fri Oct 19 00:13:15 -0700 2007"/>
+      <news title="Six New York City cops eyed in steroid probe - Newsday" href="http%3A%2F%2Fwww.newsday.com%2Fnews%2Flocal%2Fnewyork%2Fny-nycops175416209oct17%2C0%2C1851243.story" pub_date="Wed Oct 17 11:26:21 -0700 2007"/>
+      <news title="New York sentencing commission calls for reform - Newsday" href="http%3A%2F%2Fwww.newsday.com%2Fnews%2Flocal%2Fwire%2Fnewyork%2Fny-bc-ny--sentencingreform1016oct16%2C0%2C7570199.story" pub_date="Tue Oct 16 21:56:22 -0700 2007"/>
+      <livecam base_url="http%3A%2F%2F43.160.109.253%2Facfs%2Fcities%2F" small="us_ny4_s.jpg" big="us_ny4.jpg" href="http%3A%2F%2Fnewyork.metrocommute.com%2Fcgi-bin%2Fmetro%2Fvideo%2F"/>
+    </city>
+    <city name="Colorad" latitude="39.74004" longitude="-104.99227">
+      <news title="CU Student Accused of Assaulting Women While High on LSD - My Fox Colorado.com" href="http%3A%2F%2Fwww.myfoxcolorado.com%2Fmyfox%2Fpages%2FNews%2FDetail%3FcontentId%3D4486143%26version%3D5%26locale%3DEN-US%26layoutCode%3DTSTY%26pageId%3D3.2.1" pub_date="Fri Sep 28 20:53:48 -0700 2007"/>
+      <news title="Governor Ritter visits Mesa State - KJCT8.com" href="http%3A%2F%2Fkjct8.com%2FGlobal%2Fstory.asp%3FS%3D7207471%26nav%3Dmenu580_1" pub_date="Mon Oct 15 18:41:37 -0700 2007"/>
+      <news title="Tancredo says he needs top-3 finish in early votes - Boston Globe" href="http%3A%2F%2Fwww.boston.com%2Fnews%2Fnation%2Farticles%2F2007%2F10%2F09%2Ftancredo_says_he_needs_top_3_finish_in_early_votes" pub_date="Tue Oct 09 14:54:14 -0700 2007"/>
+      <livecam base_url="http%3A%2F%2F43.160.109.253%2Facfs%2Fcities%2F" small="us_denver1_s.jpg" big="us_denver1.jpg" href="http%3A%2F%2Fwww.mwhazecam.net%2F"/>
+    </city>
+    <city name="Alaska" latitude="61.21756" longitude="-149.85775">
+      <weather current="20" low="16" high="32" icon="cloudy"/>
+      <news title="Program Helps Protect Alaskan Humpbacks - The Associated Press" href="http%3A%2F%2Fap.google.com%2Farticle%2FALeqM5ip0v7V0SFC6glHgDB_zO013pKRjw" pub_date="Thu Oct 18 11:06:59 -0700 2007"/>
+      <news title="Alaska tax structure threatens LNG project - EnergyCurrent" href="http%3A%2F%2Fwww.energycurrent.com%2Findex.php%3Fid%3D3%26storyid%3D6086" pub_date="Wed Oct 17 20:21:17 -0700 2007"/>
+      <news title="Alaska Territorial Guardsmen Honored - The Associated Press" href="http%3A%2F%2Fap.google.com%2Farticle%2FALeqM5jxJGU0GgnmkTzjqZugZ8bc8Y5rPAD8SARSFO0" pub_date="Wed Oct 17 07:50:51 -0700 2007"/>
+      <news title="Vampires bare fangs in Alaska - Cincinnati Post" href="http%3A%2F%2Fnews.cincypost.com%2Fapps%2Fpbcs.dll%2Farticle%3FAID%3D%2F20071019%2FLIFE%2F710190371%2F1005" pub_date="Fri Oct 19 15:19:32 -0700 2007"/>
+      <news title="Alaska Oil Tax Debate Renewed - Houston Chronicle" href="http%3A%2F%2Fwww.chron.com%2Fdisp%2Fstory.mpl%2Fap%2Ffn%2F5228196.html" pub_date="Fri Oct 19 14:46:20 -0700 2007"/>
+      <livecam base_url="http%3A%2F%2F43.160.109.253%2Facfs%2Fcities%2F" small="us_alaska1_s.jpg" big="us_alaska1.jpg" href="http%3A%2F%2Fwww.borealisbroadband.net%2Fwebcams.htm"/>
+    </city>
+    <city name="Hokkaido" latitude="41.77375" longitude="140.7264">
+      <news title="THE HOT CORNER: M. Kaneko: Double agent - The Daily Yomiuri" href="http%3A%2F%2Fwww.yomiuri.co.jp%2Fdy%2Fsports%2F20071018TDY20302.htm" pub_date="Wed Oct 17 18:34:26 -0700 2007"/>
+      <news title="BOJ Cuts Economic Assessment in Three of Nine Regions (Update4) - Bloomberg" href="http%3A%2F%2Fwww.bloomberg.com%2Fapps%2Fnews%3Fpid%3D20601101%26sid%3Da97QfIyXQT6A%26refer%3Djapan" pub_date="Mon Oct 15 10:09:41 -0700 2007"/>
+      <news title="Back To Gravel On The Asian Continent - Yahoo! Eurosport" href="http%3A%2F%2Fuk.eurosport.yahoo.com%2F19102007%2F29%2Fgravel-asian-continent.html" pub_date="Fri Oct 19 13:36:27 -0700 2007"/>
+      <news title="Japan Post Service faces rent for mail drop boxes - The Japan Times" href="http%3A%2F%2Fsearch.japantimes.co.jp%2Fcgi-bin%2Fnb20071019a2.html" pub_date="Thu Oct 18 23:53:27 -0700 2007"/>
+      <news title="Film on the War Path: Guerrilla Film Fest - Express from The Washington Post" href="http%3A%2F%2Fwww.readexpress.com%2Fread_freeride%2F2007%2F10%2Ffriday_film_on_the_war_path_guerrilla_fi.php" pub_date="Fri Oct 19 05:01:05 -0700 2007"/>
+      <livecam base_url="http%3A%2F%2F43.160.109.253%2Facfs%2Fcities%2F" small="jp_hakodate_s.jpg" big="jp_hakodate.jpg" href="http%3A%2F%2Fwww.hbc.co.jp%2Flive-cam%2Findex-e.html"/>
+    </city>
+    <city name="Nagano" latitude="36.23863" longitude="137.96887">
+      <news title="Viet Nam calls for Japanese investment in infrastructure - Vietnam Economic Times" href="http%3A%2F%2Fwww.vneconomy.com.vn%2Feng%2F%3Fparam%3Darticle%26catid%3D03%26id%3Dd25d6a86ad76a6" pub_date="Fri Oct 19 02:38:50 -0700 2007"/>
+      <news title="Watanabe wins press culture award - The Daily Yomiuri" href="http%3A%2F%2Fwww.yomiuri.co.jp%2Fdy%2Fnational%2F20071017TDY02310.htm" pub_date="Tue Oct 16 18:35:21 -0700 2007"/>
+      <news title="21 arrested over fatal attack / Members of Shinto-linked group ... - The Daily Yomiuri" href="http%3A%2F%2Fwww.yomiuri.co.jp%2Fdy%2Fnational%2F20071016TDY02313.htm" pub_date="Mon Oct 15 18:31:53 -0700 2007"/>
+      <news title="50 followers present at fatal assault - The Daily Yomiuri" href="http%3A%2F%2Fwww.yomiuri.co.jp%2Fdy%2Fnational%2F20071017TDY02304.htm" pub_date="Tue Oct 16 18:33:50 -0700 2007"/>
+      <news title="Police hold 20 members of sect over woman&amp;#39;s death - Scotsman" href="http%3A%2F%2Fthescotsman.scotsman.com%2Finternational.cfm%3Fid%3D1650412007" pub_date="Mon Oct 15 23:10:43 -0700 2007"/>
+      <livecam base_url="http%3A%2F%2F43.160.109.253%2Facfs%2Fcities%2F" small="jp_matumoto_s.jpg" big="jp_matumoto.jpg" href="http%3A%2F%2Fwww.city.matsumoto.nagano.jp%2Flive%2F"/>
+    </city>
+    <city name="Yamanashi" latitude="35.36288" longitude="138.7314">
+      <news title="Residents groups bridging cultural gaps - The Daily Yomiuri" href="http%3A%2F%2Fwww.yomiuri.co.jp%2Fdy%2Fnational%2F20071016TDY03101.htm" pub_date="Mon Oct 15 18:31:53 -0700 2007"/>
+      <news title="A slow drink coming - The Japan Times" href="http%3A%2F%2Fsearch.japantimes.co.jp%2Fcgi-bin%2Ffv20070921a1.html" pub_date="Thu Sep 20 19:53:11 -0700 2007"/>
+      <news title="Symposium eyes ways to make Mt. Fuji intl hub - The Daily Yomiuri" href="http%3A%2F%2Fwww.yomiuri.co.jp%2Fdy%2Fnational%2F20071019TDY02310.htm" pub_date="Thu Oct 18 18:35:06 -0700 2007"/>
+      <news title="Every school every Thursday -- WDM/Waukee/Clive - DesMoinesRegister.com" href="http%3A%2F%2Fdesmoinesregister.com%2Fapps%2Fpbcs.dll%2Farticle%3FAID%3D%2F20071018%2FNEWS02%2F710180308%2F1001%2FNEWS" pub_date="Thu Oct 18 09:26:02 -0700 2007"/>
+      <news title="How Sanrio Leader Expanded Gift-Giving in Japan - Wall Street Journal" href="http%3A%2F%2Fonline.wsj.com%2Farticle%2FSB119239485282958508.html%3Fmod%3Dgooglenews_wsj" pub_date="Mon Oct 15 04:00:33 -0700 2007"/>
+      <livecam base_url="http%3A%2F%2F43.160.109.253%2Facfs%2Fcities%2F" small="jp_fuji2_s.jpg" big="jp_fuji2.jpg" href="http%3A%2F%2Fwww.fujigoko.tv%2F"/>
+    </city>
+  </cities>
+</response>

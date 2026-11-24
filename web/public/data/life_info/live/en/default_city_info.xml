@@ -1,0 +1,1107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:fh="http://purl.org/syndication/history/1.0" xmlns:georss="http://www.georss.org/georss" xmlns:lwp="http://www.cbe-world.com/lwp" xmlns:live="http://www.cbe-world.com/lwp/live" >
+<channel>
+<fh:incremental>false</fh:incremental>
+<title>city_info.xml</title>
+<link>http://www.cbe-world.com/lwp/live_channel</link>
+<description>Live channel all cities</description>
+<ttl>90</ttl>
+
+<live:pic id="copyright" url="file://%s/data/plugins/live/%r/copyright.png" type="image/png" pubDate="Thu, 1 May 2008 15:35:12 +0000" />
+<live:pic id="copyright2" url="file://%s/data/plugins/live/%r/Google.png" type="image/png" pubDate="Thu, 1 May 2008 15:35:12 +0000" />
+<live:pic id="copyright3" url="file://%s/data/plugins/live/%r/WeatherChannel.png" type="image/png" pubDate="Thu, 1 May 2008 15:35:12 +0000" />
+<live:copyright pic="copyright" />
+<live:copyright pic="copyright2" />
+<live:copyright pic="copyright3" />
+<live:pic id="copyright4" url="file://%s/data/plugins/live/mycity/%r/MyCity.png" type="image/png" pubDate="Thu, 1 May 2008 15:35:12 +0000" />
+<live:copyright pic="copyright4" />
+
+<live:text id="more">More News</live:text>
+<live:text id="weather">Weather Forecast</live:text>
+
+
+<live:pic id="w09" url="file://%s/data/world/weather/%r/09.png" type="image/png" pubDate="Thu, 1 May 2008 15:35:12 +0000" />
+<live:pic id="w11" url="file://%s/data/world/weather/%r/11.png" type="image/png" pubDate="Thu, 1 May 2008 15:35:12 +0000" />
+<live:pic id="w20" url="file://%s/data/world/weather/%r/20.png" type="image/png" pubDate="Thu, 1 May 2008 15:35:12 +0000" />
+<live:pic id="w26" url="file://%s/data/world/weather/%r/26.png" type="image/png" pubDate="Thu, 1 May 2008 15:35:12 +0000" />
+<live:pic id="w29" url="file://%s/data/world/weather/%r/29.png" type="image/png" pubDate="Thu, 1 May 2008 15:35:12 +0000" />
+<live:pic id="w30" url="file://%s/data/world/weather/%r/30.png" type="image/png" pubDate="Thu, 1 May 2008 15:35:12 +0000" />
+<live:pic id="w31" url="file://%s/data/world/weather/%r/31.png" type="image/png" pubDate="Thu, 1 May 2008 15:35:12 +0000" />
+<live:pic id="w32" url="file://%s/data/world/weather/%r/32.png" type="image/png" pubDate="Thu, 1 May 2008 15:35:12 +0000" />
+<live:pic id="w33" url="file://%s/data/world/weather/%r/33.png" type="image/png" pubDate="Thu, 1 May 2008 15:35:12 +0000" />
+<live:pic id="w34" url="file://%s/data/world/weather/%r/34.png" type="image/png" pubDate="Thu, 1 May 2008 15:35:12 +0000" />
+<live:pic id="w39" url="file://%s/data/world/weather/%r/39.png" type="image/png" pubDate="Thu, 1 May 2008 15:35:12 +0000" />
+<live:pic id="iss" url="file://%s/data/plugins/live/iss/%r/iss.png" type="image/png" pubDate="Thu, 1 May 2008 15:35:12 +0000" />
+<item><title>Vijit Chao Phraya 2026 brings a month-long spectacle of light and imagination to Bangko...</title>
+<live:item>Vijit Chao Phraya 2026 brings a month-long spectacle of light and imagination to Bangko...</live:item>
+<live:item>Former bank employee arrested for B53m fraud - Bangkok Post</live:item>
+<live:item>White House confirms historic Trump-Xi-Putin meeting - Bangkok Post</live:item>
+<live:item>Rubio takes swipe at international law and ICC - Bangkok Post</live:item>
+<live:media url="http://127.0.0.1:47950/cams/bangkok_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/bangkok.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w30"><live:name>Bangkok</live:name><live:subname pattern="celsius">30°C  01: 47 PM</live:subname><live:subname pattern="fahrenheit">87°F  01: 47 PM</live:subname></live:panel>
+<live:cloud url="http://127.0.0.1:47950/clouds/clouds.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" />
+<georss:point>13.75 100.517</georss:point></item>
+<item><title>South Korea Warns Against 'Second Yalta' at APEC Summit Talks - 조선일보</title>
+<live:item>South Korea Warns Against 'Second Yalta' at APEC Summit Talks - 조선일보</live:item>
+<live:item>Beijing details N. Korean leader's China visit in FM talks with Seoul: official - The K...</live:item>
+<live:item>Korea, China agree to continue restoring ties at Lee-Xi summit in Shenzhen - Korea Joon...</live:item>
+<live:item>Beijing’s Taiwan ‘Reunification’ Dreams Are Fanciful - The American Conservative</live:item>
+<live:media url="http://127.0.0.1:47950/cams/beijing_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/beijing.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w32"><live:name>Beijing</live:name><live:subname pattern="celsius">9°C  02: 47 PM</live:subname><live:subname pattern="fahrenheit">49°F  02: 47 PM</live:subname></live:panel>
+<georss:point>39.9042 116.4074</georss:point></item>
+<item><title>Berlin State Opera presents Der Rosenkavalier in Shanghai — Tagesschau - UA.NEWS</title>
+<live:item>Berlin State Opera presents Der Rosenkavalier in Shanghai — Tagesschau - UA.NEWS</live:item>
+<live:item>Jazzfest Berlin 2026, Part 1 - The Free Jazz Collective</live:item>
+<live:item>Berlin improves record to 6-3 with shutout win over Platt - WFSB</live:item>
+<live:item>Complete lack of strategic agency: what prevents the Russian leadership from trusting B...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/berlin_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/berlin.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w29"><live:name>Berlin</live:name><live:subname pattern="celsius">4°C  07: 47 AM</live:subname><live:subname pattern="fahrenheit">38°F  07: 47 AM</live:subname></live:panel>
+<georss:point>52.52 13.405</georss:point></item>
+<item><title>Lionel Messi to return to Estadio Monumental on January 19 as Inter Miami face River Pl...</title>
+<live:item>Lionel Messi to return to Estadio Monumental on January 19 as Inter Miami face River Pl...</live:item>
+<live:item>BUENOS AIRES — Argentina suffered a 2-1 defeat against Uruguay on Friday in their first...</live:item>
+<live:item>A person dies and more than 30 are injured in a gas explosion in Lanús, to the south of...</live:item>
+<live:item>Soft power bounces back - Buenos Aires Times</live:item>
+<live:media url="http://127.0.0.1:47950/cams/buenos_aires_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/buenos_aires.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w26"><live:name>Buenos Aires</live:name><live:subname pattern="celsius">23°C  03: 47 AM</live:subname><live:subname pattern="fahrenheit">73°F  03: 47 AM</live:subname></live:panel>
+<georss:point>-34.6037 -58.3816</georss:point></item>
+<item><title>Mohamed Osman Al-Mirghani Dies in Cairo Aged 90, Sudan’s Khatmiyya Authority Says: how...</title>
+<live:item>Mohamed Osman Al-Mirghani Dies in Cairo Aged 90, Sudan’s Khatmiyya Authority Says: how...</live:item>
+<live:item>Flames extinguished in Cairo - Malawi24</live:item>
+<live:item>(SP)EGYPT-CAIRO-FOOTBALL-AFCON QUALIFIERS-EGYPT VS MALAWI - Big News Network.com</live:item>
+<live:item>Egyptian Calendula prices ease slightly as Cairo FOB softens - CMB News</live:item>
+<live:media url="http://127.0.0.1:47950/cams/cairo_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/cairo.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w20"><live:name>Cairo</live:name><live:subname pattern="celsius">16°C  08: 47 AM</live:subname><live:subname pattern="fahrenheit">60°F  08: 47 AM</live:subname></live:panel>
+<georss:point>30.0444 31.2357</georss:point></item>
+<item><title>USD Stays Undefeated at Home in 87-67 Win Over Chicago State - University of San Diego...</title>
+<live:item>USD Stays Undefeated at Home in 87-67 Win Over Chicago State - University of San Diego...</live:item>
+<live:item>Chicago Bulls sign center Orlando Robinson, fill roster - The Chicago Crusader</live:item>
+<live:item>Chicago Bulls keep NBA Cup hopes alive — and snap 8-game skid. Takeaways from their OT...</live:item>
+<live:item>Jevon Hill hits six 3s as San Diego rolls past Chicago State - CBS Sports</live:item>
+<live:media url="http://127.0.0.1:47950/cams/chicago_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/chicago.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w31"><live:name>Chicago</live:name><live:subname pattern="celsius">0°C  12: 47 AM</live:subname><live:subname pattern="fahrenheit">33°F  12: 47 AM</live:subname></live:panel>
+<georss:point>41.8781 -87.6298</georss:point></item>
+<item><title>PM's Turkiye visit boosts Dhaka's climate diplomacy, global partnerships - Bangladesh S...</title>
+<live:item>PM's Turkiye visit boosts Dhaka's climate diplomacy, global partnerships - Bangladesh S...</live:item>
+<live:item>34 BGB platoons deployed to secure industrial areas in Dhaka, Gazipur and Narayanganj -...</live:item>
+<live:item>Sheikh Hasina's return to Bangladesh: India wants Dhaka to fulfil two conditions, says...</live:item>
+<live:item>Garment workers block Dhaka-Tangail highway in Gazipur, halting traffic - The Financial...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/dhaka_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/dhaka.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w32"><live:name>Dhaka</live:name><live:subname pattern="celsius">25°C  12: 47 PM</live:subname><live:subname pattern="fahrenheit">77°F  12: 47 PM</live:subname></live:panel>
+<georss:point>23.8103 90.4125</georss:point></item>
+<item><title>Kraken Vow Improved Sequel In Helsinki - Pacific North Hockey</title>
+<live:item>Kraken Vow Improved Sequel In Helsinki - Pacific North Hockey</live:item>
+<live:item>Will Jagger Firkus Make His NHL DEBUT In Helsinki? - 12newsnow.com</live:item>
+<live:item>Oodi to mark 8th founding anniversary on Dec 5-6 - Daily Finland</live:item>
+<live:item>Carolina Hurricanes vs. Seattle Kraken NHL Global Series Game 2: Lineups, Game Preview...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/helsinki_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/helsinki.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w09"><live:name>Helsinki</live:name><live:subname pattern="celsius">2°C  08: 47 AM</live:subname><live:subname pattern="fahrenheit">36°F  08: 47 AM</live:subname></live:panel>
+<georss:point>60.1699 24.9384</georss:point></item>
+<item><title>The Weeknd Releases “Hong Kong” Music Video After Breaking Streaming Records in China -...</title>
+<live:item>The Weeknd Releases “Hong Kong” Music Video After Breaking Streaming Records in China -...</live:item>
+<live:item>HK police grads told to safeguard national security, homeland - chinadailyhk</live:item>
+<live:item>Hiking in Hong Kong: I found the city's wild side with not another tourist in sight - M...</live:item>
+<live:item>Cold front to bring sharp temperature plunge across Hong Kong next week - The Standard...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/hong_kong_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/hong_kong.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w30"><live:name>Hong Kong</live:name><live:subname pattern="celsius">26°C  02: 47 PM</live:subname><live:subname pattern="fahrenheit">78°F  02: 47 PM</live:subname></live:panel>
+<georss:point>22.3193 114.1694</georss:point></item>
+<item><title>Johannesburg Garage Punks NECKLACE Announce Debut LP Manual Breather - Metalheads Forev...</title>
+<live:item>Johannesburg Garage Punks NECKLACE Announce Debut LP Manual Breather - Metalheads Forev...</live:item>
+<live:item>"Well done": Woman faces 3 robbers and flips the tables - Briefly News</live:item>
+<live:item>Johannesburg mother still missing after car is found at Durban beach - IOL</live:item>
+<live:item>South Africa vs. Bangladesh 1st Test prediction, lineups and Johannesburg pitch report...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/johannesburg_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/johannesburg.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w33"><live:name>Johannesburg</live:name><live:subname pattern="celsius">18°C  08: 47 AM</live:subname><live:subname pattern="fahrenheit">65°F  08: 47 AM</live:subname></live:panel>
+<georss:point>-26.2041 28.0473</georss:point></item>
+<item><title>Pope Leo Celebrates Mass in His Former Diocese of Chiclayo, Peru - Tempo.co English</title>
+<live:item>Pope Leo Celebrates Mass in His Former Diocese of Chiclayo, Peru - Tempo.co English</live:item>
+<live:item>In Lima, a stadium full of young people welcomes Pope Leo home - Vatican News</live:item>
+<live:item>Treasure of Latin American Church: Saints, Blesseds recalled by Pope in Peru - Herald M...</live:item>
+<live:item>Light mag. 3.5 earthquake - 36 km west of Tacna, Tacna, Peru, on Friday, Nov 13, 2026,...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/lima_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/lima.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w26"><live:name>Lima</live:name><live:subname pattern="celsius">24°C  01: 47 AM</live:subname><live:subname pattern="fahrenheit">75°F  01: 47 AM</live:subname></live:panel>
+<georss:point>-12.0464 -77.0428</georss:point></item>
+<item><title>Pates rushes for 325 yards in playoff win over London - Seguin Gazette</title>
+<live:item>Pates rushes for 325 yards in playoff win over London - Seguin Gazette</live:item>
+<live:item>London Gatwick Airport Departures - Flightradar24</live:item>
+<live:item>Two Iranian men convicted of spying on London-based journalists for Iran - Jurist.org</live:item>
+<live:item>Pro-Palestinian activists in London urge British sanctions on Israel - Yeni Safak English</live:item>
+<live:media url="http://127.0.0.1:47950/cams/london_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/london.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w31"><live:name>London</live:name><live:subname pattern="celsius">2°C  06: 47 AM</live:subname><live:subname pattern="fahrenheit">35°F  06: 47 AM</live:subname></live:panel>
+<georss:point>51.5074 -0.1278</georss:point></item>
+<item><title>Breaking: New wildfire reported in Los Angeles County on Nov. 13 - Sacramento Bee</title>
+<live:item>Breaking: New wildfire reported in Los Angeles County on Nov. 13 - Sacramento Bee</live:item>
+<live:item>BREAKING: Passengers stuck at all airports across Southern California - NBC Los Angeles</live:item>
+<live:item>LAX, other airports filled with stranded passengers during nationwide ground stop: 'I m...</live:item>
+<live:item>Police Seek Help Identifying Suspect in South Los Angeles Hit-and-Run - MyNewsLA.com</live:item>
+<live:media url="http://127.0.0.1:47950/cams/los_angeles_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/los_angeles.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w29"><live:name>Los Angeles</live:name><live:subname pattern="celsius">16°C  10: 47 PM</live:subname><live:subname pattern="fahrenheit">62°F  10: 47 PM</live:subname></live:panel>
+<georss:point>34.0522 -118.2437</georss:point></item>
+<item><title>Rock &amp; Roll Hall of Fame induction set for Los Angeles, with many big names skipping th...</title>
+<live:item>Rock &amp; Roll Hall of Fame induction set for Los Angeles, with many big names skipping th...</live:item>
+<live:item>Mckenna Grace Wows in Silver Dress with Joseph Zada at ‘Hunger Games: Sunrise on the Re...</live:item>
+<live:item>Mckenna Grace Wows in Silver Dress with Joseph Zada at 'Hunger Games: Sunrise on the Re...</live:item>
+<live:item>The US and Mexico are on the verge of forfeiting a major health victory. Here's what to...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/mexico_city_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/mexico_city.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w33"><live:name>Mexico City</live:name><live:subname pattern="celsius">14°C  12: 47 AM</live:subname><live:subname pattern="fahrenheit">58°F  12: 47 AM</live:subname></live:panel>
+<georss:point>19.4326 -99.1332</georss:point></item>
+<item><title>Ukraine fires nearly 1,200 drones at Russia as US-led talks consider wider European sec...</title>
+<live:item>Ukraine fires nearly 1,200 drones at Russia as US-led talks consider wider European sec...</live:item>
+<live:item>Ukraine critic injured in Moscow car bombing, Russia says - The Washington Post</live:item>
+<live:item>From America’s Exit to Russia’s Return: What Is Moscow Planning for Afghanistan? - 8AM...</live:item>
+<live:item>Meeting with Head of Rosimushchestvo Vadim Yakovenko - Президент России</live:item>
+<live:media url="http://127.0.0.1:47950/cams/moscow_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/moscow.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w26"><live:name>Moscow</live:name><live:subname pattern="celsius">4°C  09: 47 AM</live:subname><live:subname pattern="fahrenheit">40°F  09: 47 AM</live:subname></live:panel>
+<georss:point>55.7522 37.6322</georss:point></item>
+<item><title>Outlook outage updates: Microsoft apologizes for email disruption, says there was no ha...</title>
+<live:item>Outlook outage updates: Microsoft apologizes for email disruption, says there was no ha...</live:item>
+<live:item>Arizona, New York Share Lead at 34-Under After Day 1 of 2026 13u PGA Jr. League Champio...</live:item>
+<live:item>Monroe E. Mayer - Valley News</live:item>
+<live:item>Yukiko Yamagata Named Executive Director of Print Center New York - Bushwick Daily</live:item>
+<live:media url="http://127.0.0.1:47950/cams/new_york_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/new_york.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w26"><live:name>New York</live:name><live:subname pattern="celsius">4°C  01: 47 AM</live:subname><live:subname pattern="fahrenheit">40°F  01: 47 AM</live:subname></live:panel>
+<georss:point>40.71 -74.0</georss:point></item>
+<item><title>We’ve entered the Behelit – photo report of Beast In Black’s show in Paris - Chaoszine</title>
+<live:item>We’ve entered the Behelit – photo report of Beast In Black’s show in Paris - Chaoszine</live:item>
+<live:item>Judo star Teddy Riner is taking on what may be his toughest battle in the French presid...</live:item>
+<live:item>UNDER THE LIGHTS | Paris gets by Kilgore 28-21 - cbs19.tv</live:item>
+<live:item>737NG Simulator Moves From Brussels to Paris - Halldale Group</live:item>
+<live:media url="http://127.0.0.1:47950/cams/paris_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/paris.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w31"><live:name>Paris</live:name><live:subname pattern="celsius">3°C  07: 47 AM</live:subname><live:subname pattern="fahrenheit">38°F  07: 47 AM</live:subname></live:panel>
+<georss:point>48.8566 2.3522</georss:point></item>
+<item><title>Here's how the FAA's national ground stop is affecting Bay Area travel; San Jose, San F...</title>
+<live:item>Here's how the FAA's national ground stop is affecting Bay Area travel; San Jose, San F...</live:item>
+<live:item>St. Ignatius holds off Bellarmine to reach second CCS Open Division championship game i...</live:item>
+<live:item>Balancing Resident Control and Outside Capital in Neighborhood Corporations - The Fulcrum</live:item>
+<live:item>San Francisco 49ers @ Dallas Cowboys: Live game updates, stats, play-by-play - Yahoo Sp...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/san_francisco_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/san_francisco.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w29"><live:name>San Francisco</live:name><live:subname pattern="celsius">12°C  10: 47 PM</live:subname><live:subname pattern="fahrenheit">54°F  10: 47 PM</live:subname></live:panel>
+<georss:point>37.7749 -122.4194</georss:point></item>
+<item><title>Farewell to Jamsil Baseball Stadium - Yonhap News Agency</title>
+<live:item>Farewell to Jamsil Baseball Stadium - Yonhap News Agency</live:item>
+<live:item>Rainy Jeju - Yonhap News Agency</live:item>
+<live:item>China tells Seoul about Kim Jong Un’s visit to Dandong — Korea Herald - UA.NEWS</live:item>
+<live:item>Beijing details N. Korean leader's China visit in FM talks with Seoul: official - The K...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/seoul_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/seoul.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w09"><live:name>Seoul</live:name><live:subname pattern="celsius">10°C  03: 47 PM</live:subname><live:subname pattern="fahrenheit">50°F  03: 47 PM</live:subname></live:panel>
+<georss:point>37.5665 126.978</georss:point></item>
+<item><title>~!Here's Got the ways to watch Singapore - Paraguay live FIFA Friendly live updates - 日...</title>
+<live:item>~!Here's Got the ways to watch Singapore - Paraguay live FIFA Friendly live updates - 日...</live:item>
+<live:item>Window of speciality store in Holland Village smashed; police investigating - Yahoo New...</live:item>
+<live:item>Amogy to Deploy Ammonia Cracking Module at New Low-Carbon Testbed with A*STAR, Advancin...</live:item>
+<live:item>5 Girly Things To Do In Singapore With Your Besties From S$18 Ft. DIY Matcha Sets &amp; Bag...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/singapore_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/singapore.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w26"><live:name>Singapore</live:name><live:subname pattern="celsius">29°C  02: 47 PM</live:subname><live:subname pattern="fahrenheit">84°F  02: 47 PM</live:subname></live:panel>
+<georss:point>1.3521 103.8198</georss:point></item>
+<item><title>Latrell ruled out of World Cup final in Kangaroos blow - Nine.com.au</title>
+<live:item>Latrell ruled out of World Cup final in Kangaroos blow - Nine.com.au</live:item>
+<live:item>Sydney real estate: The latest auction and sales results for week ending November 14 -...</live:item>
+<live:item>Walker meets with NRL rival as immediate future hangs in balance - Nine.com.au</live:item>
+<live:item>Lakemba Mosque poised to join QVB and Parliament House with top heritage listing - SMH....</live:item>
+<live:media url="http://127.0.0.1:47950/cams/sydney_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/sydney.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w30"><live:name>Sydney</live:name><live:subname pattern="celsius">29°C  05: 47 PM</live:subname><live:subname pattern="fahrenheit">84°F  05: 47 PM</live:subname></live:panel>
+<georss:point>-33.8688 151.2093</georss:point></item>
+<item><title>Tehran 25 years on - the greatest World Cup play-off of them all, despite the security...</title>
+<live:item>Tehran 25 years on - the greatest World Cup play-off of them all, despite the security...</live:item>
+<live:item>Iran reports three incidents of oil tankers hit by mines in Hormuz - Free Malaysia Today</live:item>
+<live:item>IRGC says two oil tankers explode after striking mines in Strait of Hormuz - Rudaw</live:item>
+<live:item>Oil tanker catches fire after hitting sea mine in east Hormuz - Mehr News Agency</live:item>
+<live:media url="http://127.0.0.1:47950/cams/tehran_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/tehran.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w31"><live:name>Tehran</live:name><live:subname pattern="celsius">4°C  10: 17 AM</live:subname><live:subname pattern="fahrenheit">40°F  10: 17 AM</live:subname></live:panel>
+<georss:point>35.6962 51.423</georss:point></item>
+<item><title>Kazakos joins global shipping leaders in Tokyo as industry confronts the ships of tomor...</title>
+<live:item>Kazakos joins global shipping leaders in Tokyo as industry confronts the ships of tomor...</live:item>
+<live:item>Tokyo Taboo Reveal Fierce New Single "FREAK!" - Metalheads Forever Magazine</live:item>
+<live:item>Yesterday’s cooking oil powers 410,000 pink winter sakura lights along Tokyo’s Meguro R...</live:item>
+<live:item>Japan Dominates Australia 15-0 in APBC - 조선일보</live:item>
+<live:media url="http://127.0.0.1:47950/cams/tokyo_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/tokyo.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w30"><live:name>Tokyo</live:name><live:subname pattern="celsius">17°C  03: 47 PM</live:subname><live:subname pattern="fahrenheit">63°F  03: 47 PM</live:subname></live:panel>
+<georss:point>35.6833 139.7667</georss:point></item>
+<item><title>Authorities say DC gunman held long-standing feud with building management: What to kno...</title>
+<live:item>Authorities say DC gunman held long-standing feud with building management: What to kno...</live:item>
+<live:item>50+ Young People with the Sunrise Movement, Including Coloradans, Arrested at Schumer D...</live:item>
+<live:item>Today in History, 1937: Bison blanked 33-0 by George Washington University in muddy D.C...</live:item>
+<live:item>Washington, D.C., Is Paradise to Me - The Dispatch</live:item>
+<live:media url="http://127.0.0.1:47950/cams/washington_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/washington.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w31"><live:name>Washington</live:name><live:subname pattern="celsius">6°C  01: 47 AM</live:subname><live:subname pattern="fahrenheit">42°F  01: 47 AM</live:subname></live:panel>
+<georss:point>38.9072 -77.0369</georss:point></item>
+<item><title>AUR protest today at the Palace of Parliament, although the demonstration was not autho...</title>
+<live:item>AUR protest today at the Palace of Parliament, although the demonstration was not autho...</live:item>
+<live:item>Wizz Air Restarts Bucharest to Cluj Flights: How to Plan a Trip? - deeparrival.com</live:item>
+<live:item>Bucharest Henri Coanda International Airport Departures - Flightradar24</live:item>
+<live:item>Cristinel Diaconu addresses particle physics and scientific cooperation in Bucharest -...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/bucharest_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/bucharest.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w11"><live:name>Bucharest</live:name><live:subname pattern="celsius">8°C  08: 47 AM</live:subname><live:subname pattern="fahrenheit">47°F  08: 47 AM</live:subname></live:panel>
+<georss:point>44.4268 26.1025</georss:point></item>
+<item><title>Starr Chile Assigned A Rating from AM Best - ANTARA News</title>
+<live:item>Starr Chile Assigned A Rating from AM Best - ANTARA News</live:item>
+<live:item>Weak mag. 2.9 earthquake - South Pacific Ocean, 33 km north of Valparaiso, Valparaiso,...</live:item>
+<live:item>Celebration in Puente Alto - Fraternità San Carlo Borromeo</live:item>
+<live:item>Latin America faces weak growth in 2027, report says - upi</live:item>
+<live:media url="http://127.0.0.1:47950/cams/santiago_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/santiago.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w26"><live:name>Santiago</live:name><live:subname pattern="celsius">20°C  03: 47 AM</live:subname><live:subname pattern="fahrenheit">68°F  03: 47 AM</live:subname></live:panel>
+<georss:point>-33.4489 -70.6693</georss:point></item>
+<item><title>Canada Updates Costa Rica Travel Warning Amid Crime Concerns - https://www.thetraveler....</title>
+<live:item>Canada Updates Costa Rica Travel Warning Amid Crime Concerns - https://www.thetraveler....</live:item>
+<live:item>Canada Tightens Costa Rica Travel Warning Over Crime - https://www.thetraveler.org/</live:item>
+<live:item>Light mag. 3.1 earthquake - North Pacific Ocean, Provincia de Guanacaste, 13 km west of...</live:item>
+<live:item>Weak Mag. 2.9 Earthquake - Costa Rica on Friday, Nov 13, 2026, at 08:52 pm (GMT -6) - V...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/san_jose_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/san_jose.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w33"><live:name>San Jose</live:name><live:subname pattern="celsius">20°C  12: 47 AM</live:subname><live:subname pattern="fahrenheit">68°F  12: 47 AM</live:subname></live:panel>
+<georss:point>9.9281 -84.0907</georss:point></item>
+<item><title>River traffic reopens after tanker crash with cruise ship - WWLTV.com</title>
+<live:item>River traffic reopens after tanker crash with cruise ship - WWLTV.com</live:item>
+<live:item>Onorato: “Before attacking Bettini, Calenda should take some lithium. He’s a miracle su...</live:item>
+<live:item>Why do ships lose control on the Mississippi at New Orleans? A sharp bend and strong cu...</live:item>
+<live:item>Algiers Point ferry service ‘temporarily suspended’ following maritime collision, RTA o...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/algiers_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/algiers.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w31"><live:name>Algiers</live:name><live:subname pattern="celsius">18°C  07: 47 AM</live:subname><live:subname pattern="fahrenheit">65°F  07: 47 AM</live:subname></live:panel>
+<georss:point>36.7538 3.0588</georss:point></item>
+<item><title>Yemen launches sweeping ballistic, drone strikes on Saudi military targets, Riyadh airp...</title>
+<live:item>Yemen launches sweeping ballistic, drone strikes on Saudi military targets, Riyadh airp...</live:item>
+<live:item>Promised hotel job, Indian woman ends up doing housework in Saudi - The Siasat Daily</live:item>
+<live:item>Houthis Claim 3 Drones Hit KKIA and East-West Pipeline on November 13 - https://houseof...</live:item>
+<live:item>Houthis Claims Fresh Attack on Saudi Capital: Riyadh Airpor… - Gujarat Samachar</live:item>
+<live:media url="http://127.0.0.1:47950/cams/riyadh_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/riyadh.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w31"><live:name>Riyadh</live:name><live:subname pattern="celsius">14°C  09: 47 AM</live:subname><live:subname pattern="fahrenheit">57°F  09: 47 AM</live:subname></live:panel>
+<georss:point>24.7136 46.6753</georss:point></item>
+<item><title>LIVE UPDATES: Nationwide ground stop lifted, some flights resuming, FAA says - WSB-TV</title>
+<live:item>LIVE UPDATES: Nationwide ground stop lifted, some flights resuming, FAA says - WSB-TV</live:item>
+<live:item>Jefferson Bulldogs defeat Redwater Dragons in Atlanta - KETK.com</live:item>
+<live:item>Kansas City Chiefs @ Atlanta Falcons: Live game updates, stats, play-by-play - Yahoo Sp...</live:item>
+<live:item>Atlanta is about to demolish the home where a gay man’s sodomy arrest changed history -...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/atlanta_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/atlanta.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w29"><live:name>Atlanta</live:name><live:subname pattern="celsius">5°C  01: 47 AM</live:subname><live:subname pattern="fahrenheit">42°F  01: 47 AM</live:subname></live:panel>
+<georss:point>33.809 -84.3548</georss:point></item>
+<item><title>Deion Sanders' Colorado football team gets signature win in shocking upset of Houston:...</title>
+<live:item>Deion Sanders' Colorado football team gets signature win in shocking upset of Houston:...</live:item>
+<live:item>Alperen Şengün joins Hakeem Olajuwon, Yao Ming in Rockets' history with big game to bea...</live:item>
+<live:item>Davier Morrison, Houston Lamar , Running Back - 247Sports</live:item>
+<live:item>FB vs Colorado - University of Houston Athletics</live:item>
+<live:media url="http://127.0.0.1:47950/cams/houston_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/houston.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w26"><live:name>Houston</live:name><live:subname pattern="celsius">17°C  12: 47 AM</live:subname><live:subname pattern="fahrenheit">63°F  12: 47 AM</live:subname></live:panel>
+<georss:point>29.7599 -95.393</georss:point></item>
+<item><title>Edmonton Oil Kings at Prince Albert Raiders 11/13 | WHL Highlights 2026-27 - Canadian H...</title>
+<live:item>Edmonton Oil Kings at Prince Albert Raiders 11/13 | WHL Highlights 2026-27 - Canadian H...</live:item>
+<live:item>November 15, 2026: Edmonton vs Philadelphia Men's Pro Hockey Prediction Market - Robinhood</live:item>
+<live:item>Edmonton Oilers - Toronto Maple Leafs - Nov 14, 2026 - NHL.com</live:item>
+<live:item>Edmonton libraries to comply with new restrictions on sexual materials - Edmonton Journal</live:item>
+<live:media url="http://127.0.0.1:47950/cams/edmonton_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/edmonton.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w26"><live:name>Edmonton</live:name><live:subname pattern="celsius">1°C  12: 47 AM</live:subname><live:subname pattern="fahrenheit">33°F  12: 47 AM</live:subname></live:panel>
+<georss:point>53.5461 -113.4938</georss:point></item>
+<item><title>Somali education minister rejects fears of al-Shabab takeover as AU troops withdraw - H...</title>
+<live:item>Somali education minister rejects fears of al-Shabab takeover as AU troops withdraw - H...</live:item>
+<live:item>Poet Artan urges Mogadishu youth to protect peace and stand by national forces - Somali...</live:item>
+<live:item>Turkish ambassador meets former Somali President Farmaajo in Mogadishu - Hiiraan Online</live:item>
+<live:item>Somalia chief justice row: UN experts demand reinstatement - DNE Africa</live:item>
+<live:media url="http://127.0.0.1:47950/cams/mogadishu_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/mogadishu.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w32"><live:name>Mogadishu</live:name><live:subname pattern="celsius">24°C  09: 47 AM</live:subname><live:subname pattern="fahrenheit">76°F  09: 47 AM</live:subname></live:panel>
+<georss:point>2.0469 45.3182</georss:point></item>
+<item><title>FC Barcelona international diary - Official FC Barcelona Website</title>
+<live:item>FC Barcelona international diary - Official FC Barcelona Website</live:item>
+<live:item>Tiki-Taka Explained: Barcelona, Spain and the Passing Game - The False 9</live:item>
+<live:item>Barcelona send scouts to watch two players in Argentina vs Uruguay clash - Get Spanish...</live:item>
+<live:item>Barcelona secure additional €300 million to finish Camp Nou renovations - Barca Blaugranes</live:item>
+<live:media url="http://127.0.0.1:47950/cams/barcelona_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/barcelona.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w29"><live:name>Barcelona</live:name><live:subname pattern="celsius">16°C  07: 47 AM</live:subname><live:subname pattern="fahrenheit">60°F  07: 47 AM</live:subname></live:panel>
+<georss:point>41.3874 2.1686</georss:point></item>
+<item><title>Favela Communicators and Movements Elect Lula in Rio de Janeiro - RioOnWatch</title>
+<live:item>Favela Communicators and Movements Elect Lula in Rio de Janeiro - RioOnWatch</live:item>
+<live:item>Aliança shifts ALCT1 service from Sepetiba to Rio de Janeiro - Container News</live:item>
+<live:item>Leeds United Loanee Rejects Rio Giants: Should Leeds Cash In On Him? - Yahoo Sports</live:item>
+<live:item>Samba, sunshine and strong demand: Air Transat celebrates its return to Rio - Travelweek</live:item>
+<live:media url="http://127.0.0.1:47950/cams/rio_de_janeiro_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/rio_de_janeiro.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w31"><live:name>Rio de Janeiro</live:name><live:subname pattern="celsius">23°C  03: 47 AM</live:subname><live:subname pattern="fahrenheit">73°F  03: 47 AM</live:subname></live:panel>
+<georss:point>-22.9068 -43.1729</georss:point></item>
+<item><title>Satellites show North Korea’s forests are back, but not enough - 데일리NK</title>
+<live:item>Satellites show North Korea’s forests are back, but not enough - 데일리NK</live:item>
+<live:item>How North Korean IT workers’ wages moved through US banks - American Banker</live:item>
+<live:item>Will AI Change North Korea’s Nuclear Calculus? - The Diplomat – Asia-Pacific Current Af...</live:item>
+<live:item>North Korea's $6.4 Billion Crypto Heist Yields Little Cash as Chinese Laundering Networ...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/pyongyang_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/pyongyang.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w34"><live:name>Pyongyang</live:name><live:subname pattern="celsius">11°C  03: 47 PM</live:subname><live:subname pattern="fahrenheit">51°F  03: 47 PM</live:subname></live:panel>
+<georss:point>39.0392 125.7625</georss:point></item>
+<item><title>Vancouver Canucks continue search for consistent game amid losing skid - TSN</title>
+<live:item>Vancouver Canucks continue search for consistent game amid losing skid - TSN</live:item>
+<live:item>Vancouver flights cancelled: Air Canada offers free flight changes for U.S. ground stop...</live:item>
+<live:item>U.S. flights grounded due to 'extraordinary circumstances' are back on. What to know in...</live:item>
+<live:item>J.T. Miller Barks at Elias Pettersson in Return to Vancouver - Gino Hard</live:item>
+<live:media url="http://127.0.0.1:47950/cams/vancouver_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/vancouver.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w26"><live:name>Vancouver</live:name><live:subname pattern="celsius">11°C  11: 47 PM</live:subname><live:subname pattern="fahrenheit">52°F  11: 47 PM</live:subname></live:panel>
+<georss:point>49.2827 -123.1207</georss:point></item>
+<item><title>Toronto Blue Jays apologize to Muslim community over Santander's social media posts - C...</title>
+<live:item>Toronto Blue Jays apologize to Muslim community over Santander's social media posts - C...</live:item>
+<live:item>Danville hammers Toronto to roll into regional championship game - Knox Pages</live:item>
+<live:item>‘Over-policed, under-protected’: U of T faces backlash over rejected discrimination rep...</live:item>
+<live:item>Edmonton Oilers - Toronto Maple Leafs - Nov 14, 2026 - NHL.com</live:item>
+<live:media url="http://127.0.0.1:47950/cams/toronto_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/toronto.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w33"><live:name>Toronto</live:name><live:subname pattern="celsius">1°C  01: 47 AM</live:subname><live:subname pattern="fahrenheit">34°F  01: 47 AM</live:subname></live:panel>
+<georss:point>43.6532 -79.3832</georss:point></item>
+<item><title>Ottawa’s multi-billion food strategy comes with an asterisk - Todayville</title>
+<live:item>Ottawa’s multi-billion food strategy comes with an asterisk - Todayville</live:item>
+<live:item>Canada-Philippines trade could triple by 2035 as Carney pushes new free trade deal - Bu...</live:item>
+<live:item>Ottawa stands by Darlington small modular reactor amid delays and rising costs - The Gl...</live:item>
+<live:item>$176.9M for wine, but what about Niagara’s flood victims? - Niagara Now</live:item>
+<live:media url="http://127.0.0.1:47950/cams/ottawa_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/ottawa.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w26"><live:name>Ottawa</live:name><live:subname pattern="celsius">2°C  01: 47 AM</live:subname><live:subname pattern="fahrenheit">36°F  01: 47 AM</live:subname></live:panel>
+<georss:point>45.4215 -75.6972</georss:point></item>
+<item><title>Iqlauit gets sneak peek at Aqqusariaq Recovery Centre - Nunatsiaq News</title>
+<live:item>Iqlauit gets sneak peek at Aqqusariaq Recovery Centre - Nunatsiaq News</live:item>
+<live:item>Partners and community come together to celebrate Aqqusariaq - Government of Nunavut</live:item>
+<live:item>Narwhal, seals and more adorn University of Ottawa wall - Nunatsiaq News</live:item>
+<live:item>Lawyer argues GN handling of John Amagoalik’s care infringes on his Charter rights - Nu...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/iqaluit_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/iqaluit.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w26"><live:name>Iqaluit</live:name><live:subname pattern="celsius">-5°C  01: 47 AM</live:subname><live:subname pattern="fahrenheit">23°F  01: 47 AM</live:subname></live:panel>
+<georss:point>63.7467 -68.517</georss:point></item>
+<item><title>Weak mag. 2.1 earthquake - Aratoca - Santander, Colombia, on Friday, Nov 13, 2026, at 1...</title>
+<live:item>Weak mag. 2.1 earthquake - Aratoca - Santander, Colombia, on Friday, Nov 13, 2026, at 1...</live:item>
+<live:item>Mag. 2.6 quake - Andes - Antioquia, Colombia, on Friday, Nov 13, 2026, at 10:18 pm (Bog...</live:item>
+<live:item>Weak mag. 2.4 earthquake - Los Santos - Santander, Colombia, on Friday, Nov 13, 2026, a...</live:item>
+<live:item>Strangers trade punches and chase thrills at Colombia’s pop-up fights - The Vindicator</live:item>
+<live:media url="http://127.0.0.1:47950/cams/bogota_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/bogota.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w26"><live:name>Bogota</live:name><live:subname pattern="celsius">12°C  01: 47 AM</live:subname><live:subname pattern="fahrenheit">53°F  01: 47 AM</live:subname></live:panel>
+<georss:point>4.711 -74.0721</georss:point></item>
+<item><title>El Quinche Pilgrimage Shuts Roads Near Quito Airport Friday and Saturday Nights - deepa...</title>
+<live:item>El Quinche Pilgrimage Shuts Roads Near Quito Airport Friday and Saturday Nights - deepa...</live:item>
+<live:item>+[TV EN VIVO]Ecuador vs Costa Rica EN VIVO 13 de Noviembre de 2026 - 日本取引所グループ</live:item>
+<live:item>Ecuador vs. Costa Rica Lineups, Live Streaming, How &amp; Where to Watch On TV - Athlon Sports</live:item>
+<live:item>Ecuador backs Morocco’s sovereignty over Sahara, plans ambassador’s visit - GhanaWeb</live:item>
+<live:media url="http://127.0.0.1:47950/cams/quito_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/quito.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w09"><live:name>Quito</live:name><live:subname pattern="celsius">11°C  01: 47 AM</live:subname><live:subname pattern="fahrenheit">52°F  01: 47 AM</live:subname></live:panel>
+<georss:point>-0.1807 -78.4678</georss:point></item>
+<item><title>Kimi Antonelli gives racing helmet to Italy's president - Wanted in Rome</title>
+<live:item>Kimi Antonelli gives racing helmet to Italy's president - Wanted in Rome</live:item>
+<live:item>Her Excellency Reem Al Hashimy Receives Italy's Prestigious Marisa Bellisario Award - و...</live:item>
+<live:item>Dr Jitendra holds exclusive meeting with Italy Minister, discusses strategic partnershi...</live:item>
+<live:item>Keith Haring in Rome: an exhibition explores his bond with Italy - inITALY</live:item>
+<live:media url="http://127.0.0.1:47950/cams/rome_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/rome.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w26"><live:name>Rome</live:name><live:subname pattern="celsius">15°C  07: 47 AM</live:subname><live:subname pattern="fahrenheit">58°F  07: 47 AM</live:subname></live:panel>
+<georss:point>41.9028 12.4964</georss:point></item>
+<item><title>Nigerian-British ex-Lagos civil servant found dead in London home - شبكة تواصل الإخبارية</title>
+<live:item>Nigerian-British ex-Lagos civil servant found dead in London home - شبكة تواصل الإخبارية</live:item>
+<live:item>Lagos Motorists Lament Long Queues At CNG Refiling Points - Head Topics</live:item>
+<live:item>Nigerian-British ex-Lagos civil servant found dead in London home - Daily Post Nigeria</live:item>
+<live:item>NDC Senatorial Candidate Hospitalised After Thugs’ Attack in Lagos - Politics Nigeria</live:item>
+<live:media url="http://127.0.0.1:47950/cams/lagos_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/lagos.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w26"><live:name>Lagos</live:name><live:subname pattern="celsius">27°C  07: 47 AM</live:subname><live:subname pattern="fahrenheit">80°F  07: 47 AM</live:subname></live:panel>
+<georss:point>6.5244 3.3792</georss:point></item>
+<item><title>Greater Accra NDC: Ebenezer Arkutu in pole position to win Secretary position - GhanaWeb</title>
+<live:item>Greater Accra NDC: Ebenezer Arkutu in pole position to win Secretary position - GhanaWeb</live:item>
+<live:item>Carrefour opens first Ghana store at Accra Mall - Trendtype</live:item>
+<live:item>Who Will Lead NDC Greater Accra? 1,200 Delegates to Decide - Modern Ghana</live:item>
+<live:item>Sahrawi Republic takes part in 27th Extraordinary Session of African Union Executive Co...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/accra_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/accra.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w31"><live:name>Accra</live:name><live:subname pattern="celsius">26°C  06: 47 AM</live:subname><live:subname pattern="fahrenheit">79°F  06: 47 AM</live:subname></live:panel>
+<georss:point>5.6037 -0.187</georss:point></item>
+<item><title>Une nouvelle étape qui renforce l'influence du Maroc dans le monde arabe : Khalid Cherk...</title>
+<live:item>Une nouvelle étape qui renforce l'influence du Maroc dans le monde arabe : Khalid Cherk...</live:item>
+<live:item>Morocco Thrash Niger 5-1 in AFCON 2027 Qualifiers - Morocco World News</live:item>
+<live:item>Yassine Bounou Honored After Reaching 100 Appearances for Morocco - Morocco World News</live:item>
+<live:item>Morocco Receives Second Spanish-Built C295 Transport Plane at Kenitra Air Base - Morocc...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/rabat_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/rabat.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w26"><live:name>Rabat</live:name><live:subname pattern="celsius">17°C  06: 47 AM</live:subname><live:subname pattern="fahrenheit">63°F  06: 47 AM</live:subname></live:panel>
+<georss:point>34.0209 -6.8416</georss:point></item>
+<item><title>Ukraine News Today: Breaking Updates &amp; Live Coverage - November 14, 2026 from Kyiv Post...</title>
+<live:item>Ukraine News Today: Breaking Updates &amp; Live Coverage - November 14, 2026 from Kyiv Post...</live:item>
+<live:item>Zelensky Launches Regular Talks With Mayors to Protect Winter Power Grid - Kyiv Post</live:item>
+<live:item>Baku Omits Ukraine Drone Deal as Azerbaijan Expands Ties With Moscow - Kyiv Post</live:item>
+<live:item>ISW Russian Offensive Campaign Assessment, November 13, 2026 - Kyiv Post</live:item>
+<live:media url="http://127.0.0.1:47950/cams/kyiv_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/kyiv.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w26"><live:name>Kyiv</live:name><live:subname pattern="celsius">3°C  08: 47 AM</live:subname><live:subname pattern="fahrenheit">37°F  08: 47 AM</live:subname></live:panel>
+<georss:point>50.4501 30.5234</georss:point></item>
+<item><title>A Russian rapper's concert in Warsaw was canceled over a song about violence against Po...</title>
+<live:item>A Russian rapper's concert in Warsaw was canceled over a song about violence against Po...</live:item>
+<live:item>The world's narrowest house is only 92cm wide and is nestled between two buildings. - V...</live:item>
+<live:item>Poland’s Automotive Industry Is Well Positioned to Attract New Investments and Engineer...</live:item>
+<live:item>Polish lektor wins first AI voice deepfake ruling - Voice Over Talent Industry News - V...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/warsaw_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/warsaw.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w26"><live:name>Warsaw</live:name><live:subname pattern="celsius">4°C  07: 47 AM</live:subname><live:subname pattern="fahrenheit">39°F  07: 47 AM</live:subname></live:panel>
+<georss:point>52.2297 21.0122</georss:point></item>
+<item><title>Georgia university builds 150 million-token AI database - Operativ Məlumat Mərkəzi</title>
+<live:item>Georgia university builds 150 million-token AI database - Operativ Məlumat Mərkəzi</live:item>
+<live:item>Light mag. 3.1 earthquake - Georgia: Gurcistan Aciklari (karadeniz) on Saturday, Nov 14...</live:item>
+<live:item>Dragons duo Paea and Tuitavuki to start for Tonga against Georgia - South Wales Argus</live:item>
+<live:item>Georgia vs Hungary prediction and betting tips 14 November 2026 - Dailysports</live:item>
+<live:media url="http://127.0.0.1:47950/cams/tbilisi_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/tbilisi.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w31"><live:name>Tbilisi</live:name><live:subname pattern="celsius">6°C  10: 47 AM</live:subname><live:subname pattern="fahrenheit">42°F  10: 47 AM</live:subname></live:panel>
+<georss:point>41.7151 44.8271</georss:point></item>
+<item><title>Damascus-SDF Integration Due by Year-End: What Remains? - Enab Baladi - Enab Baladi</title>
+<live:item>Damascus-SDF Integration Due by Year-End: What Remains? - Enab Baladi - Enab Baladi</live:item>
+<live:item>Syria lifts prior entry approval requirement for US, British citizens after controversy...</live:item>
+<live:item>Evening recap: Major arms seizure in Beirut’s southern suburbs; government greenlights...</live:item>
+<live:item>Damascus is fighting Hezbollah, too - Jewish Policy Center</live:item>
+<live:media url="http://127.0.0.1:47950/cams/damascus_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/damascus.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w26"><live:name>Damascus</live:name><live:subname pattern="celsius">12°C  09: 47 AM</live:subname><live:subname pattern="fahrenheit">54°F  09: 47 AM</live:subname></live:panel>
+<georss:point>33.5138 36.2765</georss:point></item>
+<item><title>Urgent appeal to expedite the entry of winter supplies into Gaza - www.ochaopt.org</title>
+<live:item>Urgent appeal to expedite the entry of winter supplies into Gaza - www.ochaopt.org</live:item>
+<live:item>Gaza sinks into winter misery as Hamas regains strength - Ynetnews</live:item>
+<live:item>Xinhua News | Egyptian, Turkish, Qatari intelligence chiefs meet on situation in Gaza -...</live:item>
+<live:item>Israel has carried out 793 attacks on health services in Gaza since October 2023, killi...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/gaza_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/gaza.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w29"><live:name>Gaza</live:name><live:subname pattern="celsius">13°C  08: 47 AM</live:subname><live:subname pattern="fahrenheit">55°F  08: 47 AM</live:subname></live:panel>
+<georss:point>31.5017 34.4668</georss:point></item>
+<item><title>Türkiye publishes law approving Mecca joint defense pact ratification - Yeni Safak English</title>
+<live:item>Türkiye publishes law approving Mecca joint defense pact ratification - Yeni Safak English</live:item>
+<live:item>Mecca Joint Defense Agreement ratified in Türkiye - Report.az</live:item>
+<live:item>Saudi Charity Celebrates Serving More Than 300 Million Pilgrims to Holy Sites Over 18 Y...</live:item>
+<live:item>Will Bangladesh join the Mecca defense alliance? - DW.com</live:item>
+<live:media url="http://127.0.0.1:47950/cams/mecca_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/mecca.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w31"><live:name>Mecca</live:name><live:subname pattern="celsius">22°C  09: 47 AM</live:subname><live:subname pattern="fahrenheit">72°F  09: 47 AM</live:subname></live:panel>
+<georss:point>21.3891 39.8579</georss:point></item>
+<item><title>‘Who knows if there would be time later?’: Farah Khan reveals Mr Faisu's reception prio...</title>
+<live:item>‘Who knows if there would be time later?’: Farah Khan reveals Mr Faisu's reception prio...</live:item>
+<live:item>Soccer Tables, Results &amp; Fixtures News | League Standings, Match Schedules - The Irish...</live:item>
+<live:item>Houthis claim attacks on Saudi oil pipeline, Aramco site - The Financial Express</live:item>
+<live:item>Istanbul Airport Arrivals - Flightradar24</live:item>
+<live:media url="http://127.0.0.1:47950/cams/medina_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/medina.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w31"><live:name>Medina</live:name><live:subname pattern="celsius">19°C  09: 47 AM</live:subname><live:subname pattern="fahrenheit">66°F  09: 47 AM</live:subname></live:panel>
+<georss:point>24.5247 39.5692</georss:point></item>
+<item><title>Senegal Youth Olympics in Dakar end on high note - DW.com</title>
+<live:item>Senegal Youth Olympics in Dakar end on high note - DW.com</live:item>
+<live:item>Batang Pinoy now serves greater purpose following Dakar YOG success - The Manila Times</live:item>
+<live:item>Dakar 2026 Closing Ceremony: How Africa’s first Olympic event said goodbye - Olympics</live:item>
+<live:item>(SP)SENEGAL-DAKAR-2026 YOUTH OLYMPIC GAMES-CLOSING CEREMONY - Big News Network.com</live:item>
+<live:media url="http://127.0.0.1:47950/cams/dakar_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/dakar.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w31"><live:name>Dakar</live:name><live:subname pattern="celsius">27°C  06: 47 AM</live:subname><live:subname pattern="fahrenheit">81°F  06: 47 AM</live:subname></live:panel>
+<georss:point>14.7167 -17.4677</georss:point></item>
+<item><title>Sudan’s defence industries showcase locally made bombs at Mali military exhibition - Su...</title>
+<live:item>Sudan’s defence industries showcase locally made bombs at Mali military exhibition - Su...</live:item>
+<live:item>AFCON (Q): Mali seize top spot in Group J; Cape Verde earn first points - Pan Africa Fo...</live:item>
+<live:item>Mali 3-2 Rwanda: Camara seals Bamako win · SNA - Sport News Africa</live:item>
+<live:item>Amavubi’s Promising Display in Bamako Ends in Painful AFCON Qualifying Defeat - KT PRESS -</live:item>
+<live:media url="http://127.0.0.1:47950/cams/bamako_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/bamako.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w31"><live:name>Bamako</live:name><live:subname pattern="celsius">25°C  06: 47 AM</live:subname><live:subname pattern="fahrenheit">78°F  06: 47 AM</live:subname></live:panel>
+<georss:point>12.6392 -8.0029</georss:point></item>
+<item><title>Soccer Tables, Results &amp; Fixtures News | League Standings, Match Schedules - The Irish...</title>
+<live:item>Soccer Tables, Results &amp; Fixtures News | League Standings, Match Schedules - The Irish...</live:item>
+<live:item>Armed men kill dozens of civilians in Niger flashpoint - Courthouse News</live:item>
+<live:item>At least 37 civilians killed in ambush in western Niger - New Age BD</live:item>
+<live:item>Ivory Coast. Alassane Ouattara’s democracy in name only - Afrique XXI</live:item>
+<live:media url="http://127.0.0.1:47950/cams/abidjan_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/abidjan.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w31"><live:name>Abidjan</live:name><live:subname pattern="celsius">26°C  06: 47 AM</live:subname><live:subname pattern="fahrenheit">79°F  06: 47 AM</live:subname></live:panel>
+<georss:point>5.36 -4.0083</georss:point></item>
+<item><title>Nea Kenneth "Kenny" Collins Obituary (2026) - Lawrenceville, GA - Tim Stewart Funeral H...</title>
+<live:item>Nea Kenneth "Kenny" Collins Obituary (2026) - Lawrenceville, GA - Tim Stewart Funeral H...</live:item>
+<live:item>All passengers and crew on New Orleans paddleboat survive crash with tanker on Mississi...</live:item>
+<live:item>Rescues are underway in New Orleans after a tanker hits a river cruise boat on the Miss...</live:item>
+<live:item>Liberia Eyes Bigger Stake in Mining - liberianobserver.com</live:item>
+<live:media url="http://127.0.0.1:47950/cams/monrovia_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/monrovia.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w29"><live:name>Monrovia</live:name><live:subname pattern="celsius">25°C  06: 47 AM</live:subname><live:subname pattern="fahrenheit">77°F  06: 47 AM</live:subname></live:panel>
+<georss:point>6.3156 -10.8074</georss:point></item>
+<item><title>Rwanda Rejects Macron’s Push to Withdraw Mushikiwabo From Francophonie Race - ChimpReports</title>
+<live:item>Rwanda Rejects Macron’s Push to Withdraw Mushikiwabo From Francophonie Race - ChimpReports</live:item>
+<live:item>Corporations are consuming Congo alive - Morning Star | The People’s Daily</live:item>
+<live:item>Zando Market in Kinshasa Gets Perforated Brick Skin Sized for 20,000 Vendors - freeyork</live:item>
+<live:item>FRN sanctions: UN ban hits Kabila group, 323,000 flee - DNE Africa</live:item>
+<live:media url="http://127.0.0.1:47950/cams/kinshasa_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/kinshasa.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w26"><live:name>Kinshasa</live:name><live:subname pattern="celsius">23°C  07: 47 AM</live:subname><live:subname pattern="fahrenheit">73°F  07: 47 AM</live:subname></live:panel>
+<georss:point>-4.4419 15.2663</georss:point></item>
+<item><title>Jones Winson: Failed BRDC protest – An attempt to create an image of a strong oppositio...</title>
+<live:item>Jones Winson: Failed BRDC protest – An attempt to create an image of a strong oppositio...</live:item>
+<live:item>CAR: Opposition marches in Bangui against rising cost of living - Africanews</live:item>
+<live:item>Cameroon Opens Its First International Auto and Transport Expo in Douala - Business in...</live:item>
+<live:item>Central African Republic, UN extends MINUSCA peace mission until November 2027 - Associ...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/bangui_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/bangui.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w31"><live:name>Bangui</live:name><live:subname pattern="celsius">23°C  07: 47 AM</live:subname><live:subname pattern="fahrenheit">73°F  07: 47 AM</live:subname></live:panel>
+<georss:point>4.3947 18.5582</georss:point></item>
+<item><title>Chad support for Haitian security wins praise - APAnews - Agence de Presse Africaine</title>
+<live:item>Chad support for Haitian security wins praise - APAnews - Agence de Presse Africaine</live:item>
+<live:item>Islamic State is incentivising ISWAP to target military stockpiles - Polity.org.za</live:item>
+<live:item>N'Djamena Air Quality Index (AQI) and Chad Air Pollution - IQAir</live:item>
+<live:item>France's military quietly prepares for a return to Chad - Le Monde.fr</live:item>
+<live:media url="http://127.0.0.1:47950/cams/n_djamena_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/n_djamena.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w31"><live:name>N'Djamena</live:name><live:subname pattern="celsius">21°C  07: 47 AM</live:subname><live:subname pattern="fahrenheit">71°F  07: 47 AM</live:subname></live:panel>
+<georss:point>12.1348 15.0557</georss:point></item>
+<item><title>Catholic Bishops in Cameroon’s Yaoundé Province Call for Stronger Formation of Catechis...</title>
+<live:item>Catholic Bishops in Cameroon’s Yaoundé Province Call for Stronger Formation of Catechis...</live:item>
+<live:item>Cameroon’s CPDM Sets Up Special Candidate Selection Committees in Yaoundé and Douala Am...</live:item>
+<live:item>FedEx, Globex Propose Douala Airport Warehouse to Speed Up Cargo Clearance - Business i...</live:item>
+<live:item>Yaoundé Conference Center Proposes CFA3.6 Billion Investment in Exhibition Halls and Am...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/yaounde_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/yaounde.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w26"><live:name>Yaounde</live:name><live:subname pattern="celsius">21°C  07: 47 AM</live:subname><live:subname pattern="fahrenheit">70°F  07: 47 AM</live:subname></live:panel>
+<georss:point>3.848 11.5021</georss:point></item>
+<item><title>Renewed diplomatic engagement with Libya - Egypt - Al-Ahram Weekly - Ahram Online</title>
+<live:item>Renewed diplomatic engagement with Libya - Egypt - Al-Ahram Weekly - Ahram Online</live:item>
+<live:item>525 killed in road accidents across Libya in three months - The Libya Observer</live:item>
+<live:item>Libya Hosts 9th Construction Expo 2026 - The Libya Observer</live:item>
+<live:item>16 injured in ammunition depot explosion in Misrata, Libya - وكالة سبأ</live:item>
+<live:media url="http://127.0.0.1:47950/cams/tripoli_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/tripoli.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w30"><live:name>Tripoli</live:name><live:subname pattern="celsius">22°C  08: 47 AM</live:subname><live:subname pattern="fahrenheit">72°F  08: 47 AM</live:subname></live:panel>
+<georss:point>32.8872 13.1913</georss:point></item>
+<item><title>Survey Evaluates Gluten-Free Diet Adherence and Anxiety Among Tunisian Adults - Bioengi...</title>
+<live:item>Survey Evaluates Gluten-Free Diet Adherence and Anxiety Among Tunisian Adults - Bioengi...</live:item>
+<live:item>Tunisian ambassador highlights UW partnership - Wyoming Public Media</live:item>
+<live:item>Caught on video: fierce clash between the vice-president of the Tunisian federation and...</live:item>
+<live:item>After its worst start: what does Tunisia need to qualify for the Africa Cup of Nations?...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/tunis_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/tunis.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w32"><live:name>Tunis</live:name><live:subname pattern="celsius">16°C  07: 47 AM</live:subname><live:subname pattern="fahrenheit">61°F  07: 47 AM</live:subname></live:panel>
+<georss:point>36.8065 10.1815</georss:point></item>
+<item><title>Houthis Threaten to Shut Sanaa Schools to Enforce Military Mobilization - ASHARQ AL-AWS...</title>
+<live:item>Houthis Threaten to Shut Sanaa Schools to Enforce Military Mobilization - ASHARQ AL-AWS...</live:item>
+<live:item>Houthis claim strikes on Riyadh airport, Saudi oil pipeline - The Siasat Daily</live:item>
+<live:item>Houthis claim missile strike on Saudi Forces in Jazan - Daijiworld</live:item>
+<live:item>UN voices concern over drone attacks on civilians in Yemen - Xinhua</live:item>
+<live:media url="http://127.0.0.1:47950/cams/sanaa_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/sanaa.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w32"><live:name>Sanaa</live:name><live:subname pattern="celsius">17°C  09: 47 AM</live:subname><live:subname pattern="fahrenheit">63°F  09: 47 AM</live:subname></live:panel>
+<georss:point>15.3694 44.191</georss:point></item>
+<item><title>Dubai International Airport Departures - Flightradar24</title>
+<live:item>Dubai International Airport Departures - Flightradar24</live:item>
+<live:item>Watch the full PFL Dubai postfight press conference - Sherdog</live:item>
+<live:item>Dubai EV chargers reach about 2,826 as DEWA plans more than 100 by end-2027 - Utilities...</live:item>
+<live:item>WATCH LIVE NOW: Dubai T100 2026 as Wilde and Derron top stellar start lists - Elite New...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/dubai_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/dubai.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w32"><live:name>Dubai</live:name><live:subname pattern="celsius">28°C  10: 47 AM</live:subname><live:subname pattern="fahrenheit">82°F  10: 47 AM</live:subname></live:panel>
+<georss:point>25.2048 55.2708</georss:point></item>
+<item><title>U19 Asia Cup final: Pakistan win toss, opt to bat first against India - Geo News</title>
+<live:item>U19 Asia Cup final: Pakistan win toss, opt to bat first against India - Geo News</live:item>
+<live:item>OMAN AWARDS TWO GREEN HYDROGEN PROJECTS IN DUQM AND LAUNCHES ROUND 4 GREEN-POWERED DATA...</live:item>
+<live:item>Medical City for Military and Security Services Celebrates Its Annual Day - وكالة الأنب...</live:item>
+<live:item>Uzbekistan and Oman: From Strategic Dialogue to Tangible Results - Sada Elbalad English</live:item>
+<live:media url="http://127.0.0.1:47950/cams/muscat_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/muscat.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w32"><live:name>Muscat</live:name><live:subname pattern="celsius">28°C  10: 47 AM</live:subname><live:subname pattern="fahrenheit">83°F  10: 47 AM</live:subname></live:panel>
+<georss:point>23.588 58.3829</georss:point></item>
+<item><title>Sudanese teachers’ committee warns of public education collapse amid private school exp...</title>
+<live:item>Sudanese teachers’ committee warns of public education collapse amid private school exp...</live:item>
+<live:item>Sudan clears over 32,000 explosive devices, but deadly threat hinders recovery - Sudan...</live:item>
+<live:item>World Insights: Sudan-Ethiopia tensions escalate amid mutual accusations, raising regio...</live:item>
+<live:item>Joint Forces Announce Liberation of Al-Khuwei and Other Areas in West Kordofan - Sudan...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/khartoum_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/khartoum.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w32"><live:name>Khartoum</live:name><live:subname pattern="celsius">29°C  08: 47 AM</live:subname><live:subname pattern="fahrenheit">85°F  08: 47 AM</live:subname></live:panel>
+<georss:point>15.5007 32.5599</georss:point></item>
+<item><title>Why 16 Nigerians died transiting through Addis Ababa - Vanguard News</title>
+<live:item>Why 16 Nigerians died transiting through Addis Ababa - Vanguard News</live:item>
+<live:item>16 Nigerians died transiting Addis Ababa this year, says FG - The Nation Newspaper</live:item>
+<live:item>16 Nigerians Die In Ethiopia Due To Weather Condition - The Source</live:item>
+<live:item>Nigeria Issues Travel Advisory After 16 Citizens Die While Transiting Through Addis Aba...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/addis_ababa_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/addis_ababa.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w32"><live:name>Addis Ababa</live:name><live:subname pattern="celsius">17°C  09: 47 AM</live:subname><live:subname pattern="fahrenheit">63°F  09: 47 AM</live:subname></live:panel>
+<georss:point>9.03 38.74</georss:point></item>
+<item><title>DAWASA Announcements November 2026: 2 Current - Mabumbe</title>
+<live:item>DAWASA Announcements November 2026: 2 Current - Mabumbe</live:item>
+<live:item>TANZANIA-COAST REGION-CHINESE MEDICAL TEAM-FREE MEDICAL OUTREACH - Big News Network.com</live:item>
+<live:item>From lab to life: Former President Kikwete dares experts to weaponise malaria research...</live:item>
+<live:item>Energy experts explore possibility to construct Songwe-Malawi oil pipeline - Daily News</live:item>
+<live:media url="http://127.0.0.1:47950/cams/dar_es_salaam_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/dar_es_salaam.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w26"><live:name>Dar es Salaam</live:name><live:subname pattern="celsius">29°C  09: 47 AM</live:subname><live:subname pattern="fahrenheit">84°F  09: 47 AM</live:subname></live:panel>
+<georss:point>-6.7924 39.2083</georss:point></item>
+<item><title>Kenyans brace for heavy El Niño rains as flood survivors recall their losses - ABC News...</title>
+<live:item>Kenyans brace for heavy El Niño rains as flood survivors recall their losses - ABC News...</live:item>
+<live:item>Nairobi property transactions face new rules as government changes land numbers - Mjeng...</live:item>
+<live:item>How the Nairobi River Regeneration Programme is Reshaping the Capital - Nairobi Leo</live:item>
+<live:item>Three arrested as detectives uncover explosives cache in Tassia - The Mt Kenya Times</live:item>
+<live:media url="http://127.0.0.1:47950/cams/nairobi_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/nairobi.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w34"><live:name>Nairobi</live:name><live:subname pattern="celsius">23°C  09: 47 AM</live:subname><live:subname pattern="fahrenheit">73°F  09: 47 AM</live:subname></live:panel>
+<georss:point>-1.2921 36.8219</georss:point></item>
+<item><title>Ferroviário de Maputo (Basketball) - Mozambique - Games, Standings, Squad and Stats - p...</title>
+<live:item>Ferroviário de Maputo (Basketball) - Mozambique - Games, Standings, Squad and Stats - p...</live:item>
+<live:item>Madagascar join COSAFA Under-17 Qualifiers after late entry - COSAFA</live:item>
+<live:item>Mozambique launches US$7.5B corridor programme for Maputo, Beira, Nacala - Food Busines...</live:item>
+<live:item>ESWATINI ATTRACTS MOZ HOLIDAYMAKERS WITH FESTIVE SEASON COMPAIGN - Eswatini Positive News</live:item>
+<live:media url="http://127.0.0.1:47950/cams/maputo_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/maputo.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w34"><live:name>Maputo</live:name><live:subname pattern="celsius">28°C  08: 47 AM</live:subname><live:subname pattern="fahrenheit">82°F  08: 47 AM</live:subname></live:panel>
+<georss:point>-25.9692 32.5732</georss:point></item>
+<item><title>Understanding traders’ regional arbitrage: The case of rice traders in Antananarivo, Ma...</title>
+<live:item>Understanding traders’ regional arbitrage: The case of rice traders in Antananarivo, Ma...</live:item>
+<live:item>Bibles Released in Four Languages During October 2026 - JW.ORG</live:item>
+<live:item>Guinea-Bissau: Held in Antananarivo, and a door opens for Nigeria - Soccernet.ng</live:item>
+<live:item>This African city thought cable cars could fix its traffic gridlock. It was wrong - AP...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/antananarivo_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/antananarivo.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w34"><live:name>Antananarivo</live:name><live:subname pattern="celsius">24°C  09: 47 AM</live:subname><live:subname pattern="fahrenheit">75°F  09: 47 AM</live:subname></live:panel>
+<georss:point>-18.8792 47.5079</georss:point></item>
+<item><title>Wellington businesses face major rates rise under council proposal - 1News</title>
+<live:item>Wellington businesses face major rates rise under council proposal - 1News</live:item>
+<live:item>Moa Point treatment plant restarts after months of repairs - 1News</live:item>
+<live:item>BCCI adds Gurnoor Brar to Test squad for New Zealand series, Rishabh Pant joins team in...</live:item>
+<live:item>Kuldeep Yadav released from India’s Test squad ahead of New Zealand series; replacement...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/wellington_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/wellington.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w32"><live:name>Wellington</live:name><live:subname pattern="celsius">15°C  07: 47 PM</live:subname><live:subname pattern="fahrenheit">59°F  07: 47 PM</live:subname></live:panel>
+<georss:point>-41.2865 174.7762</georss:point></item>
+<item><title>LIVE UPDATES: 49th ASEAN Summit in Manila - Rappler</title>
+<live:item>LIVE UPDATES: 49th ASEAN Summit in Manila - Rappler</live:item>
+<live:item>LIVE Updates: 49th ASEAN Summit and Related Summits - Philstar.com</live:item>
+<live:item>Slovakia opens first embassy in Manila - Manila Bulletin</live:item>
+<live:item>Southeast Asian leaders will call for peaceful resolutions of conflicts. Trump will joi...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/manila_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/manila.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w30"><live:name>Manila</live:name><live:subname pattern="celsius">33°C  02: 47 PM</live:subname><live:subname pattern="fahrenheit">91°F  02: 47 PM</live:subname></live:panel>
+<georss:point>14.5995 120.9842</georss:point></item>
+<item><title>PNG Observers Call For Restraint From China And US Over ‘Wine Bottle’ Shell - Eurasia R...</title>
+<live:item>PNG Observers Call For Restraint From China And US Over ‘Wine Bottle’ Shell - Eurasia R...</live:item>
+<live:item>Taiwan Accuses China of Pressuring Papua New Guinea to Expel Diplomats - Lokmat Times</live:item>
+<live:item>Taiwan accuses China of pressuring Papua New Guinea to expel Taiwanese diplomats - Devd...</live:item>
+<live:item>Parkop signs demolition notice, warns illegal settlement occupants - Post Courier</live:item>
+<live:media url="http://127.0.0.1:47950/cams/port_moresby_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/port_moresby.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w09"><live:name>Port Moresby</live:name><live:subname pattern="celsius">28°C  04: 47 PM</live:subname><live:subname pattern="fahrenheit">83°F  04: 47 PM</live:subname></live:panel>
+<georss:point>-9.4438 147.1803</georss:point></item>
+<item><title>Game Information: November 14 Winnipeg Jets at Chicago Blackhawks - NHL.com</title>
+<live:item>Game Information: November 14 Winnipeg Jets at Chicago Blackhawks - NHL.com</live:item>
+<live:item>GAMEDAY: Jets at Blackhawks - NHL.com</live:item>
+<live:item>GM 21 Preview: Winnipeg Jets @ Chicago Blackhawks - Arctic Ice Hockey</live:item>
+<live:item>Huge crowds and low vaccination rates raise measles alarms as Pope Leo XIV visits South...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/winnipeg_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/winnipeg.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w33"><live:name>Winnipeg</live:name><live:subname pattern="celsius">-4°C  01: 47 AM</live:subname><live:subname pattern="fahrenheit">24°F  01: 47 AM</live:subname></live:panel>
+<georss:point>49.8951 -97.1384</georss:point></item>
+<item><title>Saskatchewan government says it's developing advanced requests for MAID in a safe way -...</title>
+<live:item>Saskatchewan government says it's developing advanced requests for MAID in a safe way -...</live:item>
+<live:item>Update: Police operation on Mawson Bay has concluded - SaskToday.ca</live:item>
+<live:item>Update: Flights to Regina from Minneapolis, Denver cancelled amid U.S. ground stop - GX...</live:item>
+<live:item>Regina police tell residents to shelter in place on North Mawson Bay - 980 CJME</live:item>
+<live:media url="http://127.0.0.1:47950/cams/regina_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/regina.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w33"><live:name>Regina</live:name><live:subname pattern="celsius">1°C  12: 47 AM</live:subname><live:subname pattern="fahrenheit">35°F  12: 47 AM</live:subname></live:panel>
+<georss:point>50.4452 -104.6189</georss:point></item>
+<item><title>MacPolitics: HFX Mayor Fillmore: Municipal Staff &amp; HFX Water Need To 'Move Faster' To A...</title>
+<live:item>MacPolitics: HFX Mayor Fillmore: Municipal Staff &amp; HFX Water Need To 'Move Faster' To A...</live:item>
+<live:item>Marcellus Young Casario, Georgia football commit from Nova Scotia, passes away - 247Sports</live:item>
+<live:item>FEATURE: Alina Paetz vs. Taylour Stevens - Draw 12 - Stu Sells 1824 Halifax Classic [2]...</live:item>
+<live:item>FEATURE: Tsuyoshi Yamaguchi vs. Asselin (Tremblay) - Draw 12 - Stu Sells 1824 Halifax C...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/halifax_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/halifax.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w26"><live:name>Halifax</live:name><live:subname pattern="celsius">3°C  02: 47 AM</live:subname><live:subname pattern="fahrenheit">37°F  02: 47 AM</live:subname></live:panel>
+<georss:point>44.6488 -63.5752</georss:point></item>
+<item><title>Your Community: St. John’s native to appear on next season of Canada’s Drag Race - NTV...</title>
+<live:item>Your Community: St. John’s native to appear on next season of Canada’s Drag Race - NTV...</live:item>
+<live:item>Lee Ann Rowe Obituary | Barretts Funeral Homes | St. John's, Newfoundland and Labrador...</live:item>
+<live:item>U.S. ground stop for flights now lifted, but N.L. officials were prepared to help - CBC</live:item>
+<live:item>LOOKING TO CANADA FOR OIL: Canada’s Irving Turns to Newfoundland for Oil Instead of Per...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/st_john_s_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/st_john_s.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w09"><live:name>St. John's</live:name><live:subname pattern="celsius">5°C  03: 17 AM</live:subname><live:subname pattern="fahrenheit">41°F  03: 17 AM</live:subname></live:panel>
+<georss:point>47.5615 -52.7126</georss:point></item>
+<item><title>At Whitehorse Correctional, inmates face unscheduled lockdowns more days than not - Yah...</title>
+<live:item>At Whitehorse Correctional, inmates face unscheduled lockdowns more days than not - Yah...</live:item>
+<live:item>Central Vancouver Island dubbed an affordable travel destination for U.S. visitors - Go...</live:item>
+<live:item>Storage gaps keep fresh food from rural food bank hampers - Yukon News</live:item>
+<live:item>Complaints against Yukon RCMP hit five-year high, neglect of duty leads - Yukon News</live:item>
+<live:media url="http://127.0.0.1:47950/cams/whitehorse_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/whitehorse.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w26"><live:name>Whitehorse</live:name><live:subname pattern="celsius">-3°C  11: 47 PM</live:subname><live:subname pattern="fahrenheit">27°F  11: 47 PM</live:subname></live:panel>
+<georss:point>60.7212 -135.0568</georss:point></item>
+<item><title>City of Yellowknife proposes 5.25% property tax hike in draft 2027 budget - Yahoo News...</title>
+<live:item>City of Yellowknife proposes 5.25% property tax hike in draft 2027 budget - Yahoo News...</live:item>
+<live:item>City of Yellowknife proposes 5.25% property tax hike in draft 2027 budget - CBC</live:item>
+<live:item>Fog grounds Friday flights as weather keeps frustrating NWT airlines - Cabin Radio</live:item>
+<live:item>Freezing rain, dense fog grounds several N.W.T. flights, delaying groceries and strandi...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/yellowknife_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/yellowknife.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w33"><live:name>Yellowknife</live:name><live:subname pattern="celsius">-1°C  12: 47 AM</live:subname><live:subname pattern="fahrenheit">30°F  12: 47 AM</live:subname></live:panel>
+<georss:point>62.454 -114.3718</georss:point></item>
+<item><title>New videos released in deadly Chelan Hills fire - KIRO 7 News Seattle</title>
+<live:item>New videos released in deadly Chelan Hills fire - KIRO 7 News Seattle</live:item>
+<live:item>FAA lifts nationwide ground stop after disrupting Sea-Tac airport flights - KOMO</live:item>
+<live:item>West Coast News Wrap for Friday, 11/13 - FOX 13 Seattle</live:item>
+<live:item>Seattle U Men’s Basketball Experiences Highs and Lows in Opening Home Games - The Spect...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/seattle_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/seattle.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w26"><live:name>Seattle</live:name><live:subname pattern="celsius">10°C  10: 47 PM</live:subname><live:subname pattern="fahrenheit">50°F  10: 47 PM</live:subname></live:panel>
+<georss:point>47.6062 -122.3321</georss:point></item>
+<item><title>Where was Hocus Pocus filmed? - The Worldwide Guide To Movie Locations</title>
+<live:item>Where was Hocus Pocus filmed? - The Worldwide Guide To Movie Locations</live:item>
+<live:item>1948 Linwood St NW # 2068, Salem, OR 97304 - Realtor.com</live:item>
+<live:item>Sprague celebrates first high school volleyball championship for Salem-Keizer - KPTV</live:item>
+<live:item>Salem Scholarship &amp; Education Committee Launches "400 for the 400+" Community Giving Ca...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/salem_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/salem.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w09"><live:name>Salem</live:name><live:subname pattern="celsius">9°C  10: 47 PM</live:subname><live:subname pattern="fahrenheit">49°F  10: 47 PM</live:subname></live:panel>
+<georss:point>44.9429 -123.0351</georss:point></item>
+<item><title>Blackfoot's Emma McGuire signs with Idaho State softball - Idaho State Journal</title>
+<live:item>Blackfoot's Emma McGuire signs with Idaho State softball - Idaho State Journal</live:item>
+<live:item>Boise State-Fresno State volleyball match postponed to Sunday amid travel issues - KBOI</live:item>
+<live:item>Idaho State Police seeking missing teenager traveling with kitten - KIVI-TV</live:item>
+<live:item>Oregon State Beavers at Boise State Broncos odds, picks and predictions - Courier &amp; Press</live:item>
+<live:media url="http://127.0.0.1:47950/cams/boise_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/boise.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w09"><live:name>Boise</live:name><live:subname pattern="celsius">10°C  11: 47 PM</live:subname><live:subname pattern="fahrenheit">50°F  11: 47 PM</live:subname></live:panel>
+<georss:point>43.615 -116.2023</georss:point></item>
+<item><title>Thanksgiving dinner under $25? Where to eat in Las Vegas without breaking the bank – KL...</title>
+<live:item>Thanksgiving dinner under $25? Where to eat in Las Vegas without breaking the bank – KL...</live:item>
+<live:item>3 Small Car Accident Law Firms in Las Vegas with Big Experience - The Hype Magazine</live:item>
+<live:item>Predators outlast Golden Knights in shootout for 7th straight win - WJOX-FM</live:item>
+<live:item>Josi saves the day in a shootout victory over the Golden Knights - Sports Illustrated</live:item>
+<live:media url="http://127.0.0.1:47950/cams/las_vegas_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/las_vegas.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w26"><live:name>Las Vegas</live:name><live:subname pattern="celsius">16°C  10: 47 PM</live:subname><live:subname pattern="fahrenheit">61°F  10: 47 PM</live:subname></live:panel>
+<georss:point>36.1699 -115.1398</georss:point></item>
+<item><title>BREAKING: FAA ground stoppage puts UW flights to East Lansing, Salt Lake City on hold (...</title>
+<live:item>BREAKING: FAA ground stoppage puts UW flights to East Lansing, Salt Lake City on hold (...</live:item>
+<live:item>FAA’s ground stop causing disruptions in travel to Saturday games - Jefferson City News...</live:item>
+<live:item>Rental car shops sell out, baggage claim faces delays at SLC International Airport afte...</live:item>
+<live:item>Every Nonstop From New York And Boston To Ski Country This Winter, Including Steamboat...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/salt_lake_city_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/salt_lake_city.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w26"><live:name>Salt Lake City</live:name><live:subname pattern="celsius">11°C  11: 47 PM</live:subname><live:subname pattern="fahrenheit">52°F  11: 47 PM</live:subname></live:panel>
+<georss:point>40.7608 -111.891</georss:point></item>
+<item><title>Will New Mexico Highlands University absorb Luna Community College? - Santa Fe New Mexican</title>
+<live:item>Will New Mexico Highlands University absorb Luna Community College? - Santa Fe New Mexican</live:item>
+<live:item>What could consumer protections from data centers look like in New Mexico? - Santa Fe N...</live:item>
+<live:item>Alaska voters reject ballot measure seeking to repeal open primaries, ranked voting sys...</live:item>
+<live:item>Lobos cross-country's depth drives Mountain Region sweep as teams punch tickets to nati...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/santa_fe_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/santa_fe.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w26"><live:name>Santa Fe</live:name><live:subname pattern="celsius">6°C  11: 47 PM</live:subname><live:subname pattern="fahrenheit">42°F  11: 47 PM</live:subname></live:panel>
+<georss:point>35.687 -105.9378</georss:point></item>
+<item><title>Tim McGraw misses Arizona performance due to FAA ground stop - KGW</title>
+<live:item>Tim McGraw misses Arizona performance due to FAA ground stop - KGW</live:item>
+<live:item>Almost 700 flights delayed, canceled at Phoenix Sky Harbor - azcentral.com and The Ariz...</live:item>
+<live:item>Relief to AEW; major issue resolved right in time for Full Gear 2026 - Report - Sportsk...</live:item>
+<live:item>Tim McGraw misses Arizona performance due to FAA ground stop - 12News</live:item>
+<live:media url="http://127.0.0.1:47950/cams/phoenix_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/phoenix.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w29"><live:name>Phoenix</live:name><live:subname pattern="celsius">15°C  11: 47 PM</live:subname><live:subname pattern="fahrenheit">59°F  11: 47 PM</live:subname></live:panel>
+<georss:point>33.4484 -112.074</georss:point></item>
+<item><title>Luke Vigen, Hudson White, strong defense lead Bozeman Gallatin to AA title game - The I...</title>
+<live:item>Luke Vigen, Hudson White, strong defense lead Bozeman Gallatin to AA title game - The I...</live:item>
+<live:item>New program to train "community justice workers" to help Montanans in civil court cases...</live:item>
+<live:item>Class A playoffs: East Helena to 1st title game; Columbia Falls ends Sidney's hopes - M...</live:item>
+<live:item>East Helena tops Hamilton, heads to first-ever football state title game - MontanaSport...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/helena_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/helena.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w33"><live:name>Helena</live:name><live:subname pattern="celsius">7°C  11: 47 PM</live:subname><live:subname pattern="fahrenheit">45°F  11: 47 PM</live:subname></live:panel>
+<georss:point>46.5891 -112.0391</georss:point></item>
+<item><title>Flight passengers in Bismarck and Minot navigate lingering effects of nationwide ground...</title>
+<live:item>Flight passengers in Bismarck and Minot navigate lingering effects of nationwide ground...</live:item>
+<live:item>We The People: Richardton meteorite - KFYR-TV</live:item>
+<live:item>Joe Wiegand Receives Excellence in Local History Award - News Dakota</live:item>
+<live:item>Discover holiday magic across North Dakota - The Bismarck Tribune</live:item>
+<live:media url="http://127.0.0.1:47950/cams/bismarck_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/bismarck.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w31"><live:name>Bismarck</live:name><live:subname pattern="celsius">-1°C  12: 47 AM</live:subname><live:subname pattern="fahrenheit">31°F  12: 47 AM</live:subname></live:panel>
+<georss:point>46.8083 -100.7837</georss:point></item>
+<item><title>Rushing game delivers again for big-play Governors to claim another state title - NewsC...</title>
+<live:item>Rushing game delivers again for big-play Governors to claim another state title - NewsC...</live:item>
+<live:item>Pierre’s offense never stopped as they won the Class 11AA State Championship in 2024 re...</live:item>
+<live:item>Pierre’s offense never stopped as they won the Class 11AA State Championship in 2024 re...</live:item>
+<live:item>SD Lottery Mega Millions, Millionaire for Life winning numbers for Nov. 13, 2026 - Argu...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/pierre_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/pierre.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w31"><live:name>Pierre</live:name><live:subname pattern="celsius">2°C  12: 47 AM</live:subname><live:subname pattern="fahrenheit">35°F  12: 47 AM</live:subname></live:panel>
+<georss:point>44.3683 -100.351</georss:point></item>
+<item><title>Watch Nebraska vs Rutgers Live: Streaming, TV Channel &amp; Start Time - Nov 14, 2026 | CFB...</title>
+<live:item>Watch Nebraska vs Rutgers Live: Streaming, TV Channel &amp; Start Time - Nov 14, 2026 | CFB...</live:item>
+<live:item>STARS SNAP SKID WITH 5-2 WIN IN KEARNEY - Lincoln Stars</live:item>
+<live:item>Flights at Omaha Eppley Airfield, Lincoln Airport delayed amid nationwide ground stop -...</live:item>
+<live:item>Nebraska women's basketball notes: Nebraska's Emily Fisher embraces gritty role as Kans...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/lincoln_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/lincoln.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w31"><live:name>Lincoln</live:name><live:subname pattern="celsius">-4°C  12: 47 AM</live:subname><live:subname pattern="fahrenheit">25°F  12: 47 AM</live:subname></live:panel>
+<georss:point>40.8136 -96.7026</georss:point></item>
+<item><title>✈️ LIVE UPDATES: The latest on Penn State's Saturday game vs. Minnesota after FAA groun...</title>
+<live:item>✈️ LIVE UPDATES: The latest on Penn State's Saturday game vs. Minnesota after FAA groun...</live:item>
+<live:item>Flights grounded nationwide, halting departures for four hours at MSP airport - Star Tr...</live:item>
+<live:item>Penalties plague Seawolves in Minneapolis - Seawolf Athletics</live:item>
+<live:item>Ground stop that impacted flights across country and at MSP has been lifted - kare11.com</live:item>
+<live:media url="http://127.0.0.1:47950/cams/minneapolis_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/minneapolis.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w31"><live:name>Minneapolis</live:name><live:subname pattern="celsius">-2°C  12: 47 AM</live:subname><live:subname pattern="fahrenheit">29°F  12: 47 AM</live:subname></live:panel>
+<georss:point>44.9778 -93.265</georss:point></item>
+<item><title>Weak mag. 2.5 earthquake - Venezuela: 20 km Al Norte De Maracay on Saturday, Nov 14, 20...</title>
+<live:item>Weak mag. 2.5 earthquake - Venezuela: 20 km Al Norte De Maracay on Saturday, Nov 14, 20...</live:item>
+<live:item>Weak mag. 2.5 earthquake - 28 km north of Maracay, Aragua, Venezuela, on Saturday, Nov...</live:item>
+<live:item>Weak mag. 2.2 earthquake - Venezuela: 43 km Al Suroeste De Curarigua on Saturday, Nov 1...</live:item>
+<live:item>Did the US hack Venezuela's power grid to black out Caracas? Officials say so, but it i...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/caracas_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/caracas.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w26"><live:name>Caracas</live:name><live:subname pattern="celsius">21°C  02: 47 AM</live:subname><live:subname pattern="fahrenheit">69°F  02: 47 AM</live:subname></live:panel>
+<georss:point>10.4806 -66.9036</georss:point></item>
+<item><title>Light mag. 3.2 earthquake - 98 km northeast of Calama, Provincia de El Loa, Region de A...</title>
+<live:item>Light mag. 3.2 earthquake - 98 km northeast of Calama, Provincia de El Loa, Region de A...</live:item>
+<live:item>Light mag. 3.5 earthquake - Antofagasta, Chile, on Saturday, Nov 14, 2026, at 02:12 am...</live:item>
+<live:item>Light mag. 3.2 earthquake - Tarapaca, Chile, on Saturday, Nov 14, 2026, at 01:48 am (Un...</live:item>
+<live:item>Light Mag. 3.1 Earthquake - Potosi, Bolivia, on Friday, Nov 13, 2026, at 09:26 pm (GMT...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/la_paz_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/la_paz.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w29"><live:name>La Paz</live:name><live:subname pattern="celsius">4°C  02: 47 AM</live:subname><live:subname pattern="fahrenheit">40°F  02: 47 AM</live:subname></live:panel>
+<georss:point>-16.4897 -68.1193</georss:point></item>
+<item><title>Lisbon Embassy Includes Nepal Sambat in Official Communications - Ratopati</title>
+<live:item>Lisbon Embassy Includes Nepal Sambat in Official Communications - Ratopati</live:item>
+<live:item>Top 10 Quietest Cities in the World, No.6 Will Surprise You!! - Aviation A2Z</live:item>
+<live:item>Slow-travel blueprint: Singapore retirees stayed in eight cities so far in 2026 on $4,0...</live:item>
+<live:item>Aethos Lisbon to Open Five-Star Hotel and Members’ Club in June 2027 - Hospitality &amp; Ca...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/lisbon_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/lisbon.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w26"><live:name>Lisbon</live:name><live:subname pattern="celsius">16°C  06: 47 AM</live:subname><live:subname pattern="fahrenheit">60°F  06: 47 AM</live:subname></live:panel>
+<georss:point>38.7223 -9.1393</georss:point></item>
+<item><title>Wie pünktlich ist Galatasaray Istanbul - OneFootball</title>
+<live:item>Wie pünktlich ist Galatasaray Istanbul - OneFootball</live:item>
+<live:item>A new Manchester restaurant brings a taste of Istanbul to Buckland Hills - Stamford Adv...</live:item>
+<live:item>Turkiye and Qatar Strengthen Defence Ties with New Agreement - India News Network</live:item>
+<live:item>Erdogan and Qatar’s Emir Sheikh Tamim Sign Mutual Defense Agreement in Istanbul: how 21...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/istanbul_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/istanbul.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w39"><live:name>Istanbul</live:name><live:subname pattern="celsius">18°C  09: 47 AM</live:subname><live:subname pattern="fahrenheit">64°F  09: 47 AM</live:subname></live:panel>
+<georss:point>41.0082 28.9784</georss:point></item>
+<item><title>Short-Term Rental Revenue Rises in Greece Despite Flat Occupancy Rates - GreekReporter.com</title>
+<live:item>Short-Term Rental Revenue Rises in Greece Despite Flat Occupancy Rates - GreekReporter.com</live:item>
+<live:item>Marco Rubio set to deliver keynote at Federalist Society convention - WCHS</live:item>
+<live:item>Pottery Found in Turkey Reveals Links to Athens, Sparta, and Ionia - GreekReporter.com</live:item>
+<live:item>Greece Approves €100 Athens Sites Pass for Seven-Day Visits - Greek City Times</live:item>
+<live:media url="http://127.0.0.1:47950/cams/athens_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/athens.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w32"><live:name>Athens</live:name><live:subname pattern="celsius">20°C  08: 47 AM</live:subname><live:subname pattern="fahrenheit">67°F  08: 47 AM</live:subname></live:panel>
+<georss:point>37.9838 23.7275</georss:point></item>
+<item><title>Wandering Budapest’s Haunted Streets - The New York Times</title>
+<live:item>Wandering Budapest’s Haunted Streets - The New York Times</live:item>
+<live:item>CEU considers expanding programs in Budapest — The Guardian - UA.NEWS</live:item>
+<live:item>Central European University open to expanding in Budapest - Mezha.net</live:item>
+<live:item>Total Chess 2026: Magnus Carlsen loses to Martirosyan; Vaishali wins, Praggnanandhaa dr...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/budapest_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/budapest.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w32"><live:name>Budapest</live:name><live:subname pattern="celsius">4°C  07: 47 AM</live:subname><live:subname pattern="fahrenheit">40°F  07: 47 AM</live:subname></live:panel>
+<georss:point>47.4979 19.0402</georss:point></item>
+<item><title>Almost 88,000 Traffic Fatalities in Austria Since 1961 - Vienna.at</title>
+<live:item>Almost 88,000 Traffic Fatalities in Austria Since 1961 - Vienna.at</live:item>
+<live:item>DOJ pushes stronger cybercrime prevention, regional cooperation at UN conference in Vie...</live:item>
+<live:item>This £449 Austrian GP deal is ultimate F1 getaway for party-loving racing fans - The Sun</live:item>
+<live:item>Hotel Sacher Turns 150 With an Austrian 787: Plan a Vienna Trip? - deeparrival.com</live:item>
+<live:media url="http://127.0.0.1:47950/cams/vienna_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/vienna.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w32"><live:name>Vienna</live:name><live:subname pattern="celsius">3°C  07: 47 AM</live:subname><live:subname pattern="fahrenheit">37°F  07: 47 AM</live:subname></live:panel>
+<georss:point>48.2082 16.3738</georss:point></item>
+<item><title>European Shadows Loom Over La Noria: Erik Lira Admits Monaco Move Heartbreak, Keeps Cru...</title>
+<live:item>European Shadows Loom Over La Noria: Erik Lira Admits Monaco Move Heartbreak, Keeps Cru...</live:item>
+<live:item>Monaco Grand Prix packages that let you enjoy full Riviera race weekend - The Sun</live:item>
+<live:item>Watch Monaco vs Freiburg - TOD</live:item>
+<live:item>Ansu Fati (Monaco): biography, clubs and honours - VAVEL.com</live:item>
+<live:media url="http://127.0.0.1:47950/cams/monaco_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/monaco.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w34"><live:name>Monaco</live:name><live:subname pattern="celsius">16°C  07: 47 AM</live:subname><live:subname pattern="fahrenheit">60°F  07: 47 AM</live:subname></live:panel>
+<georss:point>43.7384 7.4246</georss:point></item>
+<item><title>On the Agenda: What's happening in Denmark next week? - The Local Denmark</title>
+<live:item>On the Agenda: What's happening in Denmark next week? - The Local Denmark</live:item>
+<live:item>Jewish physics: 'The Man Who Broke Reality' spotlights Nazi-defying scientist Niels Boh...</live:item>
+<live:item>Denmark stocks higher at close of trade; OMX Copenhagen 20 up 0.28% - Investing.com</live:item>
+<live:item>Germany, partners aim to finalize 'return hubs' by year end - DW.com</live:item>
+<live:media url="http://127.0.0.1:47950/cams/copenhagen_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/copenhagen.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w09"><live:name>Copenhagen</live:name><live:subname pattern="celsius">6°C  07: 47 AM</live:subname><live:subname pattern="fahrenheit">43°F  07: 47 AM</live:subname></live:panel>
+<georss:point>55.6761 12.5683</georss:point></item>
+<item><title>ATP. Fritz, Zheng, Basavareddy and Milavsky are the top American to compete on Saturday...</title>
+<live:item>ATP. Fritz, Zheng, Basavareddy and Milavsky are the top American to compete on Saturday...</live:item>
+<live:item>Taylor Fritz vs Thiago Agustin Tirante preview, head-to-head, odds, prediction, &amp; betti...</live:item>
+<live:item>Singles Final Live Stream: How to Watch 2026 Stockholm Open Tennis (Nov. 14, 2026) - Fubo</live:item>
+<live:item>Videos - ATP Tour</live:item>
+<live:media url="http://127.0.0.1:47950/cams/stockholm_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/stockholm.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w32"><live:name>Stockholm</live:name><live:subname pattern="celsius">1°C  07: 47 AM</live:subname><live:subname pattern="fahrenheit">33°F  07: 47 AM</live:subname></live:panel>
+<georss:point>59.3293 18.0686</georss:point></item>
+<item><title>Norway face Wales in Oslo amid snow and fight for survival - www.mojkraj.hr</title>
+<live:item>Norway face Wales in Oslo amid snow and fight for survival - www.mojkraj.hr</live:item>
+<live:item>Indian embassy in Oslo asked me to come &amp; return my visa: Norwegian scribe Helle Lyng S...</live:item>
+<live:item>More strikes in Norway today as workers take on boss attacks - The Militant</live:item>
+<live:item>Wales Face Norway Test in Oslo - Oz Arab Media</live:item>
+<live:media url="http://127.0.0.1:47950/cams/oslo_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/oslo.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w29"><live:name>Oslo</live:name><live:subname pattern="celsius">0°C  07: 47 AM</live:subname><live:subname pattern="fahrenheit">32°F  07: 47 AM</live:subname></live:panel>
+<georss:point>59.9139 10.7522</georss:point></item>
+<item><title>Bulgaria: Eurovision Asia watch parties to take place in Sofia and Burgas - Eurovision...</title>
+<live:item>Bulgaria: Eurovision Asia watch parties to take place in Sofia and Burgas - Eurovision...</live:item>
+<live:item>＋＋[ＤＩＲＥＣＴ]！] Bulgaria - Islandia UEFA Nations League En Vivo Online transmissão 08 novi...</live:item>
+<live:item>Israel Arrests Suspect in Sofia Metro Murder of Former University Lecturer - Novinite.com</live:item>
+<live:item>Kaufland Bulgaria Ousts Chairman After Controversial Remarks - Novinite.com</live:item>
+<live:media url="http://127.0.0.1:47950/cams/sofia_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/sofia.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w39"><live:name>Sofia</live:name><live:subname pattern="celsius">6°C  08: 47 AM</live:subname><live:subname pattern="fahrenheit">43°F  08: 47 AM</live:subname></live:panel>
+<georss:point>42.6977 23.3219</georss:point></item>
+<item><title>Cichanoŭskaja urges OSCE to press for release of political prisoners as it engages with...</title>
+<live:item>Cichanoŭskaja urges OSCE to press for release of political prisoners as it engages with...</live:item>
+<live:item>HC Dinamo Minsk defeat HC SKA on the road - BelTA – News</live:item>
+<live:item>Women agricultural workers from across Belarus honored in Minsk - BelTA – News</live:item>
+<live:item>Unique archive photos on display at BelTA’s exhibition One Country – One Destiny in Min...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/minsk_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/minsk.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w26"><live:name>Minsk</live:name><live:subname pattern="celsius">3°C  09: 47 AM</live:subname><live:subname pattern="fahrenheit">38°F  09: 47 AM</live:subname></live:panel>
+<georss:point>53.9006 27.559</georss:point></item>
+<item><title>Delhi Ministers Order 50% Work From Home as Air Quality Turns Severe - The Observer Post</title>
+<live:item>Delhi Ministers Order 50% Work From Home as Air Quality Turns Severe - The Observer Post</live:item>
+<live:item>Delhi raids 2 unlicensed cosmetic units in Pooth Khurd | Tap to know more | Inshorts -...</live:item>
+<live:item>Culture Ministry holds 'Creative India' conclave in New Delhi | Tap to know more | Insh...</live:item>
+<live:item>Indian Institute of Technology Delhi - India Education Diary</live:item>
+<live:media url="http://127.0.0.1:47950/cams/delhi_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/delhi.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w34"><live:name>Delhi</live:name><live:subname pattern="celsius">28°C  12: 17 PM</live:subname><live:subname pattern="fahrenheit">83°F  12: 17 PM</live:subname></live:panel>
+<georss:point>28.6139 77.209</georss:point></item>
+<item><title>Navi Mumbai Police Arrest Man Posing as Journalist in Housing Fraud Case - The 420.in</title>
+<live:item>Navi Mumbai Police Arrest Man Posing as Journalist in Housing Fraud Case - The 420.in</live:item>
+<live:item>73-Year-Old Mumbai Tourist Dies in Srinagar During Visit to Kashmir - Asian Mail</live:item>
+<live:item>Pizzeria Americano: Alex Sanchez’s new pizza parlour in Kala Ghoda is worth the queue -...</live:item>
+<live:item>82nd National Squash Championship to bring together over 350 players from 24 states to...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/mumbai_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/mumbai.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w32"><live:name>Mumbai</live:name><live:subname pattern="celsius">34°C  12: 17 PM</live:subname><live:subname pattern="fahrenheit">93°F  12: 17 PM</live:subname></live:panel>
+<georss:point>19.076 72.8777</georss:point></item>
+<item><title>UN Warns Thousands of Afghan Families Need Urgent Aid as Winter Temperatures Fall - the...</title>
+<live:item>UN Warns Thousands of Afghan Families Need Urgent Aid as Winter Temperatures Fall - the...</live:item>
+<live:item>Pakistan's army says it killed 74 militants in raids on their hideouts - ABC News - Bre...</live:item>
+<live:item>ICC halts probes into alleged US, IS-K crimes in Afghanistan - Pajhwok Afghan News</live:item>
+<live:item>The Taliban’s increasingly absurd bans that are setting Afghan women back a century - I...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/kabul_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/kabul.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w32"><live:name>Kabul</live:name><live:subname pattern="celsius">12°C  11: 17 AM</live:subname><live:subname pattern="fahrenheit">53°F  11: 17 AM</live:subname></live:panel>
+<georss:point>34.5553 69.2075</georss:point></item>
+<item><title>Judges close part of ICC Afghanistan investigations that could look at US troops - Reuters</title>
+<live:item>Judges close part of ICC Afghanistan investigations that could look at US troops - Reuters</live:item>
+<live:item>Crossing Afghanistan along the 'highway of death' - Revisited - France 24</live:item>
+<live:item>US Amy soldiers patrol in Panjwai district Kandahar province southern Afghanistan - The...</live:item>
+<live:item>Inside The Taliban's Secret Network Of Underground Military Tunnels - Afghanistan Inter...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/kandahar_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/kandahar.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w32"><live:name>Kandahar</live:name><live:subname pattern="celsius">17°C  11: 17 AM</live:subname><live:subname pattern="fahrenheit">63°F  11: 17 AM</live:subname></live:panel>
+<georss:point>31.6289 65.7372</georss:point></item>
+<item><title>Islamabad Moves Towards Becoming Pakistan’s First Cashless City - Digital Pakistan</title>
+<live:item>Islamabad Moves Towards Becoming Pakistan’s First Cashless City - Digital Pakistan</live:item>
+<live:item>Pakistan to host major ECO meeting in Islamabad on November 15-16 - Minute Mirror</live:item>
+<live:item>Over 150 arrested in raid on call center in Islamabad - 24 News HD</live:item>
+<live:item>Government Pushes to Make Islamabad a Fully Digital Payment City by 2027 - Hamariweb.com</live:item>
+<live:media url="http://127.0.0.1:47950/cams/islamabad_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/islamabad.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w32"><live:name>Islamabad</live:name><live:subname pattern="celsius">23°C  11: 47 AM</live:subname><live:subname pattern="fahrenheit">73°F  11: 47 AM</live:subname></live:panel>
+<georss:point>33.6844 73.0479</georss:point></item>
+<item><title>Indian Seafarer Stranded at Karachi Port for Months; India Seeks Consular Assistance fr...</title>
+<live:item>Indian Seafarer Stranded at Karachi Port for Months; India Seeks Consular Assistance fr...</live:item>
+<live:item>Karachi traffic police announce road closures - Daily Ausaf</live:item>
+<live:item>Six Indian Seafarers Stranded at Karachi Port for Seven Months as Pakistan Agrees to Pr...</live:item>
+<live:item>UP seafarer stranded on ship in Karachi for 7 months: India seeks consular access - The...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/karachi_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/karachi.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w34"><live:name>Karachi</live:name><live:subname pattern="celsius">30°C  11: 47 AM</live:subname><live:subname pattern="fahrenheit">85°F  11: 47 AM</live:subname></live:panel>
+<georss:point>24.8607 67.0011</georss:point></item>
+<item><title>School students over 18 to receive opportunity to invest in Colombo Stock Exchange - Ad...</title>
+<live:item>School students over 18 to receive opportunity to invest in Colombo Stock Exchange - Ad...</live:item>
+<live:item>From monsoon to management: Colombo’s heavy weather and building a flood-resilient Sri...</live:item>
+<live:item>Rs. 56.4 Million Awarded to 40 Distressed Sri Lankan Workers Returned from Saudi Arabia...</live:item>
+<live:item>Kassapa Thero summoned to CCD to provide statement - Ada Derana</live:item>
+<live:media url="http://127.0.0.1:47950/cams/colombo_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/colombo.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w26"><live:name>Colombo</live:name><live:subname pattern="celsius">28°C  12: 17 PM</live:subname><live:subname pattern="fahrenheit">83°F  12: 17 PM</live:subname></live:panel>
+<georss:point>6.9271 79.8612</georss:point></item>
+<item><title>French-speaking nations hold a summit in Cambodia but an African conflict threatens a r...</title>
+<live:item>French-speaking nations hold a summit in Cambodia but an African conflict threatens a r...</live:item>
+<live:item>Childhood rides inspire photographer’s Cambodia-wide moped journey - Phnom Penh Post</live:item>
+<live:item>Koh Pich hosts charity concert in support of Toutes à l’école - Phnom Penh Post</live:item>
+<live:item>Cambodia suggests Francophonie ‘act earlier to prevent conflicts’ - Phnom Penh Post</live:item>
+<live:media url="http://127.0.0.1:47950/cams/phnom_penh_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/phnom_penh.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w26"><live:name>Phnom Penh</live:name><live:subname pattern="celsius">32°C  01: 47 PM</live:subname><live:subname pattern="fahrenheit">89°F  01: 47 PM</live:subname></live:panel>
+<georss:point>11.5564 104.9282</georss:point></item>
+<item><title>Breaking News: Ho Chi Minh City Department of Education and Training issues plan for te...</title>
+<live:item>Breaking News: Ho Chi Minh City Department of Education and Training issues plan for te...</live:item>
+<live:item>Urgent expansion of two hospitals in eastern Ho Chi Minh City is necessary to avoid was...</live:item>
+<live:item>Ho Chi Minh City uses magic, drama to warn students against disguised drugs - The Star</live:item>
+<live:item>Vietnam: ‘It’s a promising market, but domestic companies will take the lead’ - Railway...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/ho_chi_minh_city_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/ho_chi_minh_city.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w30"><live:name>Ho Chi Minh City</live:name><live:subname pattern="celsius">33°C  01: 47 PM</live:subname><live:subname pattern="fahrenheit">91°F  01: 47 PM</live:subname></live:panel>
+<georss:point>10.8231 106.6297</georss:point></item>
+<item><title>Vietnam: ‘It’s a promising market, but domestic companies will take the lead’ - Railway...</title>
+<live:item>Vietnam: ‘It’s a promising market, but domestic companies will take the lead’ - Railway...</live:item>
+<live:item>The Hanoi Police Union's commitment to community service. - Vietnam.vn</live:item>
+<live:item>Hanoi proactively secures supplies and stabilizes the market during the Lunar New Year...</live:item>
+<live:item>Hanoi: Organizing the 2026 Ao Dai Festival will create a stronger attraction for touris...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/hanoi_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/hanoi.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w32"><live:name>Hanoi</live:name><live:subname pattern="celsius">25°C  01: 47 PM</live:subname><live:subname pattern="fahrenheit">78°F  01: 47 PM</live:subname></live:panel>
+<georss:point>21.0278 105.8342</georss:point></item>
+<item><title>Steppe Gold Announces Q3 2026 Financial Results - TradingView</title>
+<live:item>Steppe Gold Announces Q3 2026 Financial Results - TradingView</live:item>
+<live:item>PGL Shifts $1 Million April 2027 CS2 Event to Mongolia - RG.org</live:item>
+<live:item>ASIA/MONGOLIA - From the letters of Giovanni da Montecorvino towards an ecumenical Bibl...</live:item>
+<live:item>Mongolian Representative Addresses UNESCAP Social Development Session - Montsame</live:item>
+<live:media url="http://127.0.0.1:47950/cams/ulaanbaatar_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/ulaanbaatar.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w26"><live:name>Ulaanbaatar</live:name><live:subname pattern="celsius">-5°C  02: 47 PM</live:subname><live:subname pattern="fahrenheit">23°F  02: 47 PM</live:subname></live:panel>
+<georss:point>47.8864 106.9057</georss:point></item>
+<item><title>Taiwan absent from 1st Eurovision Song Contest Asia but may take part in 2027 - Taiwan...</title>
+<live:item>Taiwan absent from 1st Eurovision Song Contest Asia but may take part in 2027 - Taiwan...</live:item>
+<live:item>Taiwanese writer says enjoying China culture does not mean unification - Taiwan News</live:item>
+<live:item>DPP steps up election campaign to boost turnout across Taiwan - Taiwan News</live:item>
+<live:item>Beijing’s Taiwan ‘Reunification’ Dreams Are Fanciful - The American Conservative</live:item>
+<live:media url="http://127.0.0.1:47950/cams/taipei_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/taipei.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w11"><live:name>Taipei</live:name><live:subname pattern="celsius">24°C  02: 47 PM</live:subname><live:subname pattern="fahrenheit">76°F  02: 47 PM</live:subname></live:panel>
+<georss:point>25.033 121.5654</georss:point></item>
+<item><title>Damascus-SDF Integration Due by Year-End: What Remains? - Enab Baladi - Enab Baladi</title>
+<live:item>Damascus-SDF Integration Due by Year-End: What Remains? - Enab Baladi - Enab Baladi</live:item>
+<live:item>Aleppo Protesters Demand Accountability and Justice - Enab Baladi - Enab Baladi</live:item>
+<live:item>Rejecting impunity | Aleppo residents protest rehabilitation of former pro-regime figur...</live:item>
+<live:item>Residents block road in Saraqeb over long-promised safe crossing - المرصد السوري لحقوق...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/aleppo_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/aleppo.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w26"><live:name>Aleppo</live:name><live:subname pattern="celsius">14°C  09: 47 AM</live:subname><live:subname pattern="fahrenheit">57°F  09: 47 AM</live:subname></live:panel>
+<georss:point>36.2021 37.1343</georss:point></item>
+<item><title>Kurdistan Region farmers to get 84 billion dinars in crop dues from Baghdad's 700 billi...</title>
+<live:item>Kurdistan Region farmers to get 84 billion dinars in crop dues from Baghdad's 700 billi...</live:item>
+<live:item>Iraq’s oil output hits highest level since 2019, running above its OPEC+ target, IEA sa...</live:item>
+<live:item>Peshmerga ministry says it has a 10-year plan to rebuild the force but cannot carry it...</live:item>
+<live:item>Iranian hardliners urge Iraq to push back against US pressure - Iran International</live:item>
+<live:media url="http://127.0.0.1:47950/cams/baghdad_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/baghdad.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w32"><live:name>Baghdad</live:name><live:subname pattern="celsius">18°C  09: 47 AM</live:subname><live:subname pattern="fahrenheit">64°F  09: 47 AM</live:subname></live:panel>
+<georss:point>33.3152 44.3661</georss:point></item>
+<item><title>Nepal must build, but it must build smarter - OnlineKhabar English News</title>
+<live:item>Nepal must build, but it must build smarter - OnlineKhabar English News</live:item>
+<live:item>Nepali Army Announces Recruitment for Officer Vacancies - Ratopati</live:item>
+<live:item>Public Service Commission Announces Vacancies for Various Gazetted Third Class Position...</live:item>
+<live:item>CP Mainali Demands Investigation into Microbus Accident - Ratopati</live:item>
+<live:media url="http://127.0.0.1:47950/cams/kathmandu_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/kathmandu.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w34"><live:name>Kathmandu</live:name><live:subname pattern="celsius">21°C  12: 32 PM</live:subname><live:subname pattern="fahrenheit">69°F  12: 32 PM</live:subname></live:panel>
+<georss:point>27.7172 85.324</georss:point></item>
+<item><title>A-Quatro plans two weekly China-Poland cargo flights via Uzbekistan (Exclusive) - Trend...</title>
+<live:item>A-Quatro plans two weekly China-Poland cargo flights via Uzbekistan (Exclusive) - Trend...</live:item>
+<live:item>7 cases of pregnancy among 15–16-year-old girls recorded in Tashkent - Zamin.uz</live:item>
+<live:item>Tashkent hosts an international scientific conference of young researchers - UZA.uz</live:item>
+<live:item>Uzbekistan's beverage production rises by 11% in nine months - UzDaily</live:item>
+<live:media url="http://127.0.0.1:47950/cams/tashkent_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/tashkent.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w32"><live:name>Tashkent</live:name><live:subname pattern="celsius">11°C  11: 47 AM</live:subname><live:subname pattern="fahrenheit">52°F  11: 47 AM</live:subname></live:panel>
+<georss:point>41.2995 69.2401</georss:point></item>
+<item><title>Abu Dhabi's mercenary machine and its bid to lead the UN - thecradle.co</title>
+<live:item>Abu Dhabi's mercenary machine and its bid to lead the UN - thecradle.co</live:item>
+<live:item>US strengthens military presence in breakaway Puntland amid battle for Red Sea - Middle...</live:item>
+<live:item>Somalia: US signs Bosaso base deal with Puntland, bypassing Mogadishu - Somali Guardian</live:item>
+<live:item>Bosaso Air Quality Index (AQI) and Somalia Air Pollution - IQAir</live:item>
+<live:media url="http://127.0.0.1:47950/cams/bosaso_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/bosaso.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w32"><live:name>Bosaso</live:name><live:subname pattern="celsius">29°C  09: 47 AM</live:subname><live:subname pattern="fahrenheit">83°F  09: 47 AM</live:subname></live:panel>
+<georss:point>11.2842 49.1816</georss:point></item>
+<item><title>Somaliland fears Israel could reverse recognition after Netanyahu’s electoral setback -...</title>
+<live:item>Somaliland fears Israel could reverse recognition after Netanyahu’s electoral setback -...</live:item>
+<live:item>Is Somaliland a Country? Statehood and Recognition in International Law - Diplomacy and...</live:item>
+<live:item>Somaliland police report 82 homicides, 254 rape cases in 2026 - Hiiraan Online</live:item>
+<live:item>Israel’s First Ambassador Presents Credentials in Somaliland — What Next? - Goa Chronicle</live:item>
+<live:media url="http://127.0.0.1:47950/cams/hargeisa_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/hargeisa.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w32"><live:name>Hargeisa</live:name><live:subname pattern="celsius">22°C  09: 47 AM</live:subname><live:subname pattern="fahrenheit">71°F  09: 47 AM</live:subname></live:panel>
+<georss:point>9.56 44.065</georss:point></item>
+<item><title>Reviving the Legacy of Reykjavík - DT Next</title>
+<live:item>Reviving the Legacy of Reykjavík - DT Next</live:item>
+<live:item>Weak mag. 2.2 earthquake - 7.8 km E of Bárðarbunga on Friday, Nov 13, 2026, at 07:59 pm...</live:item>
+<live:item>Minor mag. 1.2 earthquake - 4.8 km W of Reykjanestá on Friday, Nov 13, 2026, at 08:56 a...</live:item>
+<live:item>Minor mag. 1.1 earthquake - 6.2 km W of Reykjanestá on Friday, Nov 13, 2026, at 11:58 a...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/reykjav_k_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/reykjav_k.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w31"><live:name>Reykjavík</live:name><live:subname pattern="celsius">0°C  06: 47 AM</live:subname><live:subname pattern="fahrenheit">31°F  06: 47 AM</live:subname></live:panel>
+<georss:point>64.1466 -21.9426</georss:point></item>
+<item><title>Waialua engineer sentenced for evading Iran sanctions - Honolulu Star-Advertiser</title>
+<live:item>Waialua engineer sentenced for evading Iran sanctions - Honolulu Star-Advertiser</live:item>
+<live:item>Hawaii airports, travelers grapple with nationwide ground stop - Honolulu Star-Advertiser</live:item>
+<live:item>Stalled train briefly disrupts westbound Skyline service between stations - Hawaii News...</live:item>
+<live:item>H-1 closure, gridlock raise concerns about traffic during emergencies - Hawaii News Now</live:item>
+<live:media url="http://127.0.0.1:47950/cams/honolulu_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/honolulu.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w31"><live:name>Honolulu</live:name><live:subname pattern="celsius">23°C  08: 47 PM</live:subname><live:subname pattern="fahrenheit">74°F  08: 47 PM</live:subname></live:panel>
+<georss:point>21.3069 -157.8583</georss:point></item>
+<item><title>Central vs. Columbus Live Updates: Florida Open Division High School Football Playoff G...</title>
+<live:item>Central vs. Columbus Live Updates: Florida Open Division High School Football Playoff G...</live:item>
+<live:item>Central vs. Columbus Live Updates: Florida Open Division High School Football Playoff G...</live:item>
+<live:item>Giannis, Bam join LeBron, Wade in exclusive Miami Heat club - Central Oregon Daily</live:item>
+<live:item>Atlantic football falls to Miami Norland in OT playoff heartbreaker - The Palm Beach Post</live:item>
+<live:media url="http://127.0.0.1:47950/cams/miami_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/miami.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w31"><live:name>Miami</live:name><live:subname pattern="celsius">17°C  01: 47 AM</live:subname><live:subname pattern="fahrenheit">62°F  01: 47 AM</live:subname></live:panel>
+<georss:point>25.7617 -80.1918</georss:point></item>
+<item><title>Kingston falls in a triple overtime shootout to Kingfisher - KTEN</title>
+<live:item>Kingston falls in a triple overtime shootout to Kingfisher - KTEN</live:item>
+<live:item>European Shadows Loom Over La Noria: Erik Lira Admits Monaco Move Heartbreak, Keeps Cru...</live:item>
+<live:item>Kingston Showdown: Rafa Márquez on the Hot Seat as André Jardine Charms the Boardroom -...</live:item>
+<live:item>Hunted in Kingston: Jamaica Plots to Shut Down Gilberto Mora While Rafa Márquez Faces a...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/kingston_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/kingston.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w31"><live:name>Kingston</live:name><live:subname pattern="celsius">24°C  01: 47 AM</live:subname><live:subname pattern="fahrenheit">74°F  01: 47 AM</live:subname></live:panel>
+<georss:point>17.9714 -76.7931</georss:point></item>
+<item><title>Seismic-like event, possible earthquake, reported minutes ago near Santo Domingo, Nacio...</title>
+<live:item>Seismic-like event, possible earthquake, reported minutes ago near Santo Domingo, Nacio...</live:item>
+<live:item>Moderate mag. 4.8 earthquake - 15 km northwest of La Romana, La Romana, Dominican Repub...</live:item>
+<live:item>Moderate but deep magnitude 5.2 earthquake reported 6 km southeast of Santa Cruz de El...</live:item>
+<live:item>Culture in the South festival opens in Azua to showcase regional heritage - Dominican T...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/santo_domingo_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/santo_domingo.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w29"><live:name>Santo Domingo</live:name><live:subname pattern="celsius">28°C  02: 47 AM</live:subname><live:subname pattern="fahrenheit">82°F  02: 47 AM</live:subname></live:panel>
+<georss:point>18.4861 -69.9312</georss:point></item>
+<item><title>WATCH LIVE: Brazilian President Luiz Inacio Lula da Silva is given arrival honors as he...</title>
+<live:item>WATCH LIVE: Brazilian President Luiz Inacio Lula da Silva is given arrival honors as he...</live:item>
+<live:item>Arrival honors for Brazil President Luiz Inácio Lula da Silva at the PICC grounds on Sa...</live:item>
+<live:item>Amazon fires: Brazil's Pará state declares 120-day emergency amid severe drought - NST...</live:item>
+<live:item>Public university hospitals in the Americas to develop regional alliance to strengthen...</live:item>
+<live:media url="http://127.0.0.1:47950/cams/bras_lia_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/bras_lia.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w31"><live:name>Brasília</live:name><live:subname pattern="celsius">18°C  03: 47 AM</live:subname><live:subname pattern="fahrenheit">65°F  03: 47 AM</live:subname></live:panel>
+<georss:point>-15.7939 -47.8828</georss:point></item>
+<item><title>JCI Soars 5.8% as Political Calm, MSCI Review Lift Market Sentiment - Jakarta Globe</title>
+<live:item>JCI Soars 5.8% as Political Calm, MSCI Review Lift Market Sentiment - Jakarta Globe</live:item>
+<live:item>Germany sees Indonesia as key partner in economic resilience - ANTARA News</live:item>
+<live:item>Indonesia hopes AirBorneo will expand routes to other Kalimantan cities (Video) - Borne...</live:item>
+<live:item>Why net zero is a bad deal for Indonesia - The Jakarta Post</live:item>
+<live:media url="http://127.0.0.1:47950/cams/jakarta_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/jakarta.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w09"><live:name>Jakarta</live:name><live:subname pattern="celsius">32°C  01: 47 PM</live:subname><live:subname pattern="fahrenheit">89°F  01: 47 PM</live:subname></live:panel>
+<georss:point>-6.2088 106.8456</georss:point></item>
+<item><title>Eri Maldives Valentines Package News - Breaking Travel News</title>
+<live:item>Eri Maldives Valentines Package News - Breaking Travel News</live:item>
+<live:item>Eat, Play, Love: Eri Maldives Rewrites a Modern Classic for Two This Valentine’s - Brea...</live:item>
+<live:item>Christmas Abroad, No Embassy Queue: Visa-Free Getaways For Indians This December - Esqu...</live:item>
+<live:item>Opposition stages demonstration against Rasmale' project - Edition.mv</live:item>
+<live:media url="http://127.0.0.1:47950/cams/mal_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/mal.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w39"><live:name>Malé</live:name><live:subname pattern="celsius">28°C  11: 47 AM</live:subname><live:subname pattern="fahrenheit">82°F  11: 47 AM</live:subname></live:panel>
+<georss:point>4.1755 73.5093</georss:point></item>
+<item><title>Three young people killed as car crashes into trees in Wheatbelt, WA - 7NEWS</title>
+<live:item>Three young people killed as car crashes into trees in Wheatbelt, WA - 7NEWS</live:item>
+<live:item>Western Australian police storm orchard in Keysbrook after man shot dead - 7NEWS</live:item>
+<live:item>Person ‘apprehended’ as police respond to ‘serious incident’ in Perth suburb - News24</live:item>
+<live:item>Police investigating scrub fire that threatened homes in Aveley and Ellenbrook - WAtoday</live:item>
+<live:media url="http://127.0.0.1:47950/cams/perth_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/perth.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="w32"><live:name>Perth</live:name><live:subname pattern="celsius">27°C  02: 47 PM</live:subname><live:subname pattern="fahrenheit">81°F  02: 47 PM</live:subname></live:panel>
+<georss:point>-31.9523 115.8613</georss:point></item>
+<item><title>International Space Station: where it is right now</title>
+<live:item>International Space Station: where it is right now</live:item>
+<live:item>About 433 km up, flying at 27,600 km/h: once round the Earth every 92 minutes</live:item>
+<live:item>The marker follows it live. Position: wheretheiss.at</live:item>
+<live:media url="http://127.0.0.1:47950/cams/iss_big.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000"><live:thumbnail url="http://127.0.0.1:47950/cams/iss.jpg" type="image/jpeg" pubDate="Thu, 1 May 2008 15:35:12 +0000" /></live:media>
+<live:panel pic="iss"><live:name>Space Station (ISS)</live:name><live:subname pattern="celsius">433 km up</live:subname><live:subname pattern="fahrenheit">269 mi up</live:subname></live:panel>
+<georss:point>-32.1790 -26.5923</georss:point></item>
+</channel></rss>

@@ -1,0 +1,17 @@
+<config>
+   <slots>
+	  <slot num="0" loop="0" filename="option_open.wav" />
+	  <slot num="1" loop="0" filename="option_close.wav" />
+	  <slot num="2" loop="0" filename="option_up_down.wav" />
+	  <slot num="3" loop="0" filename="option_select.wav" />
+	  <slot num="4" loop="1" filename="earth_zoom_in.wav" />
+	  <slot num="5" loop="1" filename="earth_zoom_out.wav" />
+	  <slot num="6" loop="1" filename="earth_rotate.wav" />
+	  <slot num="7" loop="0" filename="city_change.wav" />
+	  <slot num="8" loop="0" filename="fah_view.wav" />
+	  <slot num="9" loop="0" filename="error.wav" />
+
+      <slot num="10" loop="1" filename="silence_loop.wav" /> <!-- LWP-PC: was fah_zoom.wav -->
+	  <slot num="11" loop="1" filename="silence_loop.wav" /> <!-- LWP-PC: was fah_rotate.wav -->
+   </slots>
+</config>

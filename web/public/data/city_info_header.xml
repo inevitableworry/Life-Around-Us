@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:fh="http://purl.org/syndication/history/1.0" xmlns:georss="http://www.georss.org/georss" xmlns:lwp="http://www.cbe-world.com/lwp" xmlns:live="http://www.cbe-world.com/lwp/live" >
+<channel>
+<fh:incremental>false</fh:incremental>
+<title>city_info.xml</title>
+<link>http://www.cbe-world.com/lwp/live_channel</link>
+<description>Live channel all cities</description>
+<ttl>90</ttl>
+
+<live:pic id="copyright" url="file://%s/data/plugins/live/%r/copyright.png" type="image/png" pubDate="Thu, 1 May 2008 15:35:12 +0000" />
+<live:pic id="copyright2" url="file://%s/data/plugins/live/%r/Google.png" type="image/png" pubDate="Thu, 1 May 2008 15:35:12 +0000" />
+<live:pic id="copyright3" url="file://%s/data/plugins/live/%r/WeatherChannel.png" type="image/png" pubDate="Thu, 1 May 2008 15:35:12 +0000" />
+<live:copyright pic="copyright" />
+<live:copyright pic="copyright2" />
+<live:copyright pic="copyright3" />
+
+<live:text id="more">More News</live:text>
+<live:text id="weather">Weather Forecast</live:text>
